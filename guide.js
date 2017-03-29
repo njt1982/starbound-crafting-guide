@@ -1,4 +1,10465 @@
-{
+var recipes = [
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "apextier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "apextier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "apextier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "aviantier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "aviantier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "aviantier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "florantier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "florantier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "florantier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "glitchtier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "glitchtier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "glitchtier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "humantier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "humantier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "humantier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "hylotltier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "hylotltier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "hylotltier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "novatier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "novatier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "novatier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "apextier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "apextier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "apextier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "aviantier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "aviantier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "aviantier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "florantier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "florantier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "florantier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "glitchtier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "glitchtier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "glitchtier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "humantier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "humantier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "humantier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "hylotltier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "hylotltier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "hylotltier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "novatier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "novatier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "novatier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 4,
+      "string": 1,
+      "ironbar": 1
+    },
+    "output": {
+      "bomb": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 6,
+      "darkwoodmaterial": 4
+    },
+    "output": {
+      "ironassaultrifle": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 6,
+      "climbingrope": 4
+    },
+    "output": {
+      "ironbroadsword": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "darkwoodmaterial": 2
+    },
+    "output": {
+      "ironrevolver": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "climbingrope": 2
+    },
+    "output": {
+      "ironshortsword": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 4,
+      "darkwoodmaterial": 20,
+      "string": 4
+    },
+    "output": {
+      "startershield": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 3,
+      "climbingrope": 2
+    },
+    "output": {
+      "tungstenaxe": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "climbingrope": 4
+    },
+    "output": {
+      "tungstenhammer": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 3,
+      "copperbar": 1
+    },
+    "output": {
+      "tungstenmagnum": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "copperbar": 2
+    },
+    "output": {
+      "tungstenshotgun": 1
+    }
+  },
+  {
+    "input": {
+      "gauntlet": 1,
+      "upgrademodule": 1,
+      "sharpenedclaw": 15
+    },
+    "output": {
+      "clawglove": 1
+    }
+  },
+  {
+    "input": {
+      "boomerang": 1,
+      "upgrademodule": 1,
+      "scorchedcore": 15
+    },
+    "output": {
+      "fireboomerang": 1
+    }
+  },
+  {
+    "input": {
+      "chakram": 1,
+      "upgrademodule": 1,
+      "hardenedcarapace": 15
+    },
+    "output": {
+      "hardchakram": 1
+    }
+  },
+  {
+    "input": {
+      "boomerang": 1,
+      "upgrademodule": 1,
+      "cryonicextract": 15
+    },
+    "output": {
+      "iceboomerang": 1
+    }
+  },
+  {
+    "input": {
+      "boomerang": 1,
+      "upgrademodule": 1,
+      "phasematter": 15
+    },
+    "output": {
+      "lunarang": 1
+    }
+  },
+  {
+    "input": {
+      "chakram": 1,
+      "upgrademodule": 1,
+      "stickofram": 15
+    },
+    "output": {
+      "neochakram": 1
+    }
+  },
+  {
+    "input": {
+      "chakram": 1,
+      "upgrademodule": 1,
+      "sharpenedclaw": 15
+    },
+    "output": {
+      "sawchakram": 1
+    }
+  },
+  {
+    "input": {
+      "gauntlet": 1,
+      "upgrademodule": 1,
+      "staticcell": 15
+    },
+    "output": {
+      "stunglove": 1
+    }
+  },
+  {
+    "input": {
+      "gauntlet": 1,
+      "upgrademodule": 1,
+      "livingroot": 15
+    },
+    "output": {
+      "vinefist": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "apextier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "apextier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "apextier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "aviantier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "aviantier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "aviantier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "florantier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "florantier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "florantier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "glitchtier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "glitchtier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "glitchtier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "humantier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "humantier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "humantier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "hylotltier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "hylotltier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "hylotltier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "novatier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "novatier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "novatier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "bottle": 3,
+      "liquidoil": 10,
+      "fabric": 3
+    },
+    "output": {
+      "molotov": 3
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 2,
+      "copperbar": 1
+    },
+    "output": {
+      "titaniumdagger": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 3,
+      "copperbar": 2
+    },
+    "output": {
+      "titaniummachinepistol": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "copperbar": 4
+    },
+    "output": {
+      "titaniumsniperrifle": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "copperbar": 4
+    },
+    "output": {
+      "titaniumspear": 1
+    }
+  },
+  {
+    "input": {
+      "perfectlygenericitem": 50
+    },
+    "output": {
+      "perfectchest": 1
+    }
+  },
+  {
+    "input": {
+      "perfectlygenericitem": 30
+    },
+    "output": {
+      "perfecthead": 1
+    }
+  },
+  {
+    "input": {
+      "perfectlygenericitem": 20
+    },
+    "output": {
+      "perfectpants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "apextier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "apextier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "apextier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "aviantier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "aviantier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "aviantier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "florantier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "florantier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "florantier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "glitchtier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "glitchtier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "glitchtier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "humantier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "humantier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "humantier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "hylotltier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "hylotltier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "hylotltier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "novatier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "novatier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "novatier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "apextier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "apextier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "apextier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "aviantier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "aviantier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "aviantier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "florantier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "florantier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "florantier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "glitchtier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "glitchtier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "glitchtier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "humantier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "humantier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "humantier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "hylotltier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "hylotltier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "hylotltier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "novatier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "novatier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "novatier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "apextier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "apextier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "apextier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "aviantier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "aviantier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "aviantier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "florantier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "florantier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "florantier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "glitchtier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "glitchtier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "glitchtier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "humantier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "humantier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "humantier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "hylotltier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "hylotltier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "hylotltier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "novatier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "novatier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "novatier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "apextier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "apextier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "apextier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "aviantier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "aviantier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "aviantier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "florantier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "florantier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "florantier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "glitchtier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "glitchtier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "glitchtier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "humantier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "humantier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "humantier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "hylotltier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "hylotltier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "hylotltier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "novatier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "novatier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "novatier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "apextier5achest": 1
+    },
+    "output": {
+      "apextier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "apextier5ahead": 1
+    },
+    "output": {
+      "apextier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "apextier5apants": 1
+    },
+    "output": {
+      "apextier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "aviantier5achest": 1
+    },
+    "output": {
+      "aviantier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "aviantier5ahead": 1
+    },
+    "output": {
+      "aviantier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "aviantier5apants": 1
+    },
+    "output": {
+      "aviantier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "florantier5achest": 1
+    },
+    "output": {
+      "florantier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "florantier5ahead": 1
+    },
+    "output": {
+      "florantier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "florantier5apants": 1
+    },
+    "output": {
+      "florantier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "glitchtier5achest": 1
+    },
+    "output": {
+      "glitchtier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "glitchtier5ahead": 1
+    },
+    "output": {
+      "glitchtier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "glitchtier5apants": 1
+    },
+    "output": {
+      "glitchtier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "humantier5achest": 1
+    },
+    "output": {
+      "humantier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "humantier5ahead": 1
+    },
+    "output": {
+      "humantier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "humantier5apants": 1
+    },
+    "output": {
+      "humantier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "hylotltier5achest": 1
+    },
+    "output": {
+      "hylotltier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "hylotltier5ahead": 1
+    },
+    "output": {
+      "hylotltier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "hylotltier5apants": 1
+    },
+    "output": {
+      "hylotltier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "novatier5achest": 1
+    },
+    "output": {
+      "novatier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "novatier5ahead": 1
+    },
+    "output": {
+      "novatier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "novatier5apants": 1
+    },
+    "output": {
+      "novatier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "apextier5mchest": 1
+    },
+    "output": {
+      "apextier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "apextier5mhead": 1
+    },
+    "output": {
+      "apextier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "apextier5mpants": 1
+    },
+    "output": {
+      "apextier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "aviantier5mchest": 1
+    },
+    "output": {
+      "aviantier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "aviantier5mhead": 1
+    },
+    "output": {
+      "aviantier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "aviantier5mpants": 1
+    },
+    "output": {
+      "aviantier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "florantier5mchest": 1
+    },
+    "output": {
+      "florantier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "florantier5mhead": 1
+    },
+    "output": {
+      "florantier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "florantier5mpants": 1
+    },
+    "output": {
+      "florantier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "glitchtier5mchest": 1
+    },
+    "output": {
+      "glitchtier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "glitchtier5mhead": 1
+    },
+    "output": {
+      "glitchtier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "glitchtier5mpants": 1
+    },
+    "output": {
+      "glitchtier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "humantier5mchest": 1
+    },
+    "output": {
+      "humantier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "humantier5mhead": 1
+    },
+    "output": {
+      "humantier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "humantier5mpants": 1
+    },
+    "output": {
+      "humantier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "hylotltier5mchest": 1
+    },
+    "output": {
+      "hylotltier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "hylotltier5mhead": 1
+    },
+    "output": {
+      "hylotltier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "hylotltier5mpants": 1
+    },
+    "output": {
+      "hylotltier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "novatier5mchest": 1
+    },
+    "output": {
+      "novatier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "novatier5mhead": 1
+    },
+    "output": {
+      "novatier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "novatier5mpants": 1
+    },
+    "output": {
+      "novatier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "apextier5schest": 1
+    },
+    "output": {
+      "apextier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "apextier5shead": 1
+    },
+    "output": {
+      "apextier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "apextier5spants": 1
+    },
+    "output": {
+      "apextier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "aviantier5schest": 1
+    },
+    "output": {
+      "aviantier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "aviantier5shead": 1
+    },
+    "output": {
+      "aviantier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "aviantier5spants": 1
+    },
+    "output": {
+      "aviantier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "florantier5schest": 1
+    },
+    "output": {
+      "florantier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "florantier5shead": 1
+    },
+    "output": {
+      "florantier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "florantier5spants": 1
+    },
+    "output": {
+      "florantier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "glitchtier5schest": 1
+    },
+    "output": {
+      "glitchtier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "glitchtier5shead": 1
+    },
+    "output": {
+      "glitchtier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "glitchtier5spants": 1
+    },
+    "output": {
+      "glitchtier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "humantier5schest": 1
+    },
+    "output": {
+      "humantier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "humantier5shead": 1
+    },
+    "output": {
+      "humantier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "humantier5spants": 1
+    },
+    "output": {
+      "humantier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "hylotltier5schest": 1
+    },
+    "output": {
+      "hylotltier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "hylotltier5shead": 1
+    },
+    "output": {
+      "hylotltier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "hylotltier5spants": 1
+    },
+    "output": {
+      "hylotltier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "novatier5schest": 1
+    },
+    "output": {
+      "novatier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "novatier5shead": 1
+    },
+    "output": {
+      "novatier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "novatier5spants": 1
+    },
+    "output": {
+      "novatier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "solariumstar": 6,
+      "battery": 1
+    },
+    "output": {
+      "aegisaltbow": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 3,
+      "smallbattery": 1
+    },
+    "output": {
+      "aegisaltpistol": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "solariumstar": 6,
+      "battery": 1
+    },
+    "output": {
+      "feroziumstaff": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 3,
+      "smallbattery": 1
+    },
+    "output": {
+      "feroziumwand": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "solariumstar": 6,
+      "battery": 1
+    },
+    "output": {
+      "violiumbroadsword": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 3,
+      "smallbattery": 1
+    },
+    "output": {
+      "violiumshortsword": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "copperbar": 4
+    },
+    "output": {
+      "durasteelassaultrifle": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "copperbar": 4
+    },
+    "output": {
+      "durasteelbroadsword": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 3,
+      "copperbar": 2
+    },
+    "output": {
+      "durasteelrevolver": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 3,
+      "copperbar": 2
+    },
+    "output": {
+      "durasteelshortsword": 1
+    }
+  },
+  {
+    "input": {
+      "diamond": 3
+    },
+    "output": {
+      "dubloon": 1
+    }
+  },
+  {
+    "input": {
+      "alienstripedwood": 25,
+      "silk": 3,
+      "plantfibre": 25,
+      "pinkdye": 1
+    },
+    "output": {
+      "alienbed": 1
+    }
+  },
+  {
+    "input": {
+      "alienstripedwood": 15,
+      "plantfibre": 15
+    },
+    "output": {
+      "alienchair": 1
+    }
+  },
+  {
+    "input": {
+      "alienstripedwood": 20
+    },
+    "output": {
+      "alienchest": 1
+    }
+  },
+  {
+    "input": {
+      "alienstripedwood": 25,
+      "plantfibre": 25
+    },
+    "output": {
+      "aliendoor": 1
+    }
+  },
+  {
+    "input": {
+      "alienstripedwood": 25,
+      "plantfibre": 25
+    },
+    "output": {
+      "alientable": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 25,
+      "fabric": 10,
+      "yellowdye": 1
+    },
+    "output": {
+      "stonebed": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 15,
+      "fabric": 3,
+      "yellowdye": 1
+    },
+    "output": {
+      "stonechair": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 20
+    },
+    "output": {
+      "stonechest": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 25
+    },
+    "output": {
+      "stonedoor": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 25
+    },
+    "output": {
+      "stonetable": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 25,
+      "darkwoodmaterial": 10,
+      "fabric": 10,
+      "purpledye": 1
+    },
+    "output": {
+      "glowbed": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 10,
+      "clay": 2
+    },
+    "output": {
+      "glowbushlamp": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 20,
+      "fabric": 3,
+      "bluedye": 1
+    },
+    "output": {
+      "glowchair": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 15
+    },
+    "output": {
+      "glowchest": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 12
+    },
+    "output": {
+      "glowflowerlamp": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 8
+    },
+    "output": {
+      "glowvinelamp": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 15,
+      "shroom": 10
+    },
+    "output": {
+      "bioshroomtable": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 1,
+      "glass": 1
+    },
+    "output": {
+      "glowstickblue": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 1,
+      "glass": 1
+    },
+    "output": {
+      "glowstickgreen": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 1,
+      "glass": 1
+    },
+    "output": {
+      "glowstickorange": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 1,
+      "glass": 1
+    },
+    "output": {
+      "glowstickyellow": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 20,
+      "darkwoodmaterial": 20,
+      "silk": 3
+    },
+    "output": {
+      "bonebed": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 25,
+      "leather": 1
+    },
+    "output": {
+      "bonechair": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 30,
+      "copperbar": 1
+    },
+    "output": {
+      "bonechest": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 40,
+      "leather": 1
+    },
+    "output": {
+      "bonedoor": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 50
+    },
+    "output": {
+      "bonetable": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 3
+    },
+    "output": {
+      "throwingbones": 1
+    }
+  },
+  {
+    "input": {
+      "cellmatter": 15,
+      "silverbar": 1
+    },
+    "output": {
+      "cellchair": 1
+    }
+  },
+  {
+    "input": {
+      "cellmatter": 10,
+      "silverbar": 1
+    },
+    "output": {
+      "cellchest": 1
+    }
+  },
+  {
+    "input": {
+      "cellmatter": 25
+    },
+    "output": {
+      "celldoor": 1
+    }
+  },
+  {
+    "input": {
+      "cellmatter": 15,
+      "silverbar": 1,
+      "smallbattery": 1,
+      "wire": 3
+    },
+    "output": {
+      "celllamp": 1
+    }
+  },
+  {
+    "input": {
+      "cellmatter": 25,
+      "silverbar": 1
+    },
+    "output": {
+      "celltable": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "bluedye": 3
+    },
+    "output": {
+      "crayonblueback": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "greendye": 3
+    },
+    "output": {
+      "crayongreenback": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "orangedye": 3
+    },
+    "output": {
+      "crayonorangeback": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "purpledye": 3
+    },
+    "output": {
+      "crayonpurpleback": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "reddye": 3
+    },
+    "output": {
+      "crayonredback": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "yellowdye": 3
+    },
+    "output": {
+      "crayonyellowback": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "bluedye": 2
+    },
+    "output": {
+      "paintgunblue": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "greendye": 2
+    },
+    "output": {
+      "paintgungreen": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "orangedye": 2
+    },
+    "output": {
+      "paintgunorange": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "purpledye": 2
+    },
+    "output": {
+      "paintgunpurple": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "reddye": 2
+    },
+    "output": {
+      "paintgunred": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "yellowdye": 2
+    },
+    "output": {
+      "paintgunyellow": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "silk": 3
+    },
+    "output": {
+      "rainbowbed": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 25
+    },
+    "output": {
+      "rainbowchair": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 30,
+      "silverbar": 1
+    },
+    "output": {
+      "rainbowchest": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 40
+    },
+    "output": {
+      "rainbowdoor": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50
+    },
+    "output": {
+      "rainbowtable": 1
+    }
+  },
+  {
+    "input": {
+      "crystal": 30
+    },
+    "output": {
+      "crystalbed": 1
+    }
+  },
+  {
+    "input": {
+      "crystal": 15
+    },
+    "output": {
+      "crystalchair": 1
+    }
+  },
+  {
+    "input": {
+      "crystal": 20
+    },
+    "output": {
+      "crystalchest": 1
+    }
+  },
+  {
+    "input": {
+      "crystal": 5,
+      "smallbattery": 1,
+      "wire": 1
+    },
+    "output": {
+      "crystallamp": 1
+    }
+  },
+  {
+    "input": {
+      "crystal": 25
+    },
+    "output": {
+      "crystaltable": 1
+    }
+  },
+  {
+    "input": {
+      "eyepiles": 50,
+      "silverbar": 1,
+      "fabric": 10
+    },
+    "output": {
+      "eyebed": 1
+    }
+  },
+  {
+    "input": {
+      "eyepiles": 20,
+      "silverbar": 1
+    },
+    "output": {
+      "eyechair": 1
+    }
+  },
+  {
+    "input": {
+      "eyepiles": 20,
+      "silverbar": 1
+    },
+    "output": {
+      "eyechest": 1
+    }
+  },
+  {
+    "input": {
+      "eyepiles": 30,
+      "silverbar": 1
+    },
+    "output": {
+      "eyedoor": 1
+    }
+  },
+  {
+    "input": {
+      "eyepiles": 50,
+      "silverbar": 1
+    },
+    "output": {
+      "eyetable": 1
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 40
+    },
+    "output": {
+      "fleshbed": 1
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 15
+    },
+    "output": {
+      "fleshchair": 1
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 20
+    },
+    "output": {
+      "fleshchest": 1
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 30
+    },
+    "output": {
+      "fleshdoor": 1
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 25
+    },
+    "output": {
+      "fleshtable": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 50,
+      "copperbar": 1,
+      "smallbattery": 2,
+      "wire": 3
+    },
+    "output": {
+      "foundrybed": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 20
+    },
+    "output": {
+      "foundrychair": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 25,
+      "copperbar": 1,
+      "glass": 5
+    },
+    "output": {
+      "foundrydoor": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 10,
+      "copperbar": 1,
+      "liquidlava": 10
+    },
+    "output": {
+      "foundrylight": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 10,
+      "copperbar": 1,
+      "glass": 10,
+      "liquidlava": 5
+    },
+    "output": {
+      "magmalamp": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 100
+    },
+    "output": {
+      "geodebed": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodebnote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 10,
+      "metallic": 10
+    },
+    "output": {
+      "geodeceilinglight": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 50
+    },
+    "output": {
+      "geodechair": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodecnote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodednote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 10,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "geodedoor": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodeenote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodefnote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodegnote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodehighanote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodelowanote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 10,
+      "logblock": 10
+    },
+    "output": {
+      "geodeplantpot": 1
+    }
+  },
+  {
+    "input": {
+      "giantflowerpetal": 50,
+      "petalyellow": 15,
+      "plantfibre": 15,
+      "fabric": 10
+    },
+    "output": {
+      "giantflowerbed": 1
+    }
+  },
+  {
+    "input": {
+      "giantflowerpetal": 30,
+      "petalyellow": 5,
+      "plantfibre": 5
+    },
+    "output": {
+      "giantflowerchair": 1
+    }
+  },
+  {
+    "input": {
+      "giantflowerpetal": 40,
+      "petalyellow": 5,
+      "plantfibre": 5
+    },
+    "output": {
+      "giantflowerchest": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "giantflowerpetal": 5,
+      "plantfibre": 5,
+      "silverbar": 1
+    },
+    "output": {
+      "giantflowerdoor": 1
+    }
+  },
+  {
+    "input": {
+      "giantflowerpetal": 15,
+      "plantfibre": 5,
+      "smallbattery": 1,
+      "wire": 1
+    },
+    "output": {
+      "giantflowerlamp": 1
+    }
+  },
+  {
+    "input": {
+      "giantflowerpetal": 40,
+      "petalyellow": 10,
+      "plantfibre": 10
+    },
+    "output": {
+      "giantflowertable": 1
+    }
+  },
+  {
+    "input": {
+      "hive": 30,
+      "larva": 20,
+      "silk": 3
+    },
+    "output": {
+      "hivebed": 1
+    }
+  },
+  {
+    "input": {
+      "hive": 20,
+      "larva": 10
+    },
+    "output": {
+      "hivechair": 1
+    }
+  },
+  {
+    "input": {
+      "hive": 25,
+      "larva": 15
+    },
+    "output": {
+      "hivedoor": 1
+    }
+  },
+  {
+    "input": {
+      "hive": 15,
+      "larva": 10,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "hivelamp": 1
+    }
+  },
+  {
+    "input": {
+      "hive": 30,
+      "larva": 20
+    },
+    "output": {
+      "hivetable": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 10
+    },
+    "output": {
+      "icebed": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 6
+    },
+    "output": {
+      "icechair": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 8
+    },
+    "output": {
+      "icechest": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 10
+    },
+    "output": {
+      "icedoor": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 12
+    },
+    "output": {
+      "icemachine": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 10
+    },
+    "output": {
+      "icetable": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 50,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "mushroomhead": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 25,
+      "darkwoodmaterial": 10,
+      "fabric": 10,
+      "reddye": 1
+    },
+    "output": {
+      "shroombed": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 15,
+      "darkwoodmaterial": 5
+    },
+    "output": {
+      "shroomchair": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 20,
+      "darkwoodmaterial": 5
+    },
+    "output": {
+      "shroomchest": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 25,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "shroomdoor": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 15,
+      "torch": 1,
+      "plantfibre": 10
+    },
+    "output": {
+      "shroomlamp": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 25,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "shroomtable": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 30,
+      "darkwoodmaterial": 10,
+      "logblock": 2
+    },
+    "output": {
+      "shroomwardrobe": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 50,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "reedbed": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 30,
+      "darkwoodmaterial": 5
+    },
+    "output": {
+      "reedchair": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 40,
+      "darkwoodmaterial": 5
+    },
+    "output": {
+      "reedchest": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 20,
+      "darkwoodmaterial": 5,
+      "copperbar": 1
+    },
+    "output": {
+      "reedclock": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 30,
+      "darkwoodmaterial": 20
+    },
+    "output": {
+      "reeddesk": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 40,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "reeddoor": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 20,
+      "darkwoodmaterial": 3,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "reedlamp": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 60,
+      "darkwoodmaterial": 10,
+      "paper": 10
+    },
+    "output": {
+      "reedshelf": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 12,
+      "glass": 12,
+      "silk": 3
+    },
+    "output": {
+      "prismbed": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 4,
+      "glass": 4
+    },
+    "output": {
+      "prismchair": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 10,
+      "glass": 10
+    },
+    "output": {
+      "prismdoor": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 4,
+      "glass": 4,
+      "refinedviolium": 1,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "prismlamp1": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 4,
+      "glass": 4,
+      "refinedaegisalt": 1,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "prismlamp2": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 4,
+      "glass": 4,
+      "refinedferozium": 1,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "prismlamp3": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 16,
+      "glass": 16
+    },
+    "output": {
+      "prismtable": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 25,
+      "copperbar": 1,
+      "fabric": 10
+    },
+    "output": {
+      "rustbed": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 15,
+      "copperbar": 1
+    },
+    "output": {
+      "rustchair": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 20,
+      "copperbar": 1
+    },
+    "output": {
+      "rustchest": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 25,
+      "copperbar": 1
+    },
+    "output": {
+      "rustdoor": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 25,
+      "copperbar": 1
+    },
+    "output": {
+      "rusttable": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25,
+      "silk": 3
+    },
+    "output": {
+      "scorchedcitybed": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "leather": 2
+    },
+    "output": {
+      "scorchedcitychair": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 6,
+      "darkwoodmaterial": 8
+    },
+    "output": {
+      "scorchedcitychestdrawerlarge": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 4,
+      "darkwoodmaterial": 6
+    },
+    "output": {
+      "scorchedcitychestdrawersmall": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 4,
+      "darkwoodmaterial": 8
+    },
+    "output": {
+      "scorchedcitycounter": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 10,
+      "metallic": 15
+    },
+    "output": {
+      "scorchedcityfridge": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 4,
+      "wire": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "scorchedcityregister": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "darkwoodmaterial": 15
+    },
+    "output": {
+      "scorchedcitystoreshelf": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25
+    },
+    "output": {
+      "scorchedcitytable": 1
+    }
+  },
+  {
+    "input": {
+      "glassmaterial": 4,
+      "darkwoodmaterial": 6,
+      "siliconboard": 1,
+      "wire": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "scorchedcitytv": 1
+    }
+  },
+  {
+    "input": {
+      "greenslime": 25
+    },
+    "output": {
+      "slimebed": 1
+    }
+  },
+  {
+    "input": {
+      "greenslime": 15
+    },
+    "output": {
+      "slimechair": 1
+    }
+  },
+  {
+    "input": {
+      "greenslime": 20
+    },
+    "output": {
+      "slimehide": 1
+    }
+  },
+  {
+    "input": {
+      "greenslime": 2,
+      "torch": 1
+    },
+    "output": {
+      "slimetorch": 1
+    }
+  },
+  {
+    "input": {
+      "giganticsnowball": 1,
+      "largesnowball": 1,
+      "mediumsnowball": 1,
+      "logblock": 1,
+      "carrot": 1,
+      "coalore": 2,
+      "fancyhead": 1
+    },
+    "output": {
+      "fancysnowman": 1
+    }
+  },
+  {
+    "input": {
+      "largesnowball": 2
+    },
+    "output": {
+      "giganticsnowball": 1
+    }
+  },
+  {
+    "input": {
+      "ice": 1
+    },
+    "output": {
+      "iceblock": 5
+    }
+  },
+  {
+    "input": {
+      "mediumsnowball": 2
+    },
+    "output": {
+      "largesnowball": 1
+    }
+  },
+  {
+    "input": {
+      "snowball": 2
+    },
+    "output": {
+      "mediumsnowball": 1
+    }
+  },
+  {
+    "input": {
+      "snow": 1
+    },
+    "output": {
+      "snowball": 5
+    }
+  },
+  {
+    "input": {
+      "snowflake": 1
+    },
+    "output": {
+      "snowflakeshuriken": 10
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "snow": 10,
+      "glass": 10
+    },
+    "output": {
+      "snowgun": 1
+    }
+  },
+  {
+    "input": {
+      "giganticsnowball": 1,
+      "largesnowball": 1,
+      "mediumsnowball": 1,
+      "logblock": 1,
+      "carrot": 1,
+      "coalore": 2
+    },
+    "output": {
+      "snowman": 1
+    }
+  },
+  {
+    "input": {
+      "petalblue": 20,
+      "darkwoodmaterial": 20
+    },
+    "output": {
+      "flowerbox": 1
+    }
+  },
+  {
+    "input": {
+      "petalblue": 20,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "flowerlamp": 1
+    }
+  },
+  {
+    "input": {
+      "petalyellow": 30,
+      "plantfibre": 10
+    },
+    "output": {
+      "movingsunflower": 1
+    }
+  },
+  {
+    "input": {
+      "petalred": 40,
+      "plantfibre": 20,
+      "cobblestonematerial": 20,
+      "liquidwater": 20
+    },
+    "output": {
+      "petalfountain": 1
+    }
+  },
+  {
+    "input": {
+      "petalred": 4,
+      "petalyellow": 4,
+      "darkwoodmaterial": 15
+    },
+    "output": {
+      "springchest": 1
+    }
+  },
+  {
+    "input": {
+      "heavypipe": 20,
+      "darkwoodmaterial": 25,
+      "silk": 3
+    },
+    "output": {
+      "steamspringbed": 1
+    }
+  },
+  {
+    "input": {
+      "heavypipe": 10,
+      "darkwoodmaterial": 15,
+      "leather": 2
+    },
+    "output": {
+      "steamspringchair": 1
+    }
+  },
+  {
+    "input": {
+      "heavypipe": 10,
+      "darkwoodmaterial": 15
+    },
+    "output": {
+      "steamspringdoor": 1
+    }
+  },
+  {
+    "input": {
+      "heavypipe": 4,
+      "darkwoodmaterial": 6,
+      "wire": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "steamspringlamp": 1
+    }
+  },
+  {
+    "input": {
+      "heavypipe": 20,
+      "darkwoodmaterial": 25
+    },
+    "output": {
+      "steamspringtable": 1
+    }
+  },
+  {
+    "input": {
+      "limestone": 50
+    },
+    "output": {
+      "cavebed": 1
+    }
+  },
+  {
+    "input": {
+      "limestone": 15
+    },
+    "output": {
+      "cavechair": 1
+    }
+  },
+  {
+    "input": {
+      "limestone": 20
+    },
+    "output": {
+      "cavechest": 1
+    }
+  },
+  {
+    "input": {
+      "limestone": 10,
+      "wire": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "cavelamp": 1
+    }
+  },
+  {
+    "input": {
+      "wicker": 20,
+      "fabric": 10,
+      "greendye": 1
+    },
+    "output": {
+      "swampbed": 1
+    }
+  },
+  {
+    "input": {
+      "wicker": 5,
+      "plantfibre": 2
+    },
+    "output": {
+      "swampchair": 1
+    }
+  },
+  {
+    "input": {
+      "wicker": 10,
+      "plantfibre": 2
+    },
+    "output": {
+      "swampchest": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 30,
+      "plantfibre": 40
+    },
+    "output": {
+      "swampybed": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 1
+    },
+    "output": {
+      "tarball": 3
+    }
+  },
+  {
+    "input": {
+      "tar": 25,
+      "cottonwool": 1
+    },
+    "output": {
+      "tarbed": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 15
+    },
+    "output": {
+      "tarchair": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 15,
+      "siliconboard": 2,
+      "smallbattery": 5,
+      "wire": 10
+    },
+    "output": {
+      "tarconsole": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 20
+    },
+    "output": {
+      "tardoor": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 5,
+      "torch": 1
+    },
+    "output": {
+      "tarlight": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 25
+    },
+    "output": {
+      "tarman": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 20,
+      "tungstenbar": 1
+    },
+    "output": {
+      "tarpitchest": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 40,
+      "biosample": 1,
+      "darkwoodmaterial": 5
+    },
+    "output": {
+      "toxicchair": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 60,
+      "biosample": 1,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "toxicchest": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 40,
+      "petalblue": 20,
+      "torch": 1
+    },
+    "output": {
+      "toxiclamp1": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 20,
+      "petalblue": 20,
+      "torch": 1
+    },
+    "output": {
+      "toxiclamp2": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 80,
+      "biosample": 1,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "toxictable": 1
+    }
+  },
+  {
+    "input": {
+      "potato": 1
+    },
+    "output": {
+      "bakedpotato": 1
+    }
+  },
+  {
+    "input": {
+      "pearlpea": 1
+    },
+    "output": {
+      "boiledpearlpeas": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1
+    },
+    "output": {
+      "boiledrice": 1
+    }
+  },
+  {
+    "input": {
+      "alienmeat": 1
+    },
+    "output": {
+      "cookedalienmeat": 1
+    }
+  },
+  {
+    "input": {
+      "rawbacon": 1
+    },
+    "output": {
+      "cookedbacon": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1
+    },
+    "output": {
+      "cookedfish": 1
+    }
+  },
+  {
+    "input": {
+      "rawham": 1
+    },
+    "output": {
+      "cookedham": 1
+    }
+  },
+  {
+    "input": {
+      "rawpoultry": 1
+    },
+    "output": {
+      "cookedpoultry": 1
+    }
+  },
+  {
+    "input": {
+      "rawribmeat": 1
+    },
+    "output": {
+      "cookedribmeat": 1
+    }
+  },
+  {
+    "input": {
+      "rawtentacle": 1
+    },
+    "output": {
+      "cookedtentacle": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1
+    },
+    "output": {
+      "cookedtomato": 1
+    }
+  },
+  {
+    "input": {
+      "corn": 1
+    },
+    "output": {
+      "popcorn": 1
+    }
+  },
+  {
+    "input": {
+      "mashedpotato": 2
+    },
+    "output": {
+      "potatogrids": 1
+    }
+  },
+  {
+    "input": {
+      "carrot": 1
+    },
+    "output": {
+      "roastedcarrot": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 5
+    },
+    "output": {
+      "roastedmushrooms": 1
+    }
+  },
+  {
+    "input": {
+      "bread": 1,
+      "egg": 1
+    },
+    "output": {
+      "toast": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "alienfruit": 1
+    },
+    "output": {
+      "alienfruitjam": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "beakseed": 1
+    },
+    "output": {
+      "beakseedjam": 1
+    }
+  },
+  {
+    "input": {
+      "kiwi": 1,
+      "feathercrown": 1,
+      "currentcorn": 1,
+      "cacti": 1,
+      "beakseed": 1,
+      "automato": 1
+    },
+    "output": {
+      "desertsalsa": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "feathercrown": 1
+    },
+    "output": {
+      "feathercrownjam": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "kiwi": 1
+    },
+    "output": {
+      "kiwijam": 1
+    }
+  },
+  {
+    "input": {
+      "neonmelon": 1,
+      "sugar": 1
+    },
+    "output": {
+      "neonmelonjam": 1
+    }
+  },
+  {
+    "input": {
+      "reefpod": 1,
+      "pineapple": 1,
+      "coralcreep": 1,
+      "banana": 1
+    },
+    "output": {
+      "oceansalsa": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "pearlpea": 1
+    },
+    "output": {
+      "pearlpeajam": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "pineapple": 1
+    },
+    "output": {
+      "pineapplejam": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "pussplum": 1
+    },
+    "output": {
+      "pussplumjam": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "sugar": 1,
+      "corn": 1
+    },
+    "output": {
+      "relish": 1
+    }
+  },
+  {
+    "input": {
+      "toxictop": 1,
+      "sugar": 1
+    },
+    "output": {
+      "toxictopjam": 1
+    }
+  },
+  {
+    "input": {
+      "avesmingo": 1,
+      "chili": 1,
+      "tomato": 1
+    },
+    "output": {
+      "volcanicsalsa": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "wartweed": 1
+    },
+    "output": {
+      "wartweedjam": 1
+    }
+  },
+  {
+    "input": {
+      "grapes": 1,
+      "banana": 1
+    },
+    "output": {
+      "apegrapes": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "redapple": 1
+    },
+    "output": {
+      "applecrumble": 1
+    }
+  },
+  {
+    "input": {
+      "avesmingo": 1,
+      "milk": 1,
+      "snowball": 1,
+      "sugar": 1
+    },
+    "output": {
+      "avesmingoicecream": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "banana": 1
+    },
+    "output": {
+      "bananacreampie": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "snowball": 1,
+      "milk": 1,
+      "banana": 1
+    },
+    "output": {
+      "bananaicecream": 1
+    }
+  },
+  {
+    "input": {
+      "avesmingoicecream": 1,
+      "banana": 1,
+      "chocolate": 1,
+      "pineapple": 1
+    },
+    "output": {
+      "bananasplit": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "banana": 1
+    },
+    "output": {
+      "batteredbanana": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "beakseedjam": 1
+    },
+    "output": {
+      "beakseedtart": 1
+    }
+  },
+  {
+    "input": {
+      "bonbons": 2
+    },
+    "output": {
+      "bonbonbonbons": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1
+    },
+    "output": {
+      "bonbons": 1
+    }
+  },
+  {
+    "input": {
+      "pineapple": 1,
+      "coralcreep": 1
+    },
+    "output": {
+      "brineapple": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "snowball": 1,
+      "milk": 1,
+      "cacti": 1
+    },
+    "output": {
+      "cactiicecream": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1
+    },
+    "output": {
+      "cake": 1
+    }
+  },
+  {
+    "input": {
+      "chocolate": 1,
+      "banana": 1
+    },
+    "output": {
+      "campfirebanana": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "carrot": 1
+    },
+    "output": {
+      "carrotcake": 1
+    }
+  },
+  {
+    "input": {
+      "cocoa": 1
+    },
+    "output": {
+      "chocolate": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "chocolate": 1
+    },
+    "output": {
+      "chocolatecake": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "snowball": 1,
+      "milk": 1,
+      "coconut": 1
+    },
+    "output": {
+      "coconuticecream": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "coffeebeans": 1
+    },
+    "output": {
+      "coffeecake": 1
+    }
+  },
+  {
+    "input": {
+      "eggshoot": 1,
+      "milk": 1,
+      "snowball": 1,
+      "sugar": 1
+    },
+    "output": {
+      "eggshooticecream": 1
+    }
+  },
+  {
+    "input": {
+      "pineapple": 1,
+      "kiwi": 1,
+      "grapes": 1,
+      "banana": 1
+    },
+    "output": {
+      "fruitsalad": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "oculemon": 1,
+      "egg": 1
+    },
+    "output": {
+      "oculemonmeringue": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "rice": 1,
+      "pussplum": 1,
+      "milk": 1
+    },
+    "output": {
+      "pussplumpudding": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "pussplumjam": 1
+    },
+    "output": {
+      "pussplumtart": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "rice": 1,
+      "milk": 1
+    },
+    "output": {
+      "ricepudding": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "snowball": 1
+    },
+    "output": {
+      "snowcone": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "toxictopjam": 1,
+      "alienfruit": 1
+    },
+    "output": {
+      "toxictart": 1
+    }
+  },
+  {
+    "input": {
+      "alienfruit": 1
+    },
+    "output": {
+      "alienfruitjuice": 1
+    }
+  },
+  {
+    "input": {
+      "milk": 1,
+      "automato": 1
+    },
+    "output": {
+      "automatoshake": 1
+    }
+  },
+  {
+    "input": {
+      "avesmingo": 1
+    },
+    "output": {
+      "avesmingojuice": 1
+    }
+  },
+  {
+    "input": {
+      "pussplum": 1,
+      "fleshstrand": 1
+    },
+    "output": {
+      "bloodypuss": 1
+    }
+  },
+  {
+    "input": {
+      "liquidwater": 10,
+      "bottle": 1
+    },
+    "output": {
+      "bottledwater": 1
+    }
+  },
+  {
+    "input": {
+      "cacti": 1
+    },
+    "output": {
+      "cactusjuice": 1
+    }
+  },
+  {
+    "input": {
+      "carrot": 1
+    },
+    "output": {
+      "carrotjuice": 1
+    }
+  },
+  {
+    "input": {
+      "coconut": 1
+    },
+    "output": {
+      "coconutmilk": 1
+    }
+  },
+  {
+    "input": {
+      "coffeebeans": 1
+    },
+    "output": {
+      "coffee": 1
+    }
+  },
+  {
+    "input": {
+      "pussplum": 1,
+      "oculemon": 1
+    },
+    "output": {
+      "cyanider": 1
+    }
+  },
+  {
+    "input": {
+      "milk": 1,
+      "coffee": 1
+    },
+    "output": {
+      "flatwhite": 1
+    }
+  },
+  {
+    "input": {
+      "grapes": 1
+    },
+    "output": {
+      "grapejuice": 1
+    }
+  },
+  {
+    "input": {
+      "kiwi": 1
+    },
+    "output": {
+      "kiwijuice": 1
+    }
+  },
+  {
+    "input": {
+      "milk": 1,
+      "coffee": 1,
+      "chocolate": 1
+    },
+    "output": {
+      "mocha": 1
+    }
+  },
+  {
+    "input": {
+      "pineapple": 1
+    },
+    "output": {
+      "pineapplejuice": 1
+    }
+  },
+  {
+    "input": {
+      "boltbulb": 1,
+      "currentcorn": 1,
+      "diodia": 1,
+      "neonmelon": 1
+    },
+    "output": {
+      "pozest": 1
+    }
+  },
+  {
+    "input": {
+      "reefpod": 1
+    },
+    "output": {
+      "reefjuice": 1
+    }
+  },
+  {
+    "input": {
+      "reefpod": 1,
+      "milk": 1
+    },
+    "output": {
+      "reefshake": 1
+    }
+  },
+  {
+    "input": {
+      "pineapple": 1,
+      "kiwi": 1,
+      "grapes": 1
+    },
+    "output": {
+      "sweetpunch": 1
+    }
+  },
+  {
+    "input": {
+      "thornfruit": 1
+    },
+    "output": {
+      "thornjuice": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1
+    },
+    "output": {
+      "tomatojuice": 1
+    }
+  },
+  {
+    "input": {
+      "toxictop": 1,
+      "alienfruit": 1
+    },
+    "output": {
+      "toxicjuice": 1
+    }
+  },
+  {
+    "input": {
+      "pineapple": 1,
+      "kiwi": 1,
+      "coconut": 1,
+      "banana": 1
+    },
+    "output": {
+      "tropicalpunch": 1
+    }
+  },
+  {
+    "input": {
+      "boneboo": 1,
+      "feathercrown": 1,
+      "oculemon": 1,
+      "neonmelon": 1,
+      "toxictop": 1
+    },
+    "output": {
+      "ultimatejuice": 1
+    }
+  },
+  {
+    "input": {
+      "boltbulb": 1,
+      "diodia": 1,
+      "alienmeat": 1,
+      "wheat": 1
+    },
+    "output": {
+      "16gbpasty": 1
+    }
+  },
+  {
+    "input": {
+      "automato": 1,
+      "boltbulb": 1,
+      "cheese": 1,
+      "wheat": 1
+    },
+    "output": {
+      "8gbpizzap": 1
+    }
+  },
+  {
+    "input": {
+      "egg": 1,
+      "corn": 1,
+      "banana": 1
+    },
+    "output": {
+      "apexfritter": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "currentcorn": 1,
+      "automato": 1
+    },
+    "output": {
+      "automatostew": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "milk": 1,
+      "egg": 1,
+      "rawbacon": 1
+    },
+    "output": {
+      "baconpancakes": 1
+    }
+  },
+  {
+    "input": {
+      "boltbulb": 1,
+      "milk": 1
+    },
+    "output": {
+      "boltos": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "relish": 1,
+      "alienmeat": 1,
+      "cheese": 1,
+      "bread": 1
+    },
+    "output": {
+      "cheeseburger": 1
+    }
+  },
+  {
+    "input": {
+      "chili": 1,
+      "coralcreep": 1,
+      "rice": 1,
+      "tomato": 1
+    },
+    "output": {
+      "coralcreepcurry": 1
+    }
+  },
+  {
+    "input": {
+      "corn": 1,
+      "beakseed": 1
+    },
+    "output": {
+      "cornpeckers": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "feathercrown": 1,
+      "beakseed": 1
+    },
+    "output": {
+      "featherfood": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "rawfish": 1
+    },
+    "output": {
+      "fishdumplings": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1,
+      "bread": 1
+    },
+    "output": {
+      "fishfingers": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1,
+      "boneboo": 1
+    },
+    "output": {
+      "fishinabone": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1,
+      "potato": 1,
+      "bread": 1
+    },
+    "output": {
+      "fishnchips": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1,
+      "mashedpotato": 1
+    },
+    "output": {
+      "fishpie": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "rawfish": 1,
+      "pearlpea": 1,
+      "corn": 1
+    },
+    "output": {
+      "fishstew": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "relish": 1,
+      "alienmeat": 1,
+      "bread": 1
+    },
+    "output": {
+      "hamburger": 1
+    }
+  },
+  {
+    "input": {
+      "avesmingo": 1,
+      "chili": 1,
+      "liquidlava": 1,
+      "alienmeat": 1
+    },
+    "output": {
+      "hothothotpot": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "alienmeat": 1
+    },
+    "output": {
+      "meatdumplings": 1
+    }
+  },
+  {
+    "input": {
+      "mashedpotato": 1,
+      "meatstew": 1
+    },
+    "output": {
+      "meatpie": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "pearlpea": 1,
+      "corn": 1,
+      "alienmeat": 1
+    },
+    "output": {
+      "meatstew": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "shroom": 5,
+      "egg": 1,
+      "cheese": 1
+    },
+    "output": {
+      "mushroomquiche": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1,
+      "reefpod": 1,
+      "rawfish": 1
+    },
+    "output": {
+      "oceanrisotto": 1
+    }
+  },
+  {
+    "input": {
+      "coralcreep": 1,
+      "kelp": 5,
+      "reefpod": 1,
+      "rawfish": 1
+    },
+    "output": {
+      "oceansurprise": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "pussplum": 1,
+      "oculemon": 1,
+      "alienmeat": 1
+    },
+    "output": {
+      "oculemonstew": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 5,
+      "egg": 1,
+      "rawbacon": 1,
+      "cheese": 1
+    },
+    "output": {
+      "omelette": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "potato": 1,
+      "alienmeat": 1,
+      "carrot": 1
+    },
+    "output": {
+      "pasty": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "pearlpea": 1,
+      "milk": 1,
+      "egg": 1
+    },
+    "output": {
+      "pearlpeapancakes": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1,
+      "pearlpea": 1
+    },
+    "output": {
+      "pearlpearisotto": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "pineapple": 1,
+      "rawbacon": 1,
+      "cheese": 1
+    },
+    "output": {
+      "pineapplepizzaslice": 1
+    }
+  },
+  {
+    "input": {
+      "automato": 1,
+      "cheese": 1,
+      "diodia": 1,
+      "wheat": 1
+    },
+    "output": {
+      "piodia": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "tomato": 1,
+      "rawbacon": 1,
+      "cheese": 1
+    },
+    "output": {
+      "pizzaslice": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "milk": 1
+    },
+    "output": {
+      "porridge": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "egg": 1,
+      "rawbacon": 1,
+      "cheese": 1
+    },
+    "output": {
+      "quichelorraine": 1
+    }
+  },
+  {
+    "input": {
+      "reefpod": 1,
+      "oculemon": 1
+    },
+    "output": {
+      "reefpodsurprise": 1
+    }
+  },
+  {
+    "input": {
+      "pearlpea": 1,
+      "mashedpotato": 1,
+      "rawpoultry": 1,
+      "carrot": 1
+    },
+    "output": {
+      "roastdinner": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1,
+      "coralcreep": 1
+    },
+    "output": {
+      "seafoodgratin": 1
+    }
+  },
+  {
+    "input": {
+      "chili": 1,
+      "rawribmeat": 1,
+      "sugar": 1
+    },
+    "output": {
+      "spicyribs": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "boneboo": 1
+    },
+    "output": {
+      "spookypie": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "rawribmeat": 1
+    },
+    "output": {
+      "stickyribs": 1
+    }
+  },
+  {
+    "input": {
+      "kelp": 5,
+      "rice": 1,
+      "rawfish": 1
+    },
+    "output": {
+      "sushi": 1
+    }
+  },
+  {
+    "input": {
+      "pearlpea": 1,
+      "tomato": 1,
+      "wartweed": 1,
+      "wheat": 1
+    },
+    "output": {
+      "wartweedstew": 1
+    }
+  },
+  {
+    "input": {
+      "currentcorn": 1,
+      "automato": 1
+    },
+    "output": {
+      "2kbpotage": 1
+    }
+  },
+  {
+    "input": {
+      "rawbacon": 1,
+      "banana": 1
+    },
+    "output": {
+      "bananacon": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "beakseed": 1
+    },
+    "output": {
+      "beakseedbread": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1
+    },
+    "output": {
+      "bread": 1
+    }
+  },
+  {
+    "input": {
+      "chili": 1,
+      "oculemon": 1
+    },
+    "output": {
+      "burningeyeballs": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "carrot": 1
+    },
+    "output": {
+      "carrotbread": 1
+    }
+  },
+  {
+    "input": {
+      "potato": 1,
+      "milk": 1,
+      "carrot": 1
+    },
+    "output": {
+      "carrotsoup": 1
+    }
+  },
+  {
+    "input": {
+      "milk": 1
+    },
+    "output": {
+      "cheese": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1,
+      "coconutmilk": 1
+    },
+    "output": {
+      "coconutrice": 1
+    }
+  },
+  {
+    "input": {
+      "corn": 1
+    },
+    "output": {
+      "corncob": 1
+    }
+  },
+  {
+    "input": {
+      "eggshoot": 1,
+      "feathercrown": 1
+    },
+    "output": {
+      "eggshootsalad": 1
+    }
+  },
+  {
+    "input": {
+      "eggshoot": 1,
+      "oculemon": 1
+    },
+    "output": {
+      "eyebowls": 1
+    }
+  },
+  {
+    "input": {
+      "egg": 1,
+      "bread": 1
+    },
+    "output": {
+      "fluffyruffs": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "corn": 1,
+      "carrot": 1
+    },
+    "output": {
+      "gardensalad": 1
+    }
+  },
+  {
+    "input": {
+      "boneboo": 1,
+      "chili": 1
+    },
+    "output": {
+      "hotbone": 1
+    }
+  },
+  {
+    "input": {
+      "potato": 1
+    },
+    "output": {
+      "mashedpotato": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "shroom": 5
+    },
+    "output": {
+      "mushroombread": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1,
+      "shroom": 5,
+      "egg": 1
+    },
+    "output": {
+      "mushroomrice": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "boiledpearlpeas": 1
+    },
+    "output": {
+      "pearlpeabroth": 1
+    }
+  },
+  {
+    "input": {
+      "pearlpea": 1,
+      "wartweed": 1
+    },
+    "output": {
+      "pearlpeaparcels": 1
+    }
+  },
+  {
+    "input": {
+      "kelp": 5,
+      "rice": 1
+    },
+    "output": {
+      "ricecake": 1
+    }
+  },
+  {
+    "input": {
+      "reefpod": 1,
+      "pearlpea": 1,
+      "coralcreep": 1
+    },
+    "output": {
+      "saltsalad": 1
+    }
+  },
+  {
+    "input": {
+      "boltbulb": 1,
+      "currentcorn": 1,
+      "diodia": 1
+    },
+    "output": {
+      "smash": 1
+    }
+  },
+  {
+    "input": {
+      "dirturchin": 1,
+      "coralcreep": 1
+    },
+    "output": {
+      "soggysack": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1,
+      "pearlpea": 1,
+      "egg": 1,
+      "corn": 1
+    },
+    "output": {
+      "specialrice": 1
+    }
+  },
+  {
+    "input": {
+      "chili": 1,
+      "feathercrown": 1
+    },
+    "output": {
+      "spicyfeathercrown": 1
+    }
+  },
+  {
+    "input": {
+      "corn": 1,
+      "cheese": 1,
+      "bread": 1,
+      "automato": 1
+    },
+    "output": {
+      "stuffedautomato": 1
+    }
+  },
+  {
+    "input": {
+      "pearlpea": 1,
+      "dirturchin": 1,
+      "cheese": 1,
+      "bread": 1
+    },
+    "output": {
+      "stuffeddirturchin": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "corn": 1,
+      "cheese": 1,
+      "bread": 1
+    },
+    "output": {
+      "stuffedtomato": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "rawbacon": 1
+    },
+    "output": {
+      "sweetmeat": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "potato": 1,
+      "milk": 1
+    },
+    "output": {
+      "tomatosoup": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "banana": 1
+    },
+    "output": {
+      "bananacreamdonut": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "corn": 1
+    },
+    "output": {
+      "candiedcorn": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "redapple": 1
+    },
+    "output": {
+      "candyapple": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "automato": 1
+    },
+    "output": {
+      "candyautomato": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "coconut": 1,
+      "chocolate": 1
+    },
+    "output": {
+      "choconut": 1
+    }
+  },
+  {
+    "input": {
+      "carrot": 1,
+      "banana": 1
+    },
+    "output": {
+      "luckydip": 1
+    }
+  },
+  {
+    "input": {
+      "boltbulb": 1,
+      "diodia": 1
+    },
+    "output": {
+      "nutsandbolts": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "cacti": 1
+    },
+    "output": {
+      "spikycookies": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "boneboo": 1
+    },
+    "output": {
+      "spookydonut": 1
+    }
+  },
+  {
+    "input": {
+      "popcorn": 1,
+      "sugar": 1
+    },
+    "output": {
+      "sweetpopcorn": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "toxictopjam": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1
+    },
+    "output": {
+      "toxicjamdonut": 1
+    }
+  },
+  {
+    "input": {
+      "egg": 1,
+      "milk": 1,
+      "sugar": 1,
+      "wartweedjam": 1,
+      "wheat": 1
+    },
+    "output": {
+      "wartweedjamdonut": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 3,
+      "diamond": 1
+    },
+    "output": {
+      "capturepod": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "siliconboard": 4,
+      "wire": 5,
+      "battery": 1
+    },
+    "output": {
+      "pethealingstation": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "diamond": 1,
+      "phasematter": 1
+    },
+    "output": {
+      "pettether": 1
+    }
+  },
+  {
+    "input": {
+      "logblock": 4,
+      "torch": 1
+    },
+    "output": {
+      "campfire": 1
+    }
+  },
+  {
+    "input": {
+      "logblock": 1
+    },
+    "output": {
+      "darkwoodmaterial": 5
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flagapex": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flagavian": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flagfloran": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flagglitch": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flaghuman": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flaghylotl": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flagnovakid": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 12,
+      "logblock": 4
+    },
+    "output": {
+      "inventorstable": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "plantfibre": 1
+    },
+    "output": {
+      "platform": 10
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 2
+    },
+    "output": {
+      "climbingrope": 1
+    }
+  },
+  {
+    "input": {
+      "coalore": 1,
+      "logblock": 1
+    },
+    "output": {
+      "torch": 4
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25,
+      "copperbar": 4,
+      "string": 1
+    },
+    "output": {
+      "hoe": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 3,
+      "darkwoodmaterial": 30,
+      "torch": 1
+    },
+    "output": {
+      "mothtrap": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 30,
+      "fabric": 20,
+      "plantfibre": 40
+    },
+    "output": {
+      "scarecrow": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 2,
+      "greendye": 1,
+      "reddye": 1
+    },
+    "output": {
+      "wateringcan": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 30,
+      "copperbar": 1
+    },
+    "output": {
+      "woodenwateringcan": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 20,
+      "string": 1,
+      "copperbar": 1
+    },
+    "output": {
+      "bow": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 5,
+      "string": 10
+    },
+    "output": {
+      "bugnet": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 30,
+      "titaniumbar": 2,
+      "string": 10
+    },
+    "output": {
+      "fishingrod": 1
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 1,
+      "string": 1,
+      "plantfibre": 2
+    },
+    "output": {
+      "flare": 2
+    }
+  },
+  {
+    "input": {
+      "logblock": 3,
+      "cobblestonematerial": 3
+    },
+    "output": {
+      "huntingspear": 5
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "string": 1,
+      "liquidoil": 3
+    },
+    "output": {
+      "tungstenbow": 1
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 1,
+      "string": 1,
+      "plantfibre": 2
+    },
+    "output": {
+      "flare": 2
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "torch": 1,
+      "glassmaterial": 1
+    },
+    "output": {
+      "flashlight": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "logblock": 10,
+      "mininglantern": 1
+    },
+    "output": {
+      "lanternstickback": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5,
+      "mininglantern": 1
+    },
+    "output": {
+      "mininghathead": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "liquidoil": 10,
+      "torch": 1
+    },
+    "output": {
+      "mininglantern": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 5,
+      "goldbar": 5
+    },
+    "output": {
+      "sprinkler": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "string": 1,
+      "liquidoil": 3
+    },
+    "output": {
+      "compoundbow": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "silverbar": 2,
+      "syntheticmaterial": 5
+    },
+    "output": {
+      "durablefishingrod": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "smallbattery": 4,
+      "siliconboard": 2,
+      "wire": 6
+    },
+    "output": {
+      "relocator": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "goldbar": 5,
+      "wire": 6,
+      "smallbattery": 4
+    },
+    "output": {
+      "cavedetector": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "diamond": 1,
+      "climbingrope": 1,
+      "wire": 2,
+      "smallbattery": 4
+    },
+    "output": {
+      "grapplinghook": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 5,
+      "wire": 5,
+      "siliconboard": 2,
+      "smallbattery": 5
+    },
+    "output": {
+      "halogenpack": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 5,
+      "refinedviolium": 5,
+      "refinedaegisalt": 5,
+      "wire": 6,
+      "smallbattery": 4
+    },
+    "output": {
+      "oredetector": 1
+    }
+  },
+  {
+    "input": {
+      "halogenpack": 1,
+      "diamond": 3,
+      "wire": 5
+    },
+    "output": {
+      "xenonpack": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 5,
+      "string": 1
+    },
+    "output": {
+      "fossilbrushbeginner": 1
+    }
+  },
+  {
+    "input": {
+      "goldbar": 1,
+      "darkwoodmaterial": 2,
+      "string": 3
+    },
+    "output": {
+      "fossilbrushmaster": 1
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1,
+      "darkwoodmaterial": 2,
+      "string": 2
+    },
+    "output": {
+      "fossilbrushstudent": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 20,
+      "glass": 15,
+      "goldbar": 3
+    },
+    "output": {
+      "fossildisplay1": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25,
+      "glass": 40,
+      "goldbar": 5
+    },
+    "output": {
+      "fossildisplay3": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 150,
+      "goldbar": 30
+    },
+    "output": {
+      "fossildisplay5": 1
+    }
+  },
+  {
+    "input": {
+      "copperore": 2
+    },
+    "output": {
+      "copperbar": 1
+    }
+  },
+  {
+    "input": {
+      "goldore": 2
+    },
+    "output": {
+      "goldbar": 1
+    }
+  },
+  {
+    "input": {
+      "ironore": 2
+    },
+    "output": {
+      "ironbar": 1
+    }
+  },
+  {
+    "input": {
+      "silverore": 2
+    },
+    "output": {
+      "silverbar": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenore": 2
+    },
+    "output": {
+      "tungstenbar": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 2
+    },
+    "output": {
+      "bottle": 1
+    }
+  },
+  {
+    "input": {
+      "clay": 2
+    },
+    "output": {
+      "firedclay": 1
+    }
+  },
+  {
+    "input": {
+      "sand2": 2
+    },
+    "output": {
+      "glass": 1
+    }
+  },
+  {
+    "input": {
+      "logblock": 1
+    },
+    "output": {
+      "paper": 5
+    }
+  },
+  {
+    "input": {
+      "glass": 2,
+      "ironbar": 1
+    },
+    "output": {
+      "syringe": 1
+    }
+  },
+  {
+    "input": {
+      "corefragmentore": 2
+    },
+    "output": {
+      "volatilepowder": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelore": 2
+    },
+    "output": {
+      "durasteelbar": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumore": 2
+    },
+    "output": {
+      "titaniumbar": 1
+    }
+  },
+  {
+    "input": {
+      "aegisaltore": 2
+    },
+    "output": {
+      "refinedaegisalt": 1
+    }
+  },
+  {
+    "input": {
+      "feroziumore": 2
+    },
+    "output": {
+      "refinedferozium": 1
+    }
+  },
+  {
+    "input": {
+      "violiumore": 2
+    },
+    "output": {
+      "refinedviolium": 1
+    }
+  },
+  {
+    "input": {
+      "solariumore": 2
+    },
+    "output": {
+      "solariumstar": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 4,
+      "goldbar": 2,
+      "liquidpoison": 5
+    },
+    "output": {
+      "battery": 1
+    }
+  },
+  {
+    "input": {
+      "sand2": 5,
+      "coalore": 2
+    },
+    "output": {
+      "siliconboard": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "copperbar": 1,
+      "liquidpoison": 1
+    },
+    "output": {
+      "smallbattery": 2
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "wire": 5
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "fabric": 10
+    },
+    "output": {
+      "tier1bed": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "fabric": 10
+    },
+    "output": {
+      "tier2bed": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "fabric": 10
+    },
+    "output": {
+      "woodenbed": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "coppershelf": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "coppersupport": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "tier1chair": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "copperbar": 1
+    },
+    "output": {
+      "tier1table": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "leather": 2
+    },
+    "output": {
+      "tier2chair": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "darkwoodmaterial": 5,
+      "yellowdye": 1
+    },
+    "output": {
+      "tier2table": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "woodenchair": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 5,
+      "string": 2
+    },
+    "output": {
+      "woodsupport": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "logblock": 4
+    },
+    "output": {
+      "woodtable": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "glassmaterial": 2
+    },
+    "output": {
+      "tier1door": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "glass": 2,
+      "reddye": 1
+    },
+    "output": {
+      "tier2door": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "woodendoor": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 10,
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "woodengate": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "woodenverticaldoor": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "torch": 1
+    },
+    "output": {
+      "copperceilinglight": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "torch": 1
+    },
+    "output": {
+      "copperlantern": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "torch": 1,
+      "glassmaterial": 1
+    },
+    "output": {
+      "tier1light": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "torch": 1,
+      "glassmaterial": 1
+    },
+    "output": {
+      "tier1spotlight": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "torch": 1
+    },
+    "output": {
+      "tier2light": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "apexshipdetails": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "apexshipplatform": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "apexshipsupport": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "apexshipwall": 20
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 10
+    },
+    "output": {
+      "aztecmaterial": 10
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 5,
+      "darkwoodmaterial": 1
+    },
+    "output": {
+      "bamboo": 50
+    }
+  },
+  {
+    "input": {
+      "bamboo": 1
+    },
+    "output": {
+      "bambooplatform": 10
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "bars": 10
+    }
+  },
+  {
+    "input": {
+      "ornatewood": 1
+    },
+    "output": {
+      "baseboard": 10
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "blackdye": 1
+    },
+    "output": {
+      "blackglass": 10
+    }
+  },
+  {
+    "input": {
+      "bone": 1
+    },
+    "output": {
+      "bonematerial": 20
+    }
+  },
+  {
+    "input": {
+      "paper": 3,
+      "leather": 1
+    },
+    "output": {
+      "bookpiles": 20
+    }
+  },
+  {
+    "input": {
+      "firedclay": 1
+    },
+    "output": {
+      "brickmaterial": 50
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "string": 1
+    },
+    "output": {
+      "cabinroofing": 30
+    }
+  },
+  {
+    "input": {
+      "cacti": 1
+    },
+    "output": {
+      "cactiblock": 20
+    }
+  },
+  {
+    "input": {
+      "sugar": 1
+    },
+    "output": {
+      "candyblock": 10
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 5
+    },
+    "output": {
+      "castlewalls1": 20
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 5
+    },
+    "output": {
+      "castlewalls2": 20
+    }
+  },
+  {
+    "input": {
+      "paper": 1
+    },
+    "output": {
+      "cheapwallpaper": 10
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "cobblestonebrick": 5
+    }
+  },
+  {
+    "input": {
+      "clay": 1,
+      "sand2": 1,
+      "liquidwater": 1
+    },
+    "output": {
+      "concretematerial": 20
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "copperblock": 50
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "copperfence": 50
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "copperladder": 50
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "copperplatform": 50
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "copperroofing": 50
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "glassmaterial": 2
+    },
+    "output": {
+      "copperwindow": 20
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 2
+    },
+    "output": {
+      "crosshatch": 30
+    }
+  },
+  {
+    "input": {
+      "crystal": 1
+    },
+    "output": {
+      "crystalblock": 30
+    }
+  },
+  {
+    "input": {
+      "rockbrickmaterial": 4
+    },
+    "output": {
+      "darksmoothstonematerial": 20
+    }
+  },
+  {
+    "input": {
+      "oculemon": 1
+    },
+    "output": {
+      "eyepiles": 10
+    }
+  },
+  {
+    "input": {
+      "firedclay": 1,
+      "sand": 1
+    },
+    "output": {
+      "fadedblocks": 50
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "string": 1
+    },
+    "output": {
+      "fence": 10
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 3
+    },
+    "output": {
+      "fleshblock": 20
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 1,
+      "petalyellow": 1,
+      "petalblue": 1
+    },
+    "output": {
+      "floweryblock": 50
+    }
+  },
+  {
+    "input": {
+      "logblock": 1
+    },
+    "output": {
+      "fullwood1": 10
+    }
+  },
+  {
+    "input": {
+      "logblock": 1
+    },
+    "output": {
+      "fullwood2": 10
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "girdermaterial": 40
+    }
+  },
+  {
+    "input": {
+      "glass": 1
+    },
+    "output": {
+      "glassmaterial": 10
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "yellowdye": 1,
+      "blackdye": 1
+    },
+    "output": {
+      "hazard": 50
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "heavyironbars": 40
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "heavypipe": 20
+    }
+  },
+  {
+    "input": {
+      "brickmaterial": 1,
+      "browndye": 1
+    },
+    "output": {
+      "homewalls1": 50
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "ironblock": 50
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "stickofram": 1
+    },
+    "output": {
+      "junktech": 50
+    }
+  },
+  {
+    "input": {
+      "brickmaterial": 1,
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "ledgebrick": 50
+    }
+  },
+  {
+    "input": {
+      "glass": 1
+    },
+    "output": {
+      "mirror": 20
+    }
+  },
+  {
+    "input": {
+      "dirtmaterial": 1,
+      "plantfibre": 2
+    },
+    "output": {
+      "mossypackeddirt": 50
+    }
+  },
+  {
+    "input": {
+      "fullwood1": 1
+    },
+    "output": {
+      "ornateflooring": 30
+    }
+  },
+  {
+    "input": {
+      "bluedye": 1,
+      "rooftiles": 1
+    },
+    "output": {
+      "ornateroofing": 40
+    }
+  },
+  {
+    "input": {
+      "ornatewood": 1,
+      "rooftiles": 1
+    },
+    "output": {
+      "ornatetiles": 30
+    }
+  },
+  {
+    "input": {
+      "ornatewood": 1,
+      "paper": 2
+    },
+    "output": {
+      "ornatewall": 50
+    }
+  },
+  {
+    "input": {
+      "fullwood1": 1
+    },
+    "output": {
+      "ornatewood": 30
+    }
+  },
+  {
+    "input": {
+      "dirtmaterial": 1
+    },
+    "output": {
+      "packeddirt": 20
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 1,
+      "petalred": 1
+    },
+    "output": {
+      "petalblock": 50
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "pillarblock": 5
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 1
+    },
+    "output": {
+      "plantblock": 10
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 1
+    },
+    "output": {
+      "plantmatter": 15
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 1,
+      "darkwoodmaterial": 1
+    },
+    "output": {
+      "plantplatform": 10
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 1
+    },
+    "output": {
+      "rainbowwoodblock": 20
+    }
+  },
+  {
+    "input": {
+      "reed": 1
+    },
+    "output": {
+      "reedblock": 30
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 4
+    },
+    "output": {
+      "rockbrickmaterial": 20
+    }
+  },
+  {
+    "input": {
+      "firedclay": 1
+    },
+    "output": {
+      "rooftiles": 30
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "plantfibre": 5
+    },
+    "output": {
+      "ruinsplatform": 10
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "liquidwater": 1
+    },
+    "output": {
+      "rustyblock": 40
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "liquidwater": 1
+    },
+    "output": {
+      "rustymetal": 40
+    }
+  },
+  {
+    "input": {
+      "sandstonematerial": 1
+    },
+    "output": {
+      "sandstoneblock": 20
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "sewage": 1
+    },
+    "output": {
+      "sewerpipe": 20
+    }
+  },
+  {
+    "input": {
+      "shadowblock": 10
+    },
+    "output": {
+      "shadowspikeblock": 5
+    }
+  },
+  {
+    "input": {
+      "shadowblock": 10
+    },
+    "output": {
+      "shadowwallblock": 5
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "paper": 1
+    },
+    "output": {
+      "shojiscreenpanel": 20
+    }
+  },
+  {
+    "input": {
+      "shroom": 1
+    },
+    "output": {
+      "shroomblock": 10
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "stoneplatform": 10
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 20
+    },
+    "output": {
+      "stonetiles": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "temple1": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "temple2": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "temple3": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 30
+    },
+    "output": {
+      "temple4": 10
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 5
+    },
+    "output": {
+      "thatch": 50
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 30
+    },
+    "output": {
+      "tombbrick": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "tombbrick2": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "tombbrick3": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "tombbrick4": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "tombbrick5": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 1
+    },
+    "output": {
+      "tribalplatform": 10
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "paper": 1
+    },
+    "output": {
+      "tombbrick5": 20
+    }
+  },
+  {
+    "input": {
+      "logblock": 1,
+      "plantfibre": 5
+    },
+    "output": {
+      "wicker": 50
+    }
+  },
+  {
+    "input": {
+      "logblock": 1,
+      "plantfibre": 5
+    },
+    "output": {
+      "wickersupport": 30
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 2,
+      "string": 1
+    },
+    "output": {
+      "woodbridge": 10
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "plantfibre": 1
+    },
+    "output": {
+      "woodenplatform": 10
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "glass": 1
+    },
+    "output": {
+      "woodenwindow1": 20
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1
+    },
+    "output": {
+      "woodenwindow2": 10
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 2
+    },
+    "output": {
+      "woodpanelling": 5
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "liquidwater": 10
+    },
+    "output": {
+      "wreckplatform": 10
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "darkwoodmaterial": 4
+    },
+    "output": {
+      "copperbox1": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 2,
+      "staticcell": 1
+    },
+    "output": {
+      "minifridge": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15
+    },
+    "output": {
+      "woodencrate1": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25,
+      "copperbar": 1
+    },
+    "output": {
+      "woodencrate2": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "fabric": 10
+    },
+    "output": {
+      "tier3bed": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "fabric": 10,
+      "silk": 3
+    },
+    "output": {
+      "tier4bed": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "leather": 5,
+      "bluedye": 1
+    },
+    "output": {
+      "tier3chair": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "glass": 5
+    },
+    "output": {
+      "tier3table": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "leather": 5,
+      "blackdye": 1
+    },
+    "output": {
+      "tier4chair": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "canvas": 2
+    },
+    "output": {
+      "tier4table": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "apexshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "apexshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "avianshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "avianshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "floranshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "floranshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "glitchshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "glitchshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "humanshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "humanshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "hylotlshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "hylotlshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "novakidshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "novakidshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "glass": 5
+    },
+    "output": {
+      "tier3door": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "tier4door": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "glass": 2,
+      "torch": 1
+    },
+    "output": {
+      "tier3light": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "glass": 2,
+      "smallbattery": 1
+    },
+    "output": {
+      "tier4light": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 1,
+      "tar": 1
+    },
+    "output": {
+      "asphalt": 20
+    }
+  },
+  {
+    "input": {
+      "aztecmaterial": 5,
+      "metallicmaterial": 1
+    },
+    "output": {
+      "aztectech": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "chain": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "chain": 20
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1
+    },
+    "output": {
+      "composite01material": 50
+    }
+  },
+  {
+    "input": {
+      "goldbar": 1
+    },
+    "output": {
+      "goldblock": 20
+    }
+  },
+  {
+    "input": {
+      "goldbar": 1
+    },
+    "output": {
+      "goldenplatform": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "lightmetal": 50
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "lunarbaseblock": 50
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "lunarbaseplatform": 50
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "mediummetal": 50
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "metallicmaterial": 30
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1
+    },
+    "output": {
+      "modernplatform": 40
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "neonblock": 20
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "outpostplatform": 10
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "concretematerial": 1
+    },
+    "output": {
+      "outpostsupport": 50
+    }
+  },
+  {
+    "input": {
+      "concretematerial": 20
+    },
+    "output": {
+      "outpostwall1": 10
+    }
+  },
+  {
+    "input": {
+      "concretematerial": 20
+    },
+    "output": {
+      "outpostwall2": 10
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "smoothmetal": 1
+    },
+    "output": {
+      "platematerial": 50
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "pressurisedbeam": 20
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "pressuriseddurasteel": 40
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "pressurisedgirder": 20
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "pressurisedplatform": 10
+    }
+  },
+  {
+    "input": {
+      "liquidoil": 1,
+      "reddye": 1
+    },
+    "output": {
+      "redtoyblock": 20
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1
+    },
+    "output": {
+      "silverblock": 30
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1
+    },
+    "output": {
+      "silverplatform": 10
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1
+    },
+    "output": {
+      "silverscrew": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "smoothmetal": 50
+    }
+  },
+  {
+    "input": {
+      "goldbar": 1
+    },
+    "output": {
+      "treasurehoard": 20
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "apexstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "avianstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "floranstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 2,
+      "cryonicextract": 1,
+      "battery": 1
+    },
+    "output": {
+      "fridge": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "glitchstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "humanstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "hylotlstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "novakidstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "money": 150
+    },
+    "output": {
+      "cupidsback": 1
+    }
+  },
+  {
+    "input": {
+      "bow": 1,
+      "money": 150
+    },
+    "output": {
+      "cupidsbow": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "money": 100
+    },
+    "output": {
+      "cupidschest": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 20,
+      "money": 100
+    },
+    "output": {
+      "cupidshead": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "money": 100
+    },
+    "output": {
+      "cupidslegs": 1
+    }
+  },
+  {
+    "input": {
+      "campfire": 1,
+      "goldbar": 10,
+      "money": 150
+    },
+    "output": {
+      "heartforge": 1
+    }
+  },
+  {
+    "input": {
+      "money": 150
+    },
+    "output": {
+      "valentinechocolates": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "bigpresent": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "decoratedtree": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "dreidel": 1
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 1,
+      "paper": 1,
+      "reddye": 1
+    },
+    "output": {
+      "firework": 2
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 1,
+      "paper": 1,
+      "bluedye": 1
+    },
+    "output": {
+      "fireworkblue": 2
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 1,
+      "paper": 1,
+      "greendye": 1
+    },
+    "output": {
+      "fireworkgreen": 2
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "giantbells": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "giantbow1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "giantbow2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "giantsanta": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "giantsnowflake": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "giftmonsterbox": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "giftmonstersmallbox": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "goldball": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "greencandycane1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "greencandycane2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "greencandycane3": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "greengumdrop1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "greengumdrop2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "holidaycandles": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 20
+    },
+    "output": {
+      "holidaycraftingtable": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "holidaylights": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "holidaypole": 1
+    }
+  },
+  {
+    "input": {
+      "money": 100
+    },
+    "output": {
+      "holidayspirit": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "holly": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "hotholidaychest": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "hotholidayhead": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "hotholidaypants": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "lollipop1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "lollipop2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "menorah": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "mrclausback": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "mrclauschest": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "mrclaushead": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "mrclauspants": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "present1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "present2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "present3": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "present4": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "purplegumdrop1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "purplegumdrop2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "redball": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "redcandycane1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "redcandycane2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "redcandycane3": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "redgumdrop1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "redgumdrop2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "scifisleigh": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "smallbow": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "smallholidaytree": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "smallsnowflake": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "stocking1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "stocking2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "undecoratedtree": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "glass": 10,
+      "livingroot": 1
+    },
+    "output": {
+      "breathprotectionback": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 8,
+      "darkwoodmaterial": 20,
+      "logblock": 1
+    },
+    "output": {
+      "craftinganvil": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 10,
+      "logblock": 4
+    },
+    "output": {
+      "craftingfarm": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 20,
+      "mud": 4,
+      "campfire": 1
+    },
+    "output": {
+      "craftingfurnace": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 10,
+      "logblock": 4,
+      "cobblestonematerial": 4
+    },
+    "output": {
+      "craftingfurniture": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 30,
+      "bottle": 5,
+      "torch": 1
+    },
+    "output": {
+      "craftingmedical": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 40,
+      "cobblestonematerial": 5,
+      "climbingrope": 1
+    },
+    "output": {
+      "craftingwheel": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "logblock": 1,
+      "copperbar": 4
+    },
+    "output": {
+      "woodencookingtable": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "darkwoodmaterial": 20,
+      "cobblestonematerial": 20,
+      "dirtmaterial": 5
+    },
+    "output": {
+      "fossilstation": 1
+    }
+  },
+  {
+    "input": {
+      "breathprotectionback": 1,
+      "titaniumbar": 6,
+      "copperbar": 4,
+      "venomsample": 1
+    },
+    "output": {
+      "radiationprotectionback": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 15,
+      "coalore": 10,
+      "campfire": 1
+    },
+    "output": {
+      "refinery": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "battery": 1,
+      "wire": 6,
+      "siliconboard": 3
+    },
+    "output": {
+      "3dprinter": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "siliconboard": 2,
+      "wire": 4
+    },
+    "output": {
+      "acceleratoraddon": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "battery": 1,
+      "wire": 6,
+      "siliconboard": 3
+    },
+    "output": {
+      "capturestation": 1
+    }
+  },
+  {
+    "input": {
+      "radiationprotectionback": 1,
+      "durasteelbar": 6,
+      "battery": 1,
+      "scorchedcore": 1
+    },
+    "output": {
+      "coldprotectionback": 1
+    }
+  },
+  {
+    "input": {
+      "coldprotectionback": 1,
+      "refinedaegisalt": 2,
+      "refinedferozium": 2,
+      "refinedviolium": 2,
+      "battery": 1,
+      "cryonicextract": 1
+    },
+    "output": {
+      "heatprotectionback": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "siliconboard": 2,
+      "wire": 4
+    },
+    "output": {
+      "manipulatoraddon": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 15,
+      "goldbar": 15
+    },
+    "output": {
+      "pixelcompressor": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "silverbar": 5,
+      "siliconboard": 2,
+      "wire": 10,
+      "battery": 1
+    },
+    "output": {
+      "railcraftingtable": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "siliconboard": 2,
+      "wire": 4
+    },
+    "output": {
+      "separatoraddon": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "siliconboard": 5,
+      "stickofram": 2,
+      "wire": 10,
+      "battery": 1
+    },
+    "output": {
+      "wiringstation": 1
+    }
+  },
+  {
+    "input": {
+      "petalred": 5,
+      "livingroot": 1,
+      "syringe": 1
+    },
+    "output": {
+      "redstim": 1
+    }
+  },
+  {
+    "input": {
+      "petalyellow": 4,
+      "plantfibre": 4,
+      "syringe": 1
+    },
+    "output": {
+      "yellowstim": 1
+    }
+  },
+  {
+    "input": {
+      "venomsample": 1,
+      "bottle": 1
+    },
+    "output": {
+      "antidote": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 2
+    },
+    "output": {
+      "bandage": 1
+    }
+  },
+  {
+    "input": {
+      "phasematter": 1,
+      "bandage": 5
+    },
+    "output": {
+      "medkit": 5
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 4
+    },
+    "output": {
+      "salve": 1
+    }
+  },
+  {
+    "input": {
+      "petalblue": 4,
+      "staticcell": 1,
+      "syringe": 1
+    },
+    "output": {
+      "bluestim": 1
+    }
+  },
+  {
+    "input": {
+      "petalblue": 2,
+      "petalyellow": 2,
+      "phasematter": 1,
+      "syringe": 1
+    },
+    "output": {
+      "greenstim": 1
+    }
+  },
+  {
+    "input": {
+      "petalred": 2,
+      "petalyellow": 2,
+      "scorchedcore": 1,
+      "syringe": 1
+    },
+    "output": {
+      "orangestim": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "cryonicextract": 1
+    },
+    "output": {
+      "burnspray": 1
+    }
+  },
+  {
+    "input": {
+      "syntheticmaterial": 1,
+      "livingroot": 1
+    },
+    "output": {
+      "nanowrap": 5
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "glass": 5,
+      "smallbattery": 1,
+      "wire": 3
+    },
+    "output": {
+      "laboratorylight": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 2,
+      "wire": 5
+    },
+    "output": {
+      "laboratoryverticaldoor": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 10,
+      "darkwoodmaterial": 10,
+      "torch": 1
+    },
+    "output": {
+      "skulltorch": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "airlockdoor": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "airlockhatch": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "ironbar": 1
+    },
+    "output": {
+      "hylotlsupportbeam": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "leather": 3
+    },
+    "output": {
+      "lunarbasebunk": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "lunarbasechair": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 5
+    },
+    "output": {
+      "lunarbaseconsole": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "lunarbasecrate": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 2
+    },
+    "output": {
+      "lunarbasedoor": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "torch": 1
+    },
+    "output": {
+      "lunarbaselantern": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "lunarbaselocker": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "miningchest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "copperbar": 1
+    },
+    "output": {
+      "miningdoor": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "copperbar": 1
+    },
+    "output": {
+      "miningverticaldoor": 1
+    }
+  },
+  {
+    "input": {
+      "paper": 6,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "paperwingsback": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "tungstenplatform": 10
+    }
+  },
+  {
+    "input": {
+      "money": 100
+    },
+    "output": {
+      "futurelight": 1
+    }
+  },
+  {
+    "input": {
+      "money": 25
+    },
+    "output": {
+      "lightmetal": 1
+    }
+  },
+  {
+    "input": {
+      "money": 120
+    },
+    "output": {
+      "modernchair": 1
+    }
+  },
+  {
+    "input": {
+      "money": 25
+    },
+    "output": {
+      "modernplatform": 1
+    }
+  },
+  {
+    "input": {
+      "money": 150
+    },
+    "output": {
+      "moderntable": 1
+    }
+  },
+  {
+    "input": {
+      "money": 1000,
+      "durasteelbar": 5,
+      "goldbar": 5,
+      "diamond": 1
+    },
+    "output": {
+      "portable3dprinter": 1
+    }
+  },
+  {
+    "input": {
+      "money": 25
+    },
+    "output": {
+      "redtoyblock": 1
+    }
+  },
+  {
+    "input": {
+      "money": 150
+    },
+    "output": {
+      "slidingdoor": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "techhull1": 20
+    }
+  },
+  {
+    "input": {
+      "autochip": 10
+    },
+    "output": {
+      "autodrive": 1
+    }
+  },
+  {
+    "input": {
+      "liquidhealing": 10,
+      "bottle": 1
+    },
+    "output": {
+      "bottledhealingwater": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25
+    },
+    "output": {
+      "kennel": 1
+    }
+  },
+  {
+    "input": {
+      "money": 10000
+    },
+    "output": {
+      "voxel10k": 1
+    }
+  },
+  {
+    "input": {
+      "money": 1000
+    },
+    "output": {
+      "voxel1k": 1
+    }
+  },
+  {
+    "input": {
+      "money": 2000
+    },
+    "output": {
+      "voxel2k": 1
+    }
+  },
+  {
+    "input": {
+      "money": 5000
+    },
+    "output": {
+      "voxel5k": 1
+    }
+  },
+  {
+    "input": {
+      "voxel10k": 1
+    },
+    "output": {
+      "money": 10000
+    }
+  },
+  {
+    "input": {
+      "voxel1k": 1
+    },
+    "output": {
+      "money": 1000
+    }
+  },
+  {
+    "input": {
+      "voxel2k": 1
+    },
+    "output": {
+      "money": 2000
+    }
+  },
+  {
+    "input": {
+      "voxel5k": 1
+    },
+    "output": {
+      "money": 5000
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "compositerail": 20
+    }
+  },
+  {
+    "input": {
+      "wire": 8,
+      "smallbattery": 2,
+      "durasteelbar": 3,
+      "silverbar": 3
+    },
+    "output": {
+      "compositerailplatform": 1
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1
+    },
+    "output": {
+      "railbumper": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "rustyrail": 10
+    }
+  },
+  {
+    "input": {
+      "sharpenedclaw": 1,
+      "durasteelbar": 5,
+      "silverbar": 5
+    },
+    "output": {
+      "railhook": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 3,
+      "siliconboard": 1,
+      "stickofram": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "railsensor": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 6,
+      "siliconboard": 1,
+      "smallbattery": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "railstop": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 3,
+      "siliconboard": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "railswitch": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "rustyrail": 10
+    }
+  },
+  {
+    "input": {
+      "wire": 8,
+      "smallbattery": 1,
+      "copperbar": 5
+    },
+    "output": {
+      "rustyrailplatform": 1
+    }
+  },
+  {
+    "input": {
+      "aegisaltore": 1
+    },
+    "output": {
+      "money": 30
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "money": 10
+    }
+  },
+  {
+    "input": {
+      "copperore": 1
+    },
+    "output": {
+      "money": 5
+    }
+  },
+  {
+    "input": {
+      "diamond": 1
+    },
+    "output": {
+      "money": 600
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "money": 50
+    }
+  },
+  {
+    "input": {
+      "durasteelore": 1
+    },
+    "output": {
+      "money": 25
+    }
+  },
+  {
+    "input": {
+      "feroziumore": 1
+    },
+    "output": {
+      "money": 30
+    }
+  },
+  {
+    "input": {
+      "goldbar": 1
+    },
+    "output": {
+      "money": 20
+    }
+  },
+  {
+    "input": {
+      "goldore": 1
+    },
+    "output": {
+      "money": 10
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "money": 20
+    }
+  },
+  {
+    "input": {
+      "ironore": 1
+    },
+    "output": {
+      "money": 10
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 1
+    },
+    "output": {
+      "money": 60
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 1
+    },
+    "output": {
+      "money": 60
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 1
+    },
+    "output": {
+      "money": 60
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1
+    },
+    "output": {
+      "money": 15
+    }
+  },
+  {
+    "input": {
+      "silverore": 1
+    },
+    "output": {
+      "money": 8
+    }
+  },
+  {
+    "input": {
+      "solariumore": 1
+    },
+    "output": {
+      "money": 30
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1
+    },
+    "output": {
+      "money": 40
+    }
+  },
+  {
+    "input": {
+      "titaniumore": 1
+    },
+    "output": {
+      "money": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "money": 30
+    }
+  },
+  {
+    "input": {
+      "tungstenore": 1
+    },
+    "output": {
+      "money": 15
+    }
+  },
+  {
+    "input": {
+      "violiumore": 1
+    },
+    "output": {
+      "money": 30
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "apexcommanderjacket": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "apexcommanderpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "apexnavyjacket": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "apexnavypants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "apexofficerjacket": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "apexofficerpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "apexspecialistjacket": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "apexspecialistpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "kimonochest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "kimonolegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "monkchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "monklegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "traditionalchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "traditionallegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "traineechest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "traineelegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "leather": 4
+    },
+    "output": {
+      "avianadventurershirt": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "leather": 2
+    },
+    "output": {
+      "avianadventurerpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "aviancommonershirt": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "aviancommonerlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "avianfancyshirt": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "avianfancyskirt": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "avianworkershirt": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "avianworkerpants": 1
+    }
+  },
+  {
+    "input": {
+      "leather": 5,
+      "fabric": 5,
+      "string": 5
+    },
+    "output": {
+      "boxingglove": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "string": 5
+    },
+    "output": {
+      "eyepatchhead": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "floranfurnivourchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "floranfurnivourlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "floranhunterchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "floranhunterlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "floranleafchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "floranleaflegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "floranpeltchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "floranpeltlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "floransurvivalistchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "floransurvivalistlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "conceptchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "conceptlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "coolchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "coollegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "sweatervestchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "sweatervestlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "workoutchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "workoutlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "novakidfancychest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "novakidfancypants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "novakidjacket": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "novakidjacketpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "novakidsuspenders": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "novakidsuspenderspants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "novakidwaistcoat": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "novakidblackpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "craftsmenchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "craftsmenlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "merchantchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "merchantlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "noblechest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "noblelegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "peasantchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "peasantlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "tshirtchest": 1
+    }
+  },
+  {
+    "input": {
+      "coalore": 5,
+      "bottle": 1
+    },
+    "output": {
+      "blackdye": 1
+    }
+  },
+  {
+    "input": {
+      "petalblue": 5,
+      "bottle": 1
+    },
+    "output": {
+      "bluedye": 1
+    }
+  },
+  {
+    "input": {
+      "liquidhealing": 5,
+      "bottle": 1
+    },
+    "output": {
+      "dyeremover": 1
+    }
+  },
+  {
+    "input": {
+      "petalred": 5,
+      "bottle": 1
+    },
+    "output": {
+      "reddye": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 5,
+      "bottle": 1
+    },
+    "output": {
+      "whitedye": 1
+    }
+  },
+  {
+    "input": {
+      "petalyellow": 5,
+      "bottle": 1
+    },
+    "output": {
+      "yellowdye": 1
+    }
+  },
+  {
+    "input": {
+      "cotton": 3
+    },
+    "output": {
+      "cottonwool": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 4
+    },
+    "output": {
+      "fabric": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 2
+    },
+    "output": {
+      "string": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 4
+    },
+    "output": {
+      "teddybearplush": 1
+    }
+  },
+  {
+    "input": {
+      "cottonwool": 2
+    },
+    "output": {
+      "shortcapeback": 1
+    }
+  },
+  {
+    "input": {
+      "cottonwool": 4
+    },
+    "output": {
+      "simplecapeback": 1
+    }
+  },
+  {
+    "input": {
+      "reddye": 1,
+      "greendye": 1
+    },
+    "output": {
+      "browndye": 2
+    }
+  },
+  {
+    "input": {
+      "yellowdye": 1,
+      "bluedye": 1
+    },
+    "output": {
+      "greendye": 2
+    }
+  },
+  {
+    "input": {
+      "whitedye": 1,
+      "blackdye": 1
+    },
+    "output": {
+      "greydye": 2
+    }
+  },
+  {
+    "input": {
+      "yellowdye": 1,
+      "reddye": 1
+    },
+    "output": {
+      "orangedye": 2
+    }
+  },
+  {
+    "input": {
+      "reddye": 1,
+      "whitedye": 1
+    },
+    "output": {
+      "pinkdye": 2
+    }
+  },
+  {
+    "input": {
+      "reddye": 1,
+      "bluedye": 1
+    },
+    "output": {
+      "purpledye": 2
+    }
+  },
+  {
+    "input": {
+      "cottonwool": 3
+    },
+    "output": {
+      "canvas": 1
+    }
+  },
+  {
+    "input": {
+      "silkfibre": 4
+    },
+    "output": {
+      "silk": 1
+    }
+  },
+  {
+    "input": {
+      "coalore": 5,
+      "liquidpoison": 5
+    },
+    "output": {
+      "syntheticmaterial": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 50,
+      "copperbar": 10
+    },
+    "output": {
+      "mannequin": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "blackteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "brassteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "futureteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "scienceteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "stoneteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "diamond": 15
+    },
+    "output": {
+      "teleportercore": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "tombteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "woodenteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "venomsample": 50
+    },
+    "output": {
+      "terraformeralien": 1
+    }
+  },
+  {
+    "input": {
+      "staticcell": 50
+    },
+    "output": {
+      "terraformerdesert": 1
+    }
+  },
+  {
+    "input": {
+      "venomsample": 50
+    },
+    "output": {
+      "terraformerforest": 1
+    }
+  },
+  {
+    "input": {
+      "venomsample": 50
+    },
+    "output": {
+      "terraformergarden": 1
+    }
+  },
+  {
+    "input": {
+      "venomsample": 50
+    },
+    "output": {
+      "terraformerjungle": 1
+    }
+  },
+  {
+    "input": {
+      "cryonicextract": 50
+    },
+    "output": {
+      "terraformermidnight": 1
+    }
+  },
+  {
+    "input": {
+      "staticcell": 50
+    },
+    "output": {
+      "terraformersavannah": 1
+    }
+  },
+  {
+    "input": {
+      "scorchedcore": 50
+    },
+    "output": {
+      "terraformerscorched": 1
+    }
+  },
+  {
+    "input": {
+      "cryonicextract": 50
+    },
+    "output": {
+      "terraformersnow": 1
+    }
+  },
+  {
+    "input": {
+      "cryonicextract": 50
+    },
+    "output": {
+      "terraformertundra": 1
+    }
+  },
+  {
+    "input": {
+      "scorchedcore": 50
+    },
+    "output": {
+      "terraformervolcanic": 1
+    }
+  },
+  {
+    "input": {
+      "scorchedcore": 10,
+      "cryonicextract": 10,
+      "venomsample": 10,
+      "staticcell": 10
+    },
+    "output": {
+      "adaptablecrossbow": 1
+    }
+  },
+  {
+    "input": {
+      "translator1": 1,
+      "translator2": 1
+    },
+    "output": {
+      "ancientalphabet-codex": 1
+    }
+  },
+  {
+    "input": {
+      "firework": 5,
+      "fireworkgreen": 5,
+      "fireworkblue": 5,
+      "silverbar": 10,
+      "battery": 1
+    },
+    "output": {
+      "fireworkgun": 1
+    }
+  },
+  {
+    "input": {
+      "phasematter": 10,
+      "leather": 5,
+      "goldore": 1
+    },
+    "output": {
+      "ghostlycollar": 1
+    }
+  },
+  {
+    "input": {
+      "livingroot": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "giantbowhead": 1
+    }
+  },
+  {
+    "input": {
+      "dubloon": 10
+    },
+    "output": {
+      "penguincostume": 1
+    }
+  },
+  {
+    "input": {
+      "scorchedcore": 1,
+      "cryonicextract": 1,
+      "staticcell": 1,
+      "venomsample": 1
+    },
+    "output": {
+      "perfectlygenericitem": 1
+    }
+  },
+  {
+    "input": {
+      "sandstonestatuehuman": 1,
+      "sandstonestatuefloran": 1,
+      "sandstonestatuehylotl": 1,
+      "sandstonestatueavian": 1,
+      "sandstonestatueapex": 1,
+      "sandstonestatueglitch": 1
+    },
+    "output": {
+      "venusdepixel": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "and": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 2
+    },
+    "output": {
+      "countdowntimer": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "delay": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "dlatch": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "not": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "or": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 2
+    },
+    "output": {
+      "timer": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "xor": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 1
+    },
+    "output": {
+      "alarm": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 1
+    },
+    "output": {
+      "bulb": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "tungstenbar": 2
+    },
+    "output": {
+      "drain": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 2,
+      "siliconboard": 1,
+      "wire": 5,
+      "smallbattery": 1
+    },
+    "output": {
+      "secretdoor": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 2,
+      "siliconboard": 1,
+      "wire": 5,
+      "smallbattery": 1
+    },
+    "output": {
+      "secrettrapdoor": 1
+    }
+  },
+  {
+    "input": {
+      "scanner": 1,
+      "siliconboard": 1,
+      "smallbattery": 1,
+      "wire": 2,
+      "durasteelbar": 5
+    },
+    "output": {
+      "standingturret": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "wire": 2,
+      "siliconboard": 1,
+      "stickofram": 1
+    },
+    "output": {
+      "lightsensor": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "wire": 1,
+      "siliconboard": 1,
+      "stickofram": 1
+    },
+    "output": {
+      "liquidsensor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "wire": 1,
+      "siliconboard": 1,
+      "stickofram": 1
+    },
+    "output": {
+      "proximitysensor": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "wire": 1,
+      "siliconboard": 1,
+      "stickofram": 1
+    },
+    "output": {
+      "scanner": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 5
+    },
+    "output": {
+      "bigredbutton": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 2
+    },
+    "output": {
+      "persistentswitch": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 2
+    },
+    "output": {
+      "smallfloorbutton": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 2
+    },
+    "output": {
+      "smallwallbutton": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 2
+    },
+    "output": {
+      "smallwallswitch": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "wire": 5
+    },
+    "output": {
+      "tier1switch": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "wire": 5
+    },
+    "output": {
+      "tier2switch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "wire": 5,
+      "smallbattery": 1
+    },
+    "output": {
+      "tier3switch": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "wire": 5,
+      "siliconboard": 1,
+      "smallbattery": 2
+    },
+    "output": {
+      "tier4switch": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 1
+    },
+    "output": {
+      "tinywallbutton": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 1
+    },
+    "output": {
+      "tinywallswitch": 1
+    }
+  }
+];
+var items = {
   "durablefishingrod": {
     "price": 1500,
     "category": "fishingRod",
@@ -7,16 +10468,7 @@
     "description": "A durasteel rod for fishing in extreme environments.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 6,
-          "silverbar": 2,
-          "syntheticmaterial": 5
-        },
-        "output": {
-          "durablefishingrod": 1
-        }
-      }
+      629
     ]
   },
   "fishingrod": {
@@ -27,16 +10479,7 @@
     "description": "A simple wooden fishing rod with titanium fittings.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "titaniumbar": 2,
-          "string": 10
-        },
-        "output": {
-          "fishingrod": 1
-        }
-      }
+      618
     ]
   },
   "fossilbrushbeginner": {
@@ -47,15 +10490,7 @@
     "description": "Can be used once to excavate a fossil, with limited success.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 5,
-          "string": 1
-        },
-        "output": {
-          "fossilbrushbeginner": 1
-        }
-      }
+      636
     ]
   },
   "fossilbrushmaster": {
@@ -66,16 +10501,7 @@
     "description": "Can be used once to excavate a fossil, with heightened success.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "goldbar": 1,
-          "darkwoodmaterial": 2,
-          "string": 3
-        },
-        "output": {
-          "fossilbrushmaster": 1
-        }
-      }
+      637
     ]
   },
   "fossilbrushstudent": {
@@ -86,16 +10512,7 @@
     "description": "Can be used once to excavate a fossil, with moderate success.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "silverbar": 1,
-          "darkwoodmaterial": 2,
-          "string": 2
-        },
-        "output": {
-          "fossilbrushstudent": 1
-        }
-      }
+      638
     ]
   },
   "climbingrope": {
@@ -105,74 +10522,15 @@
     "title": "Rope",
     "description": "A length of rope. Useful for climbing and tying things together!",
     "recipes": [
-      {
-        "input": {
-          "ironbar": 6,
-          "climbingrope": 4
-        },
-        "output": {
-          "ironbroadsword": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "climbingrope": 2
-        },
-        "output": {
-          "ironshortsword": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 3,
-          "climbingrope": 2
-        },
-        "output": {
-          "tungstenaxe": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "climbingrope": 4
-        },
-        "output": {
-          "tungstenhammer": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "diamond": 1,
-          "climbingrope": 1,
-          "wire": 2,
-          "smallbattery": 4
-        },
-        "output": {
-          "grapplinghook": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 40,
-          "cobblestonematerial": 5,
-          "climbingrope": 1
-        },
-        "output": {
-          "craftingwheel": 1
-        }
-      }
+      44,
+      46,
+      48,
+      49,
+      632,
+      911
     ],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 2
-        },
-        "output": {
-          "climbingrope": 1
-        }
-      }
+      609
     ]
   },
   "grapplinghook": {
@@ -183,18 +10541,7 @@
     "description": "Oh my god, whee! This is so fun!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 20,
-          "diamond": 1,
-          "climbingrope": 1,
-          "wire": 2,
-          "smallbattery": 4
-        },
-        "output": {
-          "grapplinghook": 1
-        }
-      }
+      632
     ]
   },
   "commonlargeshield": {
@@ -275,16 +10622,7 @@
     "description": "Slightly more durable than your bare hands.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 4,
-          "darkwoodmaterial": 20,
-          "string": 4
-        },
-        "output": {
-          "startershield": 1
-        }
-      }
+      47
     ]
   },
   "broom": {
@@ -304,15 +10642,7 @@
     "description": "A net for catching bugs! Hunt insects down, capture them, and grow your collection!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 5,
-          "string": 10
-        },
-        "output": {
-          "bugnet": 1
-        }
-      }
+      617
     ]
   },
   "filledcapturepod": {
@@ -340,113 +10670,19 @@
     "title": "Geode",
     "description": "Break this geode open to reveal its contents. Geology rocks!",
     "recipes": [
-      {
-        "input": {
-          "geode": 100
-        },
-        "output": {
-          "geodebed": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 20
-        },
-        "output": {
-          "geodebnote": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 10,
-          "metallic": 10
-        },
-        "output": {
-          "geodeceilinglight": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 50
-        },
-        "output": {
-          "geodechair": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 20
-        },
-        "output": {
-          "geodecnote": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 20
-        },
-        "output": {
-          "geodednote": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 10,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "geodedoor": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 20
-        },
-        "output": {
-          "geodeenote": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 20
-        },
-        "output": {
-          "geodefnote": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 20
-        },
-        "output": {
-          "geodegnote": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 20
-        },
-        "output": {
-          "geodehighanote": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 20
-        },
-        "output": {
-          "geodelowanote": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 10,
-          "logblock": 10
-        },
-        "output": {
-          "geodeplantpot": 1
-        }
-      }
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329
     ],
     "makes": []
   },
@@ -458,17 +10694,7 @@
     "description": "Emits pulses to plot the density of nearby materials.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 10,
-          "goldbar": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "cavedetector": 1
-        }
-      }
+      631
     ]
   },
   "oredetector": {
@@ -479,18 +10705,7 @@
     "description": "Emits pulses to analyse the composition of nearby minerals.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 5,
-          "refinedviolium": 5,
-          "refinedaegisalt": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "oredetector": 1
-        }
-      }
+      634
     ]
   },
   "parasol": {
@@ -510,14 +10725,7 @@
     "description": "A package containing a full novelty Penguin costume.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "dubloon": 10
-        },
-        "output": {
-          "penguincostume": 1
-        }
-      }
+      1114
     ]
   },
   "railhook": {
@@ -528,16 +10736,7 @@
     "description": "Ride the rails!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sharpenedclaw": 1,
-          "durasteelbar": 5,
-          "silverbar": 5
-        },
-        "output": {
-          "railhook": 1
-        }
-      }
+      979
     ]
   },
   "compositerailplatform": {
@@ -548,17 +10747,7 @@
     "description": "Place a self-propelled platform that follows rails.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wire": 8,
-          "smallbattery": 2,
-          "durasteelbar": 3,
-          "silverbar": 3
-        },
-        "output": {
-          "compositerailplatform": 1
-        }
-      }
+      976
     ]
   },
   "rustyrailplatform": {
@@ -569,16 +10758,7 @@
     "description": "A platform that follows a set path when placed on a rail.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wire": 8,
-          "smallbattery": 1,
-          "copperbar": 5
-        },
-        "output": {
-          "rustyrailplatform": 1
-        }
-      }
+      984
     ]
   },
   "relocator": {
@@ -589,17 +10769,7 @@
     "description": "Holds up to 3 friendly creatures in stasis in order to safely relocate them.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 10,
-          "smallbattery": 4,
-          "siliconboard": 2,
-          "wire": 6
-        },
-        "output": {
-          "relocator": 1
-        }
-      }
+      630
     ]
   },
   "rewardbag": {
@@ -637,16 +10807,7 @@
     "description": "Water your crops with this fashionable watering can.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 2,
-          "greendye": 1,
-          "reddye": 1
-        },
-        "output": {
-          "wateringcan": 1
-        }
-      }
+      614
     ]
   },
   "woodenwateringcan": {
@@ -657,15 +10818,7 @@
     "description": "Gently and efficiently water your crops.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "copperbar": 1
-        },
-        "output": {
-          "woodenwateringcan": 1
-        }
-      }
+      615
     ]
   },
   "boatcontrollergreen": {
@@ -738,36 +10891,9 @@
     "title": "Boomerang",
     "description": "State-of-the-art microthrusters guarantee that it will always return.",
     "recipes": [
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "scorchedcore": 15
-        },
-        "output": {
-          "fireboomerang": 1
-        }
-      },
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "cryonicextract": 15
-        },
-        "output": {
-          "iceboomerang": 1
-        }
-      },
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "phasematter": 15
-        },
-        "output": {
-          "lunarang": 1
-        }
-      }
+      53,
+      55,
+      56
     ],
     "makes": []
   },
@@ -779,16 +10905,7 @@
     "description": "A blazing hot boomerang with a molten core.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "scorchedcore": 15
-        },
-        "output": {
-          "fireboomerang": 1
-        }
-      }
+      53
     ]
   },
   "iceboomerang": {
@@ -799,16 +10916,7 @@
     "description": "A freezing cold boomerang with a frozen core.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "cryonicextract": 15
-        },
-        "output": {
-          "iceboomerang": 1
-        }
-      }
+      55
     ]
   },
   "lunarang": {
@@ -819,16 +10927,7 @@
     "description": "That's no moon.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "phasematter": 15
-        },
-        "output": {
-          "lunarang": 1
-        }
-      }
+      56
     ]
   },
   "wormerang": {
@@ -906,27 +11005,10 @@
     "title": "Hunting Bow",
     "description": "Harvests meat and other goods from monsters.",
     "recipes": [
-      {
-        "input": {
-          "bow": 1,
-          "money": 150
-        },
-        "output": {
-          "cupidsbow": 1
-        }
-      }
+      845
     ],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 20,
-          "string": 1,
-          "copperbar": 1
-        },
-        "output": {
-          "bow": 1
-        }
-      }
+      616
     ]
   },
   "cavebow": {
@@ -946,16 +11028,7 @@
     "description": "Harvests meat and other goods from monsters.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 4,
-          "string": 1,
-          "liquidoil": 3
-        },
-        "output": {
-          "compoundbow": 1
-        }
-      }
+      628
     ]
   },
   "cupidsbow": {
@@ -966,15 +11039,7 @@
     "description": "Arrows loosed from this bow provoke unbridled passion.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "bow": 1,
-          "money": 150
-        },
-        "output": {
-          "cupidsbow": 1
-        }
-      }
+      845
     ]
   },
   "frozenbow": {
@@ -1030,16 +11095,7 @@
     "description": "Harvests meat and other goods from monsters.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 4,
-          "string": 1,
-          "liquidoil": 3
-        },
-        "output": {
-          "tungstenbow": 1
-        }
-      }
+      621
     ]
   },
   "chakram": {
@@ -1049,36 +11105,9 @@
     "title": "Chakram",
     "description": "Grand masters of the chakram can catch it without losing fingers.",
     "recipes": [
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "hardenedcarapace": 15
-        },
-        "output": {
-          "hardchakram": 1
-        }
-      },
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "stickofram": 15
-        },
-        "output": {
-          "neochakram": 1
-        }
-      },
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "sharpenedclaw": 15
-        },
-        "output": {
-          "sawchakram": 1
-        }
-      }
+      54,
+      57,
+      58
     ],
     "makes": []
   },
@@ -1090,16 +11119,7 @@
     "description": "Solid, heavy, and brutally effective.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "hardenedcarapace": 15
-        },
-        "output": {
-          "hardchakram": 1
-        }
-      }
+      54
     ]
   },
   "neochakram": {
@@ -1110,16 +11130,7 @@
     "description": "Crackling with destructive energy.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "stickofram": 15
-        },
-        "output": {
-          "neochakram": 1
-        }
-      }
+      57
     ]
   },
   "sawchakram": {
@@ -1130,16 +11141,7 @@
     "description": "A favourite weapon of the sacred order of lumbermonks.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "sharpenedclaw": 15
-        },
-        "output": {
-          "sawchakram": 1
-        }
-      }
+      58
     ]
   },
   "boxingglove": {
@@ -1150,16 +11152,7 @@
     "description": "Now you can be a contender.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "leather": 5,
-          "fabric": 5,
-          "string": 5
-        },
-        "output": {
-          "boxingglove": 1
-        }
-      }
+      1031
     ]
   },
   "brassknuckles": {
@@ -1179,16 +11172,7 @@
     "description": "Not adamantium, but still cool.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "sharpenedclaw": 15
-        },
-        "output": {
-          "clawglove": 1
-        }
-      }
+      52
     ]
   },
   "gauntlet": {
@@ -1198,36 +11182,9 @@
     "title": "Gauntlet",
     "description": "Perfect for initiating a duel.",
     "recipes": [
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "sharpenedclaw": 15
-        },
-        "output": {
-          "clawglove": 1
-        }
-      },
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "staticcell": 15
-        },
-        "output": {
-          "stunglove": 1
-        }
-      },
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "livingroot": 15
-        },
-        "output": {
-          "vinefist": 1
-        }
-      }
+      52,
+      59,
+      60
     ],
     "makes": []
   },
@@ -1239,16 +11196,7 @@
     "description": "Shockingly effective.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "staticcell": 15
-        },
-        "output": {
-          "stunglove": 1
-        }
-      }
+      59
     ]
   },
   "supernovaglove": {
@@ -1268,16 +11216,7 @@
     "description": "Unleash the power of nature!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "livingroot": 15
-        },
-        "output": {
-          "vinefist": 1
-        }
-      }
+      60
     ]
   },
   "commonaxe": {
@@ -1504,15 +11443,7 @@
     "description": "A fully automatic military grade rifle.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "durasteelassaultrifle": 1
-        }
-      }
+      243
     ]
   },
   "durasteelrevolver": {
@@ -1523,15 +11454,7 @@
     "description": "A large handgun that packs a punch.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 3,
-          "copperbar": 2
-        },
-        "output": {
-          "durasteelrevolver": 1
-        }
-      }
+      245
     ]
   },
   "ironassaultrifle": {
@@ -1542,15 +11465,7 @@
     "description": "A fully automatic military grade rifle.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 6,
-          "darkwoodmaterial": 4
-        },
-        "output": {
-          "ironassaultrifle": 1
-        }
-      }
+      43
     ]
   },
   "ironrevolver": {
@@ -1561,15 +11476,7 @@
     "description": "A large handgun that packs a punch.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 3,
-          "darkwoodmaterial": 2
-        },
-        "output": {
-          "ironrevolver": 1
-        }
-      }
+      45
     ]
   },
   "titaniummachinepistol": {
@@ -1580,15 +11487,7 @@
     "description": "A large handgun that packs a kick.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 3,
-          "copperbar": 2
-        },
-        "output": {
-          "titaniummachinepistol": 1
-        }
-      }
+      84
     ]
   },
   "titaniumsniperrifle": {
@@ -1599,15 +11498,7 @@
     "description": "Powerfully strong to cover long distances.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "titaniumsniperrifle": 1
-        }
-      }
+      85
     ]
   },
   "tungstenmagnum": {
@@ -1618,15 +11509,7 @@
     "description": "A large handgun that packs a punch.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 3,
-          "copperbar": 1
-        },
-        "output": {
-          "tungstenmagnum": 1
-        }
-      }
+      50
     ]
   },
   "tungstenshotgun": {
@@ -1637,15 +11520,7 @@
     "description": "Fires a spread that's lethal at close range.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 6,
-          "copperbar": 2
-        },
-        "output": {
-          "tungstenshotgun": 1
-        }
-      }
+      51
     ]
   },
   "npcassaultrifle": {
@@ -1865,17 +11740,7 @@
     "description": "Launches interchangeable bolts by magnetic force.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "scorchedcore": 10,
-          "cryonicextract": 10,
-          "venomsample": 10,
-          "staticcell": 10
-        },
-        "output": {
-          "adaptablecrossbow": 1
-        }
-      }
+      1109
     ]
   },
   "chargegun": {
@@ -1935,18 +11800,7 @@
     "description": "Yes, it shoots fireworks!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "firework": 5,
-          "fireworkgreen": 5,
-          "fireworkblue": 5,
-          "silverbar": 10,
-          "battery": 1
-        },
-        "output": {
-          "fireworkgun": 1
-        }
-      }
+      1111
     ]
   },
   "flamingdemonsword": {
@@ -2046,16 +11900,7 @@
     "description": "The traditional weapon for hunting Laser Deer.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "aegisaltbow": 1
-        }
-      }
+      237
     ]
   },
   "aegisaltpistol": {
@@ -2066,15 +11911,7 @@
     "description": "Emits a continuous beam of pure destructive energy.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 3,
-          "smallbattery": 1
-        },
-        "output": {
-          "aegisaltpistol": 1
-        }
-      }
+      238
     ]
   },
   "brokenprotectoratebroadsword": {
@@ -2101,15 +11938,7 @@
     "description": "A blade forged from solid durasteel. Few metals are stronger.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "durasteelbroadsword": 1
-        }
-      }
+      244
     ]
   },
   "durasteelshortsword": {
@@ -2120,15 +11949,7 @@
     "description": "This shortsword is forged from solid durasteel.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 3,
-          "copperbar": 2
-        },
-        "output": {
-          "durasteelshortsword": 1
-        }
-      }
+      246
     ]
   },
   "feroziumstaff": {
@@ -2139,16 +11960,7 @@
     "description": "This hardened ferozium staff concentrates energy at an impressive distance.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "feroziumstaff": 1
-        }
-      }
+      239
     ]
   },
   "feroziumwand": {
@@ -2159,15 +11971,7 @@
     "description": "What is this, a staff for ants?",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 3,
-          "smallbattery": 1
-        },
-        "output": {
-          "feroziumwand": 1
-        }
-      }
+      240
     ]
   },
   "ironbroadsword": {
@@ -2178,15 +11982,7 @@
     "description": "It's a crudely fashioned broadsword.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 6,
-          "climbingrope": 4
-        },
-        "output": {
-          "ironbroadsword": 1
-        }
-      }
+      44
     ]
   },
   "ironshortsword": {
@@ -2197,15 +11993,7 @@
     "description": "Doesn't feel so short to enemies.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 3,
-          "climbingrope": 2
-        },
-        "output": {
-          "ironshortsword": 1
-        }
-      }
+      46
     ]
   },
   "protectoratebroadsword": {
@@ -2225,15 +12013,7 @@
     "description": "This dagger is light, but incredibly durable.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 2,
-          "copperbar": 1
-        },
-        "output": {
-          "titaniumdagger": 1
-        }
-      }
+      83
     ]
   },
   "titaniumspear": {
@@ -2244,15 +12024,7 @@
     "description": "A spear made for keeping enemies at bay.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "titaniumspear": 1
-        }
-      }
+      86
     ]
   },
   "tungstenaxe": {
@@ -2263,15 +12035,7 @@
     "description": "This axe is surprisingly hefty for its size.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 3,
-          "climbingrope": 2
-        },
-        "output": {
-          "tungstenaxe": 1
-        }
-      }
+      48
     ]
   },
   "tungstenhammer": {
@@ -2282,15 +12046,7 @@
     "description": "Heavy, but hard-hitting.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 6,
-          "climbingrope": 4
-        },
-        "output": {
-          "tungstenhammer": 1
-        }
-      }
+      49
     ]
   },
   "violiumbroadsword": {
@@ -2301,16 +12057,7 @@
     "description": "This hardened violium hilt houses the projector for a wicked energy blade.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "violiumbroadsword": 1
-        }
-      }
+      241
     ]
   },
   "violiumshortsword": {
@@ -2321,15 +12068,7 @@
     "description": "This violium hilt houses the projector for a wicked energy blade.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 3,
-          "smallbattery": 1
-        },
-        "output": {
-          "violiumshortsword": 1
-        }
-      }
+      242
     ]
   },
   "commonassaultrifle": {
@@ -2539,16 +12278,7 @@
     "description": "Why wait for a blue moon when you can make one yourself?",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "bluedye": 2
-        },
-        "output": {
-          "paintgunblue": 1
-        }
-      }
+      286
     ]
   },
   "paintgungreen": {
@@ -2559,16 +12289,7 @@
     "description": "This paintgun will make others green with envy.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "greendye": 2
-        },
-        "output": {
-          "paintgungreen": 1
-        }
-      }
+      287
     ]
   },
   "paintgunorange": {
@@ -2579,16 +12300,7 @@
     "description": "For shooting anyone who says nothing rhymes with orange.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "orangedye": 2
-        },
-        "output": {
-          "paintgunorange": 1
-        }
-      }
+      288
     ]
   },
   "paintgunpurple": {
@@ -2599,16 +12311,7 @@
     "description": "This gun makes it rain purple.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "purpledye": 2
-        },
-        "output": {
-          "paintgunpurple": 1
-        }
-      }
+      289
     ]
   },
   "paintgunred": {
@@ -2619,16 +12322,7 @@
     "description": "Paint the town red!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "reddye": 2
-        },
-        "output": {
-          "paintgunred": 1
-        }
-      }
+      290
     ]
   },
   "paintgunyellow": {
@@ -2639,16 +12333,7 @@
     "description": "Makes it clear how yellow your targets are.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "yellowdye": 2
-        },
-        "output": {
-          "paintgunyellow": 1
-        }
-      }
+      291
     ]
   },
   "snowgun": {
@@ -2659,16 +12344,7 @@
     "description": "Powered by snow, it's fully automatic and keeps your gloves dry.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 10,
-          "snow": 10,
-          "glass": 10
-        },
-        "output": {
-          "snowgun": 1
-        }
-      }
+      396
     ]
   },
   "watergun": {
@@ -2749,16 +12425,7 @@
     "description": "A low-grade military chestguard that protects the most vital organs.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "apextier1chest": 1
-        }
-      }
+      0
     ]
   },
   "apextier1head": {
@@ -2769,15 +12436,7 @@
     "description": "An iron mask that somewhat disguises the wearer's identity.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "apextier1head": 1
-        }
-      }
+      1
     ]
   },
   "apextier1pants": {
@@ -2788,15 +12447,7 @@
     "description": "Trousers and boots that allow for flexibility whilst still providing protection from the elements.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "apextier1pants": 1
-        }
-      }
+      2
     ]
   },
   "apextier2chest": {
@@ -2807,16 +12458,7 @@
     "description": "Upper body armour fashioned from segmented tungsten plates.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "apextier2chest": 1
-        }
-      }
+      21
     ]
   },
   "apextier2head": {
@@ -2827,15 +12469,7 @@
     "description": "This hood and mask gives the wearer a rebellious appearance.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "apextier2head": 1
-        }
-      }
+      22
     ]
   },
   "apextier2pants": {
@@ -2846,15 +12480,7 @@
     "description": "Tungsten-plated leg armour that doesn't restrict the movement of the wearer.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "apextier2pants": 1
-        }
-      }
+      23
     ]
   },
   "apextier3chest": {
@@ -2865,16 +12491,7 @@
     "description": "This jacket has titanium shoulder guards and built-in shock-resistant padding.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "apextier3chest": 1
-        }
-      }
+      61
     ]
   },
   "apextier3head": {
@@ -2885,15 +12502,7 @@
     "description": "This cunning headwear leaves only the the eyes visible.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "apextier3head": 1
-        }
-      }
+      62
     ]
   },
   "apextier3pants": {
@@ -2904,15 +12513,7 @@
     "description": "Impact-absorbing trousers with titanium plated boots.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "apextier3pants": 1
-        }
-      }
+      63
     ]
   },
   "apextier4chest": {
@@ -2923,16 +12524,7 @@
     "description": "The durasteel lining of this jacket makes it both fashionable and tough.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "apextier4chest": 1
-        }
-      }
+      90
     ]
   },
   "apextier4head": {
@@ -2943,15 +12535,7 @@
     "description": "This bandana and shash are perfect for the budding revolutionary.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "apextier4head": 1
-        }
-      }
+      91
     ]
   },
   "apextier4pants": {
@@ -2962,15 +12546,7 @@
     "description": "Durasteel-lined trousers, accompanied by heavy-duty boots. Sleek and practical - vive la revolution!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "apextier4pants": 1
-        }
-      }
+      92
     ]
   },
   "apextier5achest": {
@@ -2980,27 +12556,10 @@
     "title": "Rogue's Chestguard",
     "description": "A fabric chestguard woven of aegisalt that provides protection and allows stealthy movement. ",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "apextier5achest": 1
-        },
-        "output": {
-          "apextier6achest": 1
-        }
-      }
+      174
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5achest": 1
-        }
-      }
+      111
     ]
   },
   "apextier5ahead": {
@@ -3010,27 +12569,10 @@
     "title": "Rogue's Hood",
     "description": "A hood that conceals the wearer's face and creates an air of mystery - perfect for clandestine operations.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "apextier5ahead": 1
-        },
-        "output": {
-          "apextier6ahead": 1
-        }
-      }
+      175
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5ahead": 1
-        }
-      }
+      112
     ]
   },
   "apextier5apants": {
@@ -3040,27 +12582,10 @@
     "title": "Rogue's Trousers",
     "description": "Trousers and boots that are light and flexible - ideal attire for sneaking about.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "apextier5apants": 1
-        },
-        "output": {
-          "apextier6apants": 1
-        }
-      }
+      176
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5apants": 1
-        }
-      }
+      113
     ]
   },
   "apextier5mchest": {
@@ -3070,27 +12595,10 @@
     "title": "Spy's Jacket",
     "description": "The multiple layers of folded ferozium used to fashion this armour render its wearer almost indomitable.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "apextier5mchest": 1
-        },
-        "output": {
-          "apextier6mchest": 1
-        }
-      }
+      195
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5mchest": 1
-        }
-      }
+      132
     ]
   },
   "apextier5mhead": {
@@ -3100,26 +12608,10 @@
     "title": "Spy's Hood",
     "description": "Headwear that veils the wearer's face. The goggles tint the world scarlet.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "apextier5mhead": 1
-        },
-        "output": {
-          "apextier6mhead": 1
-        }
-      }
+      196
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "apextier5mhead": 1
-        }
-      }
+      133
     ]
   },
   "apextier5mpants": {
@@ -3129,26 +12621,10 @@
     "title": "Spy's Trousers",
     "description": "These flexible trousers are toughened with ferozium, so the wearer will be swift, silent and safe.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "apextier5mpants": 1
-        },
-        "output": {
-          "apextier6mpants": 1
-        }
-      }
+      197
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "apextier5mpants": 1
-        }
-      }
+      134
     ]
   },
   "apextier5schest": {
@@ -3158,27 +12634,10 @@
     "title": "Assassin's Chestguard",
     "description": "Armour-reinforced regal garments, to suit the would-be assassin.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "apextier5schest": 1
-        },
-        "output": {
-          "apextier6schest": 1
-        }
-      }
+      216
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5schest": 1
-        }
-      }
+      153
     ]
   },
   "apextier5shead": {
@@ -3188,26 +12647,10 @@
     "title": "Assassin's Mask",
     "description": "Headgear designed to inconspicuously disguise the wearer.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "apextier5shead": 1
-        },
-        "output": {
-          "apextier6shead": 1
-        }
-      }
+      217
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "apextier5shead": 1
-        }
-      }
+      154
     ]
   },
   "apextier5spants": {
@@ -3217,26 +12660,10 @@
     "title": "Assassin's Trousers",
     "description": "An elegant set of trousers and boots that are light enough for the wearer to make a quick getaway.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "apextier5spants": 1
-        },
-        "output": {
-          "apextier6spants": 1
-        }
-      }
+      218
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "apextier5spants": 1
-        }
-      }
+      155
     ]
   },
   "apextier6achest": {
@@ -3247,15 +12674,7 @@
     "description": "This near-impenetrable armour is flexible at the neck, arm joints and midriff, to allow agility in combat.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "apextier5achest": 1
-        },
-        "output": {
-          "apextier6achest": 1
-        }
-      }
+      174
     ]
   },
   "apextier6ahead": {
@@ -3266,15 +12685,7 @@
     "description": "Few things are as intimidating as the expressionless stare of this heavily plated helmet.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "apextier5ahead": 1
-        },
-        "output": {
-          "apextier6ahead": 1
-        }
-      }
+      175
     ]
   },
   "apextier6apants": {
@@ -3285,15 +12696,7 @@
     "description": "A set of leg armour with solarium-reinforced greaves that little can pierce.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "apextier5apants": 1
-        },
-        "output": {
-          "apextier6apants": 1
-        }
-      }
+      176
     ]
   },
   "apextier6mchest": {
@@ -3304,15 +12707,7 @@
     "description": "A solarium laced jacket that offers far greater protection than the average observer might suspect.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "apextier5mchest": 1
-        },
-        "output": {
-          "apextier6mchest": 1
-        }
-      }
+      195
     ]
   },
   "apextier6mhead": {
@@ -3323,15 +12718,7 @@
     "description": "A hooded mask that suits the enigmatic nature of those that would overthrow regimes.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "apextier5mhead": 1
-        },
-        "output": {
-          "apextier6mhead": 1
-        }
-      }
+      196
     ]
   },
   "apextier6mpants": {
@@ -3342,15 +12729,7 @@
     "description": "Don't be fooled by their sleek looks, these trousers are uncommonly durable.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "apextier5mpants": 1
-        },
-        "output": {
-          "apextier6mpants": 1
-        }
-      }
+      197
     ]
   },
   "apextier6schest": {
@@ -3361,15 +12740,7 @@
     "description": "The gigantic pauldrons of this armour broadcast that the wearer means business.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "apextier5schest": 1
-        },
-        "output": {
-          "apextier6schest": 1
-        }
-      }
+      216
     ]
   },
   "apextier6shead": {
@@ -3380,15 +12751,7 @@
     "description": "An incredibly durable helmet which is downright terrifying to all who dare to oppose you.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "apextier5shead": 1
-        },
-        "output": {
-          "apextier6shead": 1
-        }
-      }
+      217
     ]
   },
   "apextier6spants": {
@@ -3399,15 +12762,7 @@
     "description": "Profoundly scary shoes.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "apextier5spants": 1
-        },
-        "output": {
-          "apextier6spants": 1
-        }
-      }
+      218
     ]
   },
   "apexcommanderjacket": {
@@ -3418,15 +12773,7 @@
     "description": "A standard issue Apex commander jacket.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexcommanderjacket": 1
-        }
-      }
+      1007
     ]
   },
   "apexcommanderpants": {
@@ -3437,15 +12784,7 @@
     "description": "Standard issue Apex commander trousers.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexcommanderpants": 1
-        }
-      }
+      1008
     ]
   },
   "apexnavyjacket": {
@@ -3456,15 +12795,7 @@
     "description": "A standard issue Apex navy jacket.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexnavyjacket": 1
-        }
-      }
+      1009
     ]
   },
   "apexnavypants": {
@@ -3475,15 +12806,7 @@
     "description": "Standard issue Apex navy trousers.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexnavypants": 1
-        }
-      }
+      1010
     ]
   },
   "apexofficerjacket": {
@@ -3494,15 +12817,7 @@
     "description": "A standard issue Apex officer jacket.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexofficerjacket": 1
-        }
-      }
+      1011
     ]
   },
   "apexofficerpants": {
@@ -3513,15 +12828,7 @@
     "description": "Standard issue Apex officer trousers.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexofficerpants": 1
-        }
-      }
+      1012
     ]
   },
   "apexspecialistjacket": {
@@ -3532,15 +12839,7 @@
     "description": "A standard issue Apex specialist jacket.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexspecialistjacket": 1
-        }
-      }
+      1013
     ]
   },
   "apexspecialistpants": {
@@ -3551,15 +12850,7 @@
     "description": "Standard issue Apex specialist trousers.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexspecialistpants": 1
-        }
-      }
+      1014
     ]
   },
   "avianadventurershirt": {
@@ -3570,15 +12861,7 @@
     "description": "A breastplate which has been woven with treated leather.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "leather": 4
-        },
-        "output": {
-          "avianadventurershirt": 1
-        }
-      }
+      1023
     ]
   },
   "avianadventurerpants": {
@@ -3589,15 +12872,7 @@
     "description": "Made from natural fibres and stylish leather, for the discerning adventurer.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "leather": 2
-        },
-        "output": {
-          "avianadventurerpants": 1
-        }
-      }
+      1024
     ]
   },
   "aviancommonershirt": {
@@ -3608,15 +12883,7 @@
     "description": "A simple sleeveless top, sometimes used in traditional ceremonies.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "aviancommonershirt": 1
-        }
-      }
+      1025
     ]
   },
   "aviancommonerlegs": {
@@ -3627,15 +12894,7 @@
     "description": "A plain skirt which offers mobility and comfort.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "aviancommonerlegs": 1
-        }
-      }
+      1026
     ]
   },
   "avianfancyshirt": {
@@ -3646,15 +12905,7 @@
     "description": "An elegant shirt, generally reserved for special occasions.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "avianfancyshirt": 1
-        }
-      }
+      1027
     ]
   },
   "avianfancyskirt": {
@@ -3665,15 +12916,7 @@
     "description": "A particularly fancy loincloth. Dry-clean only.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "avianfancyskirt": 1
-        }
-      }
+      1028
     ]
   },
   "aviantier1chest": {
@@ -3684,16 +12927,7 @@
     "description": "A chestguard with iron shoulderplates. Complete with red breast.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "aviantier1chest": 1
-        }
-      }
+      3
     ]
   },
   "aviantier1head": {
@@ -3704,15 +12938,7 @@
     "description": "An iron circlet to guard from overhead blows. It's a shame you can't fly, or this wouldn't be so much of an issue.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "aviantier1head": 1
-        }
-      }
+      4
     ]
   },
   "aviantier1pants": {
@@ -3723,15 +12949,7 @@
     "description": "An iron-girded loincloth. It looks feather-light, but it really isn't.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "aviantier1pants": 1
-        }
-      }
+      5
     ]
   },
   "aviantier2chest": {
@@ -3742,16 +12960,7 @@
     "description": "A fortified plate/cravat combo that is both comfortable and stylish.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "aviantier2chest": 1
-        }
-      }
+      24
     ]
   },
   "aviantier2head": {
@@ -3762,15 +12971,7 @@
     "description": "A strong, peaked tungsten helm of great aesthetic value.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "aviantier2head": 1
-        }
-      }
+      25
     ]
   },
   "aviantier2pants": {
@@ -3781,15 +12982,7 @@
     "description": "An alluring striped loincloth, reinforced with tungsten.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "aviantier2pants": 1
-        }
-      }
+      26
     ]
   },
   "aviantier3chest": {
@@ -3800,16 +12993,7 @@
     "description": "Slightly-itchy titanium plate, worn by Avian commoners around the galaxy.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "aviantier3chest": 1
-        }
-      }
+      64
     ]
   },
   "aviantier3head": {
@@ -3820,15 +13004,7 @@
     "description": "Common Avian headwear, adorned with a fancy titanium plume.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier3head": 1
-        }
-      }
+      65
     ]
   },
   "aviantier3pants": {
@@ -3839,15 +13015,7 @@
     "description": "Flexible leg wrappings, with titanium ankle cuffs.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier3pants": 1
-        }
-      }
+      66
     ]
   },
   "aviantier4chest": {
@@ -3858,16 +13026,7 @@
     "description": "A comfortable tunic, bound in durasteel for added durability.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "aviantier4chest": 1
-        }
-      }
+      93
     ]
   },
   "aviantier4head": {
@@ -3878,15 +13037,7 @@
     "description": "A durasteel helmet worn by Avian spacefarers. Not that it'll protect users from the vacuum of space, mind you.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "aviantier4head": 1
-        }
-      }
+      94
     ]
   },
   "aviantier4pants": {
@@ -3897,15 +13048,7 @@
     "description": "This durasteel-lined skirt is snug in all the right places.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "aviantier4pants": 1
-        }
-      }
+      95
     ]
   },
   "aviantier5achest": {
@@ -3915,27 +13058,10 @@
     "title": "Peacock Chestplate",
     "description": "A skillfully designed chestplate that will deflect spears, swords and bullets alike.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "aviantier5achest": 1
-        },
-        "output": {
-          "aviantier6achest": 1
-        }
-      }
+      177
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5achest": 1
-        }
-      }
+      114
     ]
   },
   "aviantier5ahead": {
@@ -3945,27 +13071,10 @@
     "title": "Peacock Headdress",
     "description": "An ostentatious aegisalt-plated headdress worn by skilled Avian warriors.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "aviantier5ahead": 1
-        },
-        "output": {
-          "aviantier6ahead": 1
-        }
-      }
+      178
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5ahead": 1
-        }
-      }
+      115
     ]
   },
   "aviantier5apants": {
@@ -3975,27 +13084,10 @@
     "title": "Peacock Skirt",
     "description": "Boots made from aegisalt are said to never take a wrong step. This has not been confirmed.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "aviantier5apants": 1
-        },
-        "output": {
-          "aviantier6apants": 1
-        }
-      }
+      179
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5apants": 1
-        }
-      }
+      116
     ]
   },
   "aviantier5mchest": {
@@ -4005,27 +13097,10 @@
     "title": "Flamingo Chainmail",
     "description": "A ferozium chainmail suit that guards the torso but lets the feathers breathe.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "aviantier5mchest": 1
-        },
-        "output": {
-          "aviantier6mchest": 1
-        }
-      }
+      198
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5mchest": 1
-        }
-      }
+      135
     ]
   },
   "aviantier5mhead": {
@@ -4035,26 +13110,10 @@
     "title": "Flamingo Headdress",
     "description": "Each feather in this elaborate headdress is carved from pure ferozium.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "aviantier5mhead": 1
-        },
-        "output": {
-          "aviantier6mhead": 1
-        }
-      }
+      199
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "aviantier5mhead": 1
-        }
-      }
+      136
     ]
   },
   "aviantier5mpants": {
@@ -4064,26 +13123,10 @@
     "title": "Flamingo Skirt",
     "description": "A lightweight ferozium-laced skirt. Additonal bird-foot booties not optional.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "aviantier5mpants": 1
-        },
-        "output": {
-          "aviantier6mpants": 1
-        }
-      }
+      200
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "aviantier5mpants": 1
-        }
-      }
+      137
     ]
   },
   "aviantier5schest": {
@@ -4093,27 +13136,10 @@
     "title": "Phoenix Breastplate",
     "description": "The violium plating on this chestpiece makes it near-impenetrable by conventional weapons.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "aviantier5schest": 1
-        },
-        "output": {
-          "aviantier6schest": 1
-        }
-      }
+      219
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5schest": 1
-        }
-      }
+      156
     ]
   },
   "aviantier5shead": {
@@ -4123,26 +13149,10 @@
     "title": "Phoenix Helm",
     "description": "A shining battle helm made from bright, pure violium.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "aviantier5shead": 1
-        },
-        "output": {
-          "aviantier6shead": 1
-        }
-      }
+      220
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier5shead": 1
-        }
-      }
+      157
     ]
   },
   "aviantier5spants": {
@@ -4152,26 +13162,10 @@
     "title": "Phoenix Greaves",
     "description": "Some say that these violium greaves grant their wearer mythical swiftness. Others say that that's all made up.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "aviantier5spants": 1
-        },
-        "output": {
-          "aviantier6spants": 1
-        }
-      }
+      221
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier5spants": 1
-        }
-      }
+      158
     ]
   },
   "aviantier6achest": {
@@ -4182,15 +13176,7 @@
     "description": "This no-frills shirt is interwoven with pure solarium thread. A deft mix of strength and style.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "aviantier5achest": 1
-        },
-        "output": {
-          "aviantier6achest": 1
-        }
-      }
+      177
     ]
   },
   "aviantier6ahead": {
@@ -4201,15 +13187,7 @@
     "description": "Gaudy yet hard as nails, this headwear defends against all manner of dangers.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "aviantier5ahead": 1
-        },
-        "output": {
-          "aviantier6ahead": 1
-        }
-      }
+      178
     ]
   },
   "aviantier6apants": {
@@ -4220,15 +13198,7 @@
     "description": "These slim-cut leggings are interwoven with pure solarium thread for added durability.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "aviantier5apants": 1
-        },
-        "output": {
-          "aviantier6apants": 1
-        }
-      }
+      179
     ]
   },
   "aviantier6mchest": {
@@ -4239,15 +13209,7 @@
     "description": "A coat of Avian armour interwoven with pure solarium. Magnificent.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "aviantier5mchest": 1
-        },
-        "output": {
-          "aviantier6mchest": 1
-        }
-      }
+      198
     ]
   },
   "aviantier6mhead": {
@@ -4258,15 +13220,7 @@
     "description": "Reinforced with pure solarium, this beautiful work of wearable art can invoke joy or fear in the beholder.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "aviantier5mhead": 1
-        },
-        "output": {
-          "aviantier6mhead": 1
-        }
-      }
+      199
     ]
   },
   "aviantier6mpants": {
@@ -4277,15 +13231,7 @@
     "description": "Legwear fashioned from woven solarium. Simply stunning.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "aviantier5mpants": 1
-        },
-        "output": {
-          "aviantier6mpants": 1
-        }
-      }
+      200
     ]
   },
   "aviantier6schest": {
@@ -4296,15 +13242,7 @@
     "description": "This chestplate's shoulders are at the perfect height for whacking people in the face as you walk by.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "aviantier5schest": 1
-        },
-        "output": {
-          "aviantier6schest": 1
-        }
-      }
+      219
     ]
   },
   "aviantier6shead": {
@@ -4315,15 +13253,7 @@
     "description": "This incredibly durable helm is surprisingly comfortable.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "aviantier5shead": 1
-        },
-        "output": {
-          "aviantier6shead": 1
-        }
-      }
+      220
     ]
   },
   "aviantier6spants": {
@@ -4334,15 +13264,7 @@
     "description": "This violium loincloth is reinforced with solarium, allowing movement whilst still protecting the legs.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "aviantier5spants": 1
-        },
-        "output": {
-          "aviantier6spants": 1
-        }
-      }
+      221
     ]
   },
   "avianworkershirt": {
@@ -4353,15 +13275,7 @@
     "description": "A shirt made from a comfortable, breathable fabric. Perfect for working outside all day!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "avianworkershirt": 1
-        }
-      }
+      1029
     ]
   },
   "avianworkerpants": {
@@ -4372,15 +13286,7 @@
     "description": "A light, breezy skirt with big pockets for tools. Ideal for labourers.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "avianworkerpants": 1
-        }
-      }
+      1030
     ]
   },
   "afrowighead": {
@@ -4454,16 +13360,7 @@
     "description": "A giant bow! It's so pretty.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "livingroot": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "giantbowhead": 1
-        }
-      }
+      1113
     ]
   },
   "plaguemasterhead": {
@@ -4671,29 +13568,10 @@
     "title": "Breathing EPP",
     "description": "Produces breathable air. Helpful in places with ^red;no breathable atmosphere^reset;.",
     "recipes": [
-      {
-        "input": {
-          "breathprotectionback": 1,
-          "titaniumbar": 6,
-          "copperbar": 4,
-          "venomsample": 1
-        },
-        "output": {
-          "radiationprotectionback": 1
-        }
-      }
+      914
     ],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 6,
-          "glass": 10,
-          "livingroot": 1
-        },
-        "output": {
-          "breathprotectionback": 1
-        }
-      }
+      905
     ]
   },
   "coldprotectionback": {
@@ -4703,32 +13581,10 @@
     "title": "Heating EPP Upgrade",
     "description": "This upgrade adds heat generation to your EPP's capabilities. Useful on ^red;dangerously cold^reset; planets.",
     "recipes": [
-      {
-        "input": {
-          "coldprotectionback": 1,
-          "refinedaegisalt": 2,
-          "refinedferozium": 2,
-          "refinedviolium": 2,
-          "battery": 1,
-          "cryonicextract": 1
-        },
-        "output": {
-          "heatprotectionback": 1
-        }
-      }
+      920
     ],
     "makes": [
-      {
-        "input": {
-          "radiationprotectionback": 1,
-          "durasteelbar": 6,
-          "battery": 1,
-          "scorchedcore": 1
-        },
-        "output": {
-          "coldprotectionback": 1
-        }
-      }
+      919
     ]
   },
   "crystalbackpackback": {
@@ -4792,29 +13648,10 @@
     "title": "Halogen Pack",
     "description": "A backpack with an attached halogen light. It's very bright!",
     "recipes": [
-      {
-        "input": {
-          "halogenpack": 1,
-          "diamond": 3,
-          "wire": 5
-        },
-        "output": {
-          "xenonpack": 1
-        }
-      }
+      635
     ],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 5,
-          "wire": 5,
-          "siliconboard": 2,
-          "smallbattery": 5
-        },
-        "output": {
-          "halogenpack": 1
-        }
-      }
+      633
     ]
   },
   "heatprotectionback": {
@@ -4825,19 +13662,7 @@
     "description": "This upgrade adds cool air generation to your EPP's capabilities. Helpful on ^red;dangerously hot^reset; planets.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "coldprotectionback": 1,
-          "refinedaegisalt": 2,
-          "refinedferozium": 2,
-          "refinedviolium": 2,
-          "battery": 1,
-          "cryonicextract": 1
-        },
-        "output": {
-          "heatprotectionback": 1
-        }
-      }
+      920
     ]
   },
   "lanternstickback": {
@@ -4848,16 +13673,7 @@
     "description": "Provides light while leaving your hands free. An essential accessory for adventurering!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "logblock": 10,
-          "mininglantern": 1
-        },
-        "output": {
-          "lanternstickback": 1
-        }
-      }
+      624
     ]
   },
   "oxygentank": {
@@ -4877,15 +13693,7 @@
     "description": "Ornamental wings handmade from paper and wood. They're impractically heavy!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "paper": 6,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "paperwingsback": 1
-        }
-      }
+      953
     ]
   },
   "parachutepackback": {
@@ -4904,30 +13712,10 @@
     "title": "Radiation EPP Upgrade",
     "description": "This upgrade adds radiation neutralisation to your EPP's capabilities. Use it on planets with ^red;high radiation levels^reset;.",
     "recipes": [
-      {
-        "input": {
-          "radiationprotectionback": 1,
-          "durasteelbar": 6,
-          "battery": 1,
-          "scorchedcore": 1
-        },
-        "output": {
-          "coldprotectionback": 1
-        }
-      }
+      919
     ],
     "makes": [
-      {
-        "input": {
-          "breathprotectionback": 1,
-          "titaniumbar": 6,
-          "copperbar": 4,
-          "venomsample": 1
-        },
-        "output": {
-          "radiationprotectionback": 1
-        }
-      }
+      914
     ]
   },
   "rainbowcapeback": {
@@ -4947,14 +13735,7 @@
     "description": "Generally a short cape. Arguably a long cape for penguins.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cottonwool": 2
-        },
-        "output": {
-          "shortcapeback": 1
-        }
-      }
+      1078
     ]
   },
   "simplecapeback": {
@@ -4965,14 +13746,7 @@
     "description": "A basic cape. One solid colour is all you need!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cottonwool": 4
-        },
-        "output": {
-          "simplecapeback": 1
-        }
-      }
+      1079
     ]
   },
   "tigertailback": {
@@ -5037,16 +13811,7 @@
     "description": "A backpack with an attached xenon light. More light than you'll ever need!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "halogenpack": 1,
-          "diamond": 3,
-          "wire": 5
-        },
-        "output": {
-          "xenonpack": 1
-        }
-      }
+      635
     ]
   },
   "alpacachest": {
@@ -5246,16 +14011,7 @@
     "description": "A blue crayon. Equip to bring some colour to your outfit.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "bluedye": 3
-        },
-        "output": {
-          "crayonblueback": 1
-        }
-      }
+      280
     ]
   },
   "crayongreenback": {
@@ -5266,16 +14022,7 @@
     "description": "A green crayon. Equip to bring some colour to your outfit.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "greendye": 3
-        },
-        "output": {
-          "crayongreenback": 1
-        }
-      }
+      281
     ]
   },
   "crayonorangeback": {
@@ -5286,16 +14033,7 @@
     "description": "A orange crayon. Equip to bring some colour to your outfit.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "orangedye": 3
-        },
-        "output": {
-          "crayonorangeback": 1
-        }
-      }
+      282
     ]
   },
   "crayonpurpleback": {
@@ -5306,16 +14044,7 @@
     "description": "A purple crayon. Equip to bring some colour to your outfit.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "purpledye": 3
-        },
-        "output": {
-          "crayonpurpleback": 1
-        }
-      }
+      283
     ]
   },
   "crayonredback": {
@@ -5326,16 +14055,7 @@
     "description": "A red crayon. Equip to bring some colour to your outfit.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "reddye": 3
-        },
-        "output": {
-          "crayonredback": 1
-        }
-      }
+      284
     ]
   },
   "crayonyellowback": {
@@ -5346,16 +14066,7 @@
     "description": "A yellow crayon. Equip to bring some colour to your outfit.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "yellowdye": 3
-        },
-        "output": {
-          "crayonyellowback": 1
-        }
-      }
+      285
     ]
   },
   "copperarmorchest": {
@@ -5915,16 +14626,7 @@
     "description": "With this hat, you'll be a fungi to be around.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "shroom": 50,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "mushroomhead": 1
-        }
-      }
+      347
     ]
   },
   "raggedcapeback": {
@@ -6682,15 +15384,7 @@
     "description": "A plain cotton T-Shirt. Appropriate clothing for all occasions and scenarios.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "tshirtchest": 1
-        }
-      }
+      1067
     ]
   },
   "adventurerobotchest": {
@@ -6863,15 +15557,7 @@
     "description": "Cupid's wings might not be strong enough to carry your weight.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "money": 150
-        },
-        "output": {
-          "cupidsback": 1
-        }
-      }
+      844
     ]
   },
   "cupidschest": {
@@ -6882,15 +15568,7 @@
     "description": "Cupid's sash. Does it hold the wings on?",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "money": 100
-        },
-        "output": {
-          "cupidschest": 1
-        }
-      }
+      846
     ]
   },
   "cupidshead": {
@@ -6901,15 +15579,7 @@
     "description": "A wreath of leaves and a heart. Let it show your love!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 20,
-          "money": 100
-        },
-        "output": {
-          "cupidshead": 1
-        }
-      }
+      847
     ]
   },
   "cupidslegs": {
@@ -6920,15 +15590,7 @@
     "description": "Cupid's diaper. It smells like love!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "money": 100
-        },
-        "output": {
-          "cupidslegs": 1
-        }
-      }
+      848
     ]
   },
   "executionerschest": {
@@ -7038,14 +15700,7 @@
     "description": "This doesn't seem very effective at keeping you warm.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "hotholidaychest": 1
-        }
-      }
+      876
     ]
   },
   "hotholidayhead": {
@@ -7056,14 +15711,7 @@
     "description": "The classic festive hat!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "hotholidayhead": 1
-        }
-      }
+      877
     ]
   },
   "hotholidaypants": {
@@ -7074,14 +15722,7 @@
     "description": "Look good with this festive skirt!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "hotholidaypants": 1
-        }
-      }
+      878
     ]
   },
   "hunterback": {
@@ -7191,14 +15832,7 @@
     "description": "A sack full of presents.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "mrclausback": 1
-        }
-      }
+      882
     ]
   },
   "mrclauschest": {
@@ -7209,14 +15843,7 @@
     "description": "Keep warm with this festive coat.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "mrclauschest": 1
-        }
-      }
+      883
     ]
   },
   "mrclaushead": {
@@ -7227,14 +15854,7 @@
     "description": "The original festive hat, complete with fake cotton beard!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "mrclaushead": 1
-        }
-      }
+      884
     ]
   },
   "mrclauspants": {
@@ -7245,14 +15865,7 @@
     "description": "Traditional trousers and boots, perfect for trekking through snow.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "mrclauspants": 1
-        }
-      }
+      885
     ]
   },
   "mutantminerchest": {
@@ -7866,15 +16479,7 @@
     "description": "Wearing this patch is well worth the loss of depth perception.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "string": 5
-        },
-        "output": {
-          "eyepatchhead": 1
-        }
-      }
+      1032
     ]
   },
   "fancyhead": {
@@ -7884,20 +16489,7 @@
     "title": "Dapper Hat",
     "description": "A fancy bowler hat. Distinguished.",
     "recipes": [
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2,
-          "fancyhead": 1
-        },
-        "output": {
-          "fancysnowman": 1
-        }
-      }
+      389
     ],
     "makes": []
   },
@@ -8170,16 +16762,7 @@
     "description": "A miners hat, has a light on it!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5,
-          "mininglantern": 1
-        },
-        "output": {
-          "mininghathead": 1
-        }
-      }
+      625
     ]
   },
   "phrygiancaphead": {
@@ -8487,15 +17070,7 @@
     "description": "A proud display of animal fur, claimed from a recent hunt.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranfurnivourchest": 1
-        }
-      }
+      1033
     ]
   },
   "floranfurnivourlegs": {
@@ -8506,15 +17081,7 @@
     "description": "It appears to be decorated with animal fur from a hunt.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranfurnivourlegs": 1
-        }
-      }
+      1034
     ]
   },
   "floranhunterchest": {
@@ -8525,15 +17092,7 @@
     "description": "This hunter's chest covering keeps you warm and dry.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranhunterchest": 1
-        }
-      }
+      1035
     ]
   },
   "floranhunterlegs": {
@@ -8544,15 +17103,7 @@
     "description": "These leg coverings allow full range of movement for the hunter.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranhunterlegs": 1
-        }
-      }
+      1036
     ]
   },
   "floranleafchest": {
@@ -8563,15 +17114,7 @@
     "description": "This shirt is covered in large tough leaves.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranleafchest": 1
-        }
-      }
+      1037
     ]
   },
   "floranleaflegs": {
@@ -8582,15 +17125,7 @@
     "description": "The leaf censors stuff children shouldn't see!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranleaflegs": 1
-        }
-      }
+      1038
     ]
   },
   "floranpeltchest": {
@@ -8601,15 +17136,7 @@
     "description": "Insulated with plants to keep you warm.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranpeltchest": 1
-        }
-      }
+      1039
     ]
   },
   "floranpeltlegs": {
@@ -8620,15 +17147,7 @@
     "description": "This loincloth is bound with strong vines.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranpeltlegs": 1
-        }
-      }
+      1040
     ]
   },
   "floransurvivalistchest": {
@@ -8639,15 +17158,7 @@
     "description": "Made from materials gathered in a hunt, it provides little protection but makes you proud to wear.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floransurvivalistchest": 1
-        }
-      }
+      1041
     ]
   },
   "floransurvivalistlegs": {
@@ -8658,15 +17169,7 @@
     "description": "Adorned with material from hunted prey. A good hunter makes use of every part they can.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floransurvivalistlegs": 1
-        }
-      }
+      1042
     ]
   },
   "florantier1chest": {
@@ -8677,16 +17180,7 @@
     "description": "It's rare to see a sprout's chestguard not covered in dents, blood and fleshy gobbets.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "florantier1chest": 1
-        }
-      }
+      6
     ]
   },
   "florantier1head": {
@@ -8697,15 +17191,7 @@
     "description": "Iron armour designed to be worn by young Floran on their early hunts.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "florantier1head": 1
-        }
-      }
+      7
     ]
   },
   "florantier1pants": {
@@ -8716,15 +17202,7 @@
     "description": "Scant anklets that allow young Floran to draw power from the sun.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "florantier1pants": 1
-        }
-      }
+      8
     ]
   },
   "florantier2chest": {
@@ -8735,16 +17213,7 @@
     "description": "Tungsten, reinforced with bone and padded with leather made from the skin of hunted prey.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "florantier2chest": 1
-        }
-      }
+      27
     ]
   },
   "florantier2head": {
@@ -8755,15 +17224,7 @@
     "description": "Fashioned from a tungsten plated skull - practical and stylish.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "florantier2head": 1
-        }
-      }
+      28
     ]
   },
   "florantier2pants": {
@@ -8774,15 +17235,7 @@
     "description": "A loincloth made of overlapping tungsten plates, to thwart the retaliations of diminutive quarry.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "florantier2pants": 1
-        }
-      }
+      29
     ]
   },
   "florantier3chest": {
@@ -8793,16 +17246,7 @@
     "description": "This chestguard is built to deflect the elements as well as blades and bullets.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "florantier3chest": 1
-        }
-      }
+      67
     ]
   },
   "florantier3head": {
@@ -8813,15 +17257,7 @@
     "description": "Built from titanium and wrapped in leaves for warmth, this headwear will protect you on the long hunt.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "florantier3head": 1
-        }
-      }
+      68
     ]
   },
   "florantier3pants": {
@@ -8832,15 +17268,7 @@
     "description": "Leaf covered leg armour that is at one with the forest.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "florantier3pants": 1
-        }
-      }
+      69
     ]
   },
   "florantier4chest": {
@@ -8851,16 +17279,7 @@
     "description": "A chestguard that protects the hunter's vital organs beneath solid durasteel.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "florantier4chest": 1
-        }
-      }
+      96
     ]
   },
   "florantier4head": {
@@ -8871,15 +17290,7 @@
     "description": "The hunter's hood is built to be light, allowing a Floran to track their prey many miles .",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "florantier4head": 1
-        }
-      }
+      97
     ]
   },
   "florantier4pants": {
@@ -8890,15 +17301,7 @@
     "description": "A skirt made from leather, bound with durasteel thread.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "florantier4pants": 1
-        }
-      }
+      98
     ]
   },
   "florantier5achest": {
@@ -8908,27 +17311,10 @@
     "title": "Wiseman's Chestguard",
     "description": "Wise people don't get stabbed in the middle, that's what chestguards are for.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "florantier5achest": 1
-        },
-        "output": {
-          "florantier6achest": 1
-        }
-      }
+      180
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5achest": 1
-        }
-      }
+      117
     ]
   },
   "florantier5ahead": {
@@ -8938,27 +17324,10 @@
     "title": "Wiseman's Thinking Hat",
     "description": "A helmet to protect your brains. Florans use their brains too! Just for different stuff than everybody else.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "florantier5ahead": 1
-        },
-        "output": {
-          "florantier6ahead": 1
-        }
-      }
+      181
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5ahead": 1
-        }
-      }
+      118
     ]
   },
   "florantier5apants": {
@@ -8968,27 +17337,10 @@
     "title": "Wiseman's Loincloth",
     "description": "Upstairs for thinking, downstairs for dancing; even wise Florans have to cut loose.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "florantier5apants": 1
-        },
-        "output": {
-          "florantier6apants": 1
-        }
-      }
+      182
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5apants": 1
-        }
-      }
+      119
     ]
   },
   "florantier5mchest": {
@@ -8998,27 +17350,10 @@
     "title": "Cannibal's Chestguard",
     "description": "A chestguard to protect you from people who get angry when you eat other people.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "florantier5mchest": 1
-        },
-        "output": {
-          "florantier6mchest": 1
-        }
-      }
+      201
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5mchest": 1
-        }
-      }
+      138
     ]
   },
   "florantier5mhead": {
@@ -9028,26 +17363,10 @@
     "title": "Cannibal's Mask",
     "description": "Cursed with a friendly and appealing face? Cover it up with this horrifying mask.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "florantier5mhead": 1
-        },
-        "output": {
-          "florantier6mhead": 1
-        }
-      }
+      202
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "florantier5mhead": 1
-        }
-      }
+      139
     ]
   },
   "florantier5mpants": {
@@ -9057,26 +17376,10 @@
     "title": "Cannibal's Trousers",
     "description": "Cannibalism is a tradition! A frowned upon tradition. Wear these trousers while running from your angry greenfinger.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "florantier5mpants": 1
-        },
-        "output": {
-          "florantier6mpants": 1
-        }
-      }
+      203
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "florantier5mpants": 1
-        }
-      }
+      140
     ]
   },
   "florantier5schest": {
@@ -9086,27 +17389,10 @@
     "title": "Gatherer's Chestpiece",
     "description": "For the silent warrior who lurks in wait.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "florantier5schest": 1
-        },
-        "output": {
-          "florantier6schest": 1
-        }
-      }
+      222
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5schest": 1
-        }
-      }
+      159
     ]
   },
   "florantier5shead": {
@@ -9116,26 +17402,10 @@
     "title": "Gatherer's Helm",
     "description": "A helm made to be worn in the shadows.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "florantier5shead": 1
-        },
-        "output": {
-          "florantier6shead": 1
-        }
-      }
+      223
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "florantier5shead": 1
-        }
-      }
+      160
     ]
   },
   "florantier5spants": {
@@ -9145,26 +17415,10 @@
     "title": "Gatherer's Skirt",
     "description": "A skirt to stalk prey in.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "florantier5spants": 1
-        },
-        "output": {
-          "florantier6spants": 1
-        }
-      }
+      224
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "florantier5spants": 1
-        }
-      }
+      161
     ]
   },
   "florantier6achest": {
@@ -9175,15 +17429,7 @@
     "description": "Solarium body armour, accented with bone.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "florantier5achest": 1
-        },
-        "output": {
-          "florantier6achest": 1
-        }
-      }
+      180
     ]
   },
   "florantier6ahead": {
@@ -9194,15 +17440,7 @@
     "description": "Adorned with the horns and jawbone of a once-worthy prey, and lined with solarium plate.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "florantier5ahead": 1
-        },
-        "output": {
-          "florantier6ahead": 1
-        }
-      }
+      181
     ]
   },
   "florantier6apants": {
@@ -9213,15 +17451,7 @@
     "description": "Because you need freedom of movement when you're running the gauntlet.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "florantier5apants": 1
-        },
-        "output": {
-          "florantier6apants": 1
-        }
-      }
+      182
     ]
   },
   "florantier6mchest": {
@@ -9232,15 +17462,7 @@
     "description": "Solarium is woven into chainmail to form the lower half of this resilient chestguard.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "florantier5mchest": 1
-        },
-        "output": {
-          "florantier6mchest": 1
-        }
-      }
+      201
     ]
   },
   "florantier6mhead": {
@@ -9251,15 +17473,7 @@
     "description": "Maniacal eyes and a fiendish grin are the least disquieting aspects of this terrifying mask.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "florantier5mhead": 1
-        },
-        "output": {
-          "florantier6mhead": 1
-        }
-      }
+      202
     ]
   },
   "florantier6mpants": {
@@ -9270,15 +17484,7 @@
     "description": "This skirt is deceptively strong and extremely flexible.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "florantier5mpants": 1
-        },
-        "output": {
-          "florantier6mpants": 1
-        }
-      }
+      203
     ]
   },
   "florantier6schest": {
@@ -9289,15 +17495,7 @@
     "description": "A powerful chestguard to strengthen the wearer - even the most vicious prey will fall.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "florantier5schest": 1
-        },
-        "output": {
-          "florantier6schest": 1
-        }
-      }
+      222
     ]
   },
   "florantier6shead": {
@@ -9308,15 +17506,7 @@
     "description": "The prey of the universe shiver at the sight of this eerie helm .",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "florantier5shead": 1
-        },
-        "output": {
-          "florantier6shead": 1
-        }
-      }
+      223
     ]
   },
   "florantier6spants": {
@@ -9327,15 +17517,7 @@
     "description": "These trousers reinforce the movement of the wearer, a kick from an armoured leg can shatter bone.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "florantier5spants": 1
-        },
-        "output": {
-          "florantier6spants": 1
-        }
-      }
+      224
     ]
   },
   "craftsmenchest": {
@@ -9346,15 +17528,7 @@
     "description": "A simple shirt with a pocket made for craftsmen.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "craftsmenchest": 1
-        }
-      }
+      1059
     ]
   },
   "craftsmenlegs": {
@@ -9365,15 +17539,7 @@
     "description": "Durable legwear, traditionally worn by craftsmen.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "craftsmenlegs": 1
-        }
-      }
+      1060
     ]
   },
   "merchantchest": {
@@ -9384,15 +17550,7 @@
     "description": "A low quality shirt, sometimes worn by merchants.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "merchantchest": 1
-        }
-      }
+      1061
     ]
   },
   "merchantlegs": {
@@ -9403,15 +17561,7 @@
     "description": "Some simple, low quality merchant trousers.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "merchantlegs": 1
-        }
-      }
+      1062
     ]
   },
   "noblechest": {
@@ -9422,15 +17572,7 @@
     "description": "A clean, well made noble shirt.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "noblechest": 1
-        }
-      }
+      1063
     ]
   },
   "noblelegs": {
@@ -9441,15 +17583,7 @@
     "description": "This style of trousers are frequently worn by Glitch nobles.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "noblelegs": 1
-        }
-      }
+      1064
     ]
   },
   "peasantchest": {
@@ -9460,15 +17594,7 @@
     "description": "A dirty, worn peasant's shirt.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "peasantchest": 1
-        }
-      }
+      1065
     ]
   },
   "peasantlegs": {
@@ -9479,15 +17605,7 @@
     "description": "These simple and slightly dirty trousers look handmade.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "peasantlegs": 1
-        }
-      }
+      1066
     ]
   },
   "glitchroyalhead": {
@@ -9507,16 +17625,7 @@
     "description": "A knave's breastplate is plain and unadorned, reflecting their position in society.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "glitchtier1chest": 1
-        }
-      }
+      9
     ]
   },
   "glitchtier1head": {
@@ -9527,15 +17636,7 @@
     "description": "The iron helm of the knave only protects the top of the head.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "glitchtier1head": 1
-        }
-      }
+      10
     ]
   },
   "glitchtier1pants": {
@@ -9546,15 +17647,7 @@
     "description": "Most of the iron in a knave's trousers is in the belt buckle.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "glitchtier1pants": 1
-        }
-      }
+      11
     ]
   },
   "glitchtier2chest": {
@@ -9565,16 +17658,7 @@
     "description": "Crafted protection for the would-be Glitch hero - better to dent your breastplate than your bodywork.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "glitchtier2chest": 1
-        }
-      }
+      30
     ]
   },
   "glitchtier2head": {
@@ -9585,15 +17669,7 @@
     "description": "A durable tungsten helm - a rebuttal to the claim \"they don't make 'em like they used to\".",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "glitchtier2head": 1
-        }
-      }
+      31
     ]
   },
   "glitchtier2pants": {
@@ -9604,15 +17680,7 @@
     "description": "Chainmail trousers paired with heavy tungsten boots - a step-up from the norm.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "glitchtier2pants": 1
-        }
-      }
+      32
     ]
   },
   "glitchtier3chest": {
@@ -9623,16 +17691,7 @@
     "description": "Enter the battlefield with confidence, encased in this heavy titaniam breastplate.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier3chest": 1
-        }
-      }
+      70
     ]
   },
   "glitchtier3head": {
@@ -9643,15 +17702,7 @@
     "description": "The titanium clad Glitch fights with honour. And a sharp sword...",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier3head": 1
-        }
-      }
+      71
     ]
   },
   "glitchtier3pants": {
@@ -9662,15 +17713,7 @@
     "description": "The tassets of a knight protect the thighs of a warrior.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier3pants": 1
-        }
-      }
+      72
     ]
   },
   "glitchtier4chest": {
@@ -9681,16 +17724,7 @@
     "description": "An intimidating breastplate of great strength, indicative of ominous intent",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier4chest": 1
-        }
-      }
+      99
     ]
   },
   "glitchtier4head": {
@@ -9701,15 +17735,7 @@
     "description": "A sinister helm that shrouds the face in mystery.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "glitchtier4head": 1
-        }
-      }
+      100
     ]
   },
   "glitchtier4pants": {
@@ -9720,15 +17746,7 @@
     "description": "Menacing legwear that provides some of the most adequate crotch protection in the universe.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "glitchtier4pants": 1
-        }
-      }
+      101
     ]
   },
   "glitchtier5achest": {
@@ -9738,27 +17756,10 @@
     "title": "Crusader's Breastplate",
     "description": "Forged of pure aegisalt. Built for agility, to be worn with panache.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "glitchtier5achest": 1
-        },
-        "output": {
-          "glitchtier6achest": 1
-        }
-      }
+      183
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5achest": 1
-        }
-      }
+      120
     ]
   },
   "glitchtier5ahead": {
@@ -9768,27 +17769,10 @@
     "title": "Crusader's Helm",
     "description": "A stylish helm that protects your head and confuses your enemies.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "glitchtier5ahead": 1
-        },
-        "output": {
-          "glitchtier6ahead": 1
-        }
-      }
+      184
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5ahead": 1
-        }
-      }
+      121
     ]
   },
   "glitchtier5apants": {
@@ -9798,27 +17782,10 @@
     "title": "Crusader's Greaves",
     "description": "These greaves bring a little flair to the battlefield.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "glitchtier5apants": 1
-        },
-        "output": {
-          "glitchtier6apants": 1
-        }
-      }
+      185
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5apants": 1
-        }
-      }
+      122
     ]
   },
   "glitchtier5mchest": {
@@ -9828,27 +17795,10 @@
     "title": "Lancer's Breastplate",
     "description": "Light and sturdy, built to encourage speed and dexterity in its wearer.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "glitchtier5mchest": 1
-        },
-        "output": {
-          "glitchtier6mchest": 1
-        }
-      }
+      204
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5mchest": 1
-        }
-      }
+      141
     ]
   },
   "glitchtier5mhead": {
@@ -9858,26 +17808,10 @@
     "title": "Lancer's Helm",
     "description": "A helm with excellent shock-absorbing capabilities.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "glitchtier5mhead": 1
-        },
-        "output": {
-          "glitchtier6mhead": 1
-        }
-      }
+      205
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier5mhead": 1
-        }
-      }
+      142
     ]
   },
   "glitchtier5mpants": {
@@ -9887,26 +17821,10 @@
     "title": "Lancer's Greaves",
     "description": "These light ferozium greaves enable agility in battle.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "glitchtier5mpants": 1
-        },
-        "output": {
-          "glitchtier6mpants": 1
-        }
-      }
+      206
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier5mpants": 1
-        }
-      }
+      143
     ]
   },
   "glitchtier5schest": {
@@ -9916,27 +17834,10 @@
     "title": "Paladin's Breastplate",
     "description": "Forged of violium; strong armour to defend a strong heart.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "glitchtier5schest": 1
-        },
-        "output": {
-          "glitchtier6schest": 1
-        }
-      }
+      225
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5schest": 1
-        }
-      }
+      162
     ]
   },
   "glitchtier5shead": {
@@ -9946,26 +17847,10 @@
     "title": "Paladin's Helm",
     "description": "A helm to top a chivalrous head and safeguard a pure mind.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "glitchtier5shead": 1
-        },
-        "output": {
-          "glitchtier6shead": 1
-        }
-      }
+      226
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier5shead": 1
-        }
-      }
+      163
     ]
   },
   "glitchtier5spants": {
@@ -9975,26 +17860,10 @@
     "title": "Paladin's Greaves",
     "description": "Greaves that protect both your legs and your chastity.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "glitchtier5spants": 1
-        },
-        "output": {
-          "glitchtier6spants": 1
-        }
-      }
+      227
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier5spants": 1
-        }
-      }
+      164
     ]
   },
   "glitchtier6achest": {
@@ -10005,15 +17874,7 @@
     "description": "A near adamantine chestpiece, formed of polished solarium plating.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "glitchtier5achest": 1
-        },
-        "output": {
-          "glitchtier6achest": 1
-        }
-      }
+      183
     ]
   },
   "glitchtier6ahead": {
@@ -10024,15 +17885,7 @@
     "description": "A stacked helm of impressive appearance and immense durability.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "glitchtier5ahead": 1
-        },
-        "output": {
-          "glitchtier6ahead": 1
-        }
-      }
+      184
     ]
   },
   "glitchtier6apants": {
@@ -10043,15 +17896,7 @@
     "description": "Legionnaire's legwear - insist that people call your loincloth a demi-kilt.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "glitchtier5apants": 1
-        },
-        "output": {
-          "glitchtier6apants": 1
-        }
-      }
+      185
     ]
   },
   "glitchtier6mchest": {
@@ -10062,15 +17907,7 @@
     "description": "A breastplate built to guard the watchful soldier.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "glitchtier5mchest": 1
-        },
-        "output": {
-          "glitchtier6mchest": 1
-        }
-      }
+      204
     ]
   },
   "glitchtier6mhead": {
@@ -10081,15 +17918,7 @@
     "description": "Your enemies will cower beneath the glare of this six-eyed helm.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "glitchtier5mhead": 1
-        },
-        "output": {
-          "glitchtier6mhead": 1
-        }
-      }
+      205
     ]
   },
   "glitchtier6mpants": {
@@ -10100,15 +17929,7 @@
     "description": "Greaves of immense strength and sanguine hue.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "glitchtier5mpants": 1
-        },
-        "output": {
-          "glitchtier6mpants": 1
-        }
-      }
+      206
     ]
   },
   "glitchtier6schest": {
@@ -10119,15 +17940,7 @@
     "description": "A gilded breastplate to adorn the chest of those adept at warfare.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "glitchtier5schest": 1
-        },
-        "output": {
-          "glitchtier6schest": 1
-        }
-      }
+      225
     ]
   },
   "glitchtier6shead": {
@@ -10138,15 +17951,7 @@
     "description": "A horned demonic helm, prophetic of doom.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "glitchtier5shead": 1
-        },
-        "output": {
-          "glitchtier6shead": 1
-        }
-      }
+      226
     ]
   },
   "glitchtier6spants": {
@@ -10157,15 +17962,7 @@
     "description": "The pounding rattle of these greaves will haunt the dreams of your foe.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "glitchtier5spants": 1
-        },
-        "output": {
-          "glitchtier6spants": 1
-        }
-      }
+      227
     ]
   },
   "conceptchest": {
@@ -10176,15 +17973,7 @@
     "description": "A simple jacket, in case it gets a bit chilly.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "conceptchest": 1
-        }
-      }
+      1043
     ]
   },
   "conceptlegs": {
@@ -10195,15 +17984,7 @@
     "description": "They're longer than your average shorts.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "conceptlegs": 1
-        }
-      }
+      1044
     ]
   },
   "coolchest": {
@@ -10214,15 +17995,7 @@
     "description": "Wearing this faux-leather jacket fills you with confidence.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "coolchest": 1
-        }
-      }
+      1045
     ]
   },
   "coollegs": {
@@ -10233,15 +18006,7 @@
     "description": "When you wear these cool bottoms, you feel as though anything is possible.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "coollegs": 1
-        }
-      }
+      1046
     ]
   },
   "sweatervestchest": {
@@ -10252,15 +18017,7 @@
     "description": "Your chest is warm, but what of your arms?",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "sweatervestchest": 1
-        }
-      }
+      1047
     ]
   },
   "sweatervestlegs": {
@@ -10271,15 +18028,7 @@
     "description": "Moderately comfy, reasonably easy to wear.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "sweatervestlegs": 1
-        }
-      }
+      1048
     ]
   },
   "humantier1chest": {
@@ -10290,16 +18039,7 @@
     "description": "A sleeveless iron plated vest that offers reliable protection.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "humantier1chest": 1
-        }
-      }
+      12
     ]
   },
   "humantier1head": {
@@ -10310,15 +18050,7 @@
     "description": "This scouter headset features a fancy augmented visor.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "humantier1head": 1
-        }
-      }
+      13
     ]
   },
   "humantier1pants": {
@@ -10329,15 +18061,7 @@
     "description": "Protective iron fibres are woven into the fabric.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "humantier1pants": 1
-        }
-      }
+      14
     ]
   },
   "humantier2chest": {
@@ -10348,16 +18072,7 @@
     "description": "This scavenger breastplate offers a hardy layer of protection.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "humantier2chest": 1
-        }
-      }
+      33
     ]
   },
   "humantier2head": {
@@ -10368,15 +18083,7 @@
     "description": "The scavenger's helmet comes with augmented vision.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "humantier2head": 1
-        }
-      }
+      34
     ]
   },
   "humantier2pants": {
@@ -10387,15 +18094,7 @@
     "description": "These scavenger's trousers contain woven layers of protection.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "humantier2pants": 1
-        }
-      }
+      35
     ]
   },
   "humantier3chest": {
@@ -10406,16 +18105,7 @@
     "description": "Safeguards a pioneer as they take their first steps into a new world.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "humantier3chest": 1
-        }
-      }
+      73
     ]
   },
   "humantier3head": {
@@ -10426,15 +18116,7 @@
     "description": "The sleek titanium helm of the pioneer.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "humantier3head": 1
-        }
-      }
+      74
     ]
   },
   "humantier3pants": {
@@ -10445,15 +18127,7 @@
     "description": "Titanium trousers with a convenient flap at the rear.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "humantier3pants": 1
-        }
-      }
+      75
     ]
   },
   "humantier4chest": {
@@ -10464,16 +18138,7 @@
     "description": "The outrider's chestpiece is made from durasteel, knitted like kevlar.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "humantier4chest": 1
-        }
-      }
+      102
     ]
   },
   "humantier4head": {
@@ -10484,15 +18149,7 @@
     "description": "The durasteel helm of the outrider is built for use in the most inhospitable of environments.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "humantier4head": 1
-        }
-      }
+      103
     ]
   },
   "humantier4pants": {
@@ -10503,15 +18160,7 @@
     "description": "These durasteel trousers are built for the rider of a hoverbike.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "humantier4pants": 1
-        }
-      }
+      104
     ]
   },
   "humantier5achest": {
@@ -10521,27 +18170,10 @@
     "title": "Vanguard's Flak Jacket",
     "description": "Chosen for its strength on the battlefield. The vanguard flak jacket has saved many lives.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "humantier5achest": 1
-        },
-        "output": {
-          "humantier6achest": 1
-        }
-      }
+      186
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5achest": 1
-        }
-      }
+      123
     ]
   },
   "humantier5ahead": {
@@ -10551,27 +18183,10 @@
     "title": "Vanguard's Helm",
     "description": "This aegisalt helmet is lightweight and durable... Plus, who doesn't look good in green?",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "humantier5ahead": 1
-        },
-        "output": {
-          "humantier6ahead": 1
-        }
-      }
+      187
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5ahead": 1
-        }
-      }
+      124
     ]
   },
   "humantier5apants": {
@@ -10581,27 +18196,10 @@
     "title": "Vanguard's Trousers",
     "description": "Fight with passion, honour and fashionable aegisalt legwear.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "humantier5apants": 1
-        },
-        "output": {
-          "humantier6apants": 1
-        }
-      }
+      188
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5apants": 1
-        }
-      }
+      125
     ]
   },
   "humantier5mchest": {
@@ -10611,27 +18209,10 @@
     "title": "Trailblazer's Chestpiece",
     "description": "A chestpiece built for adventure!",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "humantier5mchest": 1
-        },
-        "output": {
-          "humantier6mchest": 1
-        }
-      }
+      207
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5mchest": 1
-        }
-      }
+      144
     ]
   },
   "humantier5mhead": {
@@ -10641,26 +18222,10 @@
     "title": "Trailblazer's Helm",
     "description": "We shouldn't view life through rose tinted glasses, but an amber tinted visor is probably okay.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "humantier5mhead": 1
-        },
-        "output": {
-          "humantier6mhead": 1
-        }
-      }
+      208
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "humantier5mhead": 1
-        }
-      }
+      145
     ]
   },
   "humantier5mpants": {
@@ -10670,26 +18235,10 @@
     "title": "Trailblazer's Greaves",
     "description": "With ferozium kneeguards, for all your kneeling needs.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "humantier5mpants": 1
-        },
-        "output": {
-          "humantier6mpants": 1
-        }
-      }
+      209
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "humantier5mpants": 1
-        }
-      }
+      146
     ]
   },
   "humantier5schest": {
@@ -10699,27 +18248,10 @@
     "title": "Adventurer's Chestguard",
     "description": "Violium makes this chestguard incredibly strong.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "humantier5schest": 1
-        },
-        "output": {
-          "humantier6schest": 1
-        }
-      }
+      228
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5schest": 1
-        }
-      }
+      165
     ]
   },
   "humantier5shead": {
@@ -10729,26 +18261,10 @@
     "title": "Adventurer's Helm",
     "description": "A human helmet modeled after the sturdy heads of the Glitch; art imitating 'life'.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "humantier5shead": 1
-        },
-        "output": {
-          "humantier6shead": 1
-        }
-      }
+      229
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "humantier5shead": 1
-        }
-      }
+      166
     ]
   },
   "humantier5spants": {
@@ -10758,26 +18274,10 @@
     "title": "Adventurer's Trousers",
     "description": "These trousers are a little stiff, but nicely complete that robotic look.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "humantier5spants": 1
-        },
-        "output": {
-          "humantier6spants": 1
-        }
-      }
+      230
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "humantier5spants": 1
-        }
-      }
+      167
     ]
   },
   "humantier6achest": {
@@ -10788,15 +18288,7 @@
     "description": "The circuitry within this armor regulates breath rate and helps the wearer keep a steady aim.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "humantier5achest": 1
-        },
-        "output": {
-          "humantier6achest": 1
-        }
-      }
+      186
     ]
   },
   "humantier6ahead": {
@@ -10807,15 +18299,7 @@
     "description": "The visor on this tough helmet is designed to sharpen the wearer's sight.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "humantier5ahead": 1
-        },
-        "output": {
-          "humantier6ahead": 1
-        }
-      }
+      187
     ]
   },
   "humantier6apants": {
@@ -10826,15 +18310,7 @@
     "description": "These trousers count the number of steps you take through sophisticated circuitry. Why? Why not.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "humantier5apants": 1
-        },
-        "output": {
-          "humantier6apants": 1
-        }
-      }
+      188
     ]
   },
   "humantier6mchest": {
@@ -10845,15 +18321,7 @@
     "description": "Defend your vital organs while simultaneously looking big and tough. Your enemies will be so jealous.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "humantier5mchest": 1
-        },
-        "output": {
-          "humantier6mchest": 1
-        }
-      }
+      207
     ]
   },
   "humantier6mhead": {
@@ -10864,15 +18332,7 @@
     "description": "Protect your head as you wander the universe - afterall, your head is where your brain is.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "humantier5mhead": 1
-        },
-        "output": {
-          "humantier6mhead": 1
-        }
-      }
+      208
     ]
   },
   "humantier6mpants": {
@@ -10883,15 +18343,7 @@
     "description": "A comely trouser/boot combo that safeguards the legs.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "humantier5mpants": 1
-        },
-        "output": {
-          "humantier6mpants": 1
-        }
-      }
+      209
     ]
   },
   "humantier6schest": {
@@ -10902,15 +18354,7 @@
     "description": "Battle the elements of a vast cosmos in this powerful solarium jacket.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "humantier5schest": 1
-        },
-        "output": {
-          "humantier6schest": 1
-        }
-      }
+      228
     ]
   },
   "humantier6shead": {
@@ -10921,15 +18365,7 @@
     "description": "View an infinite universe through finite eyes, safe behind this universalist's helm.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "humantier5shead": 1
-        },
-        "output": {
-          "humantier6shead": 1
-        }
-      }
+      229
     ]
   },
   "humantier6spants": {
@@ -10940,15 +18376,7 @@
     "description": "These trousers will tread a thousand alien worlds in their lifetime.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "humantier5spants": 1
-        },
-        "output": {
-          "humantier6spants": 1
-        }
-      }
+      230
     ]
   },
   "workoutchest": {
@@ -10959,15 +18387,7 @@
     "description": "A light breathable top suitable for working out. No pain, no gain, right?",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "workoutchest": 1
-        }
-      }
+      1049
     ]
   },
   "workoutlegs": {
@@ -10978,15 +18398,7 @@
     "description": "These are perfect whether you're working out or just eating pizza in front of the TV. So versatile!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "workoutlegs": 1
-        }
-      }
+      1050
     ]
   },
   "kimonochest": {
@@ -10997,15 +18409,7 @@
     "description": "A sleek traditional kimono shirt.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "kimonochest": 1
-        }
-      }
+      1015
     ]
   },
   "kimonolegs": {
@@ -11016,15 +18420,7 @@
     "description": "A sleek traditional kimono.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "kimonolegs": 1
-        }
-      }
+      1016
     ]
   },
   "monkchest": {
@@ -11035,15 +18431,7 @@
     "description": "These robes are traditionally worn by Hylotl monks.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "monkchest": 1
-        }
-      }
+      1017
     ]
   },
   "monklegs": {
@@ -11054,15 +18442,7 @@
     "description": "The simple, draping leg-coverings of a monk.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "monklegs": 1
-        }
-      }
+      1018
     ]
   },
   "hylotltier1chest": {
@@ -11073,16 +18453,7 @@
     "description": "This chestguard is produced with an ancient Hylotl technique that weaves iron like straw.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "hylotltier1chest": 1
-        }
-      }
+      15
     ]
   },
   "hylotltier1head": {
@@ -11093,15 +18464,7 @@
     "description": "This iron hat is perfect for keeping one's head from drying in the hot sun.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "hylotltier1head": 1
-        }
-      }
+      16
     ]
   },
   "hylotltier1pants": {
@@ -11112,15 +18475,7 @@
     "description": "Made from iron, these refined, comfortable trousers are embarrassingly named.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "hylotltier1pants": 1
-        }
-      }
+      17
     ]
   },
   "hylotltier2chest": {
@@ -11131,16 +18486,7 @@
     "description": "A tungsten breastplate of simple, elegant design.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "hylotltier2chest": 1
-        }
-      }
+      36
     ]
   },
   "hylotltier2head": {
@@ -11151,15 +18497,7 @@
     "description": "A helm of great elegance, crafted from tungsten.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "hylotltier2head": 1
-        }
-      }
+      37
     ]
   },
   "hylotltier2pants": {
@@ -11170,15 +18508,7 @@
     "description": "Tungsten greaves protect the wearer, while simultaneously transforming their silhouette.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "hylotltier2pants": 1
-        }
-      }
+      38
     ]
   },
   "hylotltier3chest": {
@@ -11189,16 +18519,7 @@
     "description": "Made with silk and metal. Like the Hylotl warrior, this breastplate blends elegance and strength.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier3chest": 1
-        }
-      }
+      76
     ]
   },
   "hylotltier3head": {
@@ -11209,15 +18530,7 @@
     "description": "Part armour and part mask - for the warrior who needs both to infiltrate, and protect.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier3head": 1
-        }
-      }
+      77
     ]
   },
   "hylotltier3pants": {
@@ -11228,15 +18541,7 @@
     "description": "Strong and supple, like the lithe and limber legs of their wearer.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier3pants": 1
-        }
-      }
+      78
     ]
   },
   "hylotltier4chest": {
@@ -11247,16 +18552,7 @@
     "description": "A breastplate designed to strengthen the wearer's durability, as well as their resolve.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier4chest": 1
-        }
-      }
+      105
     ]
   },
   "hylotltier4head": {
@@ -11267,15 +18563,7 @@
     "description": "A durasteel helm that is built for defense.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "hylotltier4head": 1
-        }
-      }
+      106
     ]
   },
   "hylotltier4pants": {
@@ -11286,15 +18574,7 @@
     "description": "Durasteel greaves that allow the wearer to stand at their post for many hours.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "hylotltier4pants": 1
-        }
-      }
+      107
     ]
   },
   "hylotltier5achest": {
@@ -11304,27 +18584,10 @@
     "title": "Sea Chestguard",
     "description": "A lightweight and supple chestpiece, that enables the warrior to strike swiftly.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "hylotltier5achest": 1
-        },
-        "output": {
-          "hylotltier6achest": 1
-        }
-      }
+      189
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5achest": 1
-        }
-      }
+      126
     ]
   },
   "hylotltier5ahead": {
@@ -11334,27 +18597,10 @@
     "title": "Sea Hat",
     "description": "This headwear protects the mind of the warrior, which must always be sharp, honed like a blade.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "hylotltier5ahead": 1
-        },
-        "output": {
-          "hylotltier6ahead": 1
-        }
-      }
+      190
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5ahead": 1
-        }
-      }
+      127
     ]
   },
   "hylotltier5apants": {
@@ -11364,27 +18610,10 @@
     "title": "Sea Leggings",
     "description": "Light, strong leggings that encourage a warrior to be fleet of foot.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "hylotltier5apants": 1
-        },
-        "output": {
-          "hylotltier6apants": 1
-        }
-      }
+      191
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5apants": 1
-        }
-      }
+      128
     ]
   },
   "hylotltier5mchest": {
@@ -11394,27 +18623,10 @@
     "title": "Reef Jacket",
     "description": "Combining the fashion of scuba with the protection of ferozium, there's nowhere this jacket can't be worn.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "hylotltier5mchest": 1
-        },
-        "output": {
-          "hylotltier6mchest": 1
-        }
-      }
+      210
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5mchest": 1
-        }
-      }
+      147
     ]
   },
   "hylotltier5mhead": {
@@ -11424,26 +18636,10 @@
     "title": "Reef Helm",
     "description": "A narrow visor and strong ferozium shell make this helm an excellent addition to any head.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "hylotltier5mhead": 1
-        },
-        "output": {
-          "hylotltier6mhead": 1
-        }
-      }
+      211
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier5mhead": 1
-        }
-      }
+      148
     ]
   },
   "hylotltier5mpants": {
@@ -11453,26 +18649,10 @@
     "title": "Reef Trousers",
     "description": "These form-fitting ferozium laced trousers are practical AND stylish.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "hylotltier5mpants": 1
-        },
-        "output": {
-          "hylotltier6mpants": 1
-        }
-      }
+      212
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier5mpants": 1
-        }
-      }
+      149
     ]
   },
   "hylotltier5schest": {
@@ -11482,27 +18662,10 @@
     "title": "Ocean Chestguard",
     "description": "This chestguard is designed to turn away the attacks of huge fish, as well as those of more ordinary adversaries.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "hylotltier5schest": 1
-        },
-        "output": {
-          "hylotltier6schest": 1
-        }
-      }
+      231
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5schest": 1
-        }
-      }
+      168
     ]
   },
   "hylotltier5shead": {
@@ -11512,26 +18675,10 @@
     "title": "Ocean Helm",
     "description": "This violium helm is built for exploration of the deep.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "hylotltier5shead": 1
-        },
-        "output": {
-          "hylotltier6shead": 1
-        }
-      }
+      232
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier5shead": 1
-        }
-      }
+      169
     ]
   },
   "hylotltier5spants": {
@@ -11541,26 +18688,10 @@
     "title": "Ocean Greaves",
     "description": "Violium greaves allow an ocean explorer to sink easily and stay sunk.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "hylotltier5spants": 1
-        },
-        "output": {
-          "hylotltier6spants": 1
-        }
-      }
+      233
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier5spants": 1
-        }
-      }
+      170
     ]
   },
   "hylotltier6achest": {
@@ -11571,15 +18702,7 @@
     "description": "The reinforced spine of this chestguard protects the wearer from surprise rear attacks.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "hylotltier5achest": 1
-        },
-        "output": {
-          "hylotltier6achest": 1
-        }
-      }
+      189
     ]
   },
   "hylotltier6ahead": {
@@ -11590,15 +18713,7 @@
     "description": "A helm with an elaborate, bubble-like aesthetic that allows a wide plane of vision.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "hylotltier5ahead": 1
-        },
-        "output": {
-          "hylotltier6ahead": 1
-        }
-      }
+      190
     ]
   },
   "hylotltier6apants": {
@@ -11609,15 +18724,7 @@
     "description": "The pale stripes of these trousers are reminiscent of shifting rays of light through water.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "hylotltier5apants": 1
-        },
-        "output": {
-          "hylotltier6apants": 1
-        }
-      }
+      191
     ]
   },
   "hylotltier6mchest": {
@@ -11628,15 +18735,7 @@
     "description": "A chestguard built to withstand the high pressure of the ocean depths, among other things.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "hylotltier5mchest": 1
-        },
-        "output": {
-          "hylotltier6mchest": 1
-        }
-      }
+      210
     ]
   },
   "hylotltier6mhead": {
@@ -11647,15 +18746,7 @@
     "description": "A strong helm designed to protect the wearer in the darkest depths of the ocean, coveted by the land-bound.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "hylotltier5mhead": 1
-        },
-        "output": {
-          "hylotltier6mhead": 1
-        }
-      }
+      211
     ]
   },
   "hylotltier6mpants": {
@@ -11666,15 +18757,7 @@
     "description": "Solarium crafted trousers with strengthened ribbing, that let the wearer swim, run and fight with equal ease.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "hylotltier5mpants": 1
-        },
-        "output": {
-          "hylotltier6mpants": 1
-        }
-      }
+      212
     ]
   },
   "hylotltier6schest": {
@@ -11685,15 +18768,7 @@
     "description": "Designed for the warrior who is a guardian of peace - stalwart and unflinching.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "hylotltier5schest": 1
-        },
-        "output": {
-          "hylotltier6schest": 1
-        }
-      }
+      231
     ]
   },
   "hylotltier6shead": {
@@ -11704,15 +18779,7 @@
     "description": "A helmet designed for the elite warrior, the crest implies nobility of purpose.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "hylotltier5shead": 1
-        },
-        "output": {
-          "hylotltier6shead": 1
-        }
-      }
+      232
     ]
   },
   "hylotltier6spants": {
@@ -11723,15 +18790,7 @@
     "description": "Greaves reinforced with pure solarium, as strong as the spirit of their wearer.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "hylotltier5spants": 1
-        },
-        "output": {
-          "hylotltier6spants": 1
-        }
-      }
+      233
     ]
   },
   "traditionalchest": {
@@ -11742,15 +18801,7 @@
     "description": "A common style of shirt which offers comfort and simplicity.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "traditionalchest": 1
-        }
-      }
+      1019
     ]
   },
   "traditionallegs": {
@@ -11761,15 +18812,7 @@
     "description": "Basic legwear that is both flexible and waterproof.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "traditionallegs": 1
-        }
-      }
+      1020
     ]
   },
   "traineechest": {
@@ -11780,15 +18823,7 @@
     "description": "This trainee shirt doesn't prevent the arms from moving while practising combat.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "traineechest": 1
-        }
-      }
+      1021
     ]
   },
   "traineelegs": {
@@ -11799,15 +18834,7 @@
     "description": "Some trainee trousers, commonly used for combat training.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "traineelegs": 1
-        }
-      }
+      1022
     ]
   },
   "novatier1chest": {
@@ -11818,16 +18845,7 @@
     "description": "A classic vest and bandana combo, complete with an official Deputy's badge.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "novatier1chest": 1
-        }
-      }
+      18
     ]
   },
   "novatier1head": {
@@ -11838,15 +18856,7 @@
     "description": "You'd make a dashing deputy in this hat.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "novatier1head": 1
-        }
-      }
+      19
     ]
   },
   "novatier1pants": {
@@ -11857,15 +18867,7 @@
     "description": "Simple yet stylish deputy's slacks.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "novatier1pants": 1
-        }
-      }
+      20
     ]
   },
   "novatier2chest": {
@@ -11876,16 +18878,7 @@
     "description": "A tough jacket with steel fastenings, to keep you warm in all weather.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "novatier2chest": 1
-        }
-      }
+      39
     ]
   },
   "novatier2head": {
@@ -11896,15 +18889,7 @@
     "description": "Go incognito in this bandana-hat combo.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "novatier2head": 1
-        }
-      }
+      40
     ]
   },
   "novatier2pants": {
@@ -11915,15 +18900,7 @@
     "description": "Make the perfect getaway in these bandit's chaps.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "novatier2pants": 1
-        }
-      }
+      41
     ]
   },
   "novatier3chest": {
@@ -11934,16 +18911,7 @@
     "description": "A dark jacket with a dusty poncho shoulderpiece.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "novatier3chest": 1
-        }
-      }
+      79
     ]
   },
   "novatier3head": {
@@ -11954,15 +18922,7 @@
     "description": "With a hat like that, ain't no one gonna tell you what to do.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "novatier3head": 1
-        }
-      }
+      80
     ]
   },
   "novatier3pants": {
@@ -11973,15 +18933,7 @@
     "description": "Ideal outer-wear for evading the law.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "novatier3pants": 1
-        }
-      }
+      81
     ]
   },
   "novatier4chest": {
@@ -11992,16 +18944,7 @@
     "description": "Be the best-dressed in town, in this sheriff's vest!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "novatier4chest": 1
-        }
-      }
+      108
     ]
   },
   "novatier4head": {
@@ -12012,15 +18955,7 @@
     "description": "You are the law, with this eccentric 10 gallon hat and mask.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "novatier4head": 1
-        }
-      }
+      109
     ]
   },
   "novatier4pants": {
@@ -12031,15 +18966,7 @@
     "description": "They'll respect your authority when you're wearing these sheriff's slacks.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "novatier4pants": 1
-        }
-      }
+      110
     ]
   },
   "novatier5achest": {
@@ -12049,27 +18976,10 @@
     "title": "Bandito's Poncho",
     "description": "A mysterious poncho for mysterious purposes.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "novatier5achest": 1
-        },
-        "output": {
-          "novatier6achest": 1
-        }
-      }
+      192
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5achest": 1
-        }
-      }
+      129
     ]
   },
   "novatier5ahead": {
@@ -12079,27 +18989,10 @@
     "title": "Bandito's Sombrero",
     "description": "A stylish sombrero to keep the sun out of your eyes and your air of mystery intact.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "novatier5ahead": 1
-        },
-        "output": {
-          "novatier6ahead": 1
-        }
-      }
+      193
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5ahead": 1
-        }
-      }
+      130
     ]
   },
   "novatier5apants": {
@@ -12109,27 +19002,10 @@
     "title": "Bandito's Pants",
     "description": "The pants of a bandito. Possibly stolen.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "novatier5apants": 1
-        },
-        "output": {
-          "novatier6apants": 1
-        }
-      }
+      194
     ],
     "makes": [
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5apants": 1
-        }
-      }
+      131
     ]
   },
   "novatier5mchest": {
@@ -12139,27 +19015,10 @@
     "title": "Bonesaw's Coat",
     "description": "A bonesaw's coat. Menacing yet elegant.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "novatier5mchest": 1
-        },
-        "output": {
-          "novatier6mchest": 1
-        }
-      }
+      213
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5mchest": 1
-        }
-      }
+      150
     ]
   },
   "novatier5mhead": {
@@ -12169,26 +19028,10 @@
     "title": "Bonesaw's Hat",
     "description": "The intimidating headwear of a bonesaw, its eyes burning with malice.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "novatier5mhead": 1
-        },
-        "output": {
-          "novatier6mhead": 1
-        }
-      }
+      214
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "novatier5mhead": 1
-        }
-      }
+      151
     ]
   },
   "novatier5mpants": {
@@ -12198,26 +19041,10 @@
     "title": "Bonesaw's Slacks",
     "description": "A Bonesaw's ominous trousers.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "novatier5mpants": 1
-        },
-        "output": {
-          "novatier6mpants": 1
-        }
-      }
+      215
     ],
     "makes": [
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "novatier5mpants": 1
-        }
-      }
+      152
     ]
   },
   "novatier5schest": {
@@ -12227,27 +19054,10 @@
     "title": "Varmint's Plate",
     "description": "The sorta chest plate that makes ya wanna tie a damsel to a railroad track.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "novatier5schest": 1
-        },
-        "output": {
-          "novatier6schest": 1
-        }
-      }
+      234
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5schest": 1
-        }
-      }
+      171
     ]
   },
   "novatier5shead": {
@@ -12257,26 +19067,10 @@
     "title": "Varmint's Hat",
     "description": "Keep the dust outta yer eyes and your enemies off yer back with this first-rate headgear.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "novatier5shead": 1
-        },
-        "output": {
-          "novatier6shead": 1
-        }
-      }
+      235
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "novatier5shead": 1
-        }
-      }
+      172
     ]
   },
   "novatier5spants": {
@@ -12286,26 +19080,10 @@
     "title": "Varmint's Pants",
     "description": "Loose fitting and durable, for all your varmint needs.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "novatier5spants": 1
-        },
-        "output": {
-          "novatier6spants": 1
-        }
-      }
+      236
     ],
     "makes": [
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "novatier5spants": 1
-        }
-      }
+      173
     ]
   },
   "novatier6achest": {
@@ -12316,15 +19094,7 @@
     "description": "Got a risky venture planned? Be sure to take this gambler's vest along.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "novatier5achest": 1
-        },
-        "output": {
-          "novatier6achest": 1
-        }
-      }
+      192
     ]
   },
   "novatier6ahead": {
@@ -12335,15 +19105,7 @@
     "description": "No matter how high the stakes, you won't lose you head with this gambler's hat.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "novatier5ahead": 1
-        },
-        "output": {
-          "novatier6ahead": 1
-        }
-      }
+      193
     ]
   },
   "novatier6apants": {
@@ -12354,15 +19116,7 @@
     "description": "Cut with room to spare. Perfect for a shifty individual.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "novatier5apants": 1
-        },
-        "output": {
-          "novatier6apants": 1
-        }
-      }
+      194
     ]
   },
   "novatier6mchest": {
@@ -12373,15 +19127,7 @@
     "description": "The tall collar hides you face as you enact nefarious deeds.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "novatier5mchest": 1
-        },
-        "output": {
-          "novatier6mchest": 1
-        }
-      }
+      213
     ]
   },
   "novatier6mhead": {
@@ -12392,15 +19138,7 @@
     "description": "A clockwork hat. To remind your enemies of the relentless march of time.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "novatier5mhead": 1
-        },
-        "output": {
-          "novatier6mhead": 1
-        }
-      }
+      214
     ]
   },
   "novatier6mpants": {
@@ -12411,15 +19149,7 @@
     "description": "Clockwork trousers - so you always march in time.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "novatier5mpants": 1
-        },
-        "output": {
-          "novatier6mpants": 1
-        }
-      }
+      215
     ]
   },
   "novatier6schest": {
@@ -12430,15 +19160,7 @@
     "description": "This reinforced chestplate could take on a capricoat.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "novatier5schest": 1
-        },
-        "output": {
-          "novatier6schest": 1
-        }
-      }
+      234
     ]
   },
   "novatier6shead": {
@@ -12449,15 +19171,7 @@
     "description": "A sturdy wrangler's hat, with reinforced facial protection.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 12,
-          "novatier5shead": 1
-        },
-        "output": {
-          "novatier6shead": 1
-        }
-      }
+      235
     ]
   },
   "novatier6spants": {
@@ -12468,15 +19182,7 @@
     "description": "Wrangler's pants, for the hardy Wrangler.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "solariumstar": 8,
-          "novatier5spants": 1
-        },
-        "output": {
-          "novatier6spants": 1
-        }
-      }
+      236
     ]
   },
   "novakidfancychest": {
@@ -12487,15 +19193,7 @@
     "description": "Casual rookie duds.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidfancychest": 1
-        }
-      }
+      1051
     ]
   },
   "novakidfancypants": {
@@ -12506,15 +19204,7 @@
     "description": "Comfy and casual. Brilliant for blending into a crowd.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidfancypants": 1
-        }
-      }
+      1052
     ]
   },
   "novakidjacket": {
@@ -12525,15 +19215,7 @@
     "description": "A jacket over a simple cotton shirt.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidjacket": 1
-        }
-      }
+      1053
     ]
   },
   "novakidjacketpants": {
@@ -12544,15 +19226,7 @@
     "description": "Keep cool and comfortable while you climb all those rugged mountains.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidjacketpants": 1
-        }
-      }
+      1054
     ]
   },
   "novakidsuspenders": {
@@ -12563,15 +19237,7 @@
     "description": "A classy shirt with suspenders.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidsuspenders": 1
-        }
-      }
+      1055
     ]
   },
   "novakidsuspenderspants": {
@@ -12582,15 +19248,7 @@
     "description": "A pair of pants with clips for suspenders.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidsuspenderspants": 1
-        }
-      }
+      1056
     ]
   },
   "novakidwaistcoat": {
@@ -12601,15 +19259,7 @@
     "description": "For the smooth-dressing space farer.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidwaistcoat": 1
-        }
-      }
+      1057
     ]
   },
   "novakidblackpants": {
@@ -12620,15 +19270,7 @@
     "description": "Flattering and stylish formalwear.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidblackpants": 1
-        }
-      }
+      1058
     ]
   },
   "arenabruiserchest": {
@@ -13053,14 +19695,7 @@
     "description": "A perfect breastplate. Almost too perfect.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "perfectlygenericitem": 50
-        },
-        "output": {
-          "perfectchest": 1
-        }
-      }
+      87
     ]
   },
   "perfecthead": {
@@ -13071,14 +19706,7 @@
     "description": "Pure pefection. Almost a shame to place on my head.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "perfectlygenericitem": 30
-        },
-        "output": {
-          "perfecthead": 1
-        }
-      }
+      88
     ]
   },
   "perfectpants": {
@@ -13089,14 +19717,7 @@
     "description": "These are unsettlingly perfect trousers.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "perfectlygenericitem": 20
-        },
-        "output": {
-          "perfectpants": 1
-        }
-      }
+      89
     ]
   },
   "silverarmorchest": {
@@ -13728,16 +20349,7 @@
     "description": "A collar that gives your pet a ghostly visage.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "phasematter": 10,
-          "leather": 5,
-          "goldore": 1
-        },
-        "output": {
-          "ghostlycollar": 1
-        }
-      }
+      1112
     ]
   },
   "healingcollar1": {
@@ -13844,386 +20456,54 @@
     "title": "Pixels",
     "description": "Pixels are a universal currency. They can also be used for 3D Printing.",
     "recipes": [
-      {
-        "input": {
-          "fabric": 20,
-          "money": 150
-        },
-        "output": {
-          "cupidsback": 1
-        }
-      },
-      {
-        "input": {
-          "bow": 1,
-          "money": 150
-        },
-        "output": {
-          "cupidsbow": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "money": 100
-        },
-        "output": {
-          "cupidschest": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 20,
-          "money": 100
-        },
-        "output": {
-          "cupidshead": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "money": 100
-        },
-        "output": {
-          "cupidslegs": 1
-        }
-      },
-      {
-        "input": {
-          "campfire": 1,
-          "goldbar": 10,
-          "money": 150
-        },
-        "output": {
-          "heartforge": 1
-        }
-      },
-      {
-        "input": {
-          "money": 150
-        },
-        "output": {
-          "valentinechocolates": 1
-        }
-      },
-      {
-        "input": {
-          "money": 100
-        },
-        "output": {
-          "holidayspirit": 1
-        }
-      },
-      {
-        "input": {
-          "money": 100
-        },
-        "output": {
-          "futurelight": 1
-        }
-      },
-      {
-        "input": {
-          "money": 25
-        },
-        "output": {
-          "lightmetal": 1
-        }
-      },
-      {
-        "input": {
-          "money": 120
-        },
-        "output": {
-          "modernchair": 1
-        }
-      },
-      {
-        "input": {
-          "money": 25
-        },
-        "output": {
-          "modernplatform": 1
-        }
-      },
-      {
-        "input": {
-          "money": 150
-        },
-        "output": {
-          "moderntable": 1
-        }
-      },
-      {
-        "input": {
-          "money": 1000,
-          "durasteelbar": 5,
-          "goldbar": 5,
-          "diamond": 1
-        },
-        "output": {
-          "portable3dprinter": 1
-        }
-      },
-      {
-        "input": {
-          "money": 25
-        },
-        "output": {
-          "redtoyblock": 1
-        }
-      },
-      {
-        "input": {
-          "money": 150
-        },
-        "output": {
-          "slidingdoor": 1
-        }
-      },
-      {
-        "input": {
-          "money": 10000
-        },
-        "output": {
-          "voxel10k": 1
-        }
-      },
-      {
-        "input": {
-          "money": 1000
-        },
-        "output": {
-          "voxel1k": 1
-        }
-      },
-      {
-        "input": {
-          "money": 2000
-        },
-        "output": {
-          "voxel2k": 1
-        }
-      },
-      {
-        "input": {
-          "money": 5000
-        },
-        "output": {
-          "voxel5k": 1
-        }
-      }
+      844,
+      845,
+      846,
+      847,
+      848,
+      849,
+      850,
+      874,
+      955,
+      956,
+      957,
+      958,
+      959,
+      960,
+      961,
+      962,
+      967,
+      968,
+      969,
+      970
     ],
     "makes": [
-      {
-        "input": {
-          "voxel10k": 1
-        },
-        "output": {
-          "money": 10000
-        }
-      },
-      {
-        "input": {
-          "voxel1k": 1
-        },
-        "output": {
-          "money": 1000
-        }
-      },
-      {
-        "input": {
-          "voxel2k": 1
-        },
-        "output": {
-          "money": 2000
-        }
-      },
-      {
-        "input": {
-          "voxel5k": 1
-        },
-        "output": {
-          "money": 5000
-        }
-      },
-      {
-        "input": {
-          "aegisaltore": 1
-        },
-        "output": {
-          "money": 30
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "money": 10
-        }
-      },
-      {
-        "input": {
-          "copperore": 1
-        },
-        "output": {
-          "money": 5
-        }
-      },
-      {
-        "input": {
-          "diamond": 1
-        },
-        "output": {
-          "money": 600
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "money": 50
-        }
-      },
-      {
-        "input": {
-          "durasteelore": 1
-        },
-        "output": {
-          "money": 25
-        }
-      },
-      {
-        "input": {
-          "feroziumore": 1
-        },
-        "output": {
-          "money": 30
-        }
-      },
-      {
-        "input": {
-          "goldbar": 1
-        },
-        "output": {
-          "money": 20
-        }
-      },
-      {
-        "input": {
-          "goldore": 1
-        },
-        "output": {
-          "money": 10
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "money": 20
-        }
-      },
-      {
-        "input": {
-          "ironore": 1
-        },
-        "output": {
-          "money": 10
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 1
-        },
-        "output": {
-          "money": 60
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 1
-        },
-        "output": {
-          "money": 60
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 1
-        },
-        "output": {
-          "money": 60
-        }
-      },
-      {
-        "input": {
-          "silverbar": 1
-        },
-        "output": {
-          "money": 15
-        }
-      },
-      {
-        "input": {
-          "silverore": 1
-        },
-        "output": {
-          "money": 8
-        }
-      },
-      {
-        "input": {
-          "solariumore": 1
-        },
-        "output": {
-          "money": 30
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1
-        },
-        "output": {
-          "money": 40
-        }
-      },
-      {
-        "input": {
-          "titaniumore": 1
-        },
-        "output": {
-          "money": 20
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "money": 30
-        }
-      },
-      {
-        "input": {
-          "tungstenore": 1
-        },
-        "output": {
-          "money": 15
-        }
-      },
-      {
-        "input": {
-          "violiumore": 1
-        },
-        "output": {
-          "money": 30
-        }
-      }
+      971,
+      972,
+      973,
+      974,
+      985,
+      986,
+      987,
+      988,
+      989,
+      990,
+      991,
+      992,
+      993,
+      994,
+      995,
+      996,
+      997,
+      998,
+      999,
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006
     ]
   },
   "alpacafossil1": {
@@ -14728,22 +21008,8 @@
     "title": "Aegisalt Ore",
     "description": "Aegisalt ore. Can be used for smelting.",
     "recipes": [
-      {
-        "input": {
-          "aegisaltore": 2
-        },
-        "output": {
-          "refinedaegisalt": 1
-        }
-      },
-      {
-        "input": {
-          "aegisaltore": 1
-        },
-        "output": {
-          "money": 30
-        }
-      }
+      655,
+      985
     ],
     "makes": []
   },
@@ -14799,151 +21065,21 @@
     "title": "Battery",
     "description": "This battery can be used to power hi-tech stations, weapons and wearables!",
     "recipes": [
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "aegisaltbow": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "feroziumstaff": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "violiumbroadsword": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "siliconboard": 4,
-          "wire": 5,
-          "battery": 1
-        },
-        "output": {
-          "pethealingstation": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 2,
-          "cryonicextract": 1,
-          "battery": 1
-        },
-        "output": {
-          "fridge": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "battery": 1,
-          "wire": 6,
-          "siliconboard": 3
-        },
-        "output": {
-          "3dprinter": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "battery": 1,
-          "wire": 6,
-          "siliconboard": 3
-        },
-        "output": {
-          "capturestation": 1
-        }
-      },
-      {
-        "input": {
-          "radiationprotectionback": 1,
-          "durasteelbar": 6,
-          "battery": 1,
-          "scorchedcore": 1
-        },
-        "output": {
-          "coldprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "coldprotectionback": 1,
-          "refinedaegisalt": 2,
-          "refinedferozium": 2,
-          "refinedviolium": 2,
-          "battery": 1,
-          "cryonicextract": 1
-        },
-        "output": {
-          "heatprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "silverbar": 5,
-          "siliconboard": 2,
-          "wire": 10,
-          "battery": 1
-        },
-        "output": {
-          "railcraftingtable": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "siliconboard": 5,
-          "stickofram": 2,
-          "wire": 10,
-          "battery": 1
-        },
-        "output": {
-          "wiringstation": 1
-        }
-      },
-      {
-        "input": {
-          "firework": 5,
-          "fireworkgreen": 5,
-          "fireworkblue": 5,
-          "silverbar": 10,
-          "battery": 1
-        },
-        "output": {
-          "fireworkgun": 1
-        }
-      }
+      237,
+      239,
+      241,
+      596,
+      839,
+      916,
+      918,
+      919,
+      920,
+      923,
+      925,
+      1111
     ],
     "makes": [
-      {
-        "input": {
-          "wire": 4,
-          "goldbar": 2,
-          "liquidpoison": 5
-        },
-        "output": {
-          "battery": 1
-        }
-      }
+      659
     ]
   },
   "biosample": {
@@ -14953,36 +21089,9 @@
     "title": "Bio Sample",
     "description": "A sample of novel biological compounds and genetic information.",
     "recipes": [
-      {
-        "input": {
-          "plantfibre": 40,
-          "biosample": 1,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "toxicchair": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 60,
-          "biosample": 1,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "toxicchest": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 80,
-          "biosample": 1,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "toxictable": 1
-        }
-      }
+      424,
+      425,
+      428
     ],
     "makes": []
   },
@@ -15002,86 +21111,15 @@
     "title": "Bone",
     "description": "It's a bone.",
     "recipes": [
-      {
-        "input": {
-          "bone": 20,
-          "darkwoodmaterial": 20,
-          "silk": 3
-        },
-        "output": {
-          "bonebed": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 25,
-          "leather": 1
-        },
-        "output": {
-          "bonechair": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 30,
-          "copperbar": 1
-        },
-        "output": {
-          "bonechest": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 40,
-          "leather": 1
-        },
-        "output": {
-          "bonedoor": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 50
-        },
-        "output": {
-          "bonetable": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 3
-        },
-        "output": {
-          "throwingbones": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 1
-        },
-        "output": {
-          "bonematerial": 20
-        }
-      },
-      {
-        "input": {
-          "bone": 10,
-          "darkwoodmaterial": 10,
-          "torch": 1
-        },
-        "output": {
-          "skulltorch": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 5,
-          "bottle": 1
-        },
-        "output": {
-          "whitedye": 1
-        }
-      }
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      695,
+      939,
+      1072
     ],
     "makes": []
   },
@@ -15092,117 +21130,20 @@
     "title": "Empty Bottle",
     "description": "Perfect for storing liquids.",
     "recipes": [
-      {
-        "input": {
-          "bottle": 3,
-          "liquidoil": 10,
-          "fabric": 3
-        },
-        "output": {
-          "molotov": 3
-        }
-      },
-      {
-        "input": {
-          "liquidwater": 10,
-          "bottle": 1
-        },
-        "output": {
-          "bottledwater": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "bottle": 5,
-          "torch": 1
-        },
-        "output": {
-          "craftingmedical": 1
-        }
-      },
-      {
-        "input": {
-          "venomsample": 1,
-          "bottle": 1
-        },
-        "output": {
-          "antidote": 1
-        }
-      },
-      {
-        "input": {
-          "liquidhealing": 10,
-          "bottle": 1
-        },
-        "output": {
-          "bottledhealingwater": 1
-        }
-      },
-      {
-        "input": {
-          "coalore": 5,
-          "bottle": 1
-        },
-        "output": {
-          "blackdye": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 5,
-          "bottle": 1
-        },
-        "output": {
-          "bluedye": 1
-        }
-      },
-      {
-        "input": {
-          "liquidhealing": 5,
-          "bottle": 1
-        },
-        "output": {
-          "dyeremover": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 5,
-          "bottle": 1
-        },
-        "output": {
-          "reddye": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 5,
-          "bottle": 1
-        },
-        "output": {
-          "whitedye": 1
-        }
-      },
-      {
-        "input": {
-          "petalyellow": 5,
-          "bottle": 1
-        },
-        "output": {
-          "yellowdye": 1
-        }
-      }
+      82,
+      490,
+      910,
+      928,
+      965,
+      1068,
+      1069,
+      1070,
+      1071,
+      1072,
+      1073
     ],
     "makes": [
-      {
-        "input": {
-          "glass": 2
-        },
-        "output": {
-          "bottle": 1
-        }
-      }
+      647
     ]
   },
   "brain": {
@@ -15230,347 +21171,45 @@
     "title": "Canvas",
     "description": "A square of high-quality canvas.",
     "recipes": [
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "apextier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "apextier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "florantier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "florantier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "humantier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "humantier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "novatier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "novatier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "apextier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "apextier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "florantier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "florantier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "humantier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "humantier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "novatier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "novatier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "canvas": 2
-        },
-        "output": {
-          "tier4table": 1
-        }
-      }
+      62,
+      63,
+      65,
+      66,
+      68,
+      69,
+      71,
+      72,
+      74,
+      75,
+      77,
+      78,
+      80,
+      81,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      788
     ],
     "makes": [
-      {
-        "input": {
-          "cottonwool": 3
-        },
-        "output": {
-          "canvas": 1
-        }
-      }
+      1086
     ]
   },
   "cellmateria": {
@@ -15589,52 +21228,11 @@
     "title": "Cell Matter",
     "description": "Cell Matter - it can be used this to craft unspeakable things.",
     "recipes": [
-      {
-        "input": {
-          "cellmatter": 15,
-          "silverbar": 1
-        },
-        "output": {
-          "cellchair": 1
-        }
-      },
-      {
-        "input": {
-          "cellmatter": 10,
-          "silverbar": 1
-        },
-        "output": {
-          "cellchest": 1
-        }
-      },
-      {
-        "input": {
-          "cellmatter": 25
-        },
-        "output": {
-          "celldoor": 1
-        }
-      },
-      {
-        "input": {
-          "cellmatter": 15,
-          "silverbar": 1,
-          "smallbattery": 1,
-          "wire": 3
-        },
-        "output": {
-          "celllamp": 1
-        }
-      },
-      {
-        "input": {
-          "cellmatter": 25,
-          "silverbar": 1
-        },
-        "output": {
-          "celltable": 1
-        }
-      }
+      275,
+      276,
+      277,
+      278,
+      279
     ],
     "makes": []
   },
@@ -15645,79 +21243,13 @@
     "title": "Coal",
     "description": "It's coal. A decent source of fuel.",
     "recipes": [
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2,
-          "fancyhead": 1
-        },
-        "output": {
-          "fancysnowman": 1
-        }
-      },
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2
-        },
-        "output": {
-          "snowman": 1
-        }
-      },
-      {
-        "input": {
-          "coalore": 1,
-          "logblock": 1
-        },
-        "output": {
-          "torch": 4
-        }
-      },
-      {
-        "input": {
-          "sand2": 5,
-          "coalore": 2
-        },
-        "output": {
-          "siliconboard": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 15,
-          "coalore": 10,
-          "campfire": 1
-        },
-        "output": {
-          "refinery": 1
-        }
-      },
-      {
-        "input": {
-          "coalore": 5,
-          "bottle": 1
-        },
-        "output": {
-          "blackdye": 1
-        }
-      },
-      {
-        "input": {
-          "coalore": 5,
-          "liquidpoison": 5
-        },
-        "output": {
-          "syntheticmaterial": 1
-        }
-      }
+      389,
+      397,
+      610,
+      660,
+      915,
+      1068,
+      1088
     ],
     "makes": []
   },
@@ -15737,551 +21269,68 @@
     "title": "Copper Bar",
     "description": "Ore for copper bars is found at shallow depths on most planets around all stars.",
     "recipes": [
-      {
-        "input": {
-          "tungstenbar": 3,
-          "copperbar": 1
-        },
-        "output": {
-          "tungstenmagnum": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "copperbar": 2
-        },
-        "output": {
-          "tungstenshotgun": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 2,
-          "copperbar": 1
-        },
-        "output": {
-          "titaniumdagger": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 3,
-          "copperbar": 2
-        },
-        "output": {
-          "titaniummachinepistol": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "titaniumsniperrifle": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "titaniumspear": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "durasteelassaultrifle": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "durasteelbroadsword": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 3,
-          "copperbar": 2
-        },
-        "output": {
-          "durasteelrevolver": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 3,
-          "copperbar": 2
-        },
-        "output": {
-          "durasteelshortsword": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 30,
-          "copperbar": 1
-        },
-        "output": {
-          "bonechest": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 50,
-          "copperbar": 1,
-          "smallbattery": 2,
-          "wire": 3
-        },
-        "output": {
-          "foundrybed": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 25,
-          "copperbar": 1,
-          "glass": 5
-        },
-        "output": {
-          "foundrydoor": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 10,
-          "copperbar": 1,
-          "liquidlava": 10
-        },
-        "output": {
-          "foundrylight": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 10,
-          "copperbar": 1,
-          "glass": 10,
-          "liquidlava": 5
-        },
-        "output": {
-          "magmalamp": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 20,
-          "darkwoodmaterial": 5,
-          "copperbar": 1
-        },
-        "output": {
-          "reedclock": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 25,
-          "copperbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "rustbed": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 15,
-          "copperbar": 1
-        },
-        "output": {
-          "rustchair": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 20,
-          "copperbar": 1
-        },
-        "output": {
-          "rustchest": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 25,
-          "copperbar": 1
-        },
-        "output": {
-          "rustdoor": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 25,
-          "copperbar": 1
-        },
-        "output": {
-          "rusttable": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "darkwoodmaterial": 15
-        },
-        "output": {
-          "scorchedcitystoreshelf": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flagapex": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flagavian": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flagfloran": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flagglitch": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flaghuman": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flaghylotl": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flagnovakid": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "copperbar": 4,
-          "string": 1
-        },
-        "output": {
-          "hoe": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "copperbar": 1
-        },
-        "output": {
-          "woodenwateringcan": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 20,
-          "string": 1,
-          "copperbar": 1
-        },
-        "output": {
-          "bow": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "copperbar": 1,
-          "liquidpoison": 1
-        },
-        "output": {
-          "smallbattery": 2
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "wire": 5
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "coppershelf": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "coppersupport": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "copperbar": 1
-        },
-        "output": {
-          "tier1table": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "torch": 1
-        },
-        "output": {
-          "copperceilinglight": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "torch": 1
-        },
-        "output": {
-          "copperlantern": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "copperblock": 50
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "copperfence": 50
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "copperladder": 50
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "copperplatform": 50
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "copperroofing": 50
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "glassmaterial": 2
-        },
-        "output": {
-          "copperwindow": 20
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "yellowdye": 1,
-          "blackdye": 1
-        },
-        "output": {
-          "hazard": 50
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "heavypipe": 20
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "darkwoodmaterial": 4
-        },
-        "output": {
-          "copperbox1": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "copperbar": 1
-        },
-        "output": {
-          "woodencrate2": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "logblock": 1,
-          "copperbar": 4
-        },
-        "output": {
-          "woodencookingtable": 1
-        }
-      },
-      {
-        "input": {
-          "breathprotectionback": 1,
-          "titaniumbar": 6,
-          "copperbar": 4,
-          "venomsample": 1
-        },
-        "output": {
-          "radiationprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "cryonicextract": 1
-        },
-        "output": {
-          "burnspray": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "copperbar": 1
-        },
-        "output": {
-          "miningdoor": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "copperbar": 1
-        },
-        "output": {
-          "miningverticaldoor": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "rustyrail": 10
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "rustyrail": 10
-        }
-      },
-      {
-        "input": {
-          "wire": 8,
-          "smallbattery": 1,
-          "copperbar": 5
-        },
-        "output": {
-          "rustyrailplatform": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "money": 10
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 50,
-          "copperbar": 10
-        },
-        "output": {
-          "mannequin": 1
-        }
-      }
+      50,
+      51,
+      83,
+      84,
+      85,
+      86,
+      243,
+      244,
+      245,
+      246,
+      271,
+      312,
+      314,
+      315,
+      316,
+      358,
+      370,
+      371,
+      372,
+      373,
+      374,
+      382,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      611,
+      615,
+      616,
+      661,
+      662,
+      666,
+      667,
+      669,
+      680,
+      681,
+      706,
+      707,
+      708,
+      709,
+      710,
+      711,
+      724,
+      726,
+      779,
+      782,
+      912,
+      914,
+      935,
+      951,
+      952,
+      978,
+      983,
+      984,
+      986,
+      1089
     ],
     "makes": [
-      {
-        "input": {
-          "copperore": 2
-        },
-        "output": {
-          "copperbar": 1
-        }
-      }
+      642
     ]
   },
   "copperore": {
@@ -16291,22 +21340,8 @@
     "title": "Copper Ore",
     "description": "Copper ore. Can be used for smelting.",
     "recipes": [
-      {
-        "input": {
-          "copperore": 2
-        },
-        "output": {
-          "copperbar": 1
-        }
-      },
-      {
-        "input": {
-          "copperore": 1
-        },
-        "output": {
-          "money": 5
-        }
-      }
+      642,
+      987
     ],
     "makes": []
   },
@@ -16326,14 +21361,7 @@
     "title": "Core Fragment",
     "description": "These naturally occurring crystals produce energy.",
     "recipes": [
-      {
-        "input": {
-          "corefragmentore": 2
-        },
-        "output": {
-          "volatilepowder": 1
-        }
-      }
+      652
     ],
     "makes": []
   },
@@ -16344,14 +21372,7 @@
     "title": "Cotton Fibre",
     "description": "A tuft of natural cotton fibre.",
     "recipes": [
-      {
-        "input": {
-          "cotton": 3
-        },
-        "output": {
-          "cottonwool": 1
-        }
-      }
+      1074
     ],
     "makes": []
   },
@@ -16362,767 +21383,92 @@
     "title": "Cotton Wool",
     "description": "A roll of processed cotton.",
     "recipes": [
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "apextier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "apextier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "apextier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "aviantier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "aviantier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "aviantier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "florantier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "florantier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "florantier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "glitchtier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "glitchtier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "glitchtier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "humantier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "humantier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "humantier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "hylotltier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "hylotltier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "hylotltier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "novatier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "novatier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "novatier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 25,
-          "cottonwool": 1
-        },
-        "output": {
-          "tarbed": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexcommanderjacket": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexcommanderpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexnavyjacket": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexnavypants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexofficerjacket": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexofficerpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexspecialistjacket": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexspecialistpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "kimonochest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "kimonolegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "monkchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "monklegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "traditionalchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "traditionallegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "traineechest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "traineelegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "aviancommonershirt": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "aviancommonerlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "avianfancyshirt": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "avianfancyskirt": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "avianworkershirt": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "avianworkerpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranfurnivourchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranfurnivourlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranhunterchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranhunterlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranleafchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranleaflegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranpeltchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranpeltlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floransurvivalistchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floransurvivalistlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "conceptchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "conceptlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "coolchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "coollegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "sweatervestchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "sweatervestlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "workoutchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "workoutlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidfancychest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidfancypants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidjacket": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidjacketpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidsuspenders": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidsuspenderspants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidwaistcoat": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidblackpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "craftsmenchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "craftsmenlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "merchantchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "merchantlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "noblechest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "noblelegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "peasantchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "peasantlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "tshirtchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 4
-        },
-        "output": {
-          "teddybearplush": 1
-        }
-      },
-      {
-        "input": {
-          "cottonwool": 2
-        },
-        "output": {
-          "shortcapeback": 1
-        }
-      },
-      {
-        "input": {
-          "cottonwool": 4
-        },
-        "output": {
-          "simplecapeback": 1
-        }
-      },
-      {
-        "input": {
-          "cottonwool": 3
-        },
-        "output": {
-          "canvas": 1
-        }
-      }
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      417,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1033,
+      1034,
+      1035,
+      1036,
+      1037,
+      1038,
+      1039,
+      1040,
+      1041,
+      1042,
+      1043,
+      1044,
+      1045,
+      1046,
+      1047,
+      1048,
+      1049,
+      1050,
+      1051,
+      1052,
+      1053,
+      1054,
+      1055,
+      1056,
+      1057,
+      1058,
+      1059,
+      1060,
+      1061,
+      1062,
+      1063,
+      1064,
+      1065,
+      1066,
+      1067,
+      1077,
+      1078,
+      1079,
+      1086
     ],
     "makes": [
-      {
-        "input": {
-          "cotton": 3
-        },
-        "output": {
-          "cottonwool": 1
-        }
-      }
+      1074
     ]
   },
   "crystal": {
@@ -17132,56 +21478,12 @@
     "title": "Crystal",
     "description": "Shiny crystal.",
     "recipes": [
-      {
-        "input": {
-          "crystal": 30
-        },
-        "output": {
-          "crystalbed": 1
-        }
-      },
-      {
-        "input": {
-          "crystal": 15
-        },
-        "output": {
-          "crystalchair": 1
-        }
-      },
-      {
-        "input": {
-          "crystal": 20
-        },
-        "output": {
-          "crystalchest": 1
-        }
-      },
-      {
-        "input": {
-          "crystal": 5,
-          "smallbattery": 1,
-          "wire": 1
-        },
-        "output": {
-          "crystallamp": 1
-        }
-      },
-      {
-        "input": {
-          "crystal": 25
-        },
-        "output": {
-          "crystaltable": 1
-        }
-      },
-      {
-        "input": {
-          "crystal": 1
-        },
-        "output": {
-          "crystalblock": 30
-        }
-      }
+      297,
+      298,
+      299,
+      300,
+      301,
+      713
     ],
     "makes": []
   },
@@ -17192,82 +21494,14 @@
     "title": "Diamond",
     "description": "It's a beautifully cut diamond.",
     "recipes": [
-      {
-        "input": {
-          "diamond": 3
-        },
-        "output": {
-          "dubloon": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 3,
-          "diamond": 1
-        },
-        "output": {
-          "capturepod": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "diamond": 1,
-          "phasematter": 1
-        },
-        "output": {
-          "pettether": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "diamond": 1,
-          "climbingrope": 1,
-          "wire": 2,
-          "smallbattery": 4
-        },
-        "output": {
-          "grapplinghook": 1
-        }
-      },
-      {
-        "input": {
-          "halogenpack": 1,
-          "diamond": 3,
-          "wire": 5
-        },
-        "output": {
-          "xenonpack": 1
-        }
-      },
-      {
-        "input": {
-          "money": 1000,
-          "durasteelbar": 5,
-          "goldbar": 5,
-          "diamond": 1
-        },
-        "output": {
-          "portable3dprinter": 1
-        }
-      },
-      {
-        "input": {
-          "diamond": 1
-        },
-        "output": {
-          "money": 600
-        }
-      },
-      {
-        "input": {
-          "diamond": 15
-        },
-        "output": {
-          "teleportercore": 1
-        }
-      }
+      247,
+      595,
+      597,
+      632,
+      635,
+      960,
+      988,
+      1095
     ],
     "makes": []
   },
@@ -17287,663 +21521,76 @@
     "title": "Durasteel Bar",
     "description": "Ore for durasteel bars is primarily found on planets orbiting radioactive stars.",
     "recipes": [
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "apextier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "apextier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "apextier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "aviantier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "aviantier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "aviantier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "florantier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "florantier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "florantier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "glitchtier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "glitchtier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "humantier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "humantier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "humantier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "hylotltier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "hylotltier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "novatier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "novatier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "novatier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "durasteelassaultrifle": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "durasteelbroadsword": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 3,
-          "copperbar": 2
-        },
-        "output": {
-          "durasteelrevolver": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 3,
-          "copperbar": 2
-        },
-        "output": {
-          "durasteelshortsword": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 3,
-          "diamond": 1
-        },
-        "output": {
-          "capturepod": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "siliconboard": 4,
-          "wire": 5,
-          "battery": 1
-        },
-        "output": {
-          "pethealingstation": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "diamond": 1,
-          "phasematter": 1
-        },
-        "output": {
-          "pettether": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 5,
-          "goldbar": 5
-        },
-        "output": {
-          "sprinkler": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "string": 1,
-          "liquidoil": 3
-        },
-        "output": {
-          "compoundbow": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "silverbar": 2,
-          "syntheticmaterial": 5
-        },
-        "output": {
-          "durablefishingrod": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "smallbattery": 4,
-          "siliconboard": 2,
-          "wire": 6
-        },
-        "output": {
-          "relocator": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "goldbar": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "cavedetector": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "diamond": 1,
-          "climbingrope": 1,
-          "wire": 2,
-          "smallbattery": 4
-        },
-        "output": {
-          "grapplinghook": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 5,
-          "wire": 5,
-          "siliconboard": 2,
-          "smallbattery": 5
-        },
-        "output": {
-          "halogenpack": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "fabric": 10,
-          "silk": 3
-        },
-        "output": {
-          "tier4bed": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "leather": 5,
-          "blackdye": 1
-        },
-        "output": {
-          "tier4chair": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "canvas": 2
-        },
-        "output": {
-          "tier4table": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "tier4door": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "glass": 2,
-          "smallbattery": 1
-        },
-        "output": {
-          "tier4light": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "outpostplatform": 10
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "pressurisedbeam": 20
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "pressuriseddurasteel": 40
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "pressurisedgirder": 20
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "pressurisedplatform": 10
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "apexstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "avianstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "floranstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "glitchstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "humanstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "hylotlstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "novakidstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "battery": 1,
-          "wire": 6,
-          "siliconboard": 3
-        },
-        "output": {
-          "3dprinter": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "battery": 1,
-          "wire": 6,
-          "siliconboard": 3
-        },
-        "output": {
-          "capturestation": 1
-        }
-      },
-      {
-        "input": {
-          "radiationprotectionback": 1,
-          "durasteelbar": 6,
-          "battery": 1,
-          "scorchedcore": 1
-        },
-        "output": {
-          "coldprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 15,
-          "goldbar": 15
-        },
-        "output": {
-          "pixelcompressor": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "silverbar": 5,
-          "siliconboard": 2,
-          "wire": 10,
-          "battery": 1
-        },
-        "output": {
-          "railcraftingtable": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "siliconboard": 5,
-          "stickofram": 2,
-          "wire": 10,
-          "battery": 1
-        },
-        "output": {
-          "wiringstation": 1
-        }
-      },
-      {
-        "input": {
-          "money": 1000,
-          "durasteelbar": 5,
-          "goldbar": 5,
-          "diamond": 1
-        },
-        "output": {
-          "portable3dprinter": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "compositerail": 20
-        }
-      },
-      {
-        "input": {
-          "wire": 8,
-          "smallbattery": 2,
-          "durasteelbar": 3,
-          "silverbar": 3
-        },
-        "output": {
-          "compositerailplatform": 1
-        }
-      },
-      {
-        "input": {
-          "sharpenedclaw": 1,
-          "durasteelbar": 5,
-          "silverbar": 5
-        },
-        "output": {
-          "railhook": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "money": 50
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 2,
-          "siliconboard": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "secretdoor": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 2,
-          "siliconboard": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "secrettrapdoor": 1
-        }
-      },
-      {
-        "input": {
-          "scanner": 1,
-          "siliconboard": 1,
-          "smallbattery": 1,
-          "wire": 2,
-          "durasteelbar": 5
-        },
-        "output": {
-          "standingturret": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "wire": 5,
-          "siliconboard": 1,
-          "smallbattery": 2
-        },
-        "output": {
-          "tier4switch": 1
-        }
-      }
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      243,
+      244,
+      245,
+      246,
+      595,
+      596,
+      597,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      784,
+      787,
+      788,
+      804,
+      806,
+      821,
+      826,
+      827,
+      828,
+      829,
+      836,
+      837,
+      838,
+      840,
+      841,
+      842,
+      843,
+      916,
+      918,
+      919,
+      922,
+      923,
+      925,
+      960,
+      975,
+      976,
+      979,
+      989,
+      1128,
+      1129,
+      1130,
+      1143
     ],
     "makes": [
-      {
-        "input": {
-          "durasteelore": 2
-        },
-        "output": {
-          "durasteelbar": 1
-        }
-      }
+      653
     ]
   },
   "durasteelore": {
@@ -17953,22 +21600,8 @@
     "title": "Durasteel Ore",
     "description": "Durasteel ore. Can be used for smelting.",
     "recipes": [
-      {
-        "input": {
-          "durasteelore": 2
-        },
-        "output": {
-          "durasteelbar": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelore": 1
-        },
-        "output": {
-          "money": 25
-        }
-      }
+      653,
+      990
     ],
     "makes": []
   },
@@ -17988,1058 +21621,122 @@
     "title": "Woven Fabric",
     "description": "A small square of woven fabric.",
     "recipes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "apextier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "apextier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "apextier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "aviantier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "aviantier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "aviantier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "florantier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "florantier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "florantier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "glitchtier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "glitchtier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "glitchtier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "humantier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "humantier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "humantier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "hylotltier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "hylotltier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "hylotltier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "novatier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "novatier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "novatier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "bottle": 3,
-          "liquidoil": 10,
-          "fabric": 3
-        },
-        "output": {
-          "molotov": 3
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 25,
-          "fabric": 10,
-          "yellowdye": 1
-        },
-        "output": {
-          "stonebed": 1
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 15,
-          "fabric": 3,
-          "yellowdye": 1
-        },
-        "output": {
-          "stonechair": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 25,
-          "darkwoodmaterial": 10,
-          "fabric": 10,
-          "purpledye": 1
-        },
-        "output": {
-          "glowbed": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 20,
-          "fabric": 3,
-          "bluedye": 1
-        },
-        "output": {
-          "glowchair": 1
-        }
-      },
-      {
-        "input": {
-          "eyepiles": 50,
-          "silverbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "eyebed": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 50,
-          "petalyellow": 15,
-          "plantfibre": 15,
-          "fabric": 10
-        },
-        "output": {
-          "giantflowerbed": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 50,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "mushroomhead": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 25,
-          "darkwoodmaterial": 10,
-          "fabric": 10,
-          "reddye": 1
-        },
-        "output": {
-          "shroombed": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 25,
-          "copperbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "rustbed": 1
-        }
-      },
-      {
-        "input": {
-          "wicker": 20,
-          "fabric": 10,
-          "greendye": 1
-        },
-        "output": {
-          "swampbed": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flagapex": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flagavian": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flagfloran": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flagglitch": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flaghuman": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flaghylotl": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "fabric": 20
-        },
-        "output": {
-          "flagnovakid": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "fabric": 20,
-          "plantfibre": 40
-        },
-        "output": {
-          "scarecrow": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5,
-          "mininglantern": 1
-        },
-        "output": {
-          "mininghathead": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "tier1bed": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "tier2bed": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "fabric": 10
-        },
-        "output": {
-          "woodenbed": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "tier3bed": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "fabric": 10,
-          "silk": 3
-        },
-        "output": {
-          "tier4bed": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "money": 150
-        },
-        "output": {
-          "cupidsback": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "money": 100
-        },
-        "output": {
-          "cupidschest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "money": 100
-        },
-        "output": {
-          "cupidslegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 2
-        },
-        "output": {
-          "bandage": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexcommanderjacket": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexcommanderpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexnavyjacket": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexnavypants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexofficerjacket": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexofficerpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "apexspecialistjacket": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "apexspecialistpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "kimonochest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "kimonolegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "monkchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "monklegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "traditionalchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "traditionallegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "traineechest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "traineelegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "leather": 4
-        },
-        "output": {
-          "avianadventurershirt": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "leather": 2
-        },
-        "output": {
-          "avianadventurerpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "aviancommonershirt": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "aviancommonerlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "avianfancyshirt": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "avianfancyskirt": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "avianworkershirt": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "avianworkerpants": 1
-        }
-      },
-      {
-        "input": {
-          "leather": 5,
-          "fabric": 5,
-          "string": 5
-        },
-        "output": {
-          "boxingglove": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "string": 5
-        },
-        "output": {
-          "eyepatchhead": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranfurnivourchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranfurnivourlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranhunterchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranhunterlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranleafchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranleaflegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floranpeltchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floranpeltlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "floransurvivalistchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "floransurvivalistlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "conceptchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "conceptlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "coolchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "coollegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "sweatervestchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "sweatervestlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "workoutchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "workoutlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidfancychest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidfancypants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidjacket": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidjacketpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidsuspenders": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidsuspenderspants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "novakidwaistcoat": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "novakidblackpants": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "craftsmenchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "craftsmenlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "merchantchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "merchantlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "noblechest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "noblelegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "peasantchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "cottonwool": 1
-        },
-        "output": {
-          "peasantlegs": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 2
-        },
-        "output": {
-          "tshirtchest": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "cottonwool": 4
-        },
-        "output": {
-          "teddybearplush": 1
-        }
-      },
-      {
-        "input": {
-          "livingroot": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "giantbowhead": 1
-        }
-      }
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      82,
+      253,
+      254,
+      258,
+      260,
+      302,
+      330,
+      347,
+      348,
+      370,
+      412,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      613,
+      625,
+      663,
+      664,
+      665,
+      783,
+      784,
+      844,
+      846,
+      848,
+      929,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      1036,
+      1037,
+      1038,
+      1039,
+      1040,
+      1041,
+      1042,
+      1043,
+      1044,
+      1045,
+      1046,
+      1047,
+      1048,
+      1049,
+      1050,
+      1051,
+      1052,
+      1053,
+      1054,
+      1055,
+      1056,
+      1057,
+      1058,
+      1059,
+      1060,
+      1061,
+      1062,
+      1063,
+      1064,
+      1065,
+      1066,
+      1067,
+      1077,
+      1113
     ],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 4
-        },
-        "output": {
-          "fabric": 1
-        }
-      }
+      1075
     ]
   },
   "feroziumore": {
@@ -19049,22 +21746,8 @@
     "title": "Ferozium Ore",
     "description": "Ferozium ore. Can be used for smelting.",
     "recipes": [
-      {
-        "input": {
-          "feroziumore": 2
-        },
-        "output": {
-          "refinedferozium": 1
-        }
-      },
-      {
-        "input": {
-          "feroziumore": 1
-        },
-        "output": {
-          "money": 30
-        }
-      }
+      656,
+      991
     ],
     "makes": []
   },
@@ -19084,41 +21767,12 @@
     "title": "Fired Clay",
     "description": "Clay cooked into a solid brick.",
     "recipes": [
-      {
-        "input": {
-          "firedclay": 1
-        },
-        "output": {
-          "brickmaterial": 50
-        }
-      },
-      {
-        "input": {
-          "firedclay": 1,
-          "sand": 1
-        },
-        "output": {
-          "fadedblocks": 50
-        }
-      },
-      {
-        "input": {
-          "firedclay": 1
-        },
-        "output": {
-          "rooftiles": 30
-        }
-      }
+      697,
+      716,
+      747
     ],
     "makes": [
-      {
-        "input": {
-          "clay": 2
-        },
-        "output": {
-          "firedclay": 1
-        }
-      }
+      648
     ]
   },
   "fleshstrand": {
@@ -19128,63 +21782,13 @@
     "title": "Flesh Strand",
     "description": "A long, sinewy strand of flesh.",
     "recipes": [
-      {
-        "input": {
-          "fleshstrand": 40
-        },
-        "output": {
-          "fleshbed": 1
-        }
-      },
-      {
-        "input": {
-          "fleshstrand": 15
-        },
-        "output": {
-          "fleshchair": 1
-        }
-      },
-      {
-        "input": {
-          "fleshstrand": 20
-        },
-        "output": {
-          "fleshchest": 1
-        }
-      },
-      {
-        "input": {
-          "fleshstrand": 30
-        },
-        "output": {
-          "fleshdoor": 1
-        }
-      },
-      {
-        "input": {
-          "fleshstrand": 25
-        },
-        "output": {
-          "fleshtable": 1
-        }
-      },
-      {
-        "input": {
-          "pussplum": 1,
-          "fleshstrand": 1
-        },
-        "output": {
-          "bloodypuss": 1
-        }
-      },
-      {
-        "input": {
-          "fleshstrand": 3
-        },
-        "output": {
-          "fleshblock": 20
-        }
-      }
+      307,
+      308,
+      309,
+      310,
+      311,
+      489,
+      718
     ],
     "makes": []
   },
@@ -19204,69 +21808,12 @@
     "title": "Giant Flower Petal",
     "description": "A giant flower petal. Soft!",
     "recipes": [
-      {
-        "input": {
-          "giantflowerpetal": 50,
-          "petalyellow": 15,
-          "plantfibre": 15,
-          "fabric": 10
-        },
-        "output": {
-          "giantflowerbed": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 30,
-          "petalyellow": 5,
-          "plantfibre": 5
-        },
-        "output": {
-          "giantflowerchair": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 40,
-          "petalyellow": 5,
-          "plantfibre": 5
-        },
-        "output": {
-          "giantflowerchest": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "giantflowerpetal": 5,
-          "plantfibre": 5,
-          "silverbar": 1
-        },
-        "output": {
-          "giantflowerdoor": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 15,
-          "plantfibre": 5,
-          "smallbattery": 1,
-          "wire": 1
-        },
-        "output": {
-          "giantflowerlamp": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 40,
-          "petalyellow": 10,
-          "plantfibre": 10
-        },
-        "output": {
-          "giantflowertable": 1
-        }
-      }
+      330,
+      331,
+      332,
+      333,
+      334,
+      335
     ],
     "makes": []
   },
@@ -19277,358 +21824,44 @@
     "title": "Glass",
     "description": "A pane of glass used for crafting.",
     "recipes": [
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickblue": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickgreen": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickorange": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickyellow": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 25,
-          "copperbar": 1,
-          "glass": 5
-        },
-        "output": {
-          "foundrydoor": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 10,
-          "copperbar": 1,
-          "glass": 10,
-          "liquidlava": 5
-        },
-        "output": {
-          "magmalamp": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 12,
-          "glass": 12,
-          "silk": 3
-        },
-        "output": {
-          "prismbed": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4
-        },
-        "output": {
-          "prismchair": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 10,
-          "glass": 10
-        },
-        "output": {
-          "prismdoor": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedviolium": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp1": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedaegisalt": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp2": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedferozium": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp3": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 16,
-          "glass": 16
-        },
-        "output": {
-          "prismtable": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 4,
-          "darkwoodmaterial": 8
-        },
-        "output": {
-          "scorchedcitycounter": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "snow": 10,
-          "glass": 10
-        },
-        "output": {
-          "snowgun": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 20,
-          "glass": 15,
-          "goldbar": 3
-        },
-        "output": {
-          "fossildisplay1": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "glass": 40,
-          "goldbar": 5
-        },
-        "output": {
-          "fossildisplay3": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 2
-        },
-        "output": {
-          "bottle": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 2,
-          "ironbar": 1
-        },
-        "output": {
-          "syringe": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "glass": 2,
-          "reddye": 1
-        },
-        "output": {
-          "tier2door": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "blackdye": 1
-        },
-        "output": {
-          "blackglass": 10
-        }
-      },
-      {
-        "input": {
-          "glass": 1
-        },
-        "output": {
-          "glassmaterial": 10
-        }
-      },
-      {
-        "input": {
-          "glass": 1
-        },
-        "output": {
-          "mirror": 20
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "glass": 1
-        },
-        "output": {
-          "woodenwindow1": 20
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "glass": 5
-        },
-        "output": {
-          "tier3table": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "glass": 5
-        },
-        "output": {
-          "tier3door": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "glass": 2,
-          "torch": 1
-        },
-        "output": {
-          "tier3light": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "glass": 2,
-          "smallbattery": 1
-        },
-        "output": {
-          "tier4light": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "neonblock": 20
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "glass": 10,
-          "livingroot": 1
-        },
-        "output": {
-          "breathprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "glass": 5,
-          "smallbattery": 1,
-          "wire": 3
-        },
-        "output": {
-          "laboratorylight": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 1
-        },
-        "output": {
-          "alarm": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 2,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "lightsensor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "liquidsensor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "scanner": 1
-        }
-      }
+      265,
+      266,
+      267,
+      268,
+      314,
+      316,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      379,
+      396,
+      639,
+      640,
+      647,
+      651,
+      676,
+      694,
+      723,
+      731,
+      775,
+      786,
+      803,
+      805,
+      806,
+      820,
+      905,
+      937,
+      1125,
+      1131,
+      1132,
+      1134
     ],
     "makes": [
-      {
-        "input": {
-          "sand2": 2
-        },
-        "output": {
-          "glass": 1
-        }
-      }
+      649
     ]
   },
   "glasscoffeemug": {
@@ -19647,105 +21880,17 @@
     "title": "Glow Fibre",
     "description": "Bulbous, bioluminescent plant fibres. They glow with many colours!",
     "recipes": [
-      {
-        "input": {
-          "glowfibre": 25,
-          "darkwoodmaterial": 10,
-          "fabric": 10,
-          "purpledye": 1
-        },
-        "output": {
-          "glowbed": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 10,
-          "clay": 2
-        },
-        "output": {
-          "glowbushlamp": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 20,
-          "fabric": 3,
-          "bluedye": 1
-        },
-        "output": {
-          "glowchair": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 15
-        },
-        "output": {
-          "glowchest": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 12
-        },
-        "output": {
-          "glowflowerlamp": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 8
-        },
-        "output": {
-          "glowvinelamp": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 15,
-          "shroom": 10
-        },
-        "output": {
-          "bioshroomtable": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickblue": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickgreen": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickorange": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickyellow": 1
-        }
-      }
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268
     ],
     "makes": []
   },
@@ -19765,147 +21910,23 @@
     "title": "Gold Bar",
     "description": "Ore for gold bars is found at great depths on most planets around all stars.",
     "recipes": [
-      {
-        "input": {
-          "durasteelbar": 5,
-          "goldbar": 5
-        },
-        "output": {
-          "sprinkler": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "goldbar": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "cavedetector": 1
-        }
-      },
-      {
-        "input": {
-          "goldbar": 1,
-          "darkwoodmaterial": 2,
-          "string": 3
-        },
-        "output": {
-          "fossilbrushmaster": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 20,
-          "glass": 15,
-          "goldbar": 3
-        },
-        "output": {
-          "fossildisplay1": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "glass": 40,
-          "goldbar": 5
-        },
-        "output": {
-          "fossildisplay3": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 150,
-          "goldbar": 30
-        },
-        "output": {
-          "fossildisplay5": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 4,
-          "goldbar": 2,
-          "liquidpoison": 5
-        },
-        "output": {
-          "battery": 1
-        }
-      },
-      {
-        "input": {
-          "goldbar": 1
-        },
-        "output": {
-          "goldblock": 20
-        }
-      },
-      {
-        "input": {
-          "goldbar": 1
-        },
-        "output": {
-          "goldenplatform": 20
-        }
-      },
-      {
-        "input": {
-          "goldbar": 1
-        },
-        "output": {
-          "treasurehoard": 20
-        }
-      },
-      {
-        "input": {
-          "campfire": 1,
-          "goldbar": 10,
-          "money": 150
-        },
-        "output": {
-          "heartforge": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 15,
-          "goldbar": 15
-        },
-        "output": {
-          "pixelcompressor": 1
-        }
-      },
-      {
-        "input": {
-          "money": 1000,
-          "durasteelbar": 5,
-          "goldbar": 5,
-          "diamond": 1
-        },
-        "output": {
-          "portable3dprinter": 1
-        }
-      },
-      {
-        "input": {
-          "goldbar": 1
-        },
-        "output": {
-          "money": 20
-        }
-      }
+      627,
+      631,
+      637,
+      639,
+      640,
+      641,
+      659,
+      812,
+      813,
+      835,
+      849,
+      922,
+      960,
+      992
     ],
     "makes": [
-      {
-        "input": {
-          "goldore": 2
-        },
-        "output": {
-          "goldbar": 1
-        }
-      }
+      643
     ]
   },
   "goldore": {
@@ -19915,32 +21936,9 @@
     "title": "Gold Ore",
     "description": "It's some gold ore. Can be used for smelting.",
     "recipes": [
-      {
-        "input": {
-          "goldore": 2
-        },
-        "output": {
-          "goldbar": 1
-        }
-      },
-      {
-        "input": {
-          "goldore": 1
-        },
-        "output": {
-          "money": 10
-        }
-      },
-      {
-        "input": {
-          "phasematter": 10,
-          "leather": 5,
-          "goldore": 1
-        },
-        "output": {
-          "ghostlycollar": 1
-        }
-      }
+      643,
+      993,
+      1112
     ],
     "makes": []
   },
@@ -19951,39 +21949,10 @@
     "title": "Slime Blob",
     "description": "A blob of green slime.",
     "recipes": [
-      {
-        "input": {
-          "greenslime": 25
-        },
-        "output": {
-          "slimebed": 1
-        }
-      },
-      {
-        "input": {
-          "greenslime": 15
-        },
-        "output": {
-          "slimechair": 1
-        }
-      },
-      {
-        "input": {
-          "greenslime": 20
-        },
-        "output": {
-          "slimehide": 1
-        }
-      },
-      {
-        "input": {
-          "greenslime": 2,
-          "torch": 1
-        },
-        "output": {
-          "slimetorch": 1
-        }
-      }
+      385,
+      386,
+      387,
+      388
     ],
     "makes": []
   },
@@ -20003,408 +21972,58 @@
     "title": "Holiday Spirit",
     "description": "The essence of the holiday season, in its purest form!",
     "recipes": [
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "bigpresent": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 3
-        },
-        "output": {
-          "decoratedtree": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "dreidel": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 3
-        },
-        "output": {
-          "giantbells": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "giantbow1": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 3
-        },
-        "output": {
-          "giantbow2": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 3
-        },
-        "output": {
-          "giantsanta": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "giantsnowflake": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 3
-        },
-        "output": {
-          "giftmonsterbox": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "giftmonstersmallbox": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "goldball": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "greencandycane1": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "greencandycane2": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "greencandycane3": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "greengumdrop1": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "greengumdrop2": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "holidaycandles": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "holidaylights": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "holidaypole": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "holly": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "hotholidaychest": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "hotholidayhead": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "hotholidaypants": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "lollipop1": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "lollipop2": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "menorah": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "mrclausback": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "mrclauschest": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "mrclaushead": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "mrclauspants": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "present1": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "present2": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "present3": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "present4": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "purplegumdrop1": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "purplegumdrop2": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "redball": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "redcandycane1": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "redcandycane2": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "redcandycane3": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "redgumdrop1": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "redgumdrop2": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 3
-        },
-        "output": {
-          "scifisleigh": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "smallbow": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "smallholidaytree": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "smallsnowflake": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "stocking1": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 1
-        },
-        "output": {
-          "stocking2": 1
-        }
-      },
-      {
-        "input": {
-          "holidayspirit": 2
-        },
-        "output": {
-          "undecoratedtree": 1
-        }
-      }
+      851,
+      852,
+      853,
+      857,
+      858,
+      859,
+      860,
+      861,
+      862,
+      863,
+      864,
+      865,
+      866,
+      867,
+      868,
+      869,
+      870,
+      872,
+      873,
+      875,
+      876,
+      877,
+      878,
+      879,
+      880,
+      881,
+      882,
+      883,
+      884,
+      885,
+      886,
+      887,
+      888,
+      889,
+      890,
+      891,
+      892,
+      893,
+      894,
+      895,
+      896,
+      897,
+      898,
+      899,
+      900,
+      901,
+      902,
+      903,
+      904
     ],
     "makes": [
-      {
-        "input": {
-          "money": 100
-        },
-        "output": {
-          "holidayspirit": 1
-        }
-      }
+      874
     ]
   },
   "icecrystal": {
@@ -20432,493 +22051,61 @@
     "title": "Iron Bar",
     "description": "Ore for iron bars is primarily found on planets orbiting gentle stars.",
     "recipes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "apextier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "apextier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "apextier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "aviantier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "aviantier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "aviantier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "florantier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "florantier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "florantier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "glitchtier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "glitchtier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "glitchtier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "humantier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "humantier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "humantier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "hylotltier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "hylotltier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "hylotltier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "novatier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5
-        },
-        "output": {
-          "novatier1head": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 2,
-          "fabric": 2
-        },
-        "output": {
-          "novatier1pants": 1
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 4,
-          "string": 1,
-          "ironbar": 1
-        },
-        "output": {
-          "bomb": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 6,
-          "darkwoodmaterial": 4
-        },
-        "output": {
-          "ironassaultrifle": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 6,
-          "climbingrope": 4
-        },
-        "output": {
-          "ironbroadsword": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "darkwoodmaterial": 2
-        },
-        "output": {
-          "ironrevolver": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "climbingrope": 2
-        },
-        "output": {
-          "ironshortsword": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 4,
-          "darkwoodmaterial": 20,
-          "string": 4
-        },
-        "output": {
-          "startershield": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "torch": 1,
-          "glassmaterial": 1
-        },
-        "output": {
-          "flashlight": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "logblock": 10,
-          "mininglantern": 1
-        },
-        "output": {
-          "lanternstickback": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5,
-          "mininglantern": 1
-        },
-        "output": {
-          "mininghathead": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "liquidoil": 10,
-          "torch": 1
-        },
-        "output": {
-          "mininglantern": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 2,
-          "ironbar": 1
-        },
-        "output": {
-          "syringe": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "tier1bed": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "tier1chair": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "copperbar": 1
-        },
-        "output": {
-          "tier1table": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "glassmaterial": 2
-        },
-        "output": {
-          "tier1door": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "torch": 1,
-          "glassmaterial": 1
-        },
-        "output": {
-          "tier1light": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "torch": 1,
-          "glassmaterial": 1
-        },
-        "output": {
-          "tier1spotlight": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "bars": 10
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "girdermaterial": 40
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "heavyironbars": 40
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "ironblock": 50
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "junktech": 50
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "liquidwater": 1
-        },
-        "output": {
-          "rustyblock": 40
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "liquidwater": 1
-        },
-        "output": {
-          "rustymetal": 40
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "sewage": 1
-        },
-        "output": {
-          "sewerpipe": 20
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "liquidwater": 10
-        },
-        "output": {
-          "wreckplatform": 10
-        }
-      },
-      {
-        "input": {
-          "ironbar": 8,
-          "darkwoodmaterial": 20,
-          "logblock": 1
-        },
-        "output": {
-          "craftinganvil": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "ironbar": 1
-        },
-        "output": {
-          "hylotlsupportbeam": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "techhull1": 20
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "money": 20
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "wire": 5
-        },
-        "output": {
-          "tier1switch": 1
-        }
-      }
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      623,
+      624,
+      625,
+      626,
+      651,
+      663,
+      668,
+      669,
+      675,
+      682,
+      683,
+      692,
+      722,
+      725,
+      728,
+      729,
+      749,
+      750,
+      752,
+      778,
+      906,
+      942,
+      963,
+      994,
+      1140
     ],
     "makes": [
-      {
-        "input": {
-          "ironore": 2
-        },
-        "output": {
-          "ironbar": 1
-        }
-      }
+      644
     ]
   },
   "ironore": {
@@ -20928,22 +22115,8 @@
     "title": "Iron Ore",
     "description": "Iron ore. Can be used for smelting.",
     "recipes": [
-      {
-        "input": {
-          "ironore": 2
-        },
-        "output": {
-          "ironbar": 1
-        }
-      },
-      {
-        "input": {
-          "ironore": 1
-        },
-        "output": {
-          "money": 10
-        }
-      }
+      644,
+      995
     ],
     "makes": []
   },
@@ -20954,54 +22127,11 @@
     "title": "Baby Larva",
     "description": "An alien, baby larva. It's small, squishy, and defenseless.",
     "recipes": [
-      {
-        "input": {
-          "hive": 30,
-          "larva": 20,
-          "silk": 3
-        },
-        "output": {
-          "hivebed": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 20,
-          "larva": 10
-        },
-        "output": {
-          "hivechair": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 25,
-          "larva": 15
-        },
-        "output": {
-          "hivedoor": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 15,
-          "larva": 10,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "hivelamp": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 30,
-          "larva": 20
-        },
-        "output": {
-          "hivetable": 1
-        }
-      }
+      336,
+      337,
+      338,
+      339,
+      340
     ],
     "makes": []
   },
@@ -21030,683 +22160,76 @@
     "title": "Leather",
     "description": "A square of leather.",
     "recipes": [
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "apextier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "aviantier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "florantier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "glitchtier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "humantier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "hylotltier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "novatier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "apextier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "aviantier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "florantier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "humantier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "novatier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "apextier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "apextier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "apextier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "aviantier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "aviantier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "aviantier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "florantier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "florantier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "florantier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "glitchtier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "glitchtier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "humantier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "humantier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "humantier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "hylotltier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "hylotltier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "novatier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "leather": 1
-        },
-        "output": {
-          "novatier4head": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "novatier4pants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 25,
-          "leather": 1
-        },
-        "output": {
-          "bonechair": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 40,
-          "leather": 1
-        },
-        "output": {
-          "bonedoor": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "leather": 2
-        },
-        "output": {
-          "scorchedcitychair": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 10,
-          "darkwoodmaterial": 15,
-          "leather": 2
-        },
-        "output": {
-          "steamspringchair": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "leather": 2
-        },
-        "output": {
-          "tier2chair": 1
-        }
-      },
-      {
-        "input": {
-          "paper": 3,
-          "leather": 1
-        },
-        "output": {
-          "bookpiles": 20
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "leather": 5,
-          "bluedye": 1
-        },
-        "output": {
-          "tier3chair": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "leather": 5,
-          "blackdye": 1
-        },
-        "output": {
-          "tier4chair": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "leather": 3
-        },
-        "output": {
-          "lunarbasebunk": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "lunarbasechair": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 20,
-          "leather": 4
-        },
-        "output": {
-          "avianadventurershirt": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "leather": 2
-        },
-        "output": {
-          "avianadventurerpants": 1
-        }
-      },
-      {
-        "input": {
-          "leather": 5,
-          "fabric": 5,
-          "string": 5
-        },
-        "output": {
-          "boxingglove": 1
-        }
-      },
-      {
-        "input": {
-          "phasematter": 10,
-          "leather": 5,
-          "goldore": 1
-        },
-        "output": {
-          "ghostlycollar": 1
-        }
-      }
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      61,
+      64,
+      67,
+      70,
+      73,
+      76,
+      79,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      270,
+      272,
+      376,
+      404,
+      670,
+      696,
+      785,
+      787,
+      943,
+      944,
+      1023,
+      1024,
+      1031,
+      1112
     ],
     "makes": []
   },
@@ -21735,138 +22258,20 @@
     "title": "Metal Coated Wood",
     "description": "A metal coating over a wood-like material.",
     "recipes": [
-      {
-        "input": {
-          "metallic": 50,
-          "copperbar": 1,
-          "smallbattery": 2,
-          "wire": 3
-        },
-        "output": {
-          "foundrybed": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 20
-        },
-        "output": {
-          "foundrychair": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 25,
-          "copperbar": 1,
-          "glass": 5
-        },
-        "output": {
-          "foundrydoor": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 10,
-          "copperbar": 1,
-          "liquidlava": 10
-        },
-        "output": {
-          "foundrylight": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 10,
-          "copperbar": 1,
-          "glass": 10,
-          "liquidlava": 5
-        },
-        "output": {
-          "magmalamp": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 10,
-          "metallic": 10
-        },
-        "output": {
-          "geodeceilinglight": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 25,
-          "copperbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "rustbed": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 15,
-          "copperbar": 1
-        },
-        "output": {
-          "rustchair": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 20,
-          "copperbar": 1
-        },
-        "output": {
-          "rustchest": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 25,
-          "copperbar": 1
-        },
-        "output": {
-          "rustdoor": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 25,
-          "copperbar": 1
-        },
-        "output": {
-          "rusttable": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 6,
-          "darkwoodmaterial": 8
-        },
-        "output": {
-          "scorchedcitychestdrawerlarge": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 4,
-          "darkwoodmaterial": 6
-        },
-        "output": {
-          "scorchedcitychestdrawersmall": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 10,
-          "metallic": 15
-        },
-        "output": {
-          "scorchedcityfridge": 1
-        }
-      }
+      312,
+      313,
+      314,
+      315,
+      316,
+      319,
+      370,
+      371,
+      372,
+      373,
+      374,
+      377,
+      378,
+      380
     ],
     "makes": []
   },
@@ -21886,94 +22291,15 @@
     "title": "Cryonic Extract",
     "description": "An icy organic chemical. Can be used for crafting.",
     "recipes": [
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "cryonicextract": 15
-        },
-        "output": {
-          "iceboomerang": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 2,
-          "cryonicextract": 1,
-          "battery": 1
-        },
-        "output": {
-          "fridge": 1
-        }
-      },
-      {
-        "input": {
-          "coldprotectionback": 1,
-          "refinedaegisalt": 2,
-          "refinedferozium": 2,
-          "refinedviolium": 2,
-          "battery": 1,
-          "cryonicextract": 1
-        },
-        "output": {
-          "heatprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "cryonicextract": 1
-        },
-        "output": {
-          "burnspray": 1
-        }
-      },
-      {
-        "input": {
-          "cryonicextract": 50
-        },
-        "output": {
-          "terraformermidnight": 1
-        }
-      },
-      {
-        "input": {
-          "cryonicextract": 50
-        },
-        "output": {
-          "terraformersnow": 1
-        }
-      },
-      {
-        "input": {
-          "cryonicextract": 50
-        },
-        "output": {
-          "terraformertundra": 1
-        }
-      },
-      {
-        "input": {
-          "scorchedcore": 10,
-          "cryonicextract": 10,
-          "venomsample": 10,
-          "staticcell": 10
-        },
-        "output": {
-          "adaptablecrossbow": 1
-        }
-      },
-      {
-        "input": {
-          "scorchedcore": 1,
-          "cryonicextract": 1,
-          "staticcell": 1,
-          "venomsample": 1
-        },
-        "output": {
-          "perfectlygenericitem": 1
-        }
-      }
+      55,
+      839,
+      920,
+      935,
+      1103,
+      1106,
+      1107,
+      1109,
+      1115
     ],
     "makes": []
   },
@@ -21984,16 +22310,7 @@
     "title": "Hardened Carapace",
     "description": "A fragment of tough organic shell. Can be used for crafting.",
     "recipes": [
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "hardenedcarapace": 15
-        },
-        "output": {
-          "hardchakram": 1
-        }
-      }
+      54
     ],
     "makes": []
   },
@@ -22004,55 +22321,11 @@
     "title": "Living Root",
     "description": "A severed piece of evolved plant matter. Can be used for crafting.",
     "recipes": [
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "livingroot": 15
-        },
-        "output": {
-          "vinefist": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "glass": 10,
-          "livingroot": 1
-        },
-        "output": {
-          "breathprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 5,
-          "livingroot": 1,
-          "syringe": 1
-        },
-        "output": {
-          "redstim": 1
-        }
-      },
-      {
-        "input": {
-          "syntheticmaterial": 1,
-          "livingroot": 1
-        },
-        "output": {
-          "nanowrap": 5
-        }
-      },
-      {
-        "input": {
-          "livingroot": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "giantbowhead": 1
-        }
-      }
+      60,
+      905,
+      926,
+      936,
+      1113
     ],
     "makes": []
   },
@@ -22063,56 +22336,11 @@
     "title": "Phase Matter",
     "description": "A substance that appears to be almost intangible. Can be used for crafting.",
     "recipes": [
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "phasematter": 15
-        },
-        "output": {
-          "lunarang": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "diamond": 1,
-          "phasematter": 1
-        },
-        "output": {
-          "pettether": 1
-        }
-      },
-      {
-        "input": {
-          "phasematter": 1,
-          "bandage": 5
-        },
-        "output": {
-          "medkit": 5
-        }
-      },
-      {
-        "input": {
-          "petalblue": 2,
-          "petalyellow": 2,
-          "phasematter": 1,
-          "syringe": 1
-        },
-        "output": {
-          "greenstim": 1
-        }
-      },
-      {
-        "input": {
-          "phasematter": 10,
-          "leather": 5,
-          "goldore": 1
-        },
-        "output": {
-          "ghostlycollar": 1
-        }
-      }
+      56,
+      597,
+      930,
+      933,
+      1112
     ],
     "makes": []
   },
@@ -22123,76 +22351,13 @@
     "title": "Scorched Core",
     "description": "The source of a creature's fiery abilities. Can be used for crafting.",
     "recipes": [
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "scorchedcore": 15
-        },
-        "output": {
-          "fireboomerang": 1
-        }
-      },
-      {
-        "input": {
-          "radiationprotectionback": 1,
-          "durasteelbar": 6,
-          "battery": 1,
-          "scorchedcore": 1
-        },
-        "output": {
-          "coldprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 2,
-          "petalyellow": 2,
-          "scorchedcore": 1,
-          "syringe": 1
-        },
-        "output": {
-          "orangestim": 1
-        }
-      },
-      {
-        "input": {
-          "scorchedcore": 50
-        },
-        "output": {
-          "terraformerscorched": 1
-        }
-      },
-      {
-        "input": {
-          "scorchedcore": 50
-        },
-        "output": {
-          "terraformervolcanic": 1
-        }
-      },
-      {
-        "input": {
-          "scorchedcore": 10,
-          "cryonicextract": 10,
-          "venomsample": 10,
-          "staticcell": 10
-        },
-        "output": {
-          "adaptablecrossbow": 1
-        }
-      },
-      {
-        "input": {
-          "scorchedcore": 1,
-          "cryonicextract": 1,
-          "staticcell": 1,
-          "venomsample": 1
-        },
-        "output": {
-          "perfectlygenericitem": 1
-        }
-      }
+      53,
+      919,
+      934,
+      1105,
+      1108,
+      1109,
+      1115
     ],
     "makes": []
   },
@@ -22203,36 +22368,9 @@
     "title": "Sharpened Claw",
     "description": "A razor sharp monster claw. Can be used for crafting.",
     "recipes": [
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "sharpenedclaw": 15
-        },
-        "output": {
-          "clawglove": 1
-        }
-      },
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "sharpenedclaw": 15
-        },
-        "output": {
-          "sawchakram": 1
-        }
-      },
-      {
-        "input": {
-          "sharpenedclaw": 1,
-          "durasteelbar": 5,
-          "silverbar": 5
-        },
-        "output": {
-          "railhook": 1
-        }
-      }
+      52,
+      58,
+      979
     ],
     "makes": []
   },
@@ -22243,73 +22381,13 @@
     "title": "Static Cell",
     "description": "A cluster of electrically charged cell matter. Can be used for crafting.",
     "recipes": [
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "staticcell": 15
-        },
-        "output": {
-          "stunglove": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 2,
-          "staticcell": 1
-        },
-        "output": {
-          "minifridge": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 4,
-          "staticcell": 1,
-          "syringe": 1
-        },
-        "output": {
-          "bluestim": 1
-        }
-      },
-      {
-        "input": {
-          "staticcell": 50
-        },
-        "output": {
-          "terraformerdesert": 1
-        }
-      },
-      {
-        "input": {
-          "staticcell": 50
-        },
-        "output": {
-          "terraformersavannah": 1
-        }
-      },
-      {
-        "input": {
-          "scorchedcore": 10,
-          "cryonicextract": 10,
-          "venomsample": 10,
-          "staticcell": 10
-        },
-        "output": {
-          "adaptablecrossbow": 1
-        }
-      },
-      {
-        "input": {
-          "scorchedcore": 1,
-          "cryonicextract": 1,
-          "staticcell": 1,
-          "venomsample": 1
-        },
-        "output": {
-          "perfectlygenericitem": 1
-        }
-      }
+      59,
+      780,
+      932,
+      1099,
+      1104,
+      1109,
+      1115
     ],
     "makes": []
   },
@@ -22320,92 +22398,14 @@
     "title": "Stick of RAM",
     "description": "A classic universal computer chip. Can be used for crafting.",
     "recipes": [
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "stickofram": 15
-        },
-        "output": {
-          "neochakram": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "junktech": 50
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "siliconboard": 5,
-          "stickofram": 2,
-          "wire": 10,
-          "battery": 1
-        },
-        "output": {
-          "wiringstation": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 3,
-          "siliconboard": 1,
-          "stickofram": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railsensor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 2,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "lightsensor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "liquidsensor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "proximitysensor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "scanner": 1
-        }
-      }
+      57,
+      729,
+      925,
+      980,
+      1131,
+      1132,
+      1133,
+      1134
     ],
     "makes": []
   },
@@ -22416,80 +22416,14 @@
     "title": "Venom Sample",
     "description": "A sample of volatile venomous fluid. Can be used for crafting.",
     "recipes": [
-      {
-        "input": {
-          "breathprotectionback": 1,
-          "titaniumbar": 6,
-          "copperbar": 4,
-          "venomsample": 1
-        },
-        "output": {
-          "radiationprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "venomsample": 1,
-          "bottle": 1
-        },
-        "output": {
-          "antidote": 1
-        }
-      },
-      {
-        "input": {
-          "venomsample": 50
-        },
-        "output": {
-          "terraformeralien": 1
-        }
-      },
-      {
-        "input": {
-          "venomsample": 50
-        },
-        "output": {
-          "terraformerforest": 1
-        }
-      },
-      {
-        "input": {
-          "venomsample": 50
-        },
-        "output": {
-          "terraformergarden": 1
-        }
-      },
-      {
-        "input": {
-          "venomsample": 50
-        },
-        "output": {
-          "terraformerjungle": 1
-        }
-      },
-      {
-        "input": {
-          "scorchedcore": 10,
-          "cryonicextract": 10,
-          "venomsample": 10,
-          "staticcell": 10
-        },
-        "output": {
-          "adaptablecrossbow": 1
-        }
-      },
-      {
-        "input": {
-          "scorchedcore": 1,
-          "cryonicextract": 1,
-          "staticcell": 1,
-          "venomsample": 1
-        },
-        "output": {
-          "perfectlygenericitem": 1
-        }
-      }
+      914,
+      928,
+      1098,
+      1100,
+      1101,
+      1102,
+      1109,
+      1115
     ],
     "makes": []
   },
@@ -22518,109 +22452,19 @@
     "title": "Paper",
     "description": "It's a sheet of paper.",
     "recipes": [
-      {
-        "input": {
-          "reed": 60,
-          "darkwoodmaterial": 10,
-          "paper": 10
-        },
-        "output": {
-          "reedshelf": 1
-        }
-      },
-      {
-        "input": {
-          "paper": 3,
-          "leather": 1
-        },
-        "output": {
-          "bookpiles": 20
-        }
-      },
-      {
-        "input": {
-          "paper": 1
-        },
-        "output": {
-          "cheapwallpaper": 10
-        }
-      },
-      {
-        "input": {
-          "ornatewood": 1,
-          "paper": 2
-        },
-        "output": {
-          "ornatewall": 50
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "paper": 1
-        },
-        "output": {
-          "shojiscreenpanel": 20
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "paper": 1
-        },
-        "output": {
-          "tombbrick5": 20
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "reddye": 1
-        },
-        "output": {
-          "firework": 2
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "bluedye": 1
-        },
-        "output": {
-          "fireworkblue": 2
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "greendye": 1
-        },
-        "output": {
-          "fireworkgreen": 2
-        }
-      },
-      {
-        "input": {
-          "paper": 6,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "paperwingsback": 1
-        }
-      }
+      362,
+      696,
+      703,
+      736,
+      755,
+      770,
+      854,
+      855,
+      856,
+      953
     ],
     "makes": [
-      {
-        "input": {
-          "logblock": 1
-        },
-        "output": {
-          "paper": 5
-        }
-      }
+      650
     ]
   },
   "petalblue": {
@@ -22630,85 +22474,14 @@
     "title": "Blue Petal",
     "description": "A blue petal, could be turned into dye.",
     "recipes": [
-      {
-        "input": {
-          "petalblue": 20,
-          "darkwoodmaterial": 20
-        },
-        "output": {
-          "flowerbox": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 20,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "flowerlamp": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 40,
-          "petalblue": 20,
-          "torch": 1
-        },
-        "output": {
-          "toxiclamp1": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 20,
-          "petalblue": 20,
-          "torch": 1
-        },
-        "output": {
-          "toxiclamp2": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 1,
-          "petalyellow": 1,
-          "petalblue": 1
-        },
-        "output": {
-          "floweryblock": 50
-        }
-      },
-      {
-        "input": {
-          "petalblue": 4,
-          "staticcell": 1,
-          "syringe": 1
-        },
-        "output": {
-          "bluestim": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 2,
-          "petalyellow": 2,
-          "phasematter": 1,
-          "syringe": 1
-        },
-        "output": {
-          "greenstim": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 5,
-          "bottle": 1
-        },
-        "output": {
-          "bluedye": 1
-        }
-      }
+      398,
+      399,
+      426,
+      427,
+      719,
+      932,
+      933,
+      1069
     ],
     "makes": []
   },
@@ -22719,66 +22492,12 @@
     "title": "Red Petal",
     "description": "A red petal, could be turned into dye.",
     "recipes": [
-      {
-        "input": {
-          "petalred": 40,
-          "plantfibre": 20,
-          "cobblestonematerial": 20,
-          "liquidwater": 20
-        },
-        "output": {
-          "petalfountain": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 4,
-          "petalyellow": 4,
-          "darkwoodmaterial": 15
-        },
-        "output": {
-          "springchest": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 1,
-          "petalred": 1
-        },
-        "output": {
-          "petalblock": 50
-        }
-      },
-      {
-        "input": {
-          "petalred": 5,
-          "livingroot": 1,
-          "syringe": 1
-        },
-        "output": {
-          "redstim": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 2,
-          "petalyellow": 2,
-          "scorchedcore": 1,
-          "syringe": 1
-        },
-        "output": {
-          "orangestim": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 5,
-          "bottle": 1
-        },
-        "output": {
-          "reddye": 1
-        }
-      }
+      401,
+      402,
+      739,
+      926,
+      934,
+      1071
     ],
     "makes": []
   },
@@ -22789,117 +22508,17 @@
     "title": "Yellow Petal",
     "description": "A yellow petal, could be turned into dye.",
     "recipes": [
-      {
-        "input": {
-          "giantflowerpetal": 50,
-          "petalyellow": 15,
-          "plantfibre": 15,
-          "fabric": 10
-        },
-        "output": {
-          "giantflowerbed": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 30,
-          "petalyellow": 5,
-          "plantfibre": 5
-        },
-        "output": {
-          "giantflowerchair": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 40,
-          "petalyellow": 5,
-          "plantfibre": 5
-        },
-        "output": {
-          "giantflowerchest": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 40,
-          "petalyellow": 10,
-          "plantfibre": 10
-        },
-        "output": {
-          "giantflowertable": 1
-        }
-      },
-      {
-        "input": {
-          "petalyellow": 30,
-          "plantfibre": 10
-        },
-        "output": {
-          "movingsunflower": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 4,
-          "petalyellow": 4,
-          "darkwoodmaterial": 15
-        },
-        "output": {
-          "springchest": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 1,
-          "petalyellow": 1,
-          "petalblue": 1
-        },
-        "output": {
-          "floweryblock": 50
-        }
-      },
-      {
-        "input": {
-          "petalyellow": 4,
-          "plantfibre": 4,
-          "syringe": 1
-        },
-        "output": {
-          "yellowstim": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 2,
-          "petalyellow": 2,
-          "phasematter": 1,
-          "syringe": 1
-        },
-        "output": {
-          "greenstim": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 2,
-          "petalyellow": 2,
-          "scorchedcore": 1,
-          "syringe": 1
-        },
-        "output": {
-          "orangestim": 1
-        }
-      },
-      {
-        "input": {
-          "petalyellow": 5,
-          "bottle": 1
-        },
-        "output": {
-          "yellowdye": 1
-        }
-      }
+      330,
+      331,
+      332,
+      335,
+      400,
+      402,
+      719,
+      927,
+      933,
+      934,
+      1073
     ],
     "makes": []
   },
@@ -22910,410 +22529,49 @@
     "title": "Plant Fibre",
     "description": "A set of plant fibres.",
     "recipes": [
-      {
-        "input": {
-          "alienstripedwood": 25,
-          "silk": 3,
-          "plantfibre": 25,
-          "pinkdye": 1
-        },
-        "output": {
-          "alienbed": 1
-        }
-      },
-      {
-        "input": {
-          "alienstripedwood": 15,
-          "plantfibre": 15
-        },
-        "output": {
-          "alienchair": 1
-        }
-      },
-      {
-        "input": {
-          "alienstripedwood": 25,
-          "plantfibre": 25
-        },
-        "output": {
-          "aliendoor": 1
-        }
-      },
-      {
-        "input": {
-          "alienstripedwood": 25,
-          "plantfibre": 25
-        },
-        "output": {
-          "alientable": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 50,
-          "petalyellow": 15,
-          "plantfibre": 15,
-          "fabric": 10
-        },
-        "output": {
-          "giantflowerbed": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 30,
-          "petalyellow": 5,
-          "plantfibre": 5
-        },
-        "output": {
-          "giantflowerchair": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 40,
-          "petalyellow": 5,
-          "plantfibre": 5
-        },
-        "output": {
-          "giantflowerchest": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "giantflowerpetal": 5,
-          "plantfibre": 5,
-          "silverbar": 1
-        },
-        "output": {
-          "giantflowerdoor": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 15,
-          "plantfibre": 5,
-          "smallbattery": 1,
-          "wire": 1
-        },
-        "output": {
-          "giantflowerlamp": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 40,
-          "petalyellow": 10,
-          "plantfibre": 10
-        },
-        "output": {
-          "giantflowertable": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 15,
-          "torch": 1,
-          "plantfibre": 10
-        },
-        "output": {
-          "shroomlamp": 1
-        }
-      },
-      {
-        "input": {
-          "petalyellow": 30,
-          "plantfibre": 10
-        },
-        "output": {
-          "movingsunflower": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 40,
-          "plantfibre": 20,
-          "cobblestonematerial": 20,
-          "liquidwater": 20
-        },
-        "output": {
-          "petalfountain": 1
-        }
-      },
-      {
-        "input": {
-          "wicker": 5,
-          "plantfibre": 2
-        },
-        "output": {
-          "swampchair": 1
-        }
-      },
-      {
-        "input": {
-          "wicker": 10,
-          "plantfibre": 2
-        },
-        "output": {
-          "swampchest": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "plantfibre": 40
-        },
-        "output": {
-          "swampybed": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 40,
-          "biosample": 1,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "toxicchair": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 60,
-          "biosample": 1,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "toxicchest": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 40,
-          "petalblue": 20,
-          "torch": 1
-        },
-        "output": {
-          "toxiclamp1": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 20,
-          "petalblue": 20,
-          "torch": 1
-        },
-        "output": {
-          "toxiclamp2": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 80,
-          "biosample": 1,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "toxictable": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "plantfibre": 1
-        },
-        "output": {
-          "platform": 10
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 2
-        },
-        "output": {
-          "climbingrope": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "fabric": 20,
-          "plantfibre": 40
-        },
-        "output": {
-          "scarecrow": 1
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "string": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "flare": 2
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "string": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "flare": 2
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 5,
-          "darkwoodmaterial": 1
-        },
-        "output": {
-          "bamboo": 50
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 1,
-          "petalyellow": 1,
-          "petalblue": 1
-        },
-        "output": {
-          "floweryblock": 50
-        }
-      },
-      {
-        "input": {
-          "dirtmaterial": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "mossypackeddirt": 50
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 1,
-          "petalred": 1
-        },
-        "output": {
-          "petalblock": 50
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 1
-        },
-        "output": {
-          "plantblock": 10
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 1
-        },
-        "output": {
-          "plantmatter": 15
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 1,
-          "darkwoodmaterial": 1
-        },
-        "output": {
-          "plantplatform": 10
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "plantfibre": 5
-        },
-        "output": {
-          "ruinsplatform": 10
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 5
-        },
-        "output": {
-          "thatch": 50
-        }
-      },
-      {
-        "input": {
-          "logblock": 1,
-          "plantfibre": 5
-        },
-        "output": {
-          "wicker": 50
-        }
-      },
-      {
-        "input": {
-          "logblock": 1,
-          "plantfibre": 5
-        },
-        "output": {
-          "wickersupport": 30
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "plantfibre": 1
-        },
-        "output": {
-          "woodenplatform": 10
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 20,
-          "money": 100
-        },
-        "output": {
-          "cupidshead": 1
-        }
-      },
-      {
-        "input": {
-          "petalyellow": 4,
-          "plantfibre": 4,
-          "syringe": 1
-        },
-        "output": {
-          "yellowstim": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 4
-        },
-        "output": {
-          "salve": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 4
-        },
-        "output": {
-          "fabric": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 2
-        },
-        "output": {
-          "string": 1
-        }
-      }
+      248,
+      249,
+      251,
+      252,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      352,
+      400,
+      401,
+      413,
+      414,
+      415,
+      424,
+      425,
+      426,
+      427,
+      428,
+      608,
+      609,
+      613,
+      619,
+      622,
+      690,
+      719,
+      732,
+      739,
+      741,
+      742,
+      743,
+      748,
+      763,
+      771,
+      772,
+      774,
+      847,
+      927,
+      931,
+      1075,
+      1076
     ],
     "makes": []
   },
@@ -23369,79 +22627,13 @@
     "title": "Prism Shard",
     "description": "It's a prism shard!",
     "recipes": [
-      {
-        "input": {
-          "prisiliteore": 12,
-          "glass": 12,
-          "silk": 3
-        },
-        "output": {
-          "prismbed": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4
-        },
-        "output": {
-          "prismchair": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 10,
-          "glass": 10
-        },
-        "output": {
-          "prismdoor": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedviolium": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp1": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedaegisalt": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp2": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedferozium": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp3": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 16,
-          "glass": 16
-        },
-        "output": {
-          "prismtable": 1
-        }
-      }
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369
     ],
     "makes": []
   },
@@ -23470,116 +22662,18 @@
     "title": "Rainbow Wood",
     "description": "Rainbow Wood, the most colourful wood of all.",
     "recipes": [
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "bluedye": 3
-        },
-        "output": {
-          "crayonblueback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "greendye": 3
-        },
-        "output": {
-          "crayongreenback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "orangedye": 3
-        },
-        "output": {
-          "crayonorangeback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "purpledye": 3
-        },
-        "output": {
-          "crayonpurpleback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "reddye": 3
-        },
-        "output": {
-          "crayonredback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "yellowdye": 3
-        },
-        "output": {
-          "crayonyellowback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "silk": 3
-        },
-        "output": {
-          "rainbowbed": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 25
-        },
-        "output": {
-          "rainbowchair": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 30,
-          "silverbar": 1
-        },
-        "output": {
-          "rainbowchest": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 40
-        },
-        "output": {
-          "rainbowdoor": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50
-        },
-        "output": {
-          "rainbowtable": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 1
-        },
-        "output": {
-          "rainbowwoodblock": 20
-        }
-      }
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      292,
+      293,
+      294,
+      295,
+      296,
+      744
     ],
     "makes": []
   },
@@ -23590,90 +22684,15 @@
     "title": "Reed",
     "description": "A bunch of cut reeds.",
     "recipes": [
-      {
-        "input": {
-          "reed": 50,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "reedbed": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 30,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "reedchair": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 40,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "reedchest": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 20,
-          "darkwoodmaterial": 5,
-          "copperbar": 1
-        },
-        "output": {
-          "reedclock": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 30,
-          "darkwoodmaterial": 20
-        },
-        "output": {
-          "reeddesk": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 40,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "reeddoor": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 20,
-          "darkwoodmaterial": 3,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "reedlamp": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 60,
-          "darkwoodmaterial": 10,
-          "paper": 10
-        },
-        "output": {
-          "reedshelf": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 1
-        },
-        "output": {
-          "reedblock": 30
-        }
-      }
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      745
     ],
     "makes": []
   },
@@ -23684,300 +22703,37 @@
     "title": "Refined Aegisalt",
     "description": "Ore for refined aegisalt is primarily found on planets orbiting frozen stars.",
     "recipes": [
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "aegisaltbow": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 3,
-          "smallbattery": 1
-        },
-        "output": {
-          "aegisaltpistol": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedaegisalt": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp2": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 5,
-          "refinedviolium": 5,
-          "refinedaegisalt": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "oredetector": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "siliconboard": 2,
-          "wire": 4
-        },
-        "output": {
-          "acceleratoraddon": 1
-        }
-      },
-      {
-        "input": {
-          "coldprotectionback": 1,
-          "refinedaegisalt": 2,
-          "refinedferozium": 2,
-          "refinedviolium": 2,
-          "battery": 1,
-          "cryonicextract": 1
-        },
-        "output": {
-          "heatprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 1
-        },
-        "output": {
-          "money": 60
-        }
-      }
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      237,
+      238,
+      367,
+      634,
+      917,
+      920,
+      996
     ],
     "makes": [
-      {
-        "input": {
-          "aegisaltore": 2
-        },
-        "output": {
-          "refinedaegisalt": 1
-        }
-      }
+      655
     ]
   },
   "refinedferozium": {
@@ -23987,286 +22743,37 @@
     "title": "Refined Ferozium",
     "description": "Ore for refined ferozium is primarily found on planets orbiting frozen stars.",
     "recipes": [
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "apextier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "apextier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "aviantier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "aviantier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "florantier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "florantier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "humantier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "humantier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "novatier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "novatier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "feroziumstaff": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 3,
-          "smallbattery": 1
-        },
-        "output": {
-          "feroziumwand": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedferozium": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp3": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 5,
-          "refinedviolium": 5,
-          "refinedaegisalt": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "oredetector": 1
-        }
-      },
-      {
-        "input": {
-          "coldprotectionback": 1,
-          "refinedaegisalt": 2,
-          "refinedferozium": 2,
-          "refinedviolium": 2,
-          "battery": 1,
-          "cryonicextract": 1
-        },
-        "output": {
-          "heatprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "siliconboard": 2,
-          "wire": 4
-        },
-        "output": {
-          "manipulatoraddon": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 1
-        },
-        "output": {
-          "money": 60
-        }
-      }
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      239,
+      240,
+      368,
+      634,
+      920,
+      921,
+      997
     ],
     "makes": [
-      {
-        "input": {
-          "feroziumore": 2
-        },
-        "output": {
-          "refinedferozium": 1
-        }
-      }
+      656
     ]
   },
   "refinedviolium": {
@@ -24276,286 +22783,37 @@
     "title": "Refined Violium",
     "description": "Ore for refined violium is primarily found on planets orbiting frozen stars.",
     "recipes": [
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "apextier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "apextier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "florantier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "florantier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "humantier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "humantier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "canvas": 1
-        },
-        "output": {
-          "novatier5shead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 4,
-          "canvas": 1
-        },
-        "output": {
-          "novatier5spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "violiumbroadsword": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 3,
-          "smallbattery": 1
-        },
-        "output": {
-          "violiumshortsword": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedviolium": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp1": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 5,
-          "refinedviolium": 5,
-          "refinedaegisalt": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "oredetector": 1
-        }
-      },
-      {
-        "input": {
-          "coldprotectionback": 1,
-          "refinedaegisalt": 2,
-          "refinedferozium": 2,
-          "refinedviolium": 2,
-          "battery": 1,
-          "cryonicextract": 1
-        },
-        "output": {
-          "heatprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "siliconboard": 2,
-          "wire": 4
-        },
-        "output": {
-          "separatoraddon": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 1
-        },
-        "output": {
-          "money": 60
-        }
-      }
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      241,
+      242,
+      366,
+      634,
+      920,
+      924,
+      998
     ],
     "makes": [
-      {
-        "input": {
-          "violiumore": 2
-        },
-        "output": {
-          "refinedviolium": 1
-        }
-      }
+      657
     ]
   },
   "robotarms": {
@@ -24619,441 +22877,49 @@
     "title": "Silicon Board",
     "description": "A silicon board. Can be used to craft electronics.",
     "recipes": [
-      {
-        "input": {
-          "glassmaterial": 4,
-          "darkwoodmaterial": 6,
-          "siliconboard": 1,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "scorchedcitytv": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 15,
-          "siliconboard": 2,
-          "smallbattery": 5,
-          "wire": 10
-        },
-        "output": {
-          "tarconsole": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "siliconboard": 4,
-          "wire": 5,
-          "battery": 1
-        },
-        "output": {
-          "pethealingstation": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "smallbattery": 4,
-          "siliconboard": 2,
-          "wire": 6
-        },
-        "output": {
-          "relocator": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 5,
-          "wire": 5,
-          "siliconboard": 2,
-          "smallbattery": 5
-        },
-        "output": {
-          "halogenpack": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "battery": 1,
-          "wire": 6,
-          "siliconboard": 3
-        },
-        "output": {
-          "3dprinter": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "siliconboard": 2,
-          "wire": 4
-        },
-        "output": {
-          "acceleratoraddon": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "battery": 1,
-          "wire": 6,
-          "siliconboard": 3
-        },
-        "output": {
-          "capturestation": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "siliconboard": 2,
-          "wire": 4
-        },
-        "output": {
-          "manipulatoraddon": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "silverbar": 5,
-          "siliconboard": 2,
-          "wire": 10,
-          "battery": 1
-        },
-        "output": {
-          "railcraftingtable": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "siliconboard": 2,
-          "wire": 4
-        },
-        "output": {
-          "separatoraddon": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "siliconboard": 5,
-          "stickofram": 2,
-          "wire": 10,
-          "battery": 1
-        },
-        "output": {
-          "wiringstation": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 3,
-          "siliconboard": 1,
-          "stickofram": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railsensor": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 6,
-          "siliconboard": 1,
-          "smallbattery": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railstop": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 3,
-          "siliconboard": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railswitch": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "and": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 2
-        },
-        "output": {
-          "countdowntimer": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "delay": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "dlatch": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "not": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "or": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 2
-        },
-        "output": {
-          "timer": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "xor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 1
-        },
-        "output": {
-          "alarm": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 1
-        },
-        "output": {
-          "bulb": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 2,
-          "siliconboard": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "secretdoor": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 2,
-          "siliconboard": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "secrettrapdoor": 1
-        }
-      },
-      {
-        "input": {
-          "scanner": 1,
-          "siliconboard": 1,
-          "smallbattery": 1,
-          "wire": 2,
-          "durasteelbar": 5
-        },
-        "output": {
-          "standingturret": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 2,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "lightsensor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "liquidsensor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "proximitysensor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "scanner": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 5
-        },
-        "output": {
-          "bigredbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "persistentswitch": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "smallfloorbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "smallwallbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "smallwallswitch": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "wire": 5,
-          "siliconboard": 1,
-          "smallbattery": 2
-        },
-        "output": {
-          "tier4switch": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 1
-        },
-        "output": {
-          "tinywallbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 1
-        },
-        "output": {
-          "tinywallswitch": 1
-        }
-      }
+      384,
+      419,
+      596,
+      630,
+      633,
+      916,
+      917,
+      918,
+      921,
+      923,
+      924,
+      925,
+      980,
+      981,
+      982,
+      1117,
+      1118,
+      1119,
+      1120,
+      1121,
+      1122,
+      1123,
+      1124,
+      1125,
+      1126,
+      1128,
+      1129,
+      1130,
+      1131,
+      1132,
+      1133,
+      1134,
+      1135,
+      1136,
+      1137,
+      1138,
+      1139,
+      1143,
+      1144,
+      1145
     ],
     "makes": [
-      {
-        "input": {
-          "sand2": 5,
-          "coalore": 2
-        },
-        "output": {
-          "siliconboard": 1
-        }
-      }
+      660
     ]
   },
   "silk": {
@@ -25063,431 +22929,52 @@
     "title": "Silk",
     "description": "A square of soft, lustrous silk",
     "recipes": [
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "apextier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "aviantier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "florantier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "humantier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "novatier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "apextier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "aviantier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "florantier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "humantier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "leather": 3,
-          "silk": 1
-        },
-        "output": {
-          "novatier4chest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "apextier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "apextier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "aviantier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "aviantier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "florantier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "florantier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "humantier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "humantier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "silk": 1
-        },
-        "output": {
-          "novatier5mhead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 4,
-          "silk": 1
-        },
-        "output": {
-          "novatier5mpants": 1
-        }
-      },
-      {
-        "input": {
-          "alienstripedwood": 25,
-          "silk": 3,
-          "plantfibre": 25,
-          "pinkdye": 1
-        },
-        "output": {
-          "alienbed": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 20,
-          "darkwoodmaterial": 20,
-          "silk": 3
-        },
-        "output": {
-          "bonebed": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "silk": 3
-        },
-        "output": {
-          "rainbowbed": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 30,
-          "larva": 20,
-          "silk": 3
-        },
-        "output": {
-          "hivebed": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 12,
-          "glass": 12,
-          "silk": 3
-        },
-        "output": {
-          "prismbed": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "silk": 3
-        },
-        "output": {
-          "scorchedcitybed": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 20,
-          "darkwoodmaterial": 25,
-          "silk": 3
-        },
-        "output": {
-          "steamspringbed": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "fabric": 10,
-          "silk": 3
-        },
-        "output": {
-          "tier4bed": 1
-        }
-      }
+      61,
+      64,
+      67,
+      70,
+      73,
+      76,
+      79,
+      90,
+      93,
+      96,
+      99,
+      102,
+      105,
+      108,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      248,
+      269,
+      292,
+      336,
+      363,
+      375,
+      403,
+      784
     ],
     "makes": [
-      {
-        "input": {
-          "silkfibre": 4
-        },
-        "output": {
-          "silk": 1
-        }
-      }
+      1087
     ]
   },
   "silkfibre": {
@@ -25497,14 +22984,7 @@
     "title": "Silk Fibre",
     "description": "A bundle of silk fibres.",
     "recipes": [
-      {
-        "input": {
-          "silkfibre": 4
-        },
-        "output": {
-          "silk": 1
-        }
-      }
+      1087
     ],
     "makes": []
   },
@@ -25515,338 +22995,43 @@
     "title": "Silver Bar",
     "description": "Ore for silver bars is found at moderate depths on most planets around all stars.",
     "recipes": [
-      {
-        "input": {
-          "cellmatter": 15,
-          "silverbar": 1
-        },
-        "output": {
-          "cellchair": 1
-        }
-      },
-      {
-        "input": {
-          "cellmatter": 10,
-          "silverbar": 1
-        },
-        "output": {
-          "cellchest": 1
-        }
-      },
-      {
-        "input": {
-          "cellmatter": 15,
-          "silverbar": 1,
-          "smallbattery": 1,
-          "wire": 3
-        },
-        "output": {
-          "celllamp": 1
-        }
-      },
-      {
-        "input": {
-          "cellmatter": 25,
-          "silverbar": 1
-        },
-        "output": {
-          "celltable": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 30,
-          "silverbar": 1
-        },
-        "output": {
-          "rainbowchest": 1
-        }
-      },
-      {
-        "input": {
-          "eyepiles": 50,
-          "silverbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "eyebed": 1
-        }
-      },
-      {
-        "input": {
-          "eyepiles": 20,
-          "silverbar": 1
-        },
-        "output": {
-          "eyechair": 1
-        }
-      },
-      {
-        "input": {
-          "eyepiles": 20,
-          "silverbar": 1
-        },
-        "output": {
-          "eyechest": 1
-        }
-      },
-      {
-        "input": {
-          "eyepiles": 30,
-          "silverbar": 1
-        },
-        "output": {
-          "eyedoor": 1
-        }
-      },
-      {
-        "input": {
-          "eyepiles": 50,
-          "silverbar": 1
-        },
-        "output": {
-          "eyetable": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "giantflowerpetal": 5,
-          "plantfibre": 5,
-          "silverbar": 1
-        },
-        "output": {
-          "giantflowerdoor": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "silverbar": 2,
-          "syntheticmaterial": 5
-        },
-        "output": {
-          "durablefishingrod": 1
-        }
-      },
-      {
-        "input": {
-          "silverbar": 1,
-          "darkwoodmaterial": 2,
-          "string": 2
-        },
-        "output": {
-          "fossilbrushstudent": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "tier4door": 1
-        }
-      },
-      {
-        "input": {
-          "silverbar": 1
-        },
-        "output": {
-          "silverblock": 30
-        }
-      },
-      {
-        "input": {
-          "silverbar": 1
-        },
-        "output": {
-          "silverplatform": 10
-        }
-      },
-      {
-        "input": {
-          "silverbar": 1
-        },
-        "output": {
-          "silverscrew": 20
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "apexstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "avianstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "floranstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "glitchstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "humanstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "hylotlstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "novakidstoragelocker": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "silverbar": 5,
-          "siliconboard": 2,
-          "wire": 10,
-          "battery": 1
-        },
-        "output": {
-          "railcraftingtable": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "compositerail": 20
-        }
-      },
-      {
-        "input": {
-          "wire": 8,
-          "smallbattery": 2,
-          "durasteelbar": 3,
-          "silverbar": 3
-        },
-        "output": {
-          "compositerailplatform": 1
-        }
-      },
-      {
-        "input": {
-          "silverbar": 1
-        },
-        "output": {
-          "railbumper": 1
-        }
-      },
-      {
-        "input": {
-          "sharpenedclaw": 1,
-          "durasteelbar": 5,
-          "silverbar": 5
-        },
-        "output": {
-          "railhook": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 3,
-          "siliconboard": 1,
-          "stickofram": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railsensor": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 6,
-          "siliconboard": 1,
-          "smallbattery": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railstop": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 3,
-          "siliconboard": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railswitch": 1
-        }
-      },
-      {
-        "input": {
-          "silverbar": 1
-        },
-        "output": {
-          "money": 15
-        }
-      },
-      {
-        "input": {
-          "firework": 5,
-          "fireworkgreen": 5,
-          "fireworkblue": 5,
-          "silverbar": 10,
-          "battery": 1
-        },
-        "output": {
-          "fireworkgun": 1
-        }
-      }
+      275,
+      276,
+      278,
+      279,
+      294,
+      302,
+      303,
+      304,
+      305,
+      306,
+      333,
+      629,
+      638,
+      804,
+      831,
+      832,
+      833,
+      836,
+      837,
+      838,
+      840,
+      841,
+      842,
+      843,
+      923,
+      975,
+      976,
+      977,
+      979,
+      980,
+      981,
+      982,
+      999,
+      1111
     ],
     "makes": [
-      {
-        "input": {
-          "silverore": 2
-        },
-        "output": {
-          "silverbar": 1
-        }
-      }
+      645
     ]
   },
   "silverore": {
@@ -25856,22 +23041,8 @@
     "title": "Silver Ore",
     "description": "It's silver. Can be used for smelting.",
     "recipes": [
-      {
-        "input": {
-          "silverore": 2
-        },
-        "output": {
-          "silverbar": 1
-        }
-      },
-      {
-        "input": {
-          "silverore": 1
-        },
-        "output": {
-          "money": 8
-        }
-      }
+      645,
+      1000
     ],
     "makes": []
   },
@@ -25882,653 +23053,70 @@
     "title": "AA Battery",
     "description": "This battery can be used to power small electronic devices!",
     "recipes": [
-      {
-        "input": {
-          "refinedaegisalt": 3,
-          "smallbattery": 1
-        },
-        "output": {
-          "aegisaltpistol": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 3,
-          "smallbattery": 1
-        },
-        "output": {
-          "feroziumwand": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 3,
-          "smallbattery": 1
-        },
-        "output": {
-          "violiumshortsword": 1
-        }
-      },
-      {
-        "input": {
-          "cellmatter": 15,
-          "silverbar": 1,
-          "smallbattery": 1,
-          "wire": 3
-        },
-        "output": {
-          "celllamp": 1
-        }
-      },
-      {
-        "input": {
-          "crystal": 5,
-          "smallbattery": 1,
-          "wire": 1
-        },
-        "output": {
-          "crystallamp": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 50,
-          "copperbar": 1,
-          "smallbattery": 2,
-          "wire": 3
-        },
-        "output": {
-          "foundrybed": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 15,
-          "plantfibre": 5,
-          "smallbattery": 1,
-          "wire": 1
-        },
-        "output": {
-          "giantflowerlamp": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 15,
-          "larva": 10,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "hivelamp": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 20,
-          "darkwoodmaterial": 3,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "reedlamp": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedviolium": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp1": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedaegisalt": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp2": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedferozium": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp3": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 4,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "scorchedcityregister": 1
-        }
-      },
-      {
-        "input": {
-          "glassmaterial": 4,
-          "darkwoodmaterial": 6,
-          "siliconboard": 1,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "scorchedcitytv": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 20,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "flowerlamp": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 4,
-          "darkwoodmaterial": 6,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "steamspringlamp": 1
-        }
-      },
-      {
-        "input": {
-          "limestone": 10,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "cavelamp": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 15,
-          "siliconboard": 2,
-          "smallbattery": 5,
-          "wire": 10
-        },
-        "output": {
-          "tarconsole": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "smallbattery": 4,
-          "siliconboard": 2,
-          "wire": 6
-        },
-        "output": {
-          "relocator": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "goldbar": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "cavedetector": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "diamond": 1,
-          "climbingrope": 1,
-          "wire": 2,
-          "smallbattery": 4
-        },
-        "output": {
-          "grapplinghook": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 5,
-          "wire": 5,
-          "siliconboard": 2,
-          "smallbattery": 5
-        },
-        "output": {
-          "halogenpack": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 5,
-          "refinedviolium": 5,
-          "refinedaegisalt": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "oredetector": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "apexshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "apexshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "avianshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "avianshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "floranshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "floranshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "glitchshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "glitchshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "humanshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "humanshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "hylotlshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "hylotlshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "novakidshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "novakidshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "glass": 2,
-          "smallbattery": 1
-        },
-        "output": {
-          "tier4light": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "metallicmaterial": 30
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "neonblock": 20
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "glass": 5,
-          "smallbattery": 1,
-          "wire": 3
-        },
-        "output": {
-          "laboratorylight": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 2,
-          "wire": 5
-        },
-        "output": {
-          "laboratoryverticaldoor": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "airlockdoor": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "airlockhatch": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 8,
-          "smallbattery": 2,
-          "durasteelbar": 3,
-          "silverbar": 3
-        },
-        "output": {
-          "compositerailplatform": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 6,
-          "siliconboard": 1,
-          "smallbattery": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railstop": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 8,
-          "smallbattery": 1,
-          "copperbar": 5
-        },
-        "output": {
-          "rustyrailplatform": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "and": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 2
-        },
-        "output": {
-          "countdowntimer": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "delay": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "dlatch": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "not": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "or": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 2
-        },
-        "output": {
-          "timer": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "xor": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 1
-        },
-        "output": {
-          "bulb": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 2,
-          "siliconboard": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "secretdoor": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 2,
-          "siliconboard": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "secrettrapdoor": 1
-        }
-      },
-      {
-        "input": {
-          "scanner": 1,
-          "siliconboard": 1,
-          "smallbattery": 1,
-          "wire": 2,
-          "durasteelbar": 5
-        },
-        "output": {
-          "standingturret": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "tier3switch": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "wire": 5,
-          "siliconboard": 1,
-          "smallbattery": 2
-        },
-        "output": {
-          "tier4switch": 1
-        }
-      }
+      238,
+      240,
+      242,
+      278,
+      300,
+      312,
+      334,
+      339,
+      361,
+      366,
+      367,
+      368,
+      381,
+      384,
+      399,
+      406,
+      411,
+      419,
+      630,
+      631,
+      632,
+      633,
+      634,
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797,
+      798,
+      799,
+      800,
+      801,
+      802,
+      806,
+      818,
+      820,
+      937,
+      938,
+      940,
+      941,
+      976,
+      981,
+      984,
+      1117,
+      1118,
+      1119,
+      1120,
+      1121,
+      1122,
+      1123,
+      1124,
+      1126,
+      1128,
+      1129,
+      1130,
+      1142,
+      1143
     ],
     "makes": [
-      {
-        "input": {
-          "wire": 1,
-          "copperbar": 1,
-          "liquidpoison": 1
-        },
-        "output": {
-          "smallbattery": 2
-        }
-      }
+      661
     ]
   },
   "snowflake": {
@@ -26538,14 +23126,7 @@
     "title": "Snowflake",
     "description": "A perfectly preserved snowflake. They say no two of these are ever the same.",
     "recipes": [
-      {
-        "input": {
-          "snowflake": 1
-        },
-        "output": {
-          "snowflakeshuriken": 10
-        }
-      }
+      395
     ],
     "makes": []
   },
@@ -26556,22 +23137,8 @@
     "title": "Solarium Ore",
     "description": "It's solarium. It's warm to the touch.",
     "recipes": [
-      {
-        "input": {
-          "solariumore": 2
-        },
-        "output": {
-          "solariumstar": 1
-        }
-      },
-      {
-        "input": {
-          "solariumore": 1
-        },
-        "output": {
-          "money": 30
-        }
-      }
+      658,
+      1001
     ],
     "makes": []
   },
@@ -26582,613 +23149,75 @@
     "title": "Solarium Star",
     "description": "Ore to make solarium stars is primarily found on planets orbiting fiery stars.",
     "recipes": [
-      {
-        "input": {
-          "solariumstar": 20,
-          "apextier5achest": 1
-        },
-        "output": {
-          "apextier6achest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "apextier5ahead": 1
-        },
-        "output": {
-          "apextier6ahead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "apextier5apants": 1
-        },
-        "output": {
-          "apextier6apants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "aviantier5achest": 1
-        },
-        "output": {
-          "aviantier6achest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "aviantier5ahead": 1
-        },
-        "output": {
-          "aviantier6ahead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "aviantier5apants": 1
-        },
-        "output": {
-          "aviantier6apants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "florantier5achest": 1
-        },
-        "output": {
-          "florantier6achest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "florantier5ahead": 1
-        },
-        "output": {
-          "florantier6ahead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "florantier5apants": 1
-        },
-        "output": {
-          "florantier6apants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "glitchtier5achest": 1
-        },
-        "output": {
-          "glitchtier6achest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "glitchtier5ahead": 1
-        },
-        "output": {
-          "glitchtier6ahead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "glitchtier5apants": 1
-        },
-        "output": {
-          "glitchtier6apants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "humantier5achest": 1
-        },
-        "output": {
-          "humantier6achest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "humantier5ahead": 1
-        },
-        "output": {
-          "humantier6ahead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "humantier5apants": 1
-        },
-        "output": {
-          "humantier6apants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "hylotltier5achest": 1
-        },
-        "output": {
-          "hylotltier6achest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "hylotltier5ahead": 1
-        },
-        "output": {
-          "hylotltier6ahead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "hylotltier5apants": 1
-        },
-        "output": {
-          "hylotltier6apants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "novatier5achest": 1
-        },
-        "output": {
-          "novatier6achest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "novatier5ahead": 1
-        },
-        "output": {
-          "novatier6ahead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "novatier5apants": 1
-        },
-        "output": {
-          "novatier6apants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "apextier5mchest": 1
-        },
-        "output": {
-          "apextier6mchest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "apextier5mhead": 1
-        },
-        "output": {
-          "apextier6mhead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "apextier5mpants": 1
-        },
-        "output": {
-          "apextier6mpants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "aviantier5mchest": 1
-        },
-        "output": {
-          "aviantier6mchest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "aviantier5mhead": 1
-        },
-        "output": {
-          "aviantier6mhead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "aviantier5mpants": 1
-        },
-        "output": {
-          "aviantier6mpants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "florantier5mchest": 1
-        },
-        "output": {
-          "florantier6mchest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "florantier5mhead": 1
-        },
-        "output": {
-          "florantier6mhead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "florantier5mpants": 1
-        },
-        "output": {
-          "florantier6mpants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "glitchtier5mchest": 1
-        },
-        "output": {
-          "glitchtier6mchest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "glitchtier5mhead": 1
-        },
-        "output": {
-          "glitchtier6mhead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "glitchtier5mpants": 1
-        },
-        "output": {
-          "glitchtier6mpants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "humantier5mchest": 1
-        },
-        "output": {
-          "humantier6mchest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "humantier5mhead": 1
-        },
-        "output": {
-          "humantier6mhead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "humantier5mpants": 1
-        },
-        "output": {
-          "humantier6mpants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "hylotltier5mchest": 1
-        },
-        "output": {
-          "hylotltier6mchest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "hylotltier5mhead": 1
-        },
-        "output": {
-          "hylotltier6mhead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "hylotltier5mpants": 1
-        },
-        "output": {
-          "hylotltier6mpants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "novatier5mchest": 1
-        },
-        "output": {
-          "novatier6mchest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "novatier5mhead": 1
-        },
-        "output": {
-          "novatier6mhead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "novatier5mpants": 1
-        },
-        "output": {
-          "novatier6mpants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "apextier5schest": 1
-        },
-        "output": {
-          "apextier6schest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "apextier5shead": 1
-        },
-        "output": {
-          "apextier6shead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "apextier5spants": 1
-        },
-        "output": {
-          "apextier6spants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "aviantier5schest": 1
-        },
-        "output": {
-          "aviantier6schest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "aviantier5shead": 1
-        },
-        "output": {
-          "aviantier6shead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "aviantier5spants": 1
-        },
-        "output": {
-          "aviantier6spants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "florantier5schest": 1
-        },
-        "output": {
-          "florantier6schest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "florantier5shead": 1
-        },
-        "output": {
-          "florantier6shead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "florantier5spants": 1
-        },
-        "output": {
-          "florantier6spants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "glitchtier5schest": 1
-        },
-        "output": {
-          "glitchtier6schest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "glitchtier5shead": 1
-        },
-        "output": {
-          "glitchtier6shead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "glitchtier5spants": 1
-        },
-        "output": {
-          "glitchtier6spants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "humantier5schest": 1
-        },
-        "output": {
-          "humantier6schest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "humantier5shead": 1
-        },
-        "output": {
-          "humantier6shead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "humantier5spants": 1
-        },
-        "output": {
-          "humantier6spants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "hylotltier5schest": 1
-        },
-        "output": {
-          "hylotltier6schest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "hylotltier5shead": 1
-        },
-        "output": {
-          "hylotltier6shead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "hylotltier5spants": 1
-        },
-        "output": {
-          "hylotltier6spants": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 20,
-          "novatier5schest": 1
-        },
-        "output": {
-          "novatier6schest": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 12,
-          "novatier5shead": 1
-        },
-        "output": {
-          "novatier6shead": 1
-        }
-      },
-      {
-        "input": {
-          "solariumstar": 8,
-          "novatier5spants": 1
-        },
-        "output": {
-          "novatier6spants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "aegisaltbow": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "feroziumstaff": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 6,
-          "solariumstar": 6,
-          "battery": 1
-        },
-        "output": {
-          "violiumbroadsword": 1
-        }
-      }
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      239,
+      241
     ],
     "makes": [
-      {
-        "input": {
-          "solariumore": 2
-        },
-        "output": {
-          "solariumstar": 1
-        }
-      }
+      658
     ]
   },
   "string": {
@@ -27198,289 +23227,37 @@
     "title": "String",
     "description": "You never know when a bit of string might come in handy.",
     "recipes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "apextier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "aviantier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "florantier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "glitchtier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "humantier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "hylotltier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "novatier1chest": 1
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 4,
-          "string": 1,
-          "ironbar": 1
-        },
-        "output": {
-          "bomb": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 4,
-          "darkwoodmaterial": 20,
-          "string": 4
-        },
-        "output": {
-          "startershield": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 50,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "mushroomhead": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "copperbar": 4,
-          "string": 1
-        },
-        "output": {
-          "hoe": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 20,
-          "string": 1,
-          "copperbar": 1
-        },
-        "output": {
-          "bow": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 5,
-          "string": 10
-        },
-        "output": {
-          "bugnet": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "titaniumbar": 2,
-          "string": 10
-        },
-        "output": {
-          "fishingrod": 1
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "string": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "flare": 2
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "string": 1,
-          "liquidoil": 3
-        },
-        "output": {
-          "tungstenbow": 1
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "string": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "flare": 2
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "string": 1,
-          "liquidoil": 3
-        },
-        "output": {
-          "compoundbow": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 5,
-          "string": 1
-        },
-        "output": {
-          "fossilbrushbeginner": 1
-        }
-      },
-      {
-        "input": {
-          "goldbar": 1,
-          "darkwoodmaterial": 2,
-          "string": 3
-        },
-        "output": {
-          "fossilbrushmaster": 1
-        }
-      },
-      {
-        "input": {
-          "silverbar": 1,
-          "darkwoodmaterial": 2,
-          "string": 2
-        },
-        "output": {
-          "fossilbrushstudent": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 5,
-          "string": 2
-        },
-        "output": {
-          "woodsupport": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "string": 1
-        },
-        "output": {
-          "cabinroofing": 30
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "string": 1
-        },
-        "output": {
-          "fence": 10
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 2,
-          "string": 1
-        },
-        "output": {
-          "woodbridge": 10
-        }
-      },
-      {
-        "input": {
-          "leather": 5,
-          "fabric": 5,
-          "string": 5
-        },
-        "output": {
-          "boxingglove": 1
-        }
-      },
-      {
-        "input": {
-          "fabric": 10,
-          "string": 5
-        },
-        "output": {
-          "eyepatchhead": 1
-        }
-      },
-      {
-        "input": {
-          "livingroot": 5,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "giantbowhead": 1
-        }
-      }
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      42,
+      47,
+      347,
+      611,
+      616,
+      617,
+      618,
+      619,
+      621,
+      622,
+      628,
+      636,
+      637,
+      638,
+      673,
+      698,
+      717,
+      773,
+      1031,
+      1032,
+      1113
     ],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 2
-        },
-        "output": {
-          "string": 1
-        }
-      }
+      1076
     ]
   },
   "sulphur": {
@@ -27499,386 +23276,46 @@
     "title": "Synthetic Material",
     "description": "A square of synthetic material.",
     "recipes": [
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5achest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 6,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5ahead": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 4,
-          "leather": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5apants": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "silk": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5mchest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "apextier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "aviantier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "florantier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "glitchtier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "humantier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "hylotltier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "canvas": 1,
-          "syntheticmaterial": 1
-        },
-        "output": {
-          "novatier5schest": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "silverbar": 2,
-          "syntheticmaterial": 5
-        },
-        "output": {
-          "durablefishingrod": 1
-        }
-      },
-      {
-        "input": {
-          "syntheticmaterial": 1,
-          "livingroot": 1
-        },
-        "output": {
-          "nanowrap": 5
-        }
-      }
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      135,
+      138,
+      141,
+      144,
+      147,
+      150,
+      153,
+      156,
+      159,
+      162,
+      165,
+      168,
+      171,
+      629,
+      936
     ],
     "makes": [
-      {
-        "input": {
-          "coalore": 5,
-          "liquidpoison": 5
-        },
-        "output": {
-          "syntheticmaterial": 1
-        }
-      }
+      1088
     ]
   },
   "syringe": {
@@ -27888,69 +23325,14 @@
     "title": "Medical Syringe",
     "description": "This could be used for making stim packs.",
     "recipes": [
-      {
-        "input": {
-          "petalred": 5,
-          "livingroot": 1,
-          "syringe": 1
-        },
-        "output": {
-          "redstim": 1
-        }
-      },
-      {
-        "input": {
-          "petalyellow": 4,
-          "plantfibre": 4,
-          "syringe": 1
-        },
-        "output": {
-          "yellowstim": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 4,
-          "staticcell": 1,
-          "syringe": 1
-        },
-        "output": {
-          "bluestim": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 2,
-          "petalyellow": 2,
-          "phasematter": 1,
-          "syringe": 1
-        },
-        "output": {
-          "greenstim": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 2,
-          "petalyellow": 2,
-          "scorchedcore": 1,
-          "syringe": 1
-        },
-        "output": {
-          "orangestim": 1
-        }
-      }
+      926,
+      927,
+      932,
+      933,
+      934
     ],
     "makes": [
-      {
-        "input": {
-          "glass": 2,
-          "ironbar": 1
-        },
-        "output": {
-          "syringe": 1
-        }
-      }
+      651
     ]
   },
   "teleportercore": {
@@ -27960,72 +23342,16 @@
     "title": "Teleporter Core",
     "description": "A rare, hi-tech key component of a personal teleporter.",
     "recipes": [
-      {
-        "input": {
-          "teleportercore": 1
-        },
-        "output": {
-          "blackteleporter": 1
-        }
-      },
-      {
-        "input": {
-          "teleportercore": 1
-        },
-        "output": {
-          "brassteleporter": 1
-        }
-      },
-      {
-        "input": {
-          "teleportercore": 1
-        },
-        "output": {
-          "futureteleporter": 1
-        }
-      },
-      {
-        "input": {
-          "teleportercore": 1
-        },
-        "output": {
-          "scienceteleporter": 1
-        }
-      },
-      {
-        "input": {
-          "teleportercore": 1
-        },
-        "output": {
-          "stoneteleporter": 1
-        }
-      },
-      {
-        "input": {
-          "teleportercore": 1
-        },
-        "output": {
-          "tombteleporter": 1
-        }
-      },
-      {
-        "input": {
-          "teleportercore": 1
-        },
-        "output": {
-          "woodenteleporter": 1
-        }
-      }
+      1090,
+      1091,
+      1092,
+      1093,
+      1094,
+      1096,
+      1097
     ],
     "makes": [
-      {
-        "input": {
-          "diamond": 15
-        },
-        "output": {
-          "teleportercore": 1
-        }
-      }
+      1095
     ]
   },
   "thread": {
@@ -28044,619 +23370,72 @@
     "title": "Titanium Bar",
     "description": "Ore for titanium bars is primarily found on planets orbiting temperate stars.",
     "recipes": [
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "apextier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "apextier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "apextier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "aviantier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "aviantier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "florantier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "florantier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "florantier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "glitchtier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "glitchtier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "humantier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "humantier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "humantier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "hylotltier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "hylotltier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "leather": 1,
-          "silk": 1
-        },
-        "output": {
-          "novatier3chest": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "canvas": 1
-        },
-        "output": {
-          "novatier3head": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 4,
-          "canvas": 1
-        },
-        "output": {
-          "novatier3pants": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 2,
-          "copperbar": 1
-        },
-        "output": {
-          "titaniumdagger": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 3,
-          "copperbar": 2
-        },
-        "output": {
-          "titaniummachinepistol": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "titaniumsniperrifle": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "copperbar": 4
-        },
-        "output": {
-          "titaniumspear": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "bluedye": 2
-        },
-        "output": {
-          "paintgunblue": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "greendye": 2
-        },
-        "output": {
-          "paintgungreen": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "orangedye": 2
-        },
-        "output": {
-          "paintgunorange": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "purpledye": 2
-        },
-        "output": {
-          "paintgunpurple": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "reddye": 2
-        },
-        "output": {
-          "paintgunred": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "yellowdye": 2
-        },
-        "output": {
-          "paintgunyellow": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "snow": 10,
-          "glass": 10
-        },
-        "output": {
-          "snowgun": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "titaniumbar": 2,
-          "string": 10
-        },
-        "output": {
-          "fishingrod": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "tier3bed": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "leather": 5,
-          "bluedye": 1
-        },
-        "output": {
-          "tier3chair": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "glass": 5
-        },
-        "output": {
-          "tier3table": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "apexshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "apexshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "avianshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "avianshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "floranshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "floranshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "glitchshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "glitchshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "humanshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "humanshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "hylotlshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "hylotlshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "novakidshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "novakidshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "glass": 5
-        },
-        "output": {
-          "tier3door": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "glass": 2,
-          "torch": 1
-        },
-        "output": {
-          "tier3light": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1
-        },
-        "output": {
-          "composite01material": 50
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "metallicmaterial": 30
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1
-        },
-        "output": {
-          "modernplatform": 40
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 20
-        },
-        "output": {
-          "holidaycraftingtable": 1
-        }
-      },
-      {
-        "input": {
-          "breathprotectionback": 1,
-          "titaniumbar": 6,
-          "copperbar": 4,
-          "venomsample": 1
-        },
-        "output": {
-          "radiationprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 15,
-          "coalore": 10,
-          "campfire": 1
-        },
-        "output": {
-          "refinery": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "glass": 5,
-          "smallbattery": 1,
-          "wire": 3
-        },
-        "output": {
-          "laboratorylight": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 2,
-          "wire": 5
-        },
-        "output": {
-          "laboratoryverticaldoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1
-        },
-        "output": {
-          "money": 40
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "proximitysensor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "tier3switch": 1
-        }
-      }
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      83,
+      84,
+      85,
+      86,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      396,
+      618,
+      783,
+      785,
+      786,
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797,
+      798,
+      799,
+      800,
+      801,
+      802,
+      803,
+      805,
+      811,
+      818,
+      819,
+      871,
+      914,
+      915,
+      937,
+      938,
+      1002,
+      1133,
+      1142
     ],
     "makes": [
-      {
-        "input": {
-          "titaniumore": 2
-        },
-        "output": {
-          "titaniumbar": 1
-        }
-      }
+      654
     ]
   },
   "titaniumore": {
@@ -28666,22 +23445,8 @@
     "title": "Titanium Ore",
     "description": "It's titanium. Can be used for smelting.",
     "recipes": [
-      {
-        "input": {
-          "titaniumore": 2
-        },
-        "output": {
-          "titaniumbar": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumore": 1
-        },
-        "output": {
-          "money": 20
-        }
-      }
+      654,
+      1003
     ],
     "makes": []
   },
@@ -28710,709 +23475,85 @@
     "title": "Tungsten Bar",
     "description": "Ore for tungsten bars is primarily found on planets orbiting gentle stars.",
     "recipes": [
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "apextier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "apextier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "apextier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "aviantier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "aviantier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "aviantier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "florantier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "florantier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "florantier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "glitchtier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "glitchtier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "glitchtier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "humantier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "humantier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "humantier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "hylotltier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "hylotltier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "hylotltier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "cottonwool": 1,
-          "leather": 1
-        },
-        "output": {
-          "novatier2chest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "cottonwool": 1
-        },
-        "output": {
-          "novatier2head": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "cottonwool": 1
-        },
-        "output": {
-          "novatier2pants": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 3,
-          "climbingrope": 2
-        },
-        "output": {
-          "tungstenaxe": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "climbingrope": 4
-        },
-        "output": {
-          "tungstenhammer": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 3,
-          "copperbar": 1
-        },
-        "output": {
-          "tungstenmagnum": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "copperbar": 2
-        },
-        "output": {
-          "tungstenshotgun": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 20,
-          "tungstenbar": 1
-        },
-        "output": {
-          "tarpitchest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 3,
-          "darkwoodmaterial": 30,
-          "torch": 1
-        },
-        "output": {
-          "mothtrap": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 2,
-          "greendye": 1,
-          "reddye": 1
-        },
-        "output": {
-          "wateringcan": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "string": 1,
-          "liquidoil": 3
-        },
-        "output": {
-          "tungstenbow": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "tier2bed": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "leather": 2
-        },
-        "output": {
-          "tier2chair": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "darkwoodmaterial": 5,
-          "yellowdye": 1
-        },
-        "output": {
-          "tier2table": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "glass": 2,
-          "reddye": 1
-        },
-        "output": {
-          "tier2door": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "torch": 1
-        },
-        "output": {
-          "tier2light": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "apexshipdetails": 20
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "apexshipplatform": 20
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "apexshipsupport": 20
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "apexshipwall": 20
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 2,
-          "staticcell": 1
-        },
-        "output": {
-          "minifridge": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "chain": 20
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "chain": 20
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "lightmetal": 50
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "lunarbaseblock": 50
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "lunarbaseplatform": 50
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "mediummetal": 50
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "concretematerial": 1
-        },
-        "output": {
-          "outpostsupport": 50
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "smoothmetal": 1
-        },
-        "output": {
-          "platematerial": 50
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "smoothmetal": 50
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 2,
-          "cryonicextract": 1,
-          "battery": 1
-        },
-        "output": {
-          "fridge": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 6,
-          "glass": 10,
-          "livingroot": 1
-        },
-        "output": {
-          "breathprotectionback": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "darkwoodmaterial": 20,
-          "cobblestonematerial": 20,
-          "dirtmaterial": 5
-        },
-        "output": {
-          "fossilstation": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "airlockdoor": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "airlockhatch": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "ironbar": 1
-        },
-        "output": {
-          "hylotlsupportbeam": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "leather": 3
-        },
-        "output": {
-          "lunarbasebunk": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "leather": 1
-        },
-        "output": {
-          "lunarbasechair": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 5
-        },
-        "output": {
-          "lunarbaseconsole": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "lunarbasecrate": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 2
-        },
-        "output": {
-          "lunarbasedoor": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "torch": 1
-        },
-        "output": {
-          "lunarbaselantern": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "lunarbaselocker": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "miningchest": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "copperbar": 1
-        },
-        "output": {
-          "miningdoor": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "copperbar": 1
-        },
-        "output": {
-          "miningverticaldoor": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "tungstenplatform": 10
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "money": 30
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 1
-        },
-        "output": {
-          "alarm": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "drain": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 5
-        },
-        "output": {
-          "bigredbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "persistentswitch": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "smallfloorbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "smallwallbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "smallwallswitch": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "wire": 5
-        },
-        "output": {
-          "tier2switch": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 1
-        },
-        "output": {
-          "tinywallbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 1
-        },
-        "output": {
-          "tinywallswitch": 1
-        }
-      }
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      48,
+      49,
+      50,
+      51,
+      423,
+      612,
+      614,
+      621,
+      664,
+      670,
+      671,
+      676,
+      684,
+      685,
+      686,
+      687,
+      688,
+      780,
+      809,
+      810,
+      814,
+      815,
+      816,
+      817,
+      822,
+      825,
+      834,
+      839,
+      905,
+      913,
+      940,
+      941,
+      942,
+      943,
+      944,
+      945,
+      946,
+      947,
+      948,
+      949,
+      950,
+      951,
+      952,
+      954,
+      1004,
+      1125,
+      1127,
+      1135,
+      1136,
+      1137,
+      1138,
+      1139,
+      1141,
+      1144,
+      1145
     ],
     "makes": [
-      {
-        "input": {
-          "tungstenore": 2
-        },
-        "output": {
-          "tungstenbar": 1
-        }
-      }
+      646
     ]
   },
   "tungstenore": {
@@ -29422,22 +23563,8 @@
     "title": "Tungsten Ore",
     "description": "It's tungsten. It can be used for smelting.",
     "recipes": [
-      {
-        "input": {
-          "tungstenore": 2
-        },
-        "output": {
-          "tungstenbar": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenore": 1
-        },
-        "output": {
-          "money": 15
-        }
-      }
+      646,
+      1005
     ],
     "makes": []
   },
@@ -29466,22 +23593,8 @@
     "title": "Violium Ore",
     "description": "Violium ore. Can be used for smelting.",
     "recipes": [
-      {
-        "input": {
-          "violiumore": 2
-        },
-        "output": {
-          "refinedviolium": 1
-        }
-      },
-      {
-        "input": {
-          "violiumore": 1
-        },
-        "output": {
-          "money": 30
-        }
-      }
+      657,
+      1006
     ],
     "makes": []
   },
@@ -29492,76 +23605,15 @@
     "title": "Volatile Powder",
     "description": "A dangerous powder, useful for crafting explosives.",
     "recipes": [
-      {
-        "input": {
-          "volatilepowder": 4,
-          "string": 1,
-          "ironbar": 1
-        },
-        "output": {
-          "bomb": 1
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "string": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "flare": 2
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "string": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "flare": 2
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "reddye": 1
-        },
-        "output": {
-          "firework": 2
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "bluedye": 1
-        },
-        "output": {
-          "fireworkblue": 2
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "greendye": 1
-        },
-        "output": {
-          "fireworkgreen": 2
-        }
-      }
+      42,
+      619,
+      622,
+      854,
+      855,
+      856
     ],
     "makes": [
-      {
-        "input": {
-          "corefragmentore": 2
-        },
-        "output": {
-          "volatilepowder": 1
-        }
-      }
+      652
     ]
   },
   "wildvines": {
@@ -29580,895 +23632,93 @@
     "title": "Copper Wire",
     "description": "A spool of copper wire.",
     "recipes": [
-      {
-        "input": {
-          "cellmatter": 15,
-          "silverbar": 1,
-          "smallbattery": 1,
-          "wire": 3
-        },
-        "output": {
-          "celllamp": 1
-        }
-      },
-      {
-        "input": {
-          "crystal": 5,
-          "smallbattery": 1,
-          "wire": 1
-        },
-        "output": {
-          "crystallamp": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 50,
-          "copperbar": 1,
-          "smallbattery": 2,
-          "wire": 3
-        },
-        "output": {
-          "foundrybed": 1
-        }
-      },
-      {
-        "input": {
-          "giantflowerpetal": 15,
-          "plantfibre": 5,
-          "smallbattery": 1,
-          "wire": 1
-        },
-        "output": {
-          "giantflowerlamp": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 15,
-          "larva": 10,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "hivelamp": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 20,
-          "darkwoodmaterial": 3,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "reedlamp": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedviolium": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp1": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedaegisalt": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp2": 1
-        }
-      },
-      {
-        "input": {
-          "prisiliteore": 4,
-          "glass": 4,
-          "refinedferozium": 1,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "prismlamp3": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 10,
-          "metallic": 15
-        },
-        "output": {
-          "scorchedcityfridge": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 4,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "scorchedcityregister": 1
-        }
-      },
-      {
-        "input": {
-          "glassmaterial": 4,
-          "darkwoodmaterial": 6,
-          "siliconboard": 1,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "scorchedcitytv": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 20,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "flowerlamp": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 4,
-          "darkwoodmaterial": 6,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "steamspringlamp": 1
-        }
-      },
-      {
-        "input": {
-          "limestone": 10,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "cavelamp": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 15,
-          "siliconboard": 2,
-          "smallbattery": 5,
-          "wire": 10
-        },
-        "output": {
-          "tarconsole": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 6,
-          "siliconboard": 4,
-          "wire": 5,
-          "battery": 1
-        },
-        "output": {
-          "pethealingstation": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "smallbattery": 4,
-          "siliconboard": 2,
-          "wire": 6
-        },
-        "output": {
-          "relocator": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "goldbar": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "cavedetector": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "diamond": 1,
-          "climbingrope": 1,
-          "wire": 2,
-          "smallbattery": 4
-        },
-        "output": {
-          "grapplinghook": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 5,
-          "wire": 5,
-          "siliconboard": 2,
-          "smallbattery": 5
-        },
-        "output": {
-          "halogenpack": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 5,
-          "refinedviolium": 5,
-          "refinedaegisalt": 5,
-          "wire": 6,
-          "smallbattery": 4
-        },
-        "output": {
-          "oredetector": 1
-        }
-      },
-      {
-        "input": {
-          "halogenpack": 1,
-          "diamond": 3,
-          "wire": 5
-        },
-        "output": {
-          "xenonpack": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 4,
-          "goldbar": 2,
-          "liquidpoison": 5
-        },
-        "output": {
-          "battery": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "copperbar": 1,
-          "liquidpoison": 1
-        },
-        "output": {
-          "smallbattery": 2
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "apexshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "apexshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "avianshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "avianshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "floranshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "floranshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "glitchshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "glitchshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "humanshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "humanshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "hylotlshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "hylotlshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "novakidshipdoor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "novakidshiphatch": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "battery": 1,
-          "wire": 6,
-          "siliconboard": 3
-        },
-        "output": {
-          "3dprinter": 1
-        }
-      },
-      {
-        "input": {
-          "refinedaegisalt": 10,
-          "siliconboard": 2,
-          "wire": 4
-        },
-        "output": {
-          "acceleratoraddon": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 20,
-          "battery": 1,
-          "wire": 6,
-          "siliconboard": 3
-        },
-        "output": {
-          "capturestation": 1
-        }
-      },
-      {
-        "input": {
-          "refinedferozium": 10,
-          "siliconboard": 2,
-          "wire": 4
-        },
-        "output": {
-          "manipulatoraddon": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "silverbar": 5,
-          "siliconboard": 2,
-          "wire": 10,
-          "battery": 1
-        },
-        "output": {
-          "railcraftingtable": 1
-        }
-      },
-      {
-        "input": {
-          "refinedviolium": 10,
-          "siliconboard": 2,
-          "wire": 4
-        },
-        "output": {
-          "separatoraddon": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 10,
-          "siliconboard": 5,
-          "stickofram": 2,
-          "wire": 10,
-          "battery": 1
-        },
-        "output": {
-          "wiringstation": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "glass": 5,
-          "smallbattery": 1,
-          "wire": 3
-        },
-        "output": {
-          "laboratorylight": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 2,
-          "wire": 5
-        },
-        "output": {
-          "laboratoryverticaldoor": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "airlockdoor": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "smallbattery": 1,
-          "wire": 5
-        },
-        "output": {
-          "airlockhatch": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 8,
-          "smallbattery": 2,
-          "durasteelbar": 3,
-          "silverbar": 3
-        },
-        "output": {
-          "compositerailplatform": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 3,
-          "siliconboard": 1,
-          "stickofram": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railsensor": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 6,
-          "siliconboard": 1,
-          "smallbattery": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railstop": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 3,
-          "siliconboard": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "railswitch": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 8,
-          "smallbattery": 1,
-          "copperbar": 5
-        },
-        "output": {
-          "rustyrailplatform": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "and": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 2
-        },
-        "output": {
-          "countdowntimer": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "delay": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "dlatch": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "not": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "or": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 2
-        },
-        "output": {
-          "timer": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 3
-        },
-        "output": {
-          "xor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 1
-        },
-        "output": {
-          "alarm": 1
-        }
-      },
-      {
-        "input": {
-          "smallbattery": 1,
-          "siliconboard": 1,
-          "wire": 1
-        },
-        "output": {
-          "bulb": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "drain": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 2,
-          "siliconboard": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "secretdoor": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 2,
-          "siliconboard": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "secrettrapdoor": 1
-        }
-      },
-      {
-        "input": {
-          "scanner": 1,
-          "siliconboard": 1,
-          "smallbattery": 1,
-          "wire": 2,
-          "durasteelbar": 5
-        },
-        "output": {
-          "standingturret": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 2,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "lightsensor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "liquidsensor": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "proximitysensor": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 1,
-          "wire": 1,
-          "siliconboard": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "scanner": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 5
-        },
-        "output": {
-          "bigredbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "persistentswitch": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "smallfloorbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "smallwallbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 2
-        },
-        "output": {
-          "smallwallswitch": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "wire": 5
-        },
-        "output": {
-          "tier1switch": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "wire": 5
-        },
-        "output": {
-          "tier2switch": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "wire": 5,
-          "smallbattery": 1
-        },
-        "output": {
-          "tier3switch": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "wire": 5,
-          "siliconboard": 1,
-          "smallbattery": 2
-        },
-        "output": {
-          "tier4switch": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 1
-        },
-        "output": {
-          "tinywallbutton": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "siliconboard": 1,
-          "tungstenbar": 1
-        },
-        "output": {
-          "tinywallswitch": 1
-        }
-      }
+      278,
+      300,
+      312,
+      334,
+      339,
+      361,
+      366,
+      367,
+      368,
+      380,
+      381,
+      384,
+      399,
+      406,
+      411,
+      419,
+      596,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      659,
+      661,
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797,
+      798,
+      799,
+      800,
+      801,
+      802,
+      916,
+      917,
+      918,
+      921,
+      923,
+      924,
+      925,
+      937,
+      938,
+      940,
+      941,
+      976,
+      980,
+      981,
+      982,
+      984,
+      1117,
+      1118,
+      1119,
+      1120,
+      1121,
+      1122,
+      1123,
+      1124,
+      1125,
+      1126,
+      1127,
+      1128,
+      1129,
+      1130,
+      1131,
+      1132,
+      1133,
+      1134,
+      1135,
+      1136,
+      1137,
+      1138,
+      1139,
+      1140,
+      1141,
+      1142,
+      1143,
+      1144,
+      1145
     ],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "wire": 5
-        }
-      }
+      662
     ]
   },
   "blackdye": {
@@ -30478,55 +23728,13 @@
     "title": "Black Dye",
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [
-      {
-        "input": {
-          "glass": 1,
-          "blackdye": 1
-        },
-        "output": {
-          "blackglass": 10
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "yellowdye": 1,
-          "blackdye": 1
-        },
-        "output": {
-          "hazard": 50
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 1,
-          "leather": 5,
-          "blackdye": 1
-        },
-        "output": {
-          "tier4chair": 1
-        }
-      },
-      {
-        "input": {
-          "whitedye": 1,
-          "blackdye": 1
-        },
-        "output": {
-          "greydye": 2
-        }
-      }
+      694,
+      724,
+      787,
+      1082
     ],
     "makes": [
-      {
-        "input": {
-          "coalore": 5,
-          "bottle": 1
-        },
-        "output": {
-          "blackdye": 1
-        }
-      }
+      1068
     ]
   },
   "bluedye": {
@@ -30536,94 +23744,17 @@
     "title": "Blue Dye",
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [
-      {
-        "input": {
-          "glowfibre": 20,
-          "fabric": 3,
-          "bluedye": 1
-        },
-        "output": {
-          "glowchair": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "bluedye": 3
-        },
-        "output": {
-          "crayonblueback": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "bluedye": 2
-        },
-        "output": {
-          "paintgunblue": 1
-        }
-      },
-      {
-        "input": {
-          "bluedye": 1,
-          "rooftiles": 1
-        },
-        "output": {
-          "ornateroofing": 40
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 1,
-          "leather": 5,
-          "bluedye": 1
-        },
-        "output": {
-          "tier3chair": 1
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "bluedye": 1
-        },
-        "output": {
-          "fireworkblue": 2
-        }
-      },
-      {
-        "input": {
-          "yellowdye": 1,
-          "bluedye": 1
-        },
-        "output": {
-          "greendye": 2
-        }
-      },
-      {
-        "input": {
-          "reddye": 1,
-          "bluedye": 1
-        },
-        "output": {
-          "purpledye": 2
-        }
-      }
+      260,
+      280,
+      286,
+      734,
+      785,
+      855,
+      1081,
+      1085
     ],
     "makes": [
-      {
-        "input": {
-          "petalblue": 5,
-          "bottle": 1
-        },
-        "output": {
-          "bluedye": 1
-        }
-      }
+      1069
     ]
   },
   "browndye": {
@@ -30633,26 +23764,10 @@
     "title": "Brown Dye",
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [
-      {
-        "input": {
-          "brickmaterial": 1,
-          "browndye": 1
-        },
-        "output": {
-          "homewalls1": 50
-        }
-      }
+      727
     ],
     "makes": [
-      {
-        "input": {
-          "reddye": 1,
-          "greendye": 1
-        },
-        "output": {
-          "browndye": 2
-        }
-      }
+      1080
     ]
   },
   "dyeremover": {
@@ -30663,15 +23778,7 @@
     "description": "Apply this dye remover to any clothing with a right-click to restore its base colour",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "liquidhealing": 5,
-          "bottle": 1
-        },
-        "output": {
-          "dyeremover": 1
-        }
-      }
+      1070
     ]
   },
   "greendye": {
@@ -30681,76 +23788,15 @@
     "title": "Green Dye",
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "greendye": 3
-        },
-        "output": {
-          "crayongreenback": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "greendye": 2
-        },
-        "output": {
-          "paintgungreen": 1
-        }
-      },
-      {
-        "input": {
-          "wicker": 20,
-          "fabric": 10,
-          "greendye": 1
-        },
-        "output": {
-          "swampbed": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 2,
-          "greendye": 1,
-          "reddye": 1
-        },
-        "output": {
-          "wateringcan": 1
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "greendye": 1
-        },
-        "output": {
-          "fireworkgreen": 2
-        }
-      },
-      {
-        "input": {
-          "reddye": 1,
-          "greendye": 1
-        },
-        "output": {
-          "browndye": 2
-        }
-      }
+      281,
+      287,
+      412,
+      614,
+      856,
+      1080
     ],
     "makes": [
-      {
-        "input": {
-          "yellowdye": 1,
-          "bluedye": 1
-        },
-        "output": {
-          "greendye": 2
-        }
-      }
+      1081
     ]
   },
   "greydye": {
@@ -30761,15 +23807,7 @@
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "whitedye": 1,
-          "blackdye": 1
-        },
-        "output": {
-          "greydye": 2
-        }
-      }
+      1082
     ]
   },
   "orangedye": {
@@ -30779,37 +23817,11 @@
     "title": "Orange Dye",
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "orangedye": 3
-        },
-        "output": {
-          "crayonorangeback": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "orangedye": 2
-        },
-        "output": {
-          "paintgunorange": 1
-        }
-      }
+      282,
+      288
     ],
     "makes": [
-      {
-        "input": {
-          "yellowdye": 1,
-          "reddye": 1
-        },
-        "output": {
-          "orangedye": 2
-        }
-      }
+      1083
     ]
   },
   "pinkdye": {
@@ -30819,28 +23831,10 @@
     "title": "Pink Dye",
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [
-      {
-        "input": {
-          "alienstripedwood": 25,
-          "silk": 3,
-          "plantfibre": 25,
-          "pinkdye": 1
-        },
-        "output": {
-          "alienbed": 1
-        }
-      }
+      248
     ],
     "makes": [
-      {
-        "input": {
-          "reddye": 1,
-          "whitedye": 1
-        },
-        "output": {
-          "pinkdye": 2
-        }
-      }
+      1084
     ]
   },
   "purpledye": {
@@ -30850,48 +23844,12 @@
     "title": "Purple Dye",
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [
-      {
-        "input": {
-          "glowfibre": 25,
-          "darkwoodmaterial": 10,
-          "fabric": 10,
-          "purpledye": 1
-        },
-        "output": {
-          "glowbed": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "purpledye": 3
-        },
-        "output": {
-          "crayonpurpleback": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "purpledye": 2
-        },
-        "output": {
-          "paintgunpurple": 1
-        }
-      }
+      258,
+      283,
+      289
     ],
     "makes": [
-      {
-        "input": {
-          "reddye": 1,
-          "bluedye": 1
-        },
-        "output": {
-          "purpledye": 2
-        }
-      }
+      1085
     ]
   },
   "reddye": {
@@ -30901,123 +23859,20 @@
     "title": "Red Dye",
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "reddye": 3
-        },
-        "output": {
-          "crayonredback": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "reddye": 2
-        },
-        "output": {
-          "paintgunred": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 25,
-          "darkwoodmaterial": 10,
-          "fabric": 10,
-          "reddye": 1
-        },
-        "output": {
-          "shroombed": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 2,
-          "greendye": 1,
-          "reddye": 1
-        },
-        "output": {
-          "wateringcan": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "glass": 2,
-          "reddye": 1
-        },
-        "output": {
-          "tier2door": 1
-        }
-      },
-      {
-        "input": {
-          "liquidoil": 1,
-          "reddye": 1
-        },
-        "output": {
-          "redtoyblock": 20
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "reddye": 1
-        },
-        "output": {
-          "firework": 2
-        }
-      },
-      {
-        "input": {
-          "reddye": 1,
-          "greendye": 1
-        },
-        "output": {
-          "browndye": 2
-        }
-      },
-      {
-        "input": {
-          "yellowdye": 1,
-          "reddye": 1
-        },
-        "output": {
-          "orangedye": 2
-        }
-      },
-      {
-        "input": {
-          "reddye": 1,
-          "whitedye": 1
-        },
-        "output": {
-          "pinkdye": 2
-        }
-      },
-      {
-        "input": {
-          "reddye": 1,
-          "bluedye": 1
-        },
-        "output": {
-          "purpledye": 2
-        }
-      }
+      284,
+      290,
+      348,
+      614,
+      676,
+      830,
+      854,
+      1080,
+      1083,
+      1084,
+      1085
     ],
     "makes": [
-      {
-        "input": {
-          "petalred": 5,
-          "bottle": 1
-        },
-        "output": {
-          "reddye": 1
-        }
-      }
+      1071
     ]
   },
   "whitedye": {
@@ -31027,35 +23882,11 @@
     "title": "White Dye",
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [
-      {
-        "input": {
-          "whitedye": 1,
-          "blackdye": 1
-        },
-        "output": {
-          "greydye": 2
-        }
-      },
-      {
-        "input": {
-          "reddye": 1,
-          "whitedye": 1
-        },
-        "output": {
-          "pinkdye": 2
-        }
-      }
+      1082,
+      1084
     ],
     "makes": [
-      {
-        "input": {
-          "bone": 5,
-          "bottle": 1
-        },
-        "output": {
-          "whitedye": 1
-        }
-      }
+      1072
     ]
   },
   "yellowdye": {
@@ -31065,95 +23896,17 @@
     "title": "Yellow Dye",
     "description": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
     "recipes": [
-      {
-        "input": {
-          "cobblestonematerial": 25,
-          "fabric": 10,
-          "yellowdye": 1
-        },
-        "output": {
-          "stonebed": 1
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 15,
-          "fabric": 3,
-          "yellowdye": 1
-        },
-        "output": {
-          "stonechair": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "yellowdye": 3
-        },
-        "output": {
-          "crayonyellowback": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "yellowdye": 2
-        },
-        "output": {
-          "paintgunyellow": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "darkwoodmaterial": 5,
-          "yellowdye": 1
-        },
-        "output": {
-          "tier2table": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "yellowdye": 1,
-          "blackdye": 1
-        },
-        "output": {
-          "hazard": 50
-        }
-      },
-      {
-        "input": {
-          "yellowdye": 1,
-          "bluedye": 1
-        },
-        "output": {
-          "greendye": 2
-        }
-      },
-      {
-        "input": {
-          "yellowdye": 1,
-          "reddye": 1
-        },
-        "output": {
-          "orangedye": 2
-        }
-      }
+      253,
+      254,
+      285,
+      291,
+      671,
+      724,
+      1081,
+      1083
     ],
     "makes": [
-      {
-        "input": {
-          "petalyellow": 5,
-          "bottle": 1
-        },
-        "output": {
-          "yellowdye": 1
-        }
-      }
+      1073
     ]
   },
   "bakedpotato": {
@@ -31164,14 +23917,7 @@
     "description": "Crispy on the outside, hot as molten lava on the inside.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "potato": 1
-        },
-        "output": {
-          "bakedpotato": 1
-        }
-      }
+      429
     ]
   },
   "boiledpearlpeas": {
@@ -31181,25 +23927,10 @@
     "title": "Boiled Pearlpeas",
     "description": "A bowl of rather bland boiled pearlpeas.",
     "recipes": [
-      {
-        "input": {
-          "wheat": 1,
-          "boiledpearlpeas": 1
-        },
-        "output": {
-          "pearlpeabroth": 1
-        }
-      }
+      570
     ],
     "makes": [
-      {
-        "input": {
-          "pearlpea": 1
-        },
-        "output": {
-          "boiledpearlpeas": 1
-        }
-      }
+      430
     ]
   },
   "boiledrice": {
@@ -31210,14 +23941,7 @@
     "description": "Light and fluffy.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rice": 1
-        },
-        "output": {
-          "boiledrice": 1
-        }
-      }
+      431
     ]
   },
   "bread": {
@@ -31227,109 +23951,18 @@
     "title": "Bread",
     "description": "Mmm, fresh out of the oven.",
     "recipes": [
-      {
-        "input": {
-          "bread": 1,
-          "egg": 1
-        },
-        "output": {
-          "toast": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "cheeseburger": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "bread": 1
-        },
-        "output": {
-          "fishfingers": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "potato": 1,
-          "bread": 1
-        },
-        "output": {
-          "fishnchips": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "bread": 1
-        },
-        "output": {
-          "hamburger": 1
-        }
-      },
-      {
-        "input": {
-          "egg": 1,
-          "bread": 1
-        },
-        "output": {
-          "fluffyruffs": 1
-        }
-      },
-      {
-        "input": {
-          "corn": 1,
-          "cheese": 1,
-          "bread": 1,
-          "automato": 1
-        },
-        "output": {
-          "stuffedautomato": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "dirturchin": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "stuffeddirturchin": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "corn": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "stuffedtomato": 1
-        }
-      }
+      444,
+      516,
+      521,
+      523,
+      526,
+      564,
+      578,
+      579,
+      580
     ],
     "makes": [
-      {
-        "input": {
-          "wheat": 1
-        },
-        "output": {
-          "bread": 1
-        }
-      }
+      555
     ]
   },
   "cookedtomato": {
@@ -31340,14 +23973,7 @@
     "description": "Soft, sweet and juicy.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tomato": 1
-        },
-        "output": {
-          "cookedtomato": 1
-        }
-      }
+      439
     ]
   },
   "corncob": {
@@ -31358,14 +23984,7 @@
     "description": "A buttery ear of corn on the cob.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "corn": 1
-        },
-        "output": {
-          "corncob": 1
-        }
-      }
+      561
     ]
   },
   "fishdumplings": {
@@ -31376,15 +23995,7 @@
     "description": "Simple fish dumplings, steamed and lightly seasoned.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "fishdumplings": 1
-        }
-      }
+      520
     ]
   },
   "fishfingers": {
@@ -31395,15 +24006,7 @@
     "description": "Tasty fried fish in stick form. Where's the custard?",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawfish": 1,
-          "bread": 1
-        },
-        "output": {
-          "fishfingers": 1
-        }
-      }
+      521
     ]
   },
   "fishnchips": {
@@ -31414,16 +24017,7 @@
     "description": "Fry all the things! This is an old favorite for humans.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawfish": 1,
-          "potato": 1,
-          "bread": 1
-        },
-        "output": {
-          "fishnchips": 1
-        }
-      }
+      523
     ]
   },
   "fishpie": {
@@ -31434,15 +24028,7 @@
     "description": "Stargazy pie! Baked fish in sauce, topped with creamy mash.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawfish": 1,
-          "mashedpotato": 1
-        },
-        "output": {
-          "fishpie": 1
-        }
-      }
+      524
     ]
   },
   "fishstew": {
@@ -31453,17 +24039,7 @@
     "description": "A light stew that goes down easy.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "rawfish": 1,
-          "pearlpea": 1,
-          "corn": 1
-        },
-        "output": {
-          "fishstew": 1
-        }
-      }
+      525
     ]
   },
   "mashedpotato": {
@@ -31473,53 +24049,13 @@
     "title": "Mashed Potato",
     "description": "Smashing potatoes is scientifically proven to make them 500% tastier.",
     "recipes": [
-      {
-        "input": {
-          "mashedpotato": 2
-        },
-        "output": {
-          "potatogrids": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "mashedpotato": 1
-        },
-        "output": {
-          "fishpie": 1
-        }
-      },
-      {
-        "input": {
-          "mashedpotato": 1,
-          "meatstew": 1
-        },
-        "output": {
-          "meatpie": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "mashedpotato": 1,
-          "rawpoultry": 1,
-          "carrot": 1
-        },
-        "output": {
-          "roastdinner": 1
-        }
-      }
+      441,
+      524,
+      529,
+      545
     ],
     "makes": [
-      {
-        "input": {
-          "potato": 1
-        },
-        "output": {
-          "mashedpotato": 1
-        }
-      }
+      567
     ]
   },
   "meatdumplings": {
@@ -31530,15 +24066,7 @@
     "description": "Steamed meat dumplings. Beautifully simple!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "meatdumplings": 1
-        }
-      }
+      528
     ]
   },
   "meatpie": {
@@ -31549,15 +24077,7 @@
     "description": "Minced meat in a rich gravy, topped with creamy mash.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "mashedpotato": 1,
-          "meatstew": 1
-        },
-        "output": {
-          "meatpie": 1
-        }
-      }
+      529
     ]
   },
   "meatstew": {
@@ -31567,28 +24087,10 @@
     "title": "Meat Stew",
     "description": "Just like mama used to make!",
     "recipes": [
-      {
-        "input": {
-          "mashedpotato": 1,
-          "meatstew": 1
-        },
-        "output": {
-          "meatpie": 1
-        }
-      }
+      529
     ],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "pearlpea": 1,
-          "corn": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "meatstew": 1
-        }
-      }
+      530
     ]
   },
   "pearlpeabroth": {
@@ -31599,15 +24101,7 @@
     "description": "A slightly more substantial meal than just boiling pearlpeas.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "boiledpearlpeas": 1
-        },
-        "output": {
-          "pearlpeabroth": 1
-        }
-      }
+      570
     ]
   },
   "pearlpearisotto": {
@@ -31618,15 +24112,7 @@
     "description": "Perfectly ripe pearlpeas work best for this hearty rice dish.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rice": 1,
-          "pearlpea": 1
-        },
-        "output": {
-          "pearlpearisotto": 1
-        }
-      }
+      538
     ]
   },
   "popcorn": {
@@ -31636,25 +24122,10 @@
     "title": "Popcorn",
     "description": "Pop it like it's hot!",
     "recipes": [
-      {
-        "input": {
-          "popcorn": 1,
-          "sugar": 1
-        },
-        "output": {
-          "sweetpopcorn": 1
-        }
-      }
+      592
     ],
     "makes": [
-      {
-        "input": {
-          "corn": 1
-        },
-        "output": {
-          "popcorn": 1
-        }
-      }
+      440
     ]
   },
   "potatogrids": {
@@ -31665,14 +24136,7 @@
     "description": "A crispy golden exterior protects the soft and fluffy potato within.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "mashedpotato": 2
-        },
-        "output": {
-          "potatogrids": 1
-        }
-      }
+      441
     ]
   },
   "roastedcarrot": {
@@ -31683,14 +24147,7 @@
     "description": "Roasted to perfection.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "carrot": 1
-        },
-        "output": {
-          "roastedcarrot": 1
-        }
-      }
+      442
     ]
   },
   "roastedmushrooms": {
@@ -31701,14 +24158,7 @@
     "description": "Roasting them really brings out all the flavour.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "shroom": 5
-        },
-        "output": {
-          "roastedmushrooms": 1
-        }
-      }
+      443
     ]
   },
   "toast": {
@@ -31719,15 +24169,7 @@
     "description": "A slice of warm, eggy bread. Delicious.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "bread": 1,
-          "egg": 1
-        },
-        "output": {
-          "toast": 1
-        }
-      }
+      444
     ]
   },
   "applecrumble": {
@@ -31738,16 +24180,7 @@
     "description": "Sweet, stewed apple under a blanket of golden crumble.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "redapple": 1
-        },
-        "output": {
-          "applecrumble": 1
-        }
-      }
+      460
     ]
   },
   "baconpancakes": {
@@ -31758,17 +24191,7 @@
     "description": "Pancake. Bacon. Pancake. Bacon. Pancake. Butter. Eat.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "milk": 1,
-          "egg": 1,
-          "rawbacon": 1
-        },
-        "output": {
-          "baconpancakes": 1
-        }
-      }
+      514
     ]
   },
   "beakseedbread": {
@@ -31779,15 +24202,7 @@
     "description": "Dense, heavy bread packed full of seeds.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "beakseedbread": 1
-        }
-      }
+      554
     ]
   },
   "beakseedjam": {
@@ -31797,26 +24212,10 @@
     "title": "Beakseed Jam",
     "description": "Sweet and crunchy. If only there was a seedless variety.",
     "recipes": [
-      {
-        "input": {
-          "wheat": 1,
-          "beakseedjam": 1
-        },
-        "output": {
-          "beakseedtart": 1
-        }
-      }
+      466
     ],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "beakseedjam": 1
-        }
-      }
+      446
     ]
   },
   "beakseedtart": {
@@ -31827,15 +24226,7 @@
     "description": "Created out of necessity in beakseed season to make use of all the jam.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "beakseedjam": 1
-        },
-        "output": {
-          "beakseedtart": 1
-        }
-      }
+      466
     ]
   },
   "bonbonbonbons": {
@@ -31846,14 +24237,7 @@
     "description": "Eureka! The only possible way to improve on perfection is to multiply it.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "bonbons": 2
-        },
-        "output": {
-          "bonbonbonbons": 1
-        }
-      }
+      467
     ]
   },
   "bonbons": {
@@ -31863,24 +24247,10 @@
     "title": "Bon Bons",
     "description": "Confectionery perfection.",
     "recipes": [
-      {
-        "input": {
-          "bonbons": 2
-        },
-        "output": {
-          "bonbonbonbons": 1
-        }
-      }
+      467
     ],
     "makes": [
-      {
-        "input": {
-          "sugar": 1
-        },
-        "output": {
-          "bonbons": 1
-        }
-      }
+      468
     ]
   },
   "cactusjuice": {
@@ -31891,14 +24261,7 @@
     "description": "Cool as a cactus.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cacti": 1
-        },
-        "output": {
-          "cactusjuice": 1
-        }
-      }
+      491
     ]
   },
   "cake": {
@@ -31909,17 +24272,7 @@
     "description": "It's a delicious cake!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "cake": 1
-        }
-      }
+      471
     ]
   },
   "candiedcorn": {
@@ -31930,15 +24283,7 @@
     "description": "It looks like the old spooky holiday treat, but there's actual corn in the centre of each morsel.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "corn": 1
-        },
-        "output": {
-          "candiedcorn": 1
-        }
-      }
+      584
     ]
   },
   "candyapple": {
@@ -31949,15 +24294,7 @@
     "description": "All the nutritious value of an apple masked by globs of sweet, sweet sugar.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "redapple": 1
-        },
-        "output": {
-          "candyapple": 1
-        }
-      }
+      585
     ]
   },
   "carrotbread": {
@@ -31968,15 +24305,7 @@
     "description": "A loaf of carrot bread. Let's be honest, it's just bread-shaped cake.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotbread": 1
-        }
-      }
+      557
     ]
   },
   "carrotcake": {
@@ -31987,18 +24316,7 @@
     "description": "It's a delicious carrot cake! Tastes better than it sounds.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotcake": 1
-        }
-      }
+      473
     ]
   },
   "carrotjuice": {
@@ -32009,14 +24327,7 @@
     "description": "Carrots in liquid form. Surprisingly sweet, unsurprisingly nutritious.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "carrot": 1
-        },
-        "output": {
-          "carrotjuice": 1
-        }
-      }
+      492
     ]
   },
   "carrotsoup": {
@@ -32027,16 +24338,7 @@
     "description": "Creamy, delicious, nutritious!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "potato": 1,
-          "milk": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotsoup": 1
-        }
-      }
+      558
     ]
   },
   "cheeseburger": {
@@ -32047,18 +24349,7 @@
     "description": "A juicy hamburger, topped with cheese.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "cheeseburger": 1
-        }
-      }
+      516
     ]
   },
   "chocolatecake": {
@@ -32069,18 +24360,7 @@
     "description": "A cake made of chocolate! And other cake ingredients.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "chocolatecake": 1
-        }
-      }
+      475
     ]
   },
   "coffee": {
@@ -32090,35 +24370,11 @@
     "title": "Coffee",
     "description": "Freshly brewed coffee.",
     "recipes": [
-      {
-        "input": {
-          "milk": 1,
-          "coffee": 1
-        },
-        "output": {
-          "flatwhite": 1
-        }
-      },
-      {
-        "input": {
-          "milk": 1,
-          "coffee": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "mocha": 1
-        }
-      }
+      496,
+      499
     ],
     "makes": [
-      {
-        "input": {
-          "coffeebeans": 1
-        },
-        "output": {
-          "coffee": 1
-        }
-      }
+      494
     ]
   },
   "coffeecake": {
@@ -32129,18 +24385,7 @@
     "description": "A moist cake enriched with coffee. Moreish!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coffeebeans": 1
-        },
-        "output": {
-          "coffeecake": 1
-        }
-      }
+      477
     ]
   },
   "cornpeckers": {
@@ -32151,15 +24396,7 @@
     "description": "Beakseed and dried corn. A common Avian trail mix, or breakfast cereal.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "corn": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "cornpeckers": 1
-        }
-      }
+      518
     ]
   },
   "feathercrownjam": {
@@ -32170,15 +24407,7 @@
     "description": "A sweet and flavoursome preserve, precious among Avians.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "feathercrown": 1
-        },
-        "output": {
-          "feathercrownjam": 1
-        }
-      }
+      448
     ]
   },
   "featherfood": {
@@ -32189,17 +24418,7 @@
     "description": "A traditional Avian ceremonial food eaten at celebrations.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "feathercrown": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "featherfood": 1
-        }
-      }
+      519
     ]
   },
   "flatwhite": {
@@ -32210,15 +24429,7 @@
     "description": "Coffee with milk.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "milk": 1,
-          "coffee": 1
-        },
-        "output": {
-          "flatwhite": 1
-        }
-      }
+      496
     ]
   },
   "fluffyruffs": {
@@ -32229,15 +24440,7 @@
     "description": "They're ruffy and fluffy!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "egg": 1,
-          "bread": 1
-        },
-        "output": {
-          "fluffyruffs": 1
-        }
-      }
+      564
     ]
   },
   "gardensalad": {
@@ -32248,16 +24451,7 @@
     "description": "A big bowl of mixed veggies. Nutritious!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tomato": 1,
-          "corn": 1,
-          "carrot": 1
-        },
-        "output": {
-          "gardensalad": 1
-        }
-      }
+      565
     ]
   },
   "hamburger": {
@@ -32268,17 +24462,7 @@
     "description": "A juicy hamburger.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "bread": 1
-        },
-        "output": {
-          "hamburger": 1
-        }
-      }
+      526
     ]
   },
   "kiwijam": {
@@ -32289,15 +24473,7 @@
     "description": "Tangy and refreshing. Try it on toast!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "kiwi": 1
-        },
-        "output": {
-          "kiwijam": 1
-        }
-      }
+      449
     ]
   },
   "kiwijuice": {
@@ -32308,14 +24484,7 @@
     "description": "A sweet and tropical juice made of kiwis.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "kiwi": 1
-        },
-        "output": {
-          "kiwijuice": 1
-        }
-      }
+      498
     ]
   },
   "mocha": {
@@ -32326,16 +24495,7 @@
     "description": "A mild blend of coffee and hot chocolate.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "milk": 1,
-          "coffee": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "mocha": 1
-        }
-      }
+      499
     ]
   },
   "mushroombread": {
@@ -32346,15 +24506,7 @@
     "description": "This loaf of bread has mushrooms baked right into it. Yum!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "shroom": 5
-        },
-        "output": {
-          "mushroombread": 1
-        }
-      }
+      568
     ]
   },
   "mushroomquiche": {
@@ -32365,17 +24517,7 @@
     "description": "A cheesy quiche packed full of fresh mushrooms.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "shroom": 5,
-          "egg": 1,
-          "cheese": 1
-        },
-        "output": {
-          "mushroomquiche": 1
-        }
-      }
+      531
     ]
   },
   "mushroomrice": {
@@ -32386,16 +24528,7 @@
     "description": "Delicious eggy fried rice with mushrooms.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rice": 1,
-          "shroom": 5,
-          "egg": 1
-        },
-        "output": {
-          "mushroomrice": 1
-        }
-      }
+      569
     ]
   },
   "omelette": {
@@ -32406,17 +24539,7 @@
     "description": "Easily prepared and delicious, you can't go wrong with an omelette!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "shroom": 5,
-          "egg": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "omelette": 1
-        }
-      }
+      535
     ]
   },
   "pasty": {
@@ -32427,17 +24550,7 @@
     "description": "A traditional Earthling pastry meant for snacking on when underground.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "potato": 1,
-          "alienmeat": 1,
-          "carrot": 1
-        },
-        "output": {
-          "pasty": 1
-        }
-      }
+      536
     ]
   },
   "pearlpeajam": {
@@ -32448,15 +24561,7 @@
     "description": "Commonly known as \"pearl jam\". Has a nice ring to it.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "pearlpea": 1
-        },
-        "output": {
-          "pearlpeajam": 1
-        }
-      }
+      452
     ]
   },
   "pearlpeapancakes": {
@@ -32467,17 +24572,7 @@
     "description": "They look like pancakes, but they've got an aftertaste of mushy peas.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "pearlpea": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "pearlpeapancakes": 1
-        }
-      }
+      537
     ]
   },
   "pizza": {
@@ -32497,17 +24592,7 @@
     "description": "A hot slice of pepperoni pizza.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "tomato": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "pizzaslice": 1
-        }
-      }
+      541
     ]
   },
   "porridge": {
@@ -32518,15 +24603,7 @@
     "description": "A bowl of piping hot porridge. The healthy way to start your day.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "milk": 1
-        },
-        "output": {
-          "porridge": 1
-        }
-      }
+      542
     ]
   },
   "quichelorraine": {
@@ -32537,17 +24614,7 @@
     "description": "A classic bacon quiche. Perfect for picnics!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "egg": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "quichelorraine": 1
-        }
-      }
+      543
     ]
   },
   "relish": {
@@ -32557,41 +24624,11 @@
     "title": "Relish",
     "description": "A sharp relish to compliment savoury meaty flavours.",
     "recipes": [
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "cheeseburger": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "bread": 1
-        },
-        "output": {
-          "hamburger": 1
-        }
-      }
+      516,
+      526
     ],
     "makes": [
-      {
-        "input": {
-          "tomato": 1,
-          "sugar": 1,
-          "corn": 1
-        },
-        "output": {
-          "relish": 1
-        }
-      }
+      455
     ]
   },
   "ricepudding": {
@@ -32602,16 +24639,7 @@
     "description": "A sweet, warm bowl of rice pudding.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "rice": 1,
-          "milk": 1
-        },
-        "output": {
-          "ricepudding": 1
-        }
-      }
+      483
     ]
   },
   "roastdinner": {
@@ -32622,17 +24650,7 @@
     "description": "Just a regular roast dinner. Nothing fancy, but satisfying all the same.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pearlpea": 1,
-          "mashedpotato": 1,
-          "rawpoultry": 1,
-          "carrot": 1
-        },
-        "output": {
-          "roastdinner": 1
-        }
-      }
+      545
     ]
   },
   "specialrice": {
@@ -32643,17 +24661,7 @@
     "description": "This pleasantly filling dish leaves you with a warm feeling.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rice": 1,
-          "pearlpea": 1,
-          "egg": 1,
-          "corn": 1
-        },
-        "output": {
-          "specialrice": 1
-        }
-      }
+      576
     ]
   },
   "spikycookies": {
@@ -32664,18 +24672,7 @@
     "description": "Just like normal cookies, only spikier.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "cacti": 1
-        },
-        "output": {
-          "spikycookies": 1
-        }
-      }
+      590
     ]
   },
   "stickyribs": {
@@ -32686,15 +24683,7 @@
     "description": "Sweet and sticky ribs. Delicious!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "rawribmeat": 1
-        },
-        "output": {
-          "stickyribs": 1
-        }
-      }
+      549
     ]
   },
   "stuffedtomato": {
@@ -32705,17 +24694,7 @@
     "description": "A baked tomato with a delicous savoury filling.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tomato": 1,
-          "corn": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "stuffedtomato": 1
-        }
-      }
+      580
     ]
   },
   "sweetmeat": {
@@ -32726,15 +24705,7 @@
     "description": "A rare sweet Floran dish of candied bacon.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "rawbacon": 1
-        },
-        "output": {
-          "sweetmeat": 1
-        }
-      }
+      581
     ]
   },
   "sweetpopcorn": {
@@ -32745,15 +24716,7 @@
     "description": "Freshly popped corn, with a sweet, buttery coating.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "popcorn": 1,
-          "sugar": 1
-        },
-        "output": {
-          "sweetpopcorn": 1
-        }
-      }
+      592
     ]
   },
   "tomatojuice": {
@@ -32764,14 +24727,7 @@
     "description": "A hearty tomato juice.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tomato": 1
-        },
-        "output": {
-          "tomatojuice": 1
-        }
-      }
+      506
     ]
   },
   "tomatosoup": {
@@ -32782,16 +24738,7 @@
     "description": "A rich, silky soup made of ripe tomatoes.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tomato": 1,
-          "potato": 1,
-          "milk": 1
-        },
-        "output": {
-          "tomatosoup": 1
-        }
-      }
+      582
     ]
   },
   "2kbpotage": {
@@ -32802,15 +24749,7 @@
     "description": "The most basic of Glitch cuisine.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "currentcorn": 1,
-          "automato": 1
-        },
-        "output": {
-          "2kbpotage": 1
-        }
-      }
+      552
     ]
   },
   "apegrapes": {
@@ -32821,15 +24760,7 @@
     "description": "A healthy mix of bananas and grapes.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "grapes": 1,
-          "banana": 1
-        },
-        "output": {
-          "apegrapes": 1
-        }
-      }
+      459
     ]
   },
   "apexfritter": {
@@ -32840,16 +24771,7 @@
     "description": "A crispy Apex dish. A fried corn fritter, with banana of course.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "egg": 1,
-          "corn": 1,
-          "banana": 1
-        },
-        "output": {
-          "apexfritter": 1
-        }
-      }
+      512
     ]
   },
   "automatoshake": {
@@ -32860,15 +24782,7 @@
     "description": "An automato milkshake! Mmm.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "milk": 1,
-          "automato": 1
-        },
-        "output": {
-          "automatoshake": 1
-        }
-      }
+      487
     ]
   },
   "automatostew": {
@@ -32879,16 +24793,7 @@
     "description": "A surprisingly tasty stew, if you watch out for the bits of metal.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "currentcorn": 1,
-          "automato": 1
-        },
-        "output": {
-          "automatostew": 1
-        }
-      }
+      513
     ]
   },
   "bananacon": {
@@ -32899,15 +24804,7 @@
     "description": "With bacon, a banana and some wizardry, you get a bananacon.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawbacon": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacon": 1
-        }
-      }
+      553
     ]
   },
   "bananacreamdonut": {
@@ -32918,18 +24815,7 @@
     "description": "A delicious donut filled with banana and cream. It's almost healthy!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreamdonut": 1
-        }
-      }
+      583
     ]
   },
   "bananacreampie": {
@@ -32940,17 +24826,7 @@
     "description": "Better for eating, or for throwing in people's faces?",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreampie": 1
-        }
-      }
+      462
     ]
   },
   "bananaicecream": {
@@ -32961,17 +24837,7 @@
     "description": "Creamy, icy, banana goodness.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananaicecream": 1
-        }
-      }
+      463
     ]
   },
   "batteredbanana": {
@@ -32982,15 +24848,7 @@
     "description": "Your standard banana, battered and fried in a rich dough.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "banana": 1
-        },
-        "output": {
-          "batteredbanana": 1
-        }
-      }
+      465
     ]
   },
   "cactiicecream": {
@@ -33001,17 +24859,7 @@
     "description": "A tasty, prickly treat!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "cacti": 1
-        },
-        "output": {
-          "cactiicecream": 1
-        }
-      }
+      470
     ]
   },
   "campfirebanana": {
@@ -33022,15 +24870,7 @@
     "description": "A banana roasted over a campfire, with gratuitous amounts of chocolate.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "chocolate": 1,
-          "banana": 1
-        },
-        "output": {
-          "campfirebanana": 1
-        }
-      }
+      472
     ]
   },
   "candyautomato": {
@@ -33041,15 +24881,7 @@
     "description": "It's like an automato flavoured lollipop! Which is kind of weird.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "automato": 1
-        },
-        "output": {
-          "candyautomato": 1
-        }
-      }
+      586
     ]
   },
   "choconut": {
@@ -33060,19 +24892,7 @@
     "description": "A delicious fusion of coconut and chocolate in donut form.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coconut": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "choconut": 1
-        }
-      }
+      587
     ]
   },
   "coconuticecream": {
@@ -33083,17 +24903,7 @@
     "description": "Perfect for when you're stranded on a tropical island.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "coconut": 1
-        },
-        "output": {
-          "coconuticecream": 1
-        }
-      }
+      476
     ]
   },
   "coconutmilk": {
@@ -33103,25 +24913,10 @@
     "title": "Coconut Drink",
     "description": "The best reason to crack open a coconut. The taste is amazing.",
     "recipes": [
-      {
-        "input": {
-          "rice": 1,
-          "coconutmilk": 1
-        },
-        "output": {
-          "coconutrice": 1
-        }
-      }
+      560
     ],
     "makes": [
-      {
-        "input": {
-          "coconut": 1
-        },
-        "output": {
-          "coconutmilk": 1
-        }
-      }
+      493
     ]
   },
   "coconutrice": {
@@ -33132,15 +24927,7 @@
     "description": "You can't see the coconut, but it's there!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rice": 1,
-          "coconutmilk": 1
-        },
-        "output": {
-          "coconutrice": 1
-        }
-      }
+      560
     ]
   },
   "desertsalsa": {
@@ -33151,19 +24938,7 @@
     "description": "A refreshing salsa made from desert fruits.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "kiwi": 1,
-          "feathercrown": 1,
-          "currentcorn": 1,
-          "cacti": 1,
-          "beakseed": 1,
-          "automato": 1
-        },
-        "output": {
-          "desertsalsa": 1
-        }
-      }
+      447
     ]
   },
   "fishinabone": {
@@ -33174,15 +24949,7 @@
     "description": "A whole fish shoved haphazardly inside a boneboo.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawfish": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "fishinabone": 1
-        }
-      }
+      522
     ]
   },
   "fruitsalad": {
@@ -33193,17 +24960,7 @@
     "description": "Various fruits all conveniently mixed together.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "grapes": 1,
-          "banana": 1
-        },
-        "output": {
-          "fruitsalad": 1
-        }
-      }
+      479
     ]
   },
   "grapejuice": {
@@ -33214,14 +24971,7 @@
     "description": "A sweet juice made of grapes.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "grapes": 1
-        },
-        "output": {
-          "grapejuice": 1
-        }
-      }
+      497
     ]
   },
   "luckydip": {
@@ -33232,15 +24982,7 @@
     "description": "Bananas and carrots mashed in a bowl makes for an Apex snacktime favorite.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "carrot": 1,
-          "banana": 1
-        },
-        "output": {
-          "luckydip": 1
-        }
-      }
+      588
     ]
   },
   "pineapplejam": {
@@ -33251,15 +24993,7 @@
     "description": "A super sweet jam made of pineapples.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "pineapple": 1
-        },
-        "output": {
-          "pineapplejam": 1
-        }
-      }
+      453
     ]
   },
   "pineapplejuice": {
@@ -33270,14 +25004,7 @@
     "description": "Sweet, tasty pineapple juice.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pineapple": 1
-        },
-        "output": {
-          "pineapplejuice": 1
-        }
-      }
+      500
     ]
   },
   "pineapplepizzaslice": {
@@ -33288,17 +25015,7 @@
     "description": "More toppings!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "pineapple": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "pineapplepizzaslice": 1
-        }
-      }
+      539
     ]
   },
   "snowcone": {
@@ -33309,15 +25026,7 @@
     "description": "One tasty snowcone, multiple flavours!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1
-        },
-        "output": {
-          "snowcone": 1
-        }
-      }
+      484
     ]
   },
   "spookydonut": {
@@ -33328,18 +25037,7 @@
     "description": "Too spooky.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "spookydonut": 1
-        }
-      }
+      591
     ]
   },
   "spookypie": {
@@ -33350,15 +25048,7 @@
     "description": "Just spooky enough.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "spookypie": 1
-        }
-      }
+      548
     ]
   },
   "stuffedautomato": {
@@ -33369,17 +25059,7 @@
     "description": "Tastes like an actual stuffed tomato, if you can get through it without breaking your teeth!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "corn": 1,
-          "cheese": 1,
-          "bread": 1,
-          "automato": 1
-        },
-        "output": {
-          "stuffedautomato": 1
-        }
-      }
+      578
     ]
   },
   "sweetpunch": {
@@ -33390,16 +25070,7 @@
     "description": "A mixture of only the sweetest of sweet fruit.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "grapes": 1
-        },
-        "output": {
-          "sweetpunch": 1
-        }
-      }
+      504
     ]
   },
   "thornjuice": {
@@ -33410,14 +25081,7 @@
     "description": "More thorn than juice.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "thornfruit": 1
-        },
-        "output": {
-          "thornjuice": 1
-        }
-      }
+      505
     ]
   },
   "tropicalpunch": {
@@ -33428,17 +25092,7 @@
     "description": "A tropical mix that packs a punch.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "coconut": 1,
-          "banana": 1
-        },
-        "output": {
-          "tropicalpunch": 1
-        }
-      }
+      508
     ]
   },
   "alienfruitjam": {
@@ -33449,15 +25103,7 @@
     "description": "Alien fruit jam. Sticky.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "alienfruit": 1
-        },
-        "output": {
-          "alienfruitjam": 1
-        }
-      }
+      445
     ]
   },
   "alienfruitjuice": {
@@ -33468,14 +25114,7 @@
     "description": "A pleasantly sweet juice made from an alien fruit.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "alienfruit": 1
-        },
-        "output": {
-          "alienfruitjuice": 1
-        }
-      }
+      486
     ]
   },
   "avesmingoicecream": {
@@ -33485,30 +25124,10 @@
     "title": "Avesmingo Ice Cream",
     "description": "Avesmingos can taste like anything! For better or worse, so can this ice cream.",
     "recipes": [
-      {
-        "input": {
-          "avesmingoicecream": 1,
-          "banana": 1,
-          "chocolate": 1,
-          "pineapple": 1
-        },
-        "output": {
-          "bananasplit": 1
-        }
-      }
+      464
     ],
     "makes": [
-      {
-        "input": {
-          "avesmingo": 1,
-          "milk": 1,
-          "snowball": 1,
-          "sugar": 1
-        },
-        "output": {
-          "avesmingoicecream": 1
-        }
-      }
+      461
     ]
   },
   "avesmingojuice": {
@@ -33519,14 +25138,7 @@
     "description": "A juice that can taste like anything!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "avesmingo": 1
-        },
-        "output": {
-          "avesmingojuice": 1
-        }
-      }
+      488
     ]
   },
   "bananasplit": {
@@ -33537,17 +25149,7 @@
     "description": "The secret ingredient in this Apex favourite is pineapple!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "avesmingoicecream": 1,
-          "banana": 1,
-          "chocolate": 1,
-          "pineapple": 1
-        },
-        "output": {
-          "bananasplit": 1
-        }
-      }
+      464
     ]
   },
   "bloodypuss": {
@@ -33558,15 +25160,7 @@
     "description": "A thick, shake-like drink of meat and pussplum.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pussplum": 1,
-          "fleshstrand": 1
-        },
-        "output": {
-          "bloodypuss": 1
-        }
-      }
+      489
     ]
   },
   "brineapple": {
@@ -33577,15 +25171,7 @@
     "description": "Jellied coralcreep inside of a glazed pineapple, served warm. A fancy Hylotl treat!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pineapple": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "brineapple": 1
-        }
-      }
+      469
     ]
   },
   "cyanider": {
@@ -33596,15 +25182,7 @@
     "description": "A mulled drink made of oculemon and pussplum. Delicious!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pussplum": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "cyanider": 1
-        }
-      }
+      495
     ]
   },
   "oceanrisotto": {
@@ -33615,16 +25193,7 @@
     "description": "A salty and aromatic rice dish.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rice": 1,
-          "reefpod": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "oceanrisotto": 1
-        }
-      }
+      532
     ]
   },
   "oceansalsa": {
@@ -33635,17 +25204,7 @@
     "description": "A refreshing salsa made from tropical and ocean fruits.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "reefpod": 1,
-          "pineapple": 1,
-          "coralcreep": 1,
-          "banana": 1
-        },
-        "output": {
-          "oceansalsa": 1
-        }
-      }
+      451
     ]
   },
   "oceansurprise": {
@@ -33656,17 +25215,7 @@
     "description": "A Hylotl dish, overloaded with ingredients of questionable oceanic origin.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "coralcreep": 1,
-          "kelp": 5,
-          "reefpod": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "oceansurprise": 1
-        }
-      }
+      533
     ]
   },
   "oculemonmeringue": {
@@ -33677,16 +25226,7 @@
     "description": "A sour oculemon-filled pie with a sweet meringue topping.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "oculemon": 1,
-          "egg": 1
-        },
-        "output": {
-          "oculemonmeringue": 1
-        }
-      }
+      480
     ]
   },
   "oculemonstew": {
@@ -33697,17 +25237,7 @@
     "description": "A tangy, somewhat slimy stew made of oculemon and meat scraps.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "pussplum": 1,
-          "oculemon": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "oculemonstew": 1
-        }
-      }
+      534
     ]
   },
   "pussplumjam": {
@@ -33717,26 +25247,10 @@
     "title": "Pussplum Jam",
     "description": "Jam made from pussplum. It's surprisingly chunky.",
     "recipes": [
-      {
-        "input": {
-          "wheat": 1,
-          "pussplumjam": 1
-        },
-        "output": {
-          "pussplumtart": 1
-        }
-      }
+      482
     ],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "pussplum": 1
-        },
-        "output": {
-          "pussplumjam": 1
-        }
-      }
+      454
     ]
   },
   "pussplumpudding": {
@@ -33747,17 +25261,7 @@
     "description": "A watery rice pudding, topped with pussplum compote.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "rice": 1,
-          "pussplum": 1,
-          "milk": 1
-        },
-        "output": {
-          "pussplumpudding": 1
-        }
-      }
+      481
     ]
   },
   "pussplumtart": {
@@ -33768,15 +25272,7 @@
     "description": "Pretty much the only good use for pussplum jam.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "pussplumjam": 1
-        },
-        "output": {
-          "pussplumtart": 1
-        }
-      }
+      482
     ]
   },
   "reefjuice": {
@@ -33787,14 +25283,7 @@
     "description": "A pleasantly sweet and salty juice. Refreshing!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "reefpod": 1
-        },
-        "output": {
-          "reefjuice": 1
-        }
-      }
+      502
     ]
   },
   "reefpodsurprise": {
@@ -33805,15 +25294,7 @@
     "description": "A lot more sour than you might have expected. Surprise!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "reefpod": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "reefpodsurprise": 1
-        }
-      }
+      544
     ]
   },
   "reefshake": {
@@ -33824,15 +25305,7 @@
     "description": "A reefpod milkshake! Kids love it.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "reefpod": 1,
-          "milk": 1
-        },
-        "output": {
-          "reefshake": 1
-        }
-      }
+      503
     ]
   },
   "ricecake": {
@@ -33843,15 +25316,7 @@
     "description": "A simple snack formed of rice, held together by seaweed.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "kelp": 5,
-          "rice": 1
-        },
-        "output": {
-          "ricecake": 1
-        }
-      }
+      572
     ]
   },
   "saltsalad": {
@@ -33862,16 +25327,7 @@
     "description": "Coralcreep, reefpod and pearlpea make for a salty, crunchy salad.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "reefpod": 1,
-          "pearlpea": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "saltsalad": 1
-        }
-      }
+      573
     ]
   },
   "seafoodgratin": {
@@ -33882,15 +25338,7 @@
     "description": "Fish baked with fish-like fruit. A fishy dish!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawfish": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "seafoodgratin": 1
-        }
-      }
+      546
     ]
   },
   "soggysack": {
@@ -33901,15 +25349,7 @@
     "description": "Dirturchin innards stuffed into a coralcreep to make a dish that sounds terrible and tastes alright.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "dirturchin": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "soggysack": 1
-        }
-      }
+      575
     ]
   },
   "stuffeddirturchin": {
@@ -33920,17 +25360,7 @@
     "description": "A dirturchin stuffed with pearlpeas. The taste is kind of bland...",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pearlpea": 1,
-          "dirturchin": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "stuffeddirturchin": 1
-        }
-      }
+      579
     ]
   },
   "sushi": {
@@ -33941,16 +25371,7 @@
     "description": "Delicious rolls of rice and seaweed. A Hylotl favourite.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "kelp": 5,
-          "rice": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "sushi": 1
-        }
-      }
+      550
     ]
   },
   "toxicjamdonut": {
@@ -33961,18 +25382,7 @@
     "description": "A harmless donut filled with toxictop jam.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "toxictopjam": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "toxicjamdonut": 1
-        }
-      }
+      593
     ]
   },
   "toxicjuice": {
@@ -33983,15 +25393,7 @@
     "description": "What do you get if you blend a toxictop with an alien fruit? That's right, you guessed it.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "toxictop": 1,
-          "alienfruit": 1
-        },
-        "output": {
-          "toxicjuice": 1
-        }
-      }
+      507
     ]
   },
   "toxictart": {
@@ -34002,16 +25404,7 @@
     "description": "What else are you going to do with all that toxictop jam?",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "wheat": 1,
-          "toxictopjam": 1,
-          "alienfruit": 1
-        },
-        "output": {
-          "toxictart": 1
-        }
-      }
+      485
     ]
   },
   "toxictopjam": {
@@ -34021,39 +25414,11 @@
     "title": "Toxictop Jam",
     "description": "Jam made from toxictop fruit. But is it actually toxic to eat? Only one way to find out!",
     "recipes": [
-      {
-        "input": {
-          "wheat": 1,
-          "toxictopjam": 1,
-          "alienfruit": 1
-        },
-        "output": {
-          "toxictart": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "toxictopjam": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "toxicjamdonut": 1
-        }
-      }
+      485,
+      593
     ],
     "makes": [
-      {
-        "input": {
-          "toxictop": 1,
-          "sugar": 1
-        },
-        "output": {
-          "toxictopjam": 1
-        }
-      }
+      456
     ]
   },
   "16gbpasty": {
@@ -34064,17 +25429,7 @@
     "description": "A pasty big enough to hold all your favourite metallic tasting vegetables.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "boltbulb": 1,
-          "diodia": 1,
-          "alienmeat": 1,
-          "wheat": 1
-        },
-        "output": {
-          "16gbpasty": 1
-        }
-      }
+      510
     ]
   },
   "8gbpizzap": {
@@ -34085,17 +25440,7 @@
     "description": "It's good if you can get past the metallic aftertaste!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "automato": 1,
-          "boltbulb": 1,
-          "cheese": 1,
-          "wheat": 1
-        },
-        "output": {
-          "8gbpizzap": 1
-        }
-      }
+      511
     ]
   },
   "boltos": {
@@ -34106,15 +25451,7 @@
     "description": "Bolt O's, for when you wake up so hungry you don't care what you're putting in your mouth!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "boltbulb": 1,
-          "milk": 1
-        },
-        "output": {
-          "boltos": 1
-        }
-      }
+      515
     ]
   },
   "eggshooticecream": {
@@ -34125,17 +25462,7 @@
     "description": "Ice cream with the delightful taste of custard.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "eggshoot": 1,
-          "milk": 1,
-          "snowball": 1,
-          "sugar": 1
-        },
-        "output": {
-          "eggshooticecream": 1
-        }
-      }
+      478
     ]
   },
   "eggshootsalad": {
@@ -34146,15 +25473,7 @@
     "description": "A simple yet substantial salad of eggshoot and feathercrown.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "eggshoot": 1,
-          "feathercrown": 1
-        },
-        "output": {
-          "eggshootsalad": 1
-        }
-      }
+      562
     ]
   },
   "eyebowls": {
@@ -34165,15 +25484,7 @@
     "description": "Oculemon stuffed inside half an eggshoot, popular hors d'oeuvres at Floran gatherings.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "eggshoot": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "eyebowls": 1
-        }
-      }
+      563
     ]
   },
   "nutsandbolts": {
@@ -34184,15 +25495,7 @@
     "description": "Assorted copper flavoured morsels.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "boltbulb": 1,
-          "diodia": 1
-        },
-        "output": {
-          "nutsandbolts": 1
-        }
-      }
+      589
     ]
   },
   "piodia": {
@@ -34203,17 +25506,7 @@
     "description": "A variation on pizzap, it's got more of a coppery tang to it.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "automato": 1,
-          "cheese": 1,
-          "diodia": 1,
-          "wheat": 1
-        },
-        "output": {
-          "piodia": 1
-        }
-      }
+      540
     ]
   },
   "smash": {
@@ -34224,16 +25517,7 @@
     "description": "A famous Glitch chef tried to imitate mashed potatoes. He succeeded. Kinda.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "boltbulb": 1,
-          "currentcorn": 1,
-          "diodia": 1
-        },
-        "output": {
-          "smash": 1
-        }
-      }
+      574
     ]
   },
   "burningeyeballs": {
@@ -34244,15 +25528,7 @@
     "description": "Watch out, they're super spicy!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "chili": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "burningeyeballs": 1
-        }
-      }
+      556
     ]
   },
   "coralcreepcurry": {
@@ -34263,17 +25539,7 @@
     "description": "A mildly spicy curry made with the coralcreep fruit.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "chili": 1,
-          "coralcreep": 1,
-          "rice": 1,
-          "tomato": 1
-        },
-        "output": {
-          "coralcreepcurry": 1
-        }
-      }
+      517
     ]
   },
   "hotbone": {
@@ -34284,15 +25550,7 @@
     "description": "Boneboo roasted with chillies makes for a crunchy, spicy Floran treat.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "boneboo": 1,
-          "chili": 1
-        },
-        "output": {
-          "hotbone": 1
-        }
-      }
+      566
     ]
   },
   "hothothotpot": {
@@ -34303,17 +25561,7 @@
     "description": "So incredibly hot!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "avesmingo": 1,
-          "chili": 1,
-          "liquidlava": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "hothothotpot": 1
-        }
-      }
+      527
     ]
   },
   "neonmelonjam": {
@@ -34324,15 +25572,7 @@
     "description": "A tangy jam made from neonmelons.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "neonmelon": 1,
-          "sugar": 1
-        },
-        "output": {
-          "neonmelonjam": 1
-        }
-      }
+      450
     ]
   },
   "pearlpeaparcels": {
@@ -34343,15 +25583,7 @@
     "description": "Pearlpeas wrapped neatly in a wartweed bundle.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pearlpea": 1,
-          "wartweed": 1
-        },
-        "output": {
-          "pearlpeaparcels": 1
-        }
-      }
+      571
     ]
   },
   "pozest": {
@@ -34362,17 +25594,7 @@
     "description": "A popular Glitch energy drink. Or is it just a placebo?",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "boltbulb": 1,
-          "currentcorn": 1,
-          "diodia": 1,
-          "neonmelon": 1
-        },
-        "output": {
-          "pozest": 1
-        }
-      }
+      501
     ]
   },
   "spicyfeathercrown": {
@@ -34383,15 +25605,7 @@
     "description": "Feathercrown fried with spicy chilli peppers. Hot hot hot!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "chili": 1,
-          "feathercrown": 1
-        },
-        "output": {
-          "spicyfeathercrown": 1
-        }
-      }
+      577
     ]
   },
   "spicyribs": {
@@ -34402,16 +25616,7 @@
     "description": "Sweet and spicy ribs. Delicious!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "chili": 1,
-          "rawribmeat": 1,
-          "sugar": 1
-        },
-        "output": {
-          "spicyribs": 1
-        }
-      }
+      547
     ]
   },
   "ultimatejuice": {
@@ -34422,18 +25627,7 @@
     "description": "All the fruit, in a juice.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "boneboo": 1,
-          "feathercrown": 1,
-          "oculemon": 1,
-          "neonmelon": 1,
-          "toxictop": 1
-        },
-        "output": {
-          "ultimatejuice": 1
-        }
-      }
+      509
     ]
   },
   "volcanicsalsa": {
@@ -34444,16 +25638,7 @@
     "description": "A fiery salsa made from fruit and veg that can really bring the heat!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "avesmingo": 1,
-          "chili": 1,
-          "tomato": 1
-        },
-        "output": {
-          "volcanicsalsa": 1
-        }
-      }
+      457
     ]
   },
   "wartweedjam": {
@@ -34463,29 +25648,10 @@
     "title": "Wartweed Jam",
     "description": "A coarse, seedy jam that leaves behind a dry taste in your mouth.",
     "recipes": [
-      {
-        "input": {
-          "egg": 1,
-          "milk": 1,
-          "sugar": 1,
-          "wartweedjam": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedjamdonut": 1
-        }
-      }
+      594
     ],
     "makes": [
-      {
-        "input": {
-          "sugar": 1,
-          "wartweed": 1
-        },
-        "output": {
-          "wartweedjam": 1
-        }
-      }
+      458
     ]
   },
   "wartweedjamdonut": {
@@ -34496,18 +25662,7 @@
     "description": "Many have been fooled by this unpleasant donut's tempting appearance.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "egg": 1,
-          "milk": 1,
-          "sugar": 1,
-          "wartweedjam": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedjamdonut": 1
-        }
-      }
+      594
     ]
   },
   "wartweedstew": {
@@ -34518,17 +25673,7 @@
     "description": "A hearty, thick stew of wartweed and vegetables.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "pearlpea": 1,
-          "tomato": 1,
-          "wartweed": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedstew": 1
-        }
-      }
+      551
     ]
   },
   "fakelicense1": {
@@ -34628,87 +25773,14 @@
     "title": "Raw Bacon",
     "description": "Raw strips of bacon. I should cook them first, right?",
     "recipes": [
-      {
-        "input": {
-          "rawbacon": 1
-        },
-        "output": {
-          "cookedbacon": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "milk": 1,
-          "egg": 1,
-          "rawbacon": 1
-        },
-        "output": {
-          "baconpancakes": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 5,
-          "egg": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "omelette": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pineapple": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "pineapplepizzaslice": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "tomato": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "pizzaslice": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "egg": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "quichelorraine": 1
-        }
-      },
-      {
-        "input": {
-          "rawbacon": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacon": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rawbacon": 1
-        },
-        "output": {
-          "sweetmeat": 1
-        }
-      }
+      433,
+      514,
+      535,
+      539,
+      541,
+      543,
+      553,
+      581
     ],
     "makes": []
   },
@@ -34720,14 +25792,7 @@
     "description": "A slab of delicious cooked alien meat.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "alienmeat": 1
-        },
-        "output": {
-          "cookedalienmeat": 1
-        }
-      }
+      432
     ]
   },
   "cookedbacon": {
@@ -34738,14 +25803,7 @@
     "description": "Salty, crispy alien bacon.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawbacon": 1
-        },
-        "output": {
-          "cookedbacon": 1
-        }
-      }
+      433
     ]
   },
   "cookedfish": {
@@ -34756,14 +25814,7 @@
     "description": "A tasty fillet of cooked fish.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawfish": 1
-        },
-        "output": {
-          "cookedfish": 1
-        }
-      }
+      434
     ]
   },
   "cookedham": {
@@ -34774,14 +25825,7 @@
     "description": "A haunch of roasted alien ham.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawham": 1
-        },
-        "output": {
-          "cookedham": 1
-        }
-      }
+      435
     ]
   },
   "cookedpoultry": {
@@ -34792,14 +25836,7 @@
     "description": "A perfeclty roasted bird. What a beautiful sight to behold.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawpoultry": 1
-        },
-        "output": {
-          "cookedpoultry": 1
-        }
-      }
+      436
     ]
   },
   "cookedribmeat": {
@@ -34810,14 +25847,7 @@
     "description": "Pass the barbecue sauce!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawribmeat": 1
-        },
-        "output": {
-          "cookedribmeat": 1
-        }
-      }
+      437
     ]
   },
   "cookedtentacle": {
@@ -34828,14 +25858,7 @@
     "description": "Chewy... But in a nice way.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rawtentacle": 1
-        },
-        "output": {
-          "cookedtentacle": 1
-        }
-      }
+      438
     ]
   },
   "alienmeat": {
@@ -34845,101 +25868,15 @@
     "title": "Raw Steak",
     "description": "A raw slab of weird, stringy alien meat. Maybe I should cook it.",
     "recipes": [
-      {
-        "input": {
-          "alienmeat": 1
-        },
-        "output": {
-          "cookedalienmeat": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "diodia": 1,
-          "alienmeat": 1,
-          "wheat": 1
-        },
-        "output": {
-          "16gbpasty": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "cheeseburger": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "bread": 1
-        },
-        "output": {
-          "hamburger": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingo": 1,
-          "chili": 1,
-          "liquidlava": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "hothothotpot": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "meatdumplings": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pearlpea": 1,
-          "corn": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "meatstew": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pussplum": 1,
-          "oculemon": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "oculemonstew": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "potato": 1,
-          "alienmeat": 1,
-          "carrot": 1
-        },
-        "output": {
-          "pasty": 1
-        }
-      }
+      432,
+      510,
+      516,
+      526,
+      527,
+      528,
+      530,
+      534,
+      536
     ],
     "makes": []
   },
@@ -34950,111 +25887,17 @@
     "title": "Raw Fish",
     "description": "A fillet of raw fish...slimy.",
     "recipes": [
-      {
-        "input": {
-          "rawfish": 1
-        },
-        "output": {
-          "cookedfish": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "fishdumplings": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "bread": 1
-        },
-        "output": {
-          "fishfingers": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "fishinabone": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "potato": 1,
-          "bread": 1
-        },
-        "output": {
-          "fishnchips": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "mashedpotato": 1
-        },
-        "output": {
-          "fishpie": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "rawfish": 1,
-          "pearlpea": 1,
-          "corn": 1
-        },
-        "output": {
-          "fishstew": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "reefpod": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "oceanrisotto": 1
-        }
-      },
-      {
-        "input": {
-          "coralcreep": 1,
-          "kelp": 5,
-          "reefpod": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "oceansurprise": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "seafoodgratin": 1
-        }
-      },
-      {
-        "input": {
-          "kelp": 5,
-          "rice": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "sushi": 1
-        }
-      }
+      434,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525,
+      532,
+      533,
+      546,
+      550
     ],
     "makes": []
   },
@@ -35065,14 +25908,7 @@
     "title": "Raw Ham",
     "description": "Raw ham. It's probably best if I cook it first.",
     "recipes": [
-      {
-        "input": {
-          "rawham": 1
-        },
-        "output": {
-          "cookedham": 1
-        }
-      }
+      435
     ],
     "makes": []
   },
@@ -35083,25 +25919,8 @@
     "title": "Raw Poultry",
     "description": "Raw poultry. Might wanna cook it first...",
     "recipes": [
-      {
-        "input": {
-          "rawpoultry": 1
-        },
-        "output": {
-          "cookedpoultry": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "mashedpotato": 1,
-          "rawpoultry": 1,
-          "carrot": 1
-        },
-        "output": {
-          "roastdinner": 1
-        }
-      }
+      436,
+      545
     ],
     "makes": []
   },
@@ -35112,33 +25931,9 @@
     "title": "Raw Ribs",
     "description": "Raw meat cut from some unfortunate creature's ribs. Sounds tasty but it should be cooked.",
     "recipes": [
-      {
-        "input": {
-          "rawribmeat": 1
-        },
-        "output": {
-          "cookedribmeat": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "rawribmeat": 1,
-          "sugar": 1
-        },
-        "output": {
-          "spicyribs": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rawribmeat": 1
-        },
-        "output": {
-          "stickyribs": 1
-        }
-      }
+      437,
+      547,
+      549
     ],
     "makes": []
   },
@@ -35149,14 +25944,7 @@
     "title": "Raw Tentacle",
     "description": "A raw tentacle. Might be more edible if it's cooked...",
     "recipes": [
-      {
-        "input": {
-          "rawtentacle": 1
-        },
-        "output": {
-          "cookedtentacle": 1
-        }
-      }
+      438
     ],
     "makes": []
   },
@@ -35168,15 +25956,7 @@
     "description": "Protect your body from poisons.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "venomsample": 1,
-          "bottle": 1
-        },
-        "output": {
-          "antidote": 1
-        }
-      }
+      928
     ]
   },
   "autochip": {
@@ -35186,14 +25966,7 @@
     "title": "Auto Chip",
     "description": "A crucial component of vehicle repair.",
     "recipes": [
-      {
-        "input": {
-          "autochip": 10
-        },
-        "output": {
-          "autodrive": 1
-        }
-      }
+      964
     ],
     "makes": []
   },
@@ -35205,14 +25978,7 @@
     "description": "An auto drive. In the future I can use this to power vehicles.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "autochip": 10
-        },
-        "output": {
-          "autodrive": 1
-        }
-      }
+      964
     ]
   },
   "bandage": {
@@ -35222,25 +25988,10 @@
     "title": "Bandage",
     "description": "A bandage for healing minor wounds. Restores 50 health over 1 second.",
     "recipes": [
-      {
-        "input": {
-          "phasematter": 1,
-          "bandage": 5
-        },
-        "output": {
-          "medkit": 5
-        }
-      }
+      930
     ],
     "makes": [
-      {
-        "input": {
-          "fabric": 2
-        },
-        "output": {
-          "bandage": 1
-        }
-      }
+      929
     ]
   },
   "bluestim": {
@@ -35251,16 +26002,7 @@
     "description": "A stimpack full of blue liquid, it gives your jump a boost!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "petalblue": 4,
-          "staticcell": 1,
-          "syringe": 1
-        },
-        "output": {
-          "bluestim": 1
-        }
-      }
+      932
     ]
   },
   "bottledhealingwater": {
@@ -35271,15 +26013,7 @@
     "description": "The restorative power of this water is incredible.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "liquidhealing": 10,
-          "bottle": 1
-        },
-        "output": {
-          "bottledhealingwater": 1
-        }
-      }
+      965
     ]
   },
   "bottledwater": {
@@ -35290,15 +26024,7 @@
     "description": "Fresh, clean water. Soothing and rejuvenating.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "liquidwater": 10,
-          "bottle": 1
-        },
-        "output": {
-          "bottledwater": 1
-        }
-      }
+      490
     ]
   },
   "burnspray": {
@@ -35309,15 +26035,7 @@
     "description": "Protect your body from burns.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1,
-          "cryonicextract": 1
-        },
-        "output": {
-          "burnspray": 1
-        }
-      }
+      935
     ]
   },
   "comedyscript": {
@@ -35336,24 +26054,10 @@
     "title": "Dubloon",
     "description": "A contractual token accepted by Penguin Mercenaries at the Beakeasy Bar.",
     "recipes": [
-      {
-        "input": {
-          "dubloon": 10
-        },
-        "output": {
-          "penguincostume": 1
-        }
-      }
+      1114
     ],
     "makes": [
-      {
-        "input": {
-          "diamond": 3
-        },
-        "output": {
-          "dubloon": 1
-        }
-      }
+      247
     ]
   },
   "fungusstim": {
@@ -35382,17 +26086,7 @@
     "description": "A stimpack full of green liquid, gives your run a boost!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "petalblue": 2,
-          "petalyellow": 2,
-          "phasematter": 1,
-          "syringe": 1
-        },
-        "output": {
-          "greenstim": 1
-        }
-      }
+      933
     ]
   },
   "manipulatormodule": {
@@ -35412,15 +26106,7 @@
     "description": "Restores 100 health over 10 seconds, and instantly cures most status effects.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "phasematter": 1,
-          "bandage": 5
-        },
-        "output": {
-          "medkit": 5
-        }
-      }
+      930
     ]
   },
   "mysteriousashes": {
@@ -35449,15 +26135,7 @@
     "description": "This bandage knits wounds together fast. Restores 100 health over 1 second.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "syntheticmaterial": 1,
-          "livingroot": 1
-        },
-        "output": {
-          "nanowrap": 5
-        }
-      }
+      936
     ]
   },
   "orangestim": {
@@ -35468,17 +26146,7 @@
     "description": "A stimpack full of orange liquid, it will get you all fired up!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "petalred": 2,
-          "petalyellow": 2,
-          "scorchedcore": 1,
-          "syringe": 1
-        },
-        "output": {
-          "orangestim": 1
-        }
-      }
+      934
     ]
   },
   "parcel": {
@@ -35507,16 +26175,7 @@
     "description": "A stimpack full of red liquid, grants brief but powerful regeneration!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "petalred": 5,
-          "livingroot": 1,
-          "syringe": 1
-        },
-        "output": {
-          "redstim": 1
-        }
-      }
+      926
     ]
   },
   "rottenfood": {
@@ -35536,14 +26195,7 @@
     "description": "A salve for healing minor wounds. Restores 50 health over 10 seconds.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 4
-        },
-        "output": {
-          "salve": 1
-        }
-      }
+      931
     ]
   },
   "secretnote": {
@@ -35616,15 +26268,7 @@
     "title": "Left Translation Wheel",
     "description": "One half of an ancient wheel made for translating runes.",
     "recipes": [
-      {
-        "input": {
-          "translator1": 1,
-          "translator2": 1
-        },
-        "output": {
-          "ancientalphabet-codex": 1
-        }
-      }
+      1110
     ],
     "makes": []
   },
@@ -35635,15 +26279,7 @@
     "title": "Right Translation Wheel",
     "description": "One half of an ancient wheel made for translating runes.",
     "recipes": [
-      {
-        "input": {
-          "translator1": 1,
-          "translator2": 1
-        },
-        "output": {
-          "ancientalphabet-codex": 1
-        }
-      }
+      1110
     ],
     "makes": []
   },
@@ -35654,96 +26290,15 @@
     "title": "Upgrade Module",
     "description": "These modules can be used to upgrade ships and other useful equipment.",
     "recipes": [
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "sharpenedclaw": 15
-        },
-        "output": {
-          "clawglove": 1
-        }
-      },
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "scorchedcore": 15
-        },
-        "output": {
-          "fireboomerang": 1
-        }
-      },
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "hardenedcarapace": 15
-        },
-        "output": {
-          "hardchakram": 1
-        }
-      },
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "cryonicextract": 15
-        },
-        "output": {
-          "iceboomerang": 1
-        }
-      },
-      {
-        "input": {
-          "boomerang": 1,
-          "upgrademodule": 1,
-          "phasematter": 15
-        },
-        "output": {
-          "lunarang": 1
-        }
-      },
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "stickofram": 15
-        },
-        "output": {
-          "neochakram": 1
-        }
-      },
-      {
-        "input": {
-          "chakram": 1,
-          "upgrademodule": 1,
-          "sharpenedclaw": 15
-        },
-        "output": {
-          "sawchakram": 1
-        }
-      },
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "staticcell": 15
-        },
-        "output": {
-          "stunglove": 1
-        }
-      },
-      {
-        "input": {
-          "gauntlet": 1,
-          "upgrademodule": 1,
-          "livingroot": 15
-        },
-        "output": {
-          "vinefist": 1
-        }
-      }
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
     ],
     "makes": []
   },
@@ -35755,14 +26310,7 @@
     "description": "A heart shaped box with themed chocolates inside!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "money": 150
-        },
-        "output": {
-          "valentinechocolates": 1
-        }
-      }
+      850
     ]
   },
   "vaultkey": {
@@ -35781,24 +26329,10 @@
     "title": "10k Voxel",
     "description": "10000 pixels compressed into a voxel. Decompress it to get those pixels back.",
     "recipes": [
-      {
-        "input": {
-          "voxel10k": 1
-        },
-        "output": {
-          "money": 10000
-        }
-      }
+      971
     ],
     "makes": [
-      {
-        "input": {
-          "money": 10000
-        },
-        "output": {
-          "voxel10k": 1
-        }
-      }
+      967
     ]
   },
   "voxel1k": {
@@ -35808,24 +26342,10 @@
     "title": "1k Voxel",
     "description": "1000 pixels compressed into a voxel. Decompress it to get those pixels back.",
     "recipes": [
-      {
-        "input": {
-          "voxel1k": 1
-        },
-        "output": {
-          "money": 1000
-        }
-      }
+      972
     ],
     "makes": [
-      {
-        "input": {
-          "money": 1000
-        },
-        "output": {
-          "voxel1k": 1
-        }
-      }
+      968
     ]
   },
   "voxel2k": {
@@ -35835,24 +26355,10 @@
     "title": "2k Voxel",
     "description": "2000 pixels compressed into a voxel. Decompress it to get those pixels back.",
     "recipes": [
-      {
-        "input": {
-          "voxel2k": 1
-        },
-        "output": {
-          "money": 2000
-        }
-      }
+      973
     ],
     "makes": [
-      {
-        "input": {
-          "money": 2000
-        },
-        "output": {
-          "voxel2k": 1
-        }
-      }
+      969
     ]
   },
   "voxel5k": {
@@ -35862,24 +26368,10 @@
     "title": "5k Voxel",
     "description": "5000 pixels compressed into a voxel. Decompress it to get those pixels back.",
     "recipes": [
-      {
-        "input": {
-          "voxel5k": 1
-        },
-        "output": {
-          "money": 5000
-        }
-      }
+      974
     ],
     "makes": [
-      {
-        "input": {
-          "money": 5000
-        },
-        "output": {
-          "voxel5k": 1
-        }
-      }
+      970
     ]
   },
   "winningticket": {
@@ -35899,16 +26391,7 @@
     "description": "A stimpack full of yellow liquid, this'll make you glow!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "petalyellow": 4,
-          "plantfibre": 4,
-          "syringe": 1
-        },
-        "output": {
-          "yellowstim": 1
-        }
-      }
+      927
     ]
   },
   "alienfruit": {
@@ -35918,42 +26401,10 @@
     "title": "Alien Fruit",
     "description": "An alien fruit, very juicy.",
     "recipes": [
-      {
-        "input": {
-          "sugar": 1,
-          "alienfruit": 1
-        },
-        "output": {
-          "alienfruitjam": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "toxictopjam": 1,
-          "alienfruit": 1
-        },
-        "output": {
-          "toxictart": 1
-        }
-      },
-      {
-        "input": {
-          "alienfruit": 1
-        },
-        "output": {
-          "alienfruitjuice": 1
-        }
-      },
-      {
-        "input": {
-          "toxictop": 1,
-          "alienfruit": 1
-        },
-        "output": {
-          "toxicjuice": 1
-        }
-      }
+      445,
+      485,
+      486,
+      507
     ],
     "makes": []
   },
@@ -35964,89 +26415,14 @@
     "title": "Automato",
     "description": "Automatoes! Be sure to spit out the screws.",
     "recipes": [
-      {
-        "input": {
-          "kiwi": 1,
-          "feathercrown": 1,
-          "currentcorn": 1,
-          "cacti": 1,
-          "beakseed": 1,
-          "automato": 1
-        },
-        "output": {
-          "desertsalsa": 1
-        }
-      },
-      {
-        "input": {
-          "milk": 1,
-          "automato": 1
-        },
-        "output": {
-          "automatoshake": 1
-        }
-      },
-      {
-        "input": {
-          "automato": 1,
-          "boltbulb": 1,
-          "cheese": 1,
-          "wheat": 1
-        },
-        "output": {
-          "8gbpizzap": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "currentcorn": 1,
-          "automato": 1
-        },
-        "output": {
-          "automatostew": 1
-        }
-      },
-      {
-        "input": {
-          "automato": 1,
-          "cheese": 1,
-          "diodia": 1,
-          "wheat": 1
-        },
-        "output": {
-          "piodia": 1
-        }
-      },
-      {
-        "input": {
-          "currentcorn": 1,
-          "automato": 1
-        },
-        "output": {
-          "2kbpotage": 1
-        }
-      },
-      {
-        "input": {
-          "corn": 1,
-          "cheese": 1,
-          "bread": 1,
-          "automato": 1
-        },
-        "output": {
-          "stuffedautomato": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "automato": 1
-        },
-        "output": {
-          "candyautomato": 1
-        }
-      }
+      447,
+      487,
+      511,
+      513,
+      540,
+      552,
+      578,
+      586
     ],
     "makes": []
   },
@@ -36057,46 +26433,10 @@
     "title": "Avesmingo",
     "description": "Avesmingo, the plant of a 100 different flavours.",
     "recipes": [
-      {
-        "input": {
-          "avesmingo": 1,
-          "chili": 1,
-          "tomato": 1
-        },
-        "output": {
-          "volcanicsalsa": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingo": 1,
-          "milk": 1,
-          "snowball": 1,
-          "sugar": 1
-        },
-        "output": {
-          "avesmingoicecream": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingo": 1
-        },
-        "output": {
-          "avesmingojuice": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingo": 1,
-          "chili": 1,
-          "liquidlava": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "hothothotpot": 1
-        }
-      }
+      457,
+      461,
+      488,
+      527
     ],
     "makes": []
   },
@@ -36107,139 +26447,19 @@
     "title": "Banana",
     "description": "A genetically enhanced banana.",
     "recipes": [
-      {
-        "input": {
-          "reefpod": 1,
-          "pineapple": 1,
-          "coralcreep": 1,
-          "banana": 1
-        },
-        "output": {
-          "oceansalsa": 1
-        }
-      },
-      {
-        "input": {
-          "grapes": 1,
-          "banana": 1
-        },
-        "output": {
-          "apegrapes": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreampie": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananaicecream": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingoicecream": 1,
-          "banana": 1,
-          "chocolate": 1,
-          "pineapple": 1
-        },
-        "output": {
-          "bananasplit": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "banana": 1
-        },
-        "output": {
-          "batteredbanana": 1
-        }
-      },
-      {
-        "input": {
-          "chocolate": 1,
-          "banana": 1
-        },
-        "output": {
-          "campfirebanana": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "grapes": 1,
-          "banana": 1
-        },
-        "output": {
-          "fruitsalad": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "coconut": 1,
-          "banana": 1
-        },
-        "output": {
-          "tropicalpunch": 1
-        }
-      },
-      {
-        "input": {
-          "egg": 1,
-          "corn": 1,
-          "banana": 1
-        },
-        "output": {
-          "apexfritter": 1
-        }
-      },
-      {
-        "input": {
-          "rawbacon": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacon": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreamdonut": 1
-        }
-      },
-      {
-        "input": {
-          "carrot": 1,
-          "banana": 1
-        },
-        "output": {
-          "luckydip": 1
-        }
-      }
+      451,
+      459,
+      462,
+      463,
+      464,
+      465,
+      472,
+      479,
+      508,
+      512,
+      553,
+      583,
+      588
     ],
     "makes": []
   },
@@ -36250,57 +26470,11 @@
     "title": "Beakseed",
     "description": "Beakseed. Mmm crunchy.",
     "recipes": [
-      {
-        "input": {
-          "sugar": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "beakseedjam": 1
-        }
-      },
-      {
-        "input": {
-          "kiwi": 1,
-          "feathercrown": 1,
-          "currentcorn": 1,
-          "cacti": 1,
-          "beakseed": 1,
-          "automato": 1
-        },
-        "output": {
-          "desertsalsa": 1
-        }
-      },
-      {
-        "input": {
-          "corn": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "cornpeckers": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "feathercrown": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "featherfood": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "beakseedbread": 1
-        }
-      }
+      446,
+      447,
+      518,
+      519,
+      554
     ],
     "makes": []
   },
@@ -36311,67 +26485,12 @@
     "title": "Boltbulb",
     "description": "Boltbulb! Surprisingly soft.",
     "recipes": [
-      {
-        "input": {
-          "boltbulb": 1,
-          "currentcorn": 1,
-          "diodia": 1,
-          "neonmelon": 1
-        },
-        "output": {
-          "pozest": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "diodia": 1,
-          "alienmeat": 1,
-          "wheat": 1
-        },
-        "output": {
-          "16gbpasty": 1
-        }
-      },
-      {
-        "input": {
-          "automato": 1,
-          "boltbulb": 1,
-          "cheese": 1,
-          "wheat": 1
-        },
-        "output": {
-          "8gbpizzap": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "milk": 1
-        },
-        "output": {
-          "boltos": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "currentcorn": 1,
-          "diodia": 1
-        },
-        "output": {
-          "smash": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "diodia": 1
-        },
-        "output": {
-          "nutsandbolts": 1
-        }
-      }
+      501,
+      510,
+      511,
+      515,
+      574,
+      589
     ],
     "makes": []
   },
@@ -36382,57 +26501,11 @@
     "title": "Boneboo",
     "description": "Spooky.",
     "recipes": [
-      {
-        "input": {
-          "boneboo": 1,
-          "feathercrown": 1,
-          "oculemon": 1,
-          "neonmelon": 1,
-          "toxictop": 1
-        },
-        "output": {
-          "ultimatejuice": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "fishinabone": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "spookypie": 1
-        }
-      },
-      {
-        "input": {
-          "boneboo": 1,
-          "chili": 1
-        },
-        "output": {
-          "hotbone": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "spookydonut": 1
-        }
-      }
+      509,
+      522,
+      548,
+      566,
+      591
     ],
     "makes": []
   },
@@ -36443,58 +26516,11 @@
     "title": "Cactus",
     "description": "Spiky, succulent cacti.",
     "recipes": [
-      {
-        "input": {
-          "kiwi": 1,
-          "feathercrown": 1,
-          "currentcorn": 1,
-          "cacti": 1,
-          "beakseed": 1,
-          "automato": 1
-        },
-        "output": {
-          "desertsalsa": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "cacti": 1
-        },
-        "output": {
-          "cactiicecream": 1
-        }
-      },
-      {
-        "input": {
-          "cacti": 1
-        },
-        "output": {
-          "cactusjuice": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "cacti": 1
-        },
-        "output": {
-          "spikycookies": 1
-        }
-      },
-      {
-        "input": {
-          "cacti": 1
-        },
-        "output": {
-          "cactiblock": 20
-        }
-      }
+      447,
+      470,
+      491,
+      590,
+      699
     ],
     "makes": []
   },
@@ -36505,121 +26531,17 @@
     "title": "Carrot",
     "description": "Mmm crunchy.",
     "recipes": [
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2,
-          "fancyhead": 1
-        },
-        "output": {
-          "fancysnowman": 1
-        }
-      },
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2
-        },
-        "output": {
-          "snowman": 1
-        }
-      },
-      {
-        "input": {
-          "carrot": 1
-        },
-        "output": {
-          "roastedcarrot": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotcake": 1
-        }
-      },
-      {
-        "input": {
-          "carrot": 1
-        },
-        "output": {
-          "carrotjuice": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "potato": 1,
-          "alienmeat": 1,
-          "carrot": 1
-        },
-        "output": {
-          "pasty": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "mashedpotato": 1,
-          "rawpoultry": 1,
-          "carrot": 1
-        },
-        "output": {
-          "roastdinner": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotbread": 1
-        }
-      },
-      {
-        "input": {
-          "potato": 1,
-          "milk": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotsoup": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "corn": 1,
-          "carrot": 1
-        },
-        "output": {
-          "gardensalad": 1
-        }
-      },
-      {
-        "input": {
-          "carrot": 1,
-          "banana": 1
-        },
-        "output": {
-          "luckydip": 1
-        }
-      }
+      389,
+      397,
+      442,
+      473,
+      492,
+      536,
+      545,
+      557,
+      558,
+      565,
+      588
     ],
     "makes": []
   },
@@ -36630,75 +26552,13 @@
     "title": "Chilli",
     "description": "Super hot to humans, super, super hot to everyone else.",
     "recipes": [
-      {
-        "input": {
-          "avesmingo": 1,
-          "chili": 1,
-          "tomato": 1
-        },
-        "output": {
-          "volcanicsalsa": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "coralcreep": 1,
-          "rice": 1,
-          "tomato": 1
-        },
-        "output": {
-          "coralcreepcurry": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingo": 1,
-          "chili": 1,
-          "liquidlava": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "hothothotpot": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "rawribmeat": 1,
-          "sugar": 1
-        },
-        "output": {
-          "spicyribs": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "burningeyeballs": 1
-        }
-      },
-      {
-        "input": {
-          "boneboo": 1,
-          "chili": 1
-        },
-        "output": {
-          "hotbone": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "feathercrown": 1
-        },
-        "output": {
-          "spicyfeathercrown": 1
-        }
-      }
+      457,
+      517,
+      527,
+      547,
+      556,
+      566,
+      577
     ],
     "makes": []
   },
@@ -36709,14 +26569,7 @@
     "title": "Cocoa Pod",
     "description": "A large pod packed full of rich cocoa beans. Grind it up and you've got chocolate!",
     "recipes": [
-      {
-        "input": {
-          "cocoa": 1
-        },
-        "output": {
-          "chocolate": 1
-        }
-      }
+      474
     ],
     "makes": []
   },
@@ -36727,26 +26580,8 @@
     "title": "Coffee Beans",
     "description": "Bitter coffee beans.",
     "recipes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coffeebeans": 1
-        },
-        "output": {
-          "coffeecake": 1
-        }
-      },
-      {
-        "input": {
-          "coffeebeans": 1
-        },
-        "output": {
-          "coffee": 1
-        }
-      }
+      477,
+      494
     ],
     "makes": []
   },
@@ -36757,76 +26592,13 @@
     "title": "Coralcreep",
     "description": "The coralcreep fruit turns red when cooked, like a lobster.",
     "recipes": [
-      {
-        "input": {
-          "reefpod": 1,
-          "pineapple": 1,
-          "coralcreep": 1,
-          "banana": 1
-        },
-        "output": {
-          "oceansalsa": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "brineapple": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "coralcreep": 1,
-          "rice": 1,
-          "tomato": 1
-        },
-        "output": {
-          "coralcreepcurry": 1
-        }
-      },
-      {
-        "input": {
-          "coralcreep": 1,
-          "kelp": 5,
-          "reefpod": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "oceansurprise": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "seafoodgratin": 1
-        }
-      },
-      {
-        "input": {
-          "reefpod": 1,
-          "pearlpea": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "saltsalad": 1
-        }
-      },
-      {
-        "input": {
-          "dirturchin": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "soggysack": 1
-        }
-      }
+      451,
+      469,
+      517,
+      533,
+      546,
+      573,
+      575
     ],
     "makes": []
   },
@@ -36837,125 +26609,18 @@
     "title": "Corn",
     "description": "Sweet and corny, good for digestion!",
     "recipes": [
-      {
-        "input": {
-          "corn": 1
-        },
-        "output": {
-          "popcorn": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "sugar": 1,
-          "corn": 1
-        },
-        "output": {
-          "relish": 1
-        }
-      },
-      {
-        "input": {
-          "egg": 1,
-          "corn": 1,
-          "banana": 1
-        },
-        "output": {
-          "apexfritter": 1
-        }
-      },
-      {
-        "input": {
-          "corn": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "cornpeckers": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "rawfish": 1,
-          "pearlpea": 1,
-          "corn": 1
-        },
-        "output": {
-          "fishstew": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pearlpea": 1,
-          "corn": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "meatstew": 1
-        }
-      },
-      {
-        "input": {
-          "corn": 1
-        },
-        "output": {
-          "corncob": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "corn": 1,
-          "carrot": 1
-        },
-        "output": {
-          "gardensalad": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "pearlpea": 1,
-          "egg": 1,
-          "corn": 1
-        },
-        "output": {
-          "specialrice": 1
-        }
-      },
-      {
-        "input": {
-          "corn": 1,
-          "cheese": 1,
-          "bread": 1,
-          "automato": 1
-        },
-        "output": {
-          "stuffedautomato": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "corn": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "stuffedtomato": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "corn": 1
-        },
-        "output": {
-          "candiedcorn": 1
-        }
-      }
+      440,
+      455,
+      512,
+      518,
+      525,
+      530,
+      561,
+      565,
+      576,
+      578,
+      580,
+      584
     ],
     "makes": []
   },
@@ -36975,59 +26640,11 @@
     "title": "Currentcorn",
     "description": "Grows currentcorn, full of acid. Not good for fleshy creatures.",
     "recipes": [
-      {
-        "input": {
-          "kiwi": 1,
-          "feathercrown": 1,
-          "currentcorn": 1,
-          "cacti": 1,
-          "beakseed": 1,
-          "automato": 1
-        },
-        "output": {
-          "desertsalsa": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "currentcorn": 1,
-          "diodia": 1,
-          "neonmelon": 1
-        },
-        "output": {
-          "pozest": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "currentcorn": 1,
-          "automato": 1
-        },
-        "output": {
-          "automatostew": 1
-        }
-      },
-      {
-        "input": {
-          "currentcorn": 1,
-          "automato": 1
-        },
-        "output": {
-          "2kbpotage": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "currentcorn": 1,
-          "diodia": 1
-        },
-        "output": {
-          "smash": 1
-        }
-      }
+      447,
+      501,
+      513,
+      552,
+      574
     ],
     "makes": []
   },
@@ -37038,58 +26655,11 @@
     "title": "Diodia",
     "description": "Diodia, tastes like copper.",
     "recipes": [
-      {
-        "input": {
-          "boltbulb": 1,
-          "currentcorn": 1,
-          "diodia": 1,
-          "neonmelon": 1
-        },
-        "output": {
-          "pozest": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "diodia": 1,
-          "alienmeat": 1,
-          "wheat": 1
-        },
-        "output": {
-          "16gbpasty": 1
-        }
-      },
-      {
-        "input": {
-          "automato": 1,
-          "cheese": 1,
-          "diodia": 1,
-          "wheat": 1
-        },
-        "output": {
-          "piodia": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "currentcorn": 1,
-          "diodia": 1
-        },
-        "output": {
-          "smash": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "diodia": 1
-        },
-        "output": {
-          "nutsandbolts": 1
-        }
-      }
+      501,
+      510,
+      540,
+      574,
+      589
     ],
     "makes": []
   },
@@ -37100,26 +26670,8 @@
     "title": "Dirturchin",
     "description": "Kind of squidgy and a bit tasteless.",
     "recipes": [
-      {
-        "input": {
-          "dirturchin": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "soggysack": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "dirturchin": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "stuffeddirturchin": 1
-        }
-      }
+      575,
+      579
     ],
     "makes": []
   },
@@ -37130,35 +26682,9 @@
     "title": "Eggshoot",
     "description": "Eggshoot, soft-boiled in texture. Break it open to find a yolk.",
     "recipes": [
-      {
-        "input": {
-          "eggshoot": 1,
-          "milk": 1,
-          "snowball": 1,
-          "sugar": 1
-        },
-        "output": {
-          "eggshooticecream": 1
-        }
-      },
-      {
-        "input": {
-          "eggshoot": 1,
-          "feathercrown": 1
-        },
-        "output": {
-          "eggshootsalad": 1
-        }
-      },
-      {
-        "input": {
-          "eggshoot": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "eyebowls": 1
-        }
-      }
+      478,
+      562,
+      563
     ],
     "makes": []
   },
@@ -37169,69 +26695,12 @@
     "title": "Feathercrown",
     "description": "Feathercrown, you have to pluck it before consuming.",
     "recipes": [
-      {
-        "input": {
-          "kiwi": 1,
-          "feathercrown": 1,
-          "currentcorn": 1,
-          "cacti": 1,
-          "beakseed": 1,
-          "automato": 1
-        },
-        "output": {
-          "desertsalsa": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "feathercrown": 1
-        },
-        "output": {
-          "feathercrownjam": 1
-        }
-      },
-      {
-        "input": {
-          "boneboo": 1,
-          "feathercrown": 1,
-          "oculemon": 1,
-          "neonmelon": 1,
-          "toxictop": 1
-        },
-        "output": {
-          "ultimatejuice": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "feathercrown": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "featherfood": 1
-        }
-      },
-      {
-        "input": {
-          "eggshoot": 1,
-          "feathercrown": 1
-        },
-        "output": {
-          "eggshootsalad": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "feathercrown": 1
-        },
-        "output": {
-          "spicyfeathercrown": 1
-        }
-      }
+      447,
+      448,
+      509,
+      519,
+      562,
+      577
     ],
     "makes": []
   },
@@ -37242,44 +26711,10 @@
     "title": "Grapes",
     "description": "Grapes, nature's snackfood.",
     "recipes": [
-      {
-        "input": {
-          "grapes": 1,
-          "banana": 1
-        },
-        "output": {
-          "apegrapes": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "grapes": 1,
-          "banana": 1
-        },
-        "output": {
-          "fruitsalad": 1
-        }
-      },
-      {
-        "input": {
-          "grapes": 1
-        },
-        "output": {
-          "grapejuice": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "grapes": 1
-        },
-        "output": {
-          "sweetpunch": 1
-        }
-      }
+      459,
+      479,
+      497,
+      504
     ],
     "makes": []
   },
@@ -37299,36 +26734,9 @@
     "title": "Kelp",
     "description": "Squishy and slimy kelp.",
     "recipes": [
-      {
-        "input": {
-          "coralcreep": 1,
-          "kelp": 5,
-          "reefpod": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "oceansurprise": 1
-        }
-      },
-      {
-        "input": {
-          "kelp": 5,
-          "rice": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "sushi": 1
-        }
-      },
-      {
-        "input": {
-          "kelp": 5,
-          "rice": 1
-        },
-        "output": {
-          "ricecake": 1
-        }
-      }
+      533,
+      550,
+      572
     ],
     "makes": []
   },
@@ -37339,68 +26747,12 @@
     "title": "Kiwi",
     "description": "Soft texture and sweet flavour, yum.",
     "recipes": [
-      {
-        "input": {
-          "kiwi": 1,
-          "feathercrown": 1,
-          "currentcorn": 1,
-          "cacti": 1,
-          "beakseed": 1,
-          "automato": 1
-        },
-        "output": {
-          "desertsalsa": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "kiwi": 1
-        },
-        "output": {
-          "kiwijam": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "grapes": 1,
-          "banana": 1
-        },
-        "output": {
-          "fruitsalad": 1
-        }
-      },
-      {
-        "input": {
-          "kiwi": 1
-        },
-        "output": {
-          "kiwijuice": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "grapes": 1
-        },
-        "output": {
-          "sweetpunch": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "coconut": 1,
-          "banana": 1
-        },
-        "output": {
-          "tropicalpunch": 1
-        }
-      }
+      447,
+      449,
+      479,
+      498,
+      504,
+      508
     ],
     "makes": []
   },
@@ -37411,38 +26763,9 @@
     "title": "Neonmelon",
     "description": "A slice of bubblegum flavoured neonmelon.",
     "recipes": [
-      {
-        "input": {
-          "neonmelon": 1,
-          "sugar": 1
-        },
-        "output": {
-          "neonmelonjam": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "currentcorn": 1,
-          "diodia": 1,
-          "neonmelon": 1
-        },
-        "output": {
-          "pozest": 1
-        }
-      },
-      {
-        "input": {
-          "boneboo": 1,
-          "feathercrown": 1,
-          "oculemon": 1,
-          "neonmelon": 1,
-          "toxictop": 1
-        },
-        "output": {
-          "ultimatejuice": 1
-        }
-      }
+      450,
+      501,
+      509
     ],
     "makes": []
   },
@@ -37453,83 +26776,14 @@
     "title": "Oculemon",
     "description": "Sour but so worth it.",
     "recipes": [
-      {
-        "input": {
-          "sugar": 1,
-          "oculemon": 1,
-          "egg": 1
-        },
-        "output": {
-          "oculemonmeringue": 1
-        }
-      },
-      {
-        "input": {
-          "pussplum": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "cyanider": 1
-        }
-      },
-      {
-        "input": {
-          "boneboo": 1,
-          "feathercrown": 1,
-          "oculemon": 1,
-          "neonmelon": 1,
-          "toxictop": 1
-        },
-        "output": {
-          "ultimatejuice": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pussplum": 1,
-          "oculemon": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "oculemonstew": 1
-        }
-      },
-      {
-        "input": {
-          "reefpod": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "reefpodsurprise": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "burningeyeballs": 1
-        }
-      },
-      {
-        "input": {
-          "eggshoot": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "eyebowls": 1
-        }
-      },
-      {
-        "input": {
-          "oculemon": 1
-        },
-        "output": {
-          "eyepiles": 10
-        }
-      }
+      480,
+      495,
+      509,
+      534,
+      544,
+      556,
+      563,
+      715
     ],
     "makes": []
   },
@@ -37549,128 +26803,18 @@
     "title": "Pearlpeas",
     "description": "Pearlpeas! I'll need to bite down hard.",
     "recipes": [
-      {
-        "input": {
-          "pearlpea": 1
-        },
-        "output": {
-          "boiledpearlpeas": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "pearlpea": 1
-        },
-        "output": {
-          "pearlpeajam": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "rawfish": 1,
-          "pearlpea": 1,
-          "corn": 1
-        },
-        "output": {
-          "fishstew": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pearlpea": 1,
-          "corn": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "meatstew": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pearlpea": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "pearlpeapancakes": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "pearlpea": 1
-        },
-        "output": {
-          "pearlpearisotto": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "mashedpotato": 1,
-          "rawpoultry": 1,
-          "carrot": 1
-        },
-        "output": {
-          "roastdinner": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "tomato": 1,
-          "wartweed": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedstew": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "wartweed": 1
-        },
-        "output": {
-          "pearlpeaparcels": 1
-        }
-      },
-      {
-        "input": {
-          "reefpod": 1,
-          "pearlpea": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "saltsalad": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "pearlpea": 1,
-          "egg": 1,
-          "corn": 1
-        },
-        "output": {
-          "specialrice": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "dirturchin": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "stuffeddirturchin": 1
-        }
-      }
+      430,
+      452,
+      525,
+      530,
+      537,
+      538,
+      545,
+      551,
+      571,
+      573,
+      576,
+      579
     ],
     "makes": []
   },
@@ -37681,97 +26825,15 @@
     "title": "Pineapple",
     "description": "A tropical treat!",
     "recipes": [
-      {
-        "input": {
-          "reefpod": 1,
-          "pineapple": 1,
-          "coralcreep": 1,
-          "banana": 1
-        },
-        "output": {
-          "oceansalsa": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "pineapple": 1
-        },
-        "output": {
-          "pineapplejam": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingoicecream": 1,
-          "banana": 1,
-          "chocolate": 1,
-          "pineapple": 1
-        },
-        "output": {
-          "bananasplit": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "brineapple": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "grapes": 1,
-          "banana": 1
-        },
-        "output": {
-          "fruitsalad": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1
-        },
-        "output": {
-          "pineapplejuice": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "grapes": 1
-        },
-        "output": {
-          "sweetpunch": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "coconut": 1,
-          "banana": 1
-        },
-        "output": {
-          "tropicalpunch": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pineapple": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "pineapplepizzaslice": 1
-        }
-      }
+      451,
+      453,
+      464,
+      469,
+      479,
+      500,
+      504,
+      508,
+      539
     ],
     "makes": []
   },
@@ -37782,63 +26844,12 @@
     "title": "Potato",
     "description": "Po-ta-to.",
     "recipes": [
-      {
-        "input": {
-          "potato": 1
-        },
-        "output": {
-          "bakedpotato": 1
-        }
-      },
-      {
-        "input": {
-          "rawfish": 1,
-          "potato": 1,
-          "bread": 1
-        },
-        "output": {
-          "fishnchips": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "potato": 1,
-          "alienmeat": 1,
-          "carrot": 1
-        },
-        "output": {
-          "pasty": 1
-        }
-      },
-      {
-        "input": {
-          "potato": 1,
-          "milk": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotsoup": 1
-        }
-      },
-      {
-        "input": {
-          "potato": 1
-        },
-        "output": {
-          "mashedpotato": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "potato": 1,
-          "milk": 1
-        },
-        "output": {
-          "tomatosoup": 1
-        }
-      }
+      429,
+      523,
+      536,
+      558,
+      567,
+      582
     ],
     "makes": []
   },
@@ -37849,55 +26860,11 @@
     "title": "Pussplum",
     "description": "Pussplum, some claim it is delicious!",
     "recipes": [
-      {
-        "input": {
-          "sugar": 1,
-          "pussplum": 1
-        },
-        "output": {
-          "pussplumjam": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rice": 1,
-          "pussplum": 1,
-          "milk": 1
-        },
-        "output": {
-          "pussplumpudding": 1
-        }
-      },
-      {
-        "input": {
-          "pussplum": 1,
-          "fleshstrand": 1
-        },
-        "output": {
-          "bloodypuss": 1
-        }
-      },
-      {
-        "input": {
-          "pussplum": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "cyanider": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pussplum": 1,
-          "oculemon": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "oculemonstew": 1
-        }
-      }
+      454,
+      481,
+      489,
+      495,
+      534
     ],
     "makes": []
   },
@@ -37908,25 +26875,8 @@
     "title": "Red Apple",
     "description": "A ripe red apple.",
     "recipes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "redapple": 1
-        },
-        "output": {
-          "applecrumble": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "redapple": 1
-        },
-        "output": {
-          "candyapple": 1
-        }
-      }
+      460,
+      585
     ],
     "makes": []
   },
@@ -37937,74 +26887,13 @@
     "title": "Reefpod",
     "description": "Fruit of the ocean.",
     "recipes": [
-      {
-        "input": {
-          "reefpod": 1,
-          "pineapple": 1,
-          "coralcreep": 1,
-          "banana": 1
-        },
-        "output": {
-          "oceansalsa": 1
-        }
-      },
-      {
-        "input": {
-          "reefpod": 1
-        },
-        "output": {
-          "reefjuice": 1
-        }
-      },
-      {
-        "input": {
-          "reefpod": 1,
-          "milk": 1
-        },
-        "output": {
-          "reefshake": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "reefpod": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "oceanrisotto": 1
-        }
-      },
-      {
-        "input": {
-          "coralcreep": 1,
-          "kelp": 5,
-          "reefpod": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "oceansurprise": 1
-        }
-      },
-      {
-        "input": {
-          "reefpod": 1,
-          "oculemon": 1
-        },
-        "output": {
-          "reefpodsurprise": 1
-        }
-      },
-      {
-        "input": {
-          "reefpod": 1,
-          "pearlpea": 1,
-          "coralcreep": 1
-        },
-        "output": {
-          "saltsalad": 1
-        }
-      }
+      451,
+      502,
+      503,
+      532,
+      533,
+      544,
+      573
     ],
     "makes": []
   },
@@ -38015,114 +26904,17 @@
     "title": "Rice",
     "description": "Rice. Grains of goodness.",
     "recipes": [
-      {
-        "input": {
-          "rice": 1
-        },
-        "output": {
-          "boiledrice": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rice": 1,
-          "pussplum": 1,
-          "milk": 1
-        },
-        "output": {
-          "pussplumpudding": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rice": 1,
-          "milk": 1
-        },
-        "output": {
-          "ricepudding": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "coralcreep": 1,
-          "rice": 1,
-          "tomato": 1
-        },
-        "output": {
-          "coralcreepcurry": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "reefpod": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "oceanrisotto": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "pearlpea": 1
-        },
-        "output": {
-          "pearlpearisotto": 1
-        }
-      },
-      {
-        "input": {
-          "kelp": 5,
-          "rice": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "sushi": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "coconutmilk": 1
-        },
-        "output": {
-          "coconutrice": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "shroom": 5,
-          "egg": 1
-        },
-        "output": {
-          "mushroomrice": 1
-        }
-      },
-      {
-        "input": {
-          "kelp": 5,
-          "rice": 1
-        },
-        "output": {
-          "ricecake": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "pearlpea": 1,
-          "egg": 1,
-          "corn": 1
-        },
-        "output": {
-          "specialrice": 1
-        }
-      }
+      431,
+      481,
+      483,
+      517,
+      532,
+      538,
+      550,
+      560,
+      569,
+      572,
+      576
     ],
     "makes": []
   },
@@ -38133,149 +26925,21 @@
     "title": "Mushroom",
     "description": "A mushroom. I could make quite a few things with enough of these.",
     "recipes": [
-      {
-        "input": {
-          "glowfibre": 15,
-          "shroom": 10
-        },
-        "output": {
-          "bioshroomtable": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 50,
-          "fabric": 5,
-          "string": 1
-        },
-        "output": {
-          "mushroomhead": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 25,
-          "darkwoodmaterial": 10,
-          "fabric": 10,
-          "reddye": 1
-        },
-        "output": {
-          "shroombed": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 15,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "shroomchair": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 20,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "shroomchest": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 25,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "shroomdoor": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 15,
-          "torch": 1,
-          "plantfibre": 10
-        },
-        "output": {
-          "shroomlamp": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 25,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "shroomtable": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 30,
-          "darkwoodmaterial": 10,
-          "logblock": 2
-        },
-        "output": {
-          "shroomwardrobe": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 5
-        },
-        "output": {
-          "roastedmushrooms": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "shroom": 5,
-          "egg": 1,
-          "cheese": 1
-        },
-        "output": {
-          "mushroomquiche": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 5,
-          "egg": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "omelette": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "shroom": 5
-        },
-        "output": {
-          "mushroombread": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "shroom": 5,
-          "egg": 1
-        },
-        "output": {
-          "mushroomrice": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 1
-        },
-        "output": {
-          "shroomblock": 10
-        }
-      }
+      264,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      443,
+      531,
+      535,
+      568,
+      569,
+      756
     ],
     "makes": []
   },
@@ -38286,433 +26950,48 @@
     "title": "Sugar",
     "description": "Pure, unadulterated sugary goodness.",
     "recipes": [
-      {
-        "input": {
-          "sugar": 1,
-          "alienfruit": 1
-        },
-        "output": {
-          "alienfruitjam": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "beakseedjam": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "feathercrown": 1
-        },
-        "output": {
-          "feathercrownjam": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "kiwi": 1
-        },
-        "output": {
-          "kiwijam": 1
-        }
-      },
-      {
-        "input": {
-          "neonmelon": 1,
-          "sugar": 1
-        },
-        "output": {
-          "neonmelonjam": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "pearlpea": 1
-        },
-        "output": {
-          "pearlpeajam": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "pineapple": 1
-        },
-        "output": {
-          "pineapplejam": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "pussplum": 1
-        },
-        "output": {
-          "pussplumjam": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "sugar": 1,
-          "corn": 1
-        },
-        "output": {
-          "relish": 1
-        }
-      },
-      {
-        "input": {
-          "toxictop": 1,
-          "sugar": 1
-        },
-        "output": {
-          "toxictopjam": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "wartweed": 1
-        },
-        "output": {
-          "wartweedjam": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "redapple": 1
-        },
-        "output": {
-          "applecrumble": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingo": 1,
-          "milk": 1,
-          "snowball": 1,
-          "sugar": 1
-        },
-        "output": {
-          "avesmingoicecream": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreampie": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananaicecream": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1
-        },
-        "output": {
-          "bonbons": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "cacti": 1
-        },
-        "output": {
-          "cactiicecream": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "cake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotcake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "chocolatecake": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "coconut": 1
-        },
-        "output": {
-          "coconuticecream": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coffeebeans": 1
-        },
-        "output": {
-          "coffeecake": 1
-        }
-      },
-      {
-        "input": {
-          "eggshoot": 1,
-          "milk": 1,
-          "snowball": 1,
-          "sugar": 1
-        },
-        "output": {
-          "eggshooticecream": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "oculemon": 1,
-          "egg": 1
-        },
-        "output": {
-          "oculemonmeringue": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rice": 1,
-          "pussplum": 1,
-          "milk": 1
-        },
-        "output": {
-          "pussplumpudding": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rice": 1,
-          "milk": 1
-        },
-        "output": {
-          "ricepudding": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1
-        },
-        "output": {
-          "snowcone": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "feathercrown": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "featherfood": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "rawribmeat": 1,
-          "sugar": 1
-        },
-        "output": {
-          "spicyribs": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rawribmeat": 1
-        },
-        "output": {
-          "stickyribs": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rawbacon": 1
-        },
-        "output": {
-          "sweetmeat": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreamdonut": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "corn": 1
-        },
-        "output": {
-          "candiedcorn": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "redapple": 1
-        },
-        "output": {
-          "candyapple": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "automato": 1
-        },
-        "output": {
-          "candyautomato": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coconut": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "choconut": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "cacti": 1
-        },
-        "output": {
-          "spikycookies": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "spookydonut": 1
-        }
-      },
-      {
-        "input": {
-          "popcorn": 1,
-          "sugar": 1
-        },
-        "output": {
-          "sweetpopcorn": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "toxictopjam": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "toxicjamdonut": 1
-        }
-      },
-      {
-        "input": {
-          "egg": 1,
-          "milk": 1,
-          "sugar": 1,
-          "wartweedjam": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedjamdonut": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1
-        },
-        "output": {
-          "candyblock": 10
-        }
-      }
+      445,
+      446,
+      448,
+      449,
+      450,
+      452,
+      453,
+      454,
+      455,
+      456,
+      458,
+      460,
+      461,
+      462,
+      463,
+      468,
+      470,
+      471,
+      473,
+      475,
+      476,
+      477,
+      478,
+      480,
+      481,
+      483,
+      484,
+      519,
+      547,
+      549,
+      581,
+      583,
+      584,
+      585,
+      586,
+      587,
+      590,
+      591,
+      592,
+      593,
+      594,
+      700
     ],
     "makes": []
   },
@@ -38723,14 +27002,7 @@
     "title": "Thorn Fruit",
     "description": "So long as you watch out for the thorns, these are delicious.",
     "recipes": [
-      {
-        "input": {
-          "thornfruit": 1
-        },
-        "output": {
-          "thornjuice": 1
-        }
-      }
+      505
     ],
     "makes": []
   },
@@ -38741,129 +27013,18 @@
     "title": "Tomato",
     "description": "A ripe, juicy tomato!",
     "recipes": [
-      {
-        "input": {
-          "tomato": 1
-        },
-        "output": {
-          "cookedtomato": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "sugar": 1,
-          "corn": 1
-        },
-        "output": {
-          "relish": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingo": 1,
-          "chili": 1,
-          "tomato": 1
-        },
-        "output": {
-          "volcanicsalsa": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1
-        },
-        "output": {
-          "tomatojuice": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "cheeseburger": 1
-        }
-      },
-      {
-        "input": {
-          "chili": 1,
-          "coralcreep": 1,
-          "rice": 1,
-          "tomato": 1
-        },
-        "output": {
-          "coralcreepcurry": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "bread": 1
-        },
-        "output": {
-          "hamburger": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "tomato": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "pizzaslice": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "tomato": 1,
-          "wartweed": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedstew": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "corn": 1,
-          "carrot": 1
-        },
-        "output": {
-          "gardensalad": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "corn": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "stuffedtomato": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "potato": 1,
-          "milk": 1
-        },
-        "output": {
-          "tomatosoup": 1
-        }
-      }
+      439,
+      455,
+      457,
+      506,
+      516,
+      517,
+      526,
+      541,
+      551,
+      565,
+      580,
+      582
     ],
     "makes": []
   },
@@ -38874,36 +27035,9 @@
     "title": "Toxictop",
     "description": "A toxic looking fruit. Can looks be deceiving?",
     "recipes": [
-      {
-        "input": {
-          "toxictop": 1,
-          "sugar": 1
-        },
-        "output": {
-          "toxictopjam": 1
-        }
-      },
-      {
-        "input": {
-          "toxictop": 1,
-          "alienfruit": 1
-        },
-        "output": {
-          "toxicjuice": 1
-        }
-      },
-      {
-        "input": {
-          "boneboo": 1,
-          "feathercrown": 1,
-          "oculemon": 1,
-          "neonmelon": 1,
-          "toxictop": 1
-        },
-        "output": {
-          "ultimatejuice": 1
-        }
-      }
+      456,
+      507,
+      509
     ],
     "makes": []
   },
@@ -38914,35 +27048,9 @@
     "title": "Wartweed",
     "description": "Warty but not very weedy.",
     "recipes": [
-      {
-        "input": {
-          "sugar": 1,
-          "wartweed": 1
-        },
-        "output": {
-          "wartweedjam": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "tomato": 1,
-          "wartweed": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedstew": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "wartweed": 1
-        },
-        "output": {
-          "pearlpeaparcels": 1
-        }
-      }
+      458,
+      551,
+      571
     ],
     "makes": []
   },
@@ -38953,439 +27061,47 @@
     "title": "Wheat",
     "description": "Essential for making bread.",
     "recipes": [
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "redapple": 1
-        },
-        "output": {
-          "applecrumble": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreampie": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "banana": 1
-        },
-        "output": {
-          "batteredbanana": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "beakseedjam": 1
-        },
-        "output": {
-          "beakseedtart": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "cake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotcake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "chocolatecake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coffeebeans": 1
-        },
-        "output": {
-          "coffeecake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pussplumjam": 1
-        },
-        "output": {
-          "pussplumtart": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "toxictopjam": 1,
-          "alienfruit": 1
-        },
-        "output": {
-          "toxictart": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "diodia": 1,
-          "alienmeat": 1,
-          "wheat": 1
-        },
-        "output": {
-          "16gbpasty": 1
-        }
-      },
-      {
-        "input": {
-          "automato": 1,
-          "boltbulb": 1,
-          "cheese": 1,
-          "wheat": 1
-        },
-        "output": {
-          "8gbpizzap": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "currentcorn": 1,
-          "automato": 1
-        },
-        "output": {
-          "automatostew": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "milk": 1,
-          "egg": 1,
-          "rawbacon": 1
-        },
-        "output": {
-          "baconpancakes": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "feathercrown": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "featherfood": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "rawfish": 1
-        },
-        "output": {
-          "fishdumplings": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "rawfish": 1,
-          "pearlpea": 1,
-          "corn": 1
-        },
-        "output": {
-          "fishstew": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "meatdumplings": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pearlpea": 1,
-          "corn": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "meatstew": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "shroom": 5,
-          "egg": 1,
-          "cheese": 1
-        },
-        "output": {
-          "mushroomquiche": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pussplum": 1,
-          "oculemon": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "oculemonstew": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "potato": 1,
-          "alienmeat": 1,
-          "carrot": 1
-        },
-        "output": {
-          "pasty": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pearlpea": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "pearlpeapancakes": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pineapple": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "pineapplepizzaslice": 1
-        }
-      },
-      {
-        "input": {
-          "automato": 1,
-          "cheese": 1,
-          "diodia": 1,
-          "wheat": 1
-        },
-        "output": {
-          "piodia": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "tomato": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "pizzaslice": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "milk": 1
-        },
-        "output": {
-          "porridge": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "egg": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "quichelorraine": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "spookypie": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "tomato": 1,
-          "wartweed": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedstew": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "beakseed": 1
-        },
-        "output": {
-          "beakseedbread": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1
-        },
-        "output": {
-          "bread": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotbread": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "shroom": 5
-        },
-        "output": {
-          "mushroombread": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "boiledpearlpeas": 1
-        },
-        "output": {
-          "pearlpeabroth": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreamdonut": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coconut": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "choconut": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "cacti": 1
-        },
-        "output": {
-          "spikycookies": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "spookydonut": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "toxictopjam": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "toxicjamdonut": 1
-        }
-      },
-      {
-        "input": {
-          "egg": 1,
-          "milk": 1,
-          "sugar": 1,
-          "wartweedjam": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedjamdonut": 1
-        }
-      }
+      460,
+      462,
+      465,
+      466,
+      471,
+      473,
+      475,
+      477,
+      482,
+      485,
+      510,
+      511,
+      513,
+      514,
+      519,
+      520,
+      525,
+      528,
+      530,
+      531,
+      534,
+      536,
+      537,
+      539,
+      540,
+      541,
+      542,
+      543,
+      548,
+      551,
+      554,
+      555,
+      557,
+      568,
+      570,
+      583,
+      587,
+      590,
+      591,
+      593,
+      594
     ],
     "makes": []
   },
@@ -39405,138 +27121,20 @@
     "title": "Cheese",
     "description": "A wedge of cheese.",
     "recipes": [
-      {
-        "input": {
-          "automato": 1,
-          "boltbulb": 1,
-          "cheese": 1,
-          "wheat": 1
-        },
-        "output": {
-          "8gbpizzap": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "relish": 1,
-          "alienmeat": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "cheeseburger": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "shroom": 5,
-          "egg": 1,
-          "cheese": 1
-        },
-        "output": {
-          "mushroomquiche": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 5,
-          "egg": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "omelette": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pineapple": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "pineapplepizzaslice": 1
-        }
-      },
-      {
-        "input": {
-          "automato": 1,
-          "cheese": 1,
-          "diodia": 1,
-          "wheat": 1
-        },
-        "output": {
-          "piodia": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "tomato": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "pizzaslice": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "egg": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "quichelorraine": 1
-        }
-      },
-      {
-        "input": {
-          "corn": 1,
-          "cheese": 1,
-          "bread": 1,
-          "automato": 1
-        },
-        "output": {
-          "stuffedautomato": 1
-        }
-      },
-      {
-        "input": {
-          "pearlpea": 1,
-          "dirturchin": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "stuffeddirturchin": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "corn": 1,
-          "cheese": 1,
-          "bread": 1
-        },
-        "output": {
-          "stuffedtomato": 1
-        }
-      }
+      511,
+      516,
+      531,
+      535,
+      539,
+      540,
+      541,
+      543,
+      578,
+      579,
+      580
     ],
     "makes": [
-      {
-        "input": {
-          "milk": 1
-        },
-        "output": {
-          "cheese": 1
-        }
-      }
+      559
     ]
   },
   "chocolate": {
@@ -39546,71 +27144,14 @@
     "title": "Chocolate",
     "description": "Just objectively the best thing ever.",
     "recipes": [
-      {
-        "input": {
-          "avesmingoicecream": 1,
-          "banana": 1,
-          "chocolate": 1,
-          "pineapple": 1
-        },
-        "output": {
-          "bananasplit": 1
-        }
-      },
-      {
-        "input": {
-          "chocolate": 1,
-          "banana": 1
-        },
-        "output": {
-          "campfirebanana": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "chocolatecake": 1
-        }
-      },
-      {
-        "input": {
-          "milk": 1,
-          "coffee": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "mocha": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coconut": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "choconut": 1
-        }
-      }
+      464,
+      472,
+      475,
+      499,
+      587
     ],
     "makes": [
-      {
-        "input": {
-          "cocoa": 1
-        },
-        "output": {
-          "chocolate": 1
-        }
-      }
+      474
     ]
   },
   "egg": {
@@ -39620,240 +27161,27 @@
     "title": "Egg",
     "description": "It's an egg!",
     "recipes": [
-      {
-        "input": {
-          "bread": 1,
-          "egg": 1
-        },
-        "output": {
-          "toast": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "cake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotcake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "chocolatecake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coffeebeans": 1
-        },
-        "output": {
-          "coffeecake": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "oculemon": 1,
-          "egg": 1
-        },
-        "output": {
-          "oculemonmeringue": 1
-        }
-      },
-      {
-        "input": {
-          "egg": 1,
-          "corn": 1,
-          "banana": 1
-        },
-        "output": {
-          "apexfritter": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "milk": 1,
-          "egg": 1,
-          "rawbacon": 1
-        },
-        "output": {
-          "baconpancakes": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "shroom": 5,
-          "egg": 1,
-          "cheese": 1
-        },
-        "output": {
-          "mushroomquiche": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 5,
-          "egg": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "omelette": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pearlpea": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "pearlpeapancakes": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "egg": 1,
-          "rawbacon": 1,
-          "cheese": 1
-        },
-        "output": {
-          "quichelorraine": 1
-        }
-      },
-      {
-        "input": {
-          "egg": 1,
-          "bread": 1
-        },
-        "output": {
-          "fluffyruffs": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "shroom": 5,
-          "egg": 1
-        },
-        "output": {
-          "mushroomrice": 1
-        }
-      },
-      {
-        "input": {
-          "rice": 1,
-          "pearlpea": 1,
-          "egg": 1,
-          "corn": 1
-        },
-        "output": {
-          "specialrice": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreamdonut": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coconut": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "choconut": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "cacti": 1
-        },
-        "output": {
-          "spikycookies": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "spookydonut": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "toxictopjam": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "toxicjamdonut": 1
-        }
-      },
-      {
-        "input": {
-          "egg": 1,
-          "milk": 1,
-          "sugar": 1,
-          "wartweedjam": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedjamdonut": 1
-        }
-      }
+      444,
+      471,
+      473,
+      475,
+      477,
+      480,
+      512,
+      514,
+      531,
+      535,
+      537,
+      543,
+      564,
+      569,
+      576,
+      583,
+      587,
+      590,
+      591,
+      593,
+      594
     ],
     "makes": []
   },
@@ -39864,318 +27192,35 @@
     "title": "Milk",
     "description": "Mmm, milk.",
     "recipes": [
-      {
-        "input": {
-          "avesmingo": 1,
-          "milk": 1,
-          "snowball": 1,
-          "sugar": 1
-        },
-        "output": {
-          "avesmingoicecream": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreampie": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananaicecream": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "cacti": 1
-        },
-        "output": {
-          "cactiicecream": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "cake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotcake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "chocolatecake": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "coconut": 1
-        },
-        "output": {
-          "coconuticecream": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coffeebeans": 1
-        },
-        "output": {
-          "coffeecake": 1
-        }
-      },
-      {
-        "input": {
-          "eggshoot": 1,
-          "milk": 1,
-          "snowball": 1,
-          "sugar": 1
-        },
-        "output": {
-          "eggshooticecream": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rice": 1,
-          "pussplum": 1,
-          "milk": 1
-        },
-        "output": {
-          "pussplumpudding": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "rice": 1,
-          "milk": 1
-        },
-        "output": {
-          "ricepudding": 1
-        }
-      },
-      {
-        "input": {
-          "milk": 1,
-          "automato": 1
-        },
-        "output": {
-          "automatoshake": 1
-        }
-      },
-      {
-        "input": {
-          "milk": 1,
-          "coffee": 1
-        },
-        "output": {
-          "flatwhite": 1
-        }
-      },
-      {
-        "input": {
-          "milk": 1,
-          "coffee": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "mocha": 1
-        }
-      },
-      {
-        "input": {
-          "reefpod": 1,
-          "milk": 1
-        },
-        "output": {
-          "reefshake": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "milk": 1,
-          "egg": 1,
-          "rawbacon": 1
-        },
-        "output": {
-          "baconpancakes": 1
-        }
-      },
-      {
-        "input": {
-          "boltbulb": 1,
-          "milk": 1
-        },
-        "output": {
-          "boltos": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "pearlpea": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "pearlpeapancakes": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "milk": 1
-        },
-        "output": {
-          "porridge": 1
-        }
-      },
-      {
-        "input": {
-          "potato": 1,
-          "milk": 1,
-          "carrot": 1
-        },
-        "output": {
-          "carrotsoup": 1
-        }
-      },
-      {
-        "input": {
-          "milk": 1
-        },
-        "output": {
-          "cheese": 1
-        }
-      },
-      {
-        "input": {
-          "tomato": 1,
-          "potato": 1,
-          "milk": 1
-        },
-        "output": {
-          "tomatosoup": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananacreamdonut": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coconut": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "choconut": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "cacti": 1
-        },
-        "output": {
-          "spikycookies": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "boneboo": 1
-        },
-        "output": {
-          "spookydonut": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "toxictopjam": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1
-        },
-        "output": {
-          "toxicjamdonut": 1
-        }
-      },
-      {
-        "input": {
-          "egg": 1,
-          "milk": 1,
-          "sugar": 1,
-          "wartweedjam": 1,
-          "wheat": 1
-        },
-        "output": {
-          "wartweedjamdonut": 1
-        }
-      }
+      461,
+      462,
+      463,
+      470,
+      471,
+      473,
+      475,
+      476,
+      477,
+      478,
+      481,
+      483,
+      487,
+      496,
+      499,
+      503,
+      514,
+      515,
+      537,
+      542,
+      558,
+      559,
+      582,
+      583,
+      587,
+      590,
+      591,
+      593,
+      594
     ],
     "makes": []
   },
@@ -40232,17 +27277,7 @@
     "description": "Unlocks the ability to craft small hi-tech items on the fly.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "money": 1000,
-          "durasteelbar": 5,
-          "goldbar": 5,
-          "diamond": 1
-        },
-        "output": {
-          "portable3dprinter": 1
-        }
-      }
+      960
     ]
   },
   "accordion": {
@@ -40522,24 +27557,8 @@
     "title": "Healing Water",
     "description": "A measure of cool, clear, healing water. Drinking it will restore your body.",
     "recipes": [
-      {
-        "input": {
-          "liquidhealing": 10,
-          "bottle": 1
-        },
-        "output": {
-          "bottledhealingwater": 1
-        }
-      },
-      {
-        "input": {
-          "liquidhealing": 5,
-          "bottle": 1
-        },
-        "output": {
-          "dyeremover": 1
-        }
-      }
+      965,
+      1070
     ],
     "makes": []
   },
@@ -40550,38 +27569,9 @@
     "title": "Lava",
     "description": "A measure of bubbling, searing lava.",
     "recipes": [
-      {
-        "input": {
-          "metallic": 10,
-          "copperbar": 1,
-          "liquidlava": 10
-        },
-        "output": {
-          "foundrylight": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 10,
-          "copperbar": 1,
-          "glass": 10,
-          "liquidlava": 5
-        },
-        "output": {
-          "magmalamp": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingo": 1,
-          "chili": 1,
-          "liquidlava": 1,
-          "alienmeat": 1
-        },
-        "output": {
-          "hothothotpot": 1
-        }
-      }
+      315,
+      316,
+      527
     ],
     "makes": []
   },
@@ -40610,115 +27600,17 @@
     "title": "Oil",
     "description": "A measure of gooey unrefined oil.",
     "recipes": [
-      {
-        "input": {
-          "bottle": 3,
-          "liquidoil": 10,
-          "fabric": 3
-        },
-        "output": {
-          "molotov": 3
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "bluedye": 3
-        },
-        "output": {
-          "crayonblueback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "greendye": 3
-        },
-        "output": {
-          "crayongreenback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "orangedye": 3
-        },
-        "output": {
-          "crayonorangeback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "purpledye": 3
-        },
-        "output": {
-          "crayonpurpleback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "reddye": 3
-        },
-        "output": {
-          "crayonredback": 1
-        }
-      },
-      {
-        "input": {
-          "rainbowwood": 50,
-          "liquidoil": 10,
-          "yellowdye": 3
-        },
-        "output": {
-          "crayonyellowback": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 4,
-          "string": 1,
-          "liquidoil": 3
-        },
-        "output": {
-          "tungstenbow": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "liquidoil": 10,
-          "torch": 1
-        },
-        "output": {
-          "mininglantern": 1
-        }
-      },
-      {
-        "input": {
-          "durasteelbar": 4,
-          "string": 1,
-          "liquidoil": 3
-        },
-        "output": {
-          "compoundbow": 1
-        }
-      },
-      {
-        "input": {
-          "liquidoil": 1,
-          "reddye": 1
-        },
-        "output": {
-          "redtoyblock": 20
-        }
-      }
+      82,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      621,
+      626,
+      628,
+      830
     ],
     "makes": []
   },
@@ -40729,35 +27621,9 @@
     "title": "Poison",
     "description": "A measure of strong poison.",
     "recipes": [
-      {
-        "input": {
-          "wire": 4,
-          "goldbar": 2,
-          "liquidpoison": 5
-        },
-        "output": {
-          "battery": 1
-        }
-      },
-      {
-        "input": {
-          "wire": 1,
-          "copperbar": 1,
-          "liquidpoison": 1
-        },
-        "output": {
-          "smallbattery": 2
-        }
-      },
-      {
-        "input": {
-          "coalore": 5,
-          "liquidpoison": 5
-        },
-        "output": {
-          "syntheticmaterial": 1
-        }
-      }
+      659,
+      661,
+      1088
     ],
     "makes": []
   },
@@ -40786,63 +27652,12 @@
     "title": "Water",
     "description": "A measure of cool, clear water.",
     "recipes": [
-      {
-        "input": {
-          "petalred": 40,
-          "plantfibre": 20,
-          "cobblestonematerial": 20,
-          "liquidwater": 20
-        },
-        "output": {
-          "petalfountain": 1
-        }
-      },
-      {
-        "input": {
-          "liquidwater": 10,
-          "bottle": 1
-        },
-        "output": {
-          "bottledwater": 1
-        }
-      },
-      {
-        "input": {
-          "clay": 1,
-          "sand2": 1,
-          "liquidwater": 1
-        },
-        "output": {
-          "concretematerial": 20
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "liquidwater": 1
-        },
-        "output": {
-          "rustyblock": 40
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "liquidwater": 1
-        },
-        "output": {
-          "rustymetal": 40
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "liquidwater": 10
-        },
-        "output": {
-          "wreckplatform": 10
-        }
-      }
+      401,
+      490,
+      705,
+      749,
+      750,
+      778
     ],
     "makes": []
   },
@@ -40862,52 +27677,11 @@
     "title": "Striped Wood",
     "description": "A piece of alien striped wood. Stripey!",
     "recipes": [
-      {
-        "input": {
-          "alienstripedwood": 25,
-          "silk": 3,
-          "plantfibre": 25,
-          "pinkdye": 1
-        },
-        "output": {
-          "alienbed": 1
-        }
-      },
-      {
-        "input": {
-          "alienstripedwood": 15,
-          "plantfibre": 15
-        },
-        "output": {
-          "alienchair": 1
-        }
-      },
-      {
-        "input": {
-          "alienstripedwood": 20
-        },
-        "output": {
-          "alienchest": 1
-        }
-      },
-      {
-        "input": {
-          "alienstripedwood": 25,
-          "plantfibre": 25
-        },
-        "output": {
-          "aliendoor": 1
-        }
-      },
-      {
-        "input": {
-          "alienstripedwood": 25,
-          "plantfibre": 25
-        },
-        "output": {
-          "alientable": 1
-        }
-      }
+      248,
+      249,
+      250,
+      251,
+      252
     ],
     "makes": []
   },
@@ -40946,14 +27720,7 @@
     "description": "A riveted metal wall.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "apexshipdetails": 20
-        }
-      }
+      685
     ]
   },
   "apexshipplatform": {
@@ -40964,14 +27731,7 @@
     "description": "Durable enough to withstand the demands of space travel.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "apexshipplatform": 20
-        }
-      }
+      686
     ]
   },
   "apexshipsupport": {
@@ -40982,14 +27742,7 @@
     "description": "A wall support used in ship construction.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "apexshipsupport": 20
-        }
-      }
+      687
     ]
   },
   "apexshipwall": {
@@ -41000,14 +27753,7 @@
     "description": "A sleek metal wall panel.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "apexshipwall": 20
-        }
-      }
+      688
     ]
   },
   "ash": {
@@ -41027,15 +27773,7 @@
     "description": "A cheap but effective construction material.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cobblestonematerial": 1,
-          "tar": 1
-        },
-        "output": {
-          "asphalt": 20
-        }
-      }
+      807
     ]
   },
   "aztecmaterial": {
@@ -41045,25 +27783,10 @@
     "title": "Glyph Block",
     "description": "Small glyphs cover this stone.",
     "recipes": [
-      {
-        "input": {
-          "aztecmaterial": 5,
-          "metallicmaterial": 1
-        },
-        "output": {
-          "aztectech": 20
-        }
-      }
+      808
     ],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 10
-        },
-        "output": {
-          "aztecmaterial": 10
-        }
-      }
+      689
     ]
   },
   "aztectech": {
@@ -41074,15 +27797,7 @@
     "description": "An advanced synthetic Avian material with printed markings.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "aztecmaterial": 5,
-          "metallicmaterial": 1
-        },
-        "output": {
-          "aztectech": 20
-        }
-      }
+      808
     ]
   },
   "bamboo": {
@@ -41092,25 +27807,10 @@
     "title": "Bamboo",
     "description": "Freshly cut stalks of bamboo.",
     "recipes": [
-      {
-        "input": {
-          "bamboo": 1
-        },
-        "output": {
-          "bambooplatform": 10
-        }
-      }
+      691
     ],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 5,
-          "darkwoodmaterial": 1
-        },
-        "output": {
-          "bamboo": 50
-        }
-      }
+      690
     ]
   },
   "bambooplatform": {
@@ -41121,14 +27821,7 @@
     "description": "Strong platforms fashioned from bamboo stalks.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "bamboo": 1
-        },
-        "output": {
-          "bambooplatform": 10
-        }
-      }
+      691
     ]
   },
   "bars": {
@@ -41139,14 +27832,7 @@
     "description": "Closely spaced thick metal bars.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "bars": 10
-        }
-      }
+      692
     ]
   },
   "baseboard": {
@@ -41157,14 +27843,7 @@
     "description": "This baseboard completes the classic home look.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ornatewood": 1
-        },
-        "output": {
-          "baseboard": 10
-        }
-      }
+      693
     ]
   },
   "biorock": {
@@ -41202,15 +27881,7 @@
     "description": "A dark-tinted panel of glass.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "glass": 1,
-          "blackdye": 1
-        },
-        "output": {
-          "blackglass": 10
-        }
-      }
+      694
     ]
   },
   "blaststone": {
@@ -41239,14 +27910,7 @@
     "description": "A collection of bones tightly packed together.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "bone": 1
-        },
-        "output": {
-          "bonematerial": 20
-        }
-      }
+      695
     ]
   },
   "bookpiles": {
@@ -41257,15 +27921,7 @@
     "description": "A pile of dusty old books, they're full of tales of dragons and knights.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "paper": 3,
-          "leather": 1
-        },
-        "output": {
-          "bookpiles": 20
-        }
-      }
+      696
     ]
   },
   "brainsblock": {
@@ -41284,34 +27940,11 @@
     "title": "Bricks",
     "description": "Small but perfectly formed bricks made from clay.",
     "recipes": [
-      {
-        "input": {
-          "brickmaterial": 1,
-          "browndye": 1
-        },
-        "output": {
-          "homewalls1": 50
-        }
-      },
-      {
-        "input": {
-          "brickmaterial": 1,
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "ledgebrick": 50
-        }
-      }
+      727,
+      730
     ],
     "makes": [
-      {
-        "input": {
-          "firedclay": 1
-        },
-        "output": {
-          "brickmaterial": 50
-        }
-      }
+      697
     ]
   },
   "cabinroofing": {
@@ -41322,15 +27955,7 @@
     "description": "Simple roofing for a cabin.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "string": 1
-        },
-        "output": {
-          "cabinroofing": 30
-        }
-      }
+      698
     ]
   },
   "cactiblock": {
@@ -41341,14 +27966,7 @@
     "description": "Cactus that's been fashioned into a construction block. Still prickly.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cacti": 1
-        },
-        "output": {
-          "cactiblock": 20
-        }
-      }
+      699
     ]
   },
   "candyblock": {
@@ -41359,14 +27977,7 @@
     "description": "Sweet-smelling rock candy!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sugar": 1
-        },
-        "output": {
-          "candyblock": 10
-        }
-      }
+      700
     ]
   },
   "castlewalls1": {
@@ -41377,14 +27988,7 @@
     "description": "Strong stone slabs, perfect for building a castle.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cobblestonematerial": 5
-        },
-        "output": {
-          "castlewalls1": 20
-        }
-      }
+      701
     ]
   },
   "castlewalls2": {
@@ -41395,14 +27999,7 @@
     "description": "Small stone slabs, perfect for the finer details.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cobblestonematerial": 5
-        },
-        "output": {
-          "castlewalls2": 20
-        }
-      }
+      702
     ]
   },
   "chain": {
@@ -41413,22 +28010,8 @@
     "description": "Tungsten chains, and not the fun kind.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "chain": 20
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "chain": 20
-        }
-      }
+      809,
+      810
     ]
   },
   "cheapwallpaper": {
@@ -41439,14 +28022,7 @@
     "description": "Cheap, tacky wallpaper.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "paper": 1
-        },
-        "output": {
-          "cheapwallpaper": 10
-        }
-      }
+      703
     ]
   },
   "clay": {
@@ -41456,93 +28032,15 @@
     "title": "Clay",
     "description": "Heavy, sticky clay.",
     "recipes": [
-      {
-        "input": {
-          "glowfibre": 10,
-          "clay": 2
-        },
-        "output": {
-          "glowbushlamp": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "bluedye": 2
-        },
-        "output": {
-          "paintgunblue": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "greendye": 2
-        },
-        "output": {
-          "paintgungreen": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "orangedye": 2
-        },
-        "output": {
-          "paintgunorange": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "purpledye": 2
-        },
-        "output": {
-          "paintgunpurple": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "reddye": 2
-        },
-        "output": {
-          "paintgunred": 1
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 6,
-          "clay": 10,
-          "yellowdye": 2
-        },
-        "output": {
-          "paintgunyellow": 1
-        }
-      },
-      {
-        "input": {
-          "clay": 2
-        },
-        "output": {
-          "firedclay": 1
-        }
-      },
-      {
-        "input": {
-          "clay": 1,
-          "sand2": 1,
-          "liquidwater": 1
-        },
-        "output": {
-          "concretematerial": 20
-        }
-      }
+      259,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      648,
+      705
     ],
     "makes": []
   },
@@ -41562,212 +28060,29 @@
     "title": "Cobblestone",
     "description": "Hard cobblestones, smooth to the touch.",
     "recipes": [
-      {
-        "input": {
-          "cobblestonematerial": 25,
-          "fabric": 10,
-          "yellowdye": 1
-        },
-        "output": {
-          "stonebed": 1
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 15,
-          "fabric": 3,
-          "yellowdye": 1
-        },
-        "output": {
-          "stonechair": 1
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 20
-        },
-        "output": {
-          "stonechest": 1
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 25
-        },
-        "output": {
-          "stonedoor": 1
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 25
-        },
-        "output": {
-          "stonetable": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 40,
-          "plantfibre": 20,
-          "cobblestonematerial": 20,
-          "liquidwater": 20
-        },
-        "output": {
-          "petalfountain": 1
-        }
-      },
-      {
-        "input": {
-          "logblock": 3,
-          "cobblestonematerial": 3
-        },
-        "output": {
-          "huntingspear": 5
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "woodendoor": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 10,
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "woodengate": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "woodenverticaldoor": 1
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 5
-        },
-        "output": {
-          "castlewalls1": 20
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 5
-        },
-        "output": {
-          "castlewalls2": 20
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "cobblestonebrick": 5
-        }
-      },
-      {
-        "input": {
-          "brickmaterial": 1,
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "ledgebrick": 50
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "pillarblock": 5
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 4
-        },
-        "output": {
-          "rockbrickmaterial": 20
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "stoneplatform": 10
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 20
-        },
-        "output": {
-          "stonetiles": 10
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 1,
-          "tar": 1
-        },
-        "output": {
-          "asphalt": 20
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 20,
-          "mud": 4,
-          "campfire": 1
-        },
-        "output": {
-          "craftingfurnace": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 10,
-          "logblock": 4,
-          "cobblestonematerial": 4
-        },
-        "output": {
-          "craftingfurniture": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 40,
-          "cobblestonematerial": 5,
-          "climbingrope": 1
-        },
-        "output": {
-          "craftingwheel": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "darkwoodmaterial": 20,
-          "cobblestonematerial": 20,
-          "dirtmaterial": 5
-        },
-        "output": {
-          "fossilstation": 1
-        }
-      }
+      253,
+      254,
+      255,
+      256,
+      257,
+      401,
+      620,
+      677,
+      678,
+      679,
+      701,
+      702,
+      704,
+      730,
+      740,
+      746,
+      757,
+      758,
+      807,
+      908,
+      909,
+      911,
+      913
     ],
     "makes": []
   },
@@ -41779,14 +28094,7 @@
     "description": "Small bricks made from cobblestone.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "cobblestonebrick": 5
-        }
-      }
+      704
     ]
   },
   "coconutblock": {
@@ -41806,14 +28114,7 @@
     "description": "A smooth panel made of titanium.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 1
-        },
-        "output": {
-          "composite01material": 50
-        }
-      }
+      811
     ]
   },
   "compositerail": {
@@ -41824,15 +28125,7 @@
     "description": "A strong reinforced rail.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 1,
-          "silverbar": 1
-        },
-        "output": {
-          "compositerail": 20
-        }
-      }
+      975
     ]
   },
   "concretematerial": {
@@ -41842,43 +28135,12 @@
     "title": "Concrete Block",
     "description": "Cold, hard, concrete.",
     "recipes": [
-      {
-        "input": {
-          "tungstenbar": 1,
-          "concretematerial": 1
-        },
-        "output": {
-          "outpostsupport": 50
-        }
-      },
-      {
-        "input": {
-          "concretematerial": 20
-        },
-        "output": {
-          "outpostwall1": 10
-        }
-      },
-      {
-        "input": {
-          "concretematerial": 20
-        },
-        "output": {
-          "outpostwall2": 10
-        }
-      }
+      822,
+      823,
+      824
     ],
     "makes": [
-      {
-        "input": {
-          "clay": 1,
-          "sand2": 1,
-          "liquidwater": 1
-        },
-        "output": {
-          "concretematerial": 20
-        }
-      }
+      705
     ]
   },
   "copperblock": {
@@ -41889,14 +28151,7 @@
     "description": "This copper block has a distinct gear-like imprint.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "copperblock": 50
-        }
-      }
+      706
     ]
   },
   "copperfence": {
@@ -41907,14 +28162,7 @@
     "description": "A sturdy copper fence.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "copperfence": 50
-        }
-      }
+      707
     ]
   },
   "copperladder": {
@@ -41925,14 +28173,7 @@
     "description": "A copper ladder",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "copperladder": 50
-        }
-      }
+      708
     ]
   },
   "copperplatform": {
@@ -41943,14 +28184,7 @@
     "description": "A platform made from copper.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "copperplatform": 50
-        }
-      }
+      709
     ]
   },
   "copperroofing": {
@@ -41961,14 +28195,7 @@
     "description": "Roofing tiles fashioned from copper.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "copperroofing": 50
-        }
-      }
+      710
     ]
   },
   "copperwindow": {
@@ -41979,15 +28206,7 @@
     "description": "A window with a frame made from solid copper.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1,
-          "glassmaterial": 2
-        },
-        "output": {
-          "copperwindow": 20
-        }
-      }
+      711
     ]
   },
   "corruptdirtmaterial": {
@@ -42007,14 +28226,7 @@
     "description": "A simple lattice made of wood.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 2
-        },
-        "output": {
-          "crosshatch": 30
-        }
-      }
+      712
     ]
   },
   "crystalblock": {
@@ -42025,14 +28237,7 @@
     "description": "A shimmering block of made from crystals.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "crystal": 1
-        },
-        "output": {
-          "crystalblock": 30
-        }
-      }
+      713
     ]
   },
   "darksmoothstonematerial": {
@@ -42043,14 +28248,7 @@
     "description": "A dark, smooth stone block.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rockbrickmaterial": 4
-        },
-        "output": {
-          "darksmoothstonematerial": 20
-        }
-      }
+      714
     ]
   },
   "darkwoodmaterial": {
@@ -42060,871 +28258,100 @@
     "title": "Timber",
     "description": "Wood that has been prepared for building and crafting.",
     "recipes": [
-      {
-        "input": {
-          "ironbar": 6,
-          "darkwoodmaterial": 4
-        },
-        "output": {
-          "ironassaultrifle": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "darkwoodmaterial": 2
-        },
-        "output": {
-          "ironrevolver": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 4,
-          "darkwoodmaterial": 20,
-          "string": 4
-        },
-        "output": {
-          "startershield": 1
-        }
-      },
-      {
-        "input": {
-          "glowfibre": 25,
-          "darkwoodmaterial": 10,
-          "fabric": 10,
-          "purpledye": 1
-        },
-        "output": {
-          "glowbed": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 20,
-          "darkwoodmaterial": 20,
-          "silk": 3
-        },
-        "output": {
-          "bonebed": 1
-        }
-      },
-      {
-        "input": {
-          "geode": 10,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "geodedoor": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "giantflowerpetal": 5,
-          "plantfibre": 5,
-          "silverbar": 1
-        },
-        "output": {
-          "giantflowerdoor": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 25,
-          "darkwoodmaterial": 10,
-          "fabric": 10,
-          "reddye": 1
-        },
-        "output": {
-          "shroombed": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 15,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "shroomchair": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 20,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "shroomchest": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 25,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "shroomdoor": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 25,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "shroomtable": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 30,
-          "darkwoodmaterial": 10,
-          "logblock": 2
-        },
-        "output": {
-          "shroomwardrobe": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 50,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "reedbed": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 30,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "reedchair": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 40,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "reedchest": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 20,
-          "darkwoodmaterial": 5,
-          "copperbar": 1
-        },
-        "output": {
-          "reedclock": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 30,
-          "darkwoodmaterial": 20
-        },
-        "output": {
-          "reeddesk": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 40,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "reeddoor": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 20,
-          "darkwoodmaterial": 3,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "reedlamp": 1
-        }
-      },
-      {
-        "input": {
-          "reed": 60,
-          "darkwoodmaterial": 10,
-          "paper": 10
-        },
-        "output": {
-          "reedshelf": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "silk": 3
-        },
-        "output": {
-          "scorchedcitybed": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "leather": 2
-        },
-        "output": {
-          "scorchedcitychair": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 6,
-          "darkwoodmaterial": 8
-        },
-        "output": {
-          "scorchedcitychestdrawerlarge": 1
-        }
-      },
-      {
-        "input": {
-          "metallic": 4,
-          "darkwoodmaterial": 6
-        },
-        "output": {
-          "scorchedcitychestdrawersmall": 1
-        }
-      },
-      {
-        "input": {
-          "glass": 4,
-          "darkwoodmaterial": 8
-        },
-        "output": {
-          "scorchedcitycounter": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 4,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "scorchedcityregister": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "darkwoodmaterial": 15
-        },
-        "output": {
-          "scorchedcitystoreshelf": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25
-        },
-        "output": {
-          "scorchedcitytable": 1
-        }
-      },
-      {
-        "input": {
-          "glassmaterial": 4,
-          "darkwoodmaterial": 6,
-          "siliconboard": 1,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "scorchedcitytv": 1
-        }
-      },
-      {
-        "input": {
-          "petalblue": 20,
-          "darkwoodmaterial": 20
-        },
-        "output": {
-          "flowerbox": 1
-        }
-      },
-      {
-        "input": {
-          "petalred": 4,
-          "petalyellow": 4,
-          "darkwoodmaterial": 15
-        },
-        "output": {
-          "springchest": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 20,
-          "darkwoodmaterial": 25,
-          "silk": 3
-        },
-        "output": {
-          "steamspringbed": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 10,
-          "darkwoodmaterial": 15,
-          "leather": 2
-        },
-        "output": {
-          "steamspringchair": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 10,
-          "darkwoodmaterial": 15
-        },
-        "output": {
-          "steamspringdoor": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 4,
-          "darkwoodmaterial": 6,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "steamspringlamp": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 20,
-          "darkwoodmaterial": 25
-        },
-        "output": {
-          "steamspringtable": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "plantfibre": 40
-        },
-        "output": {
-          "swampybed": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 40,
-          "biosample": 1,
-          "darkwoodmaterial": 5
-        },
-        "output": {
-          "toxicchair": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 60,
-          "biosample": 1,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "toxicchest": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 80,
-          "biosample": 1,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "toxictable": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 12,
-          "logblock": 4
-        },
-        "output": {
-          "inventorstable": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "plantfibre": 1
-        },
-        "output": {
-          "platform": 10
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "copperbar": 4,
-          "string": 1
-        },
-        "output": {
-          "hoe": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 3,
-          "darkwoodmaterial": 30,
-          "torch": 1
-        },
-        "output": {
-          "mothtrap": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "fabric": 20,
-          "plantfibre": 40
-        },
-        "output": {
-          "scarecrow": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "copperbar": 1
-        },
-        "output": {
-          "woodenwateringcan": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 20,
-          "string": 1,
-          "copperbar": 1
-        },
-        "output": {
-          "bow": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 5,
-          "string": 10
-        },
-        "output": {
-          "bugnet": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "titaniumbar": 2,
-          "string": 10
-        },
-        "output": {
-          "fishingrod": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 5,
-          "string": 1
-        },
-        "output": {
-          "fossilbrushbeginner": 1
-        }
-      },
-      {
-        "input": {
-          "goldbar": 1,
-          "darkwoodmaterial": 2,
-          "string": 3
-        },
-        "output": {
-          "fossilbrushmaster": 1
-        }
-      },
-      {
-        "input": {
-          "silverbar": 1,
-          "darkwoodmaterial": 2,
-          "string": 2
-        },
-        "output": {
-          "fossilbrushstudent": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 20,
-          "glass": 15,
-          "goldbar": 3
-        },
-        "output": {
-          "fossildisplay1": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "glass": 40,
-          "goldbar": 5
-        },
-        "output": {
-          "fossildisplay3": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 150,
-          "goldbar": 30
-        },
-        "output": {
-          "fossildisplay5": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "fabric": 10
-        },
-        "output": {
-          "woodenbed": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 1,
-          "darkwoodmaterial": 5,
-          "yellowdye": 1
-        },
-        "output": {
-          "tier2table": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "woodenchair": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 5,
-          "string": 2
-        },
-        "output": {
-          "woodsupport": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "logblock": 4
-        },
-        "output": {
-          "woodtable": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "woodendoor": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 10,
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "woodengate": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "woodenverticaldoor": 1
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 5,
-          "darkwoodmaterial": 1
-        },
-        "output": {
-          "bamboo": 50
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "string": 1
-        },
-        "output": {
-          "cabinroofing": 30
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 2
-        },
-        "output": {
-          "crosshatch": 30
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "string": 1
-        },
-        "output": {
-          "fence": 10
-        }
-      },
-      {
-        "input": {
-          "plantfibre": 1,
-          "darkwoodmaterial": 1
-        },
-        "output": {
-          "plantplatform": 10
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "plantfibre": 5
-        },
-        "output": {
-          "ruinsplatform": 10
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "paper": 1
-        },
-        "output": {
-          "shojiscreenpanel": 20
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "paper": 1
-        },
-        "output": {
-          "tombbrick5": 20
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 2,
-          "string": 1
-        },
-        "output": {
-          "woodbridge": 10
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "plantfibre": 1
-        },
-        "output": {
-          "woodenplatform": 10
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "glass": 1
-        },
-        "output": {
-          "woodenwindow1": 20
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1
-        },
-        "output": {
-          "woodenwindow2": 10
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 2
-        },
-        "output": {
-          "woodpanelling": 5
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "darkwoodmaterial": 4
-        },
-        "output": {
-          "copperbox1": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15
-        },
-        "output": {
-          "woodencrate1": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "copperbar": 1
-        },
-        "output": {
-          "woodencrate2": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 8,
-          "darkwoodmaterial": 20,
-          "logblock": 1
-        },
-        "output": {
-          "craftinganvil": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 10,
-          "logblock": 4
-        },
-        "output": {
-          "craftingfarm": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 10,
-          "logblock": 4,
-          "cobblestonematerial": 4
-        },
-        "output": {
-          "craftingfurniture": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 30,
-          "bottle": 5,
-          "torch": 1
-        },
-        "output": {
-          "craftingmedical": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 40,
-          "cobblestonematerial": 5,
-          "climbingrope": 1
-        },
-        "output": {
-          "craftingwheel": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "logblock": 1,
-          "copperbar": 4
-        },
-        "output": {
-          "woodencookingtable": 1
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "darkwoodmaterial": 20,
-          "cobblestonematerial": 20,
-          "dirtmaterial": 5
-        },
-        "output": {
-          "fossilstation": 1
-        }
-      },
-      {
-        "input": {
-          "bone": 10,
-          "darkwoodmaterial": 10,
-          "torch": 1
-        },
-        "output": {
-          "skulltorch": 1
-        }
-      },
-      {
-        "input": {
-          "paper": 6,
-          "darkwoodmaterial": 10
-        },
-        "output": {
-          "paperwingsback": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 25
-        },
-        "output": {
-          "kennel": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 50,
-          "copperbar": 10
-        },
-        "output": {
-          "mannequin": 1
-        }
-      }
+      43,
+      45,
+      47,
+      258,
+      269,
+      323,
+      333,
+      348,
+      349,
+      350,
+      351,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      375,
+      376,
+      377,
+      378,
+      379,
+      381,
+      382,
+      383,
+      384,
+      398,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      415,
+      424,
+      425,
+      428,
+      607,
+      608,
+      611,
+      612,
+      613,
+      615,
+      616,
+      617,
+      618,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      665,
+      671,
+      672,
+      673,
+      674,
+      677,
+      678,
+      679,
+      690,
+      698,
+      712,
+      717,
+      743,
+      748,
+      755,
+      770,
+      773,
+      774,
+      775,
+      776,
+      777,
+      779,
+      781,
+      782,
+      906,
+      907,
+      909,
+      910,
+      911,
+      912,
+      913,
+      939,
+      953,
+      966,
+      1089
     ],
     "makes": [
-      {
-        "input": {
-          "logblock": 1
-        },
-        "output": {
-          "darkwoodmaterial": 5
-        }
-      }
+      599
     ]
   },
   "dermisblock": {
@@ -42952,34 +28379,9 @@
     "title": "Dirt",
     "description": "Dirty looking dirt.",
     "recipes": [
-      {
-        "input": {
-          "dirtmaterial": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "mossypackeddirt": 50
-        }
-      },
-      {
-        "input": {
-          "dirtmaterial": 1
-        },
-        "output": {
-          "packeddirt": 20
-        }
-      },
-      {
-        "input": {
-          "tungstenbar": 10,
-          "darkwoodmaterial": 20,
-          "cobblestonematerial": 20,
-          "dirtmaterial": 5
-        },
-        "output": {
-          "fossilstation": 1
-        }
-      }
+      732,
+      738,
+      913
     ],
     "makes": []
   },
@@ -43008,62 +28410,14 @@
     "title": "Pile of Eyes",
     "description": "A tumbling heap of squishy eyeballs.",
     "recipes": [
-      {
-        "input": {
-          "eyepiles": 50,
-          "silverbar": 1,
-          "fabric": 10
-        },
-        "output": {
-          "eyebed": 1
-        }
-      },
-      {
-        "input": {
-          "eyepiles": 20,
-          "silverbar": 1
-        },
-        "output": {
-          "eyechair": 1
-        }
-      },
-      {
-        "input": {
-          "eyepiles": 20,
-          "silverbar": 1
-        },
-        "output": {
-          "eyechest": 1
-        }
-      },
-      {
-        "input": {
-          "eyepiles": 30,
-          "silverbar": 1
-        },
-        "output": {
-          "eyedoor": 1
-        }
-      },
-      {
-        "input": {
-          "eyepiles": 50,
-          "silverbar": 1
-        },
-        "output": {
-          "eyetable": 1
-        }
-      }
+      302,
+      303,
+      304,
+      305,
+      306
     ],
     "makes": [
-      {
-        "input": {
-          "oculemon": 1
-        },
-        "output": {
-          "eyepiles": 10
-        }
-      }
+      715
     ]
   },
   "fadedblocks": {
@@ -43074,15 +28428,7 @@
     "description": "Soft faded brick.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "firedclay": 1,
-          "sand": 1
-        },
-        "output": {
-          "fadedblocks": 50
-        }
-      }
+      716
     ]
   },
   "fence": {
@@ -43093,15 +28439,7 @@
     "description": "A sturdy wooden fence.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "string": 1
-        },
-        "output": {
-          "fence": 10
-        }
-      }
+      717
     ]
   },
   "fleshblock": {
@@ -43112,14 +28450,7 @@
     "description": "Some hideous, foul-smelling kind of flesh.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fleshstrand": 3
-        },
-        "output": {
-          "fleshblock": 20
-        }
-      }
+      718
     ]
   },
   "floweryblock": {
@@ -43130,16 +28461,7 @@
     "description": "A fragrant bundle made of flowers and leaves.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 1,
-          "petalyellow": 1,
-          "petalblue": 1
-        },
-        "output": {
-          "floweryblock": 50
-        }
-      }
+      719
     ]
   },
   "frozendirt": {
@@ -43167,32 +28489,11 @@
     "title": "Treated Wood",
     "description": "Carefully treated wood that maintains a freshly chopped appearance.",
     "recipes": [
-      {
-        "input": {
-          "fullwood1": 1
-        },
-        "output": {
-          "ornateflooring": 30
-        }
-      },
-      {
-        "input": {
-          "fullwood1": 1
-        },
-        "output": {
-          "ornatewood": 30
-        }
-      }
+      733,
+      737
     ],
     "makes": [
-      {
-        "input": {
-          "logblock": 1
-        },
-        "output": {
-          "fullwood1": 10
-        }
-      }
+      720
     ]
   },
   "fullwood2": {
@@ -43203,14 +28504,7 @@
     "description": "Rough and unrefined, this wood looks freshly chopped.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "logblock": 1
-        },
-        "output": {
-          "fullwood2": 10
-        }
-      }
+      721
     ]
   },
   "geodeblock": {
@@ -43239,14 +28533,7 @@
     "description": "A strong looking metal girder.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "girdermaterial": 40
-        }
-      }
+      722
     ]
   },
   "glassmaterial": {
@@ -43256,76 +28543,15 @@
     "title": "Glass Block",
     "description": "I can see my reflection.",
     "recipes": [
-      {
-        "input": {
-          "glassmaterial": 4,
-          "darkwoodmaterial": 6,
-          "siliconboard": 1,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "scorchedcitytv": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "torch": 1,
-          "glassmaterial": 1
-        },
-        "output": {
-          "flashlight": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "glassmaterial": 2
-        },
-        "output": {
-          "tier1door": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "torch": 1,
-          "glassmaterial": 1
-        },
-        "output": {
-          "tier1light": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 1,
-          "torch": 1,
-          "glassmaterial": 1
-        },
-        "output": {
-          "tier1spotlight": 1
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1,
-          "glassmaterial": 2
-        },
-        "output": {
-          "copperwindow": 20
-        }
-      }
+      384,
+      623,
+      675,
+      682,
+      683,
+      711
     ],
     "makes": [
-      {
-        "input": {
-          "glass": 1
-        },
-        "output": {
-          "glassmaterial": 10
-        }
-      }
+      723
     ]
   },
   "goldblock": {
@@ -43336,14 +28562,7 @@
     "description": "A whole block of solid gold.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "goldbar": 1
-        },
-        "output": {
-          "goldblock": 20
-        }
-      }
+      812
     ]
   },
   "goldenplatform": {
@@ -43354,14 +28573,7 @@
     "description": "For the truly opulent, a platform made from gold.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "goldbar": 1
-        },
-        "output": {
-          "goldenplatform": 20
-        }
-      }
+      813
     ]
   },
   "grassy": {
@@ -43408,16 +28620,7 @@
     "description": "This pattern suggests caution.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1,
-          "yellowdye": 1,
-          "blackdye": 1
-        },
-        "output": {
-          "hazard": 50
-        }
-      }
+      724
     ]
   },
   "heavyironbars": {
@@ -43428,14 +28631,7 @@
     "description": "Thick iron bars. Still strong, though decaying with rust.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "heavyironbars": 40
-        }
-      }
+      725
     ]
   },
   "heavypipe": {
@@ -43445,65 +28641,14 @@
     "title": "Heavy Pipe",
     "description": "A heavy pipe, commonly used in waste systems.",
     "recipes": [
-      {
-        "input": {
-          "heavypipe": 20,
-          "darkwoodmaterial": 25,
-          "silk": 3
-        },
-        "output": {
-          "steamspringbed": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 10,
-          "darkwoodmaterial": 15,
-          "leather": 2
-        },
-        "output": {
-          "steamspringchair": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 10,
-          "darkwoodmaterial": 15
-        },
-        "output": {
-          "steamspringdoor": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 4,
-          "darkwoodmaterial": 6,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "steamspringlamp": 1
-        }
-      },
-      {
-        "input": {
-          "heavypipe": 20,
-          "darkwoodmaterial": 25
-        },
-        "output": {
-          "steamspringtable": 1
-        }
-      }
+      403,
+      404,
+      405,
+      406,
+      407
     ],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "heavypipe": 20
-        }
-      }
+      726
     ]
   },
   "hellstonematerial": {
@@ -43522,54 +28667,11 @@
     "title": "Hive Block",
     "description": "Sticky hive combs made from the remains of fallen creatures.",
     "recipes": [
-      {
-        "input": {
-          "hive": 30,
-          "larva": 20,
-          "silk": 3
-        },
-        "output": {
-          "hivebed": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 20,
-          "larva": 10
-        },
-        "output": {
-          "hivechair": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 25,
-          "larva": 15
-        },
-        "output": {
-          "hivedoor": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 15,
-          "larva": 10,
-          "smallbattery": 1,
-          "wire": 2
-        },
-        "output": {
-          "hivelamp": 1
-        }
-      },
-      {
-        "input": {
-          "hive": 30,
-          "larva": 20
-        },
-        "output": {
-          "hivetable": 1
-        }
-      }
+      336,
+      337,
+      338,
+      339,
+      340
     ],
     "makes": []
   },
@@ -43581,15 +28683,7 @@
     "description": "Nicely painted brickwork.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "brickmaterial": 1,
-          "browndye": 1
-        },
-        "output": {
-          "homewalls1": 50
-        }
-      }
+      727
     ]
   },
   "ice": {
@@ -43599,14 +28693,7 @@
     "title": "Ice",
     "description": "Solid ice, tingly to the touch.",
     "recipes": [
-      {
-        "input": {
-          "ice": 1
-        },
-        "output": {
-          "iceblock": 5
-        }
-      }
+      391
     ],
     "makes": []
   },
@@ -43617,64 +28704,15 @@
     "title": "Ice Block",
     "description": "Solid ice, cut into block shape.",
     "recipes": [
-      {
-        "input": {
-          "iceblock": 10
-        },
-        "output": {
-          "icebed": 1
-        }
-      },
-      {
-        "input": {
-          "iceblock": 6
-        },
-        "output": {
-          "icechair": 1
-        }
-      },
-      {
-        "input": {
-          "iceblock": 8
-        },
-        "output": {
-          "icechest": 1
-        }
-      },
-      {
-        "input": {
-          "iceblock": 10
-        },
-        "output": {
-          "icedoor": 1
-        }
-      },
-      {
-        "input": {
-          "iceblock": 12
-        },
-        "output": {
-          "icemachine": 1
-        }
-      },
-      {
-        "input": {
-          "iceblock": 10
-        },
-        "output": {
-          "icetable": 1
-        }
-      }
+      341,
+      342,
+      343,
+      344,
+      345,
+      346
     ],
     "makes": [
-      {
-        "input": {
-          "ice": 1
-        },
-        "output": {
-          "iceblock": 5
-        }
-      }
+      391
     ]
   },
   "ironblock": {
@@ -43685,14 +28723,7 @@
     "description": "A solid iron block.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "ironblock": 50
-        }
-      }
+      728
     ]
   },
   "jellyblock": {
@@ -43721,15 +28752,7 @@
     "description": "Useless scrap metal, mostly remnants of outmoded technology.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1,
-          "stickofram": 1
-        },
-        "output": {
-          "junktech": 50
-        }
-      }
+      729
     ]
   },
   "ledgebrick": {
@@ -43740,15 +28763,7 @@
     "description": "Stone stepped bricks with a small ledge.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "brickmaterial": 1,
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "ledgebrick": 50
-        }
-      }
+      730
     ]
   },
   "lightmetal": {
@@ -43759,22 +28774,8 @@
     "description": "A light metallic tile, perfect for a research laboratory.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "lightmetal": 50
-        }
-      },
-      {
-        "input": {
-          "money": 25
-        },
-        "output": {
-          "lightmetal": 1
-        }
-      }
+      814,
+      956
     ]
   },
   "limestone": {
@@ -43784,40 +28785,10 @@
     "title": "Limestone",
     "description": "Rough, unrefined limestone.",
     "recipes": [
-      {
-        "input": {
-          "limestone": 50
-        },
-        "output": {
-          "cavebed": 1
-        }
-      },
-      {
-        "input": {
-          "limestone": 15
-        },
-        "output": {
-          "cavechair": 1
-        }
-      },
-      {
-        "input": {
-          "limestone": 20
-        },
-        "output": {
-          "cavechest": 1
-        }
-      },
-      {
-        "input": {
-          "limestone": 10,
-          "wire": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "cavelamp": 1
-        }
-      }
+      408,
+      409,
+      410,
+      411
     ],
     "makes": []
   },
@@ -43828,196 +28799,26 @@
     "title": "Wooden Log",
     "description": "A wooden log. Good for building simple structures.",
     "recipes": [
-      {
-        "input": {
-          "geode": 10,
-          "logblock": 10
-        },
-        "output": {
-          "geodeplantpot": 1
-        }
-      },
-      {
-        "input": {
-          "shroom": 30,
-          "darkwoodmaterial": 10,
-          "logblock": 2
-        },
-        "output": {
-          "shroomwardrobe": 1
-        }
-      },
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2,
-          "fancyhead": 1
-        },
-        "output": {
-          "fancysnowman": 1
-        }
-      },
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2
-        },
-        "output": {
-          "snowman": 1
-        }
-      },
-      {
-        "input": {
-          "logblock": 4,
-          "torch": 1
-        },
-        "output": {
-          "campfire": 1
-        }
-      },
-      {
-        "input": {
-          "logblock": 1
-        },
-        "output": {
-          "darkwoodmaterial": 5
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 12,
-          "logblock": 4
-        },
-        "output": {
-          "inventorstable": 1
-        }
-      },
-      {
-        "input": {
-          "coalore": 1,
-          "logblock": 1
-        },
-        "output": {
-          "torch": 4
-        }
-      },
-      {
-        "input": {
-          "logblock": 3,
-          "cobblestonematerial": 3
-        },
-        "output": {
-          "huntingspear": 5
-        }
-      },
-      {
-        "input": {
-          "ironbar": 5,
-          "logblock": 10,
-          "mininglantern": 1
-        },
-        "output": {
-          "lanternstickback": 1
-        }
-      },
-      {
-        "input": {
-          "logblock": 1
-        },
-        "output": {
-          "paper": 5
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "logblock": 4
-        },
-        "output": {
-          "woodtable": 1
-        }
-      },
-      {
-        "input": {
-          "logblock": 1
-        },
-        "output": {
-          "fullwood1": 10
-        }
-      },
-      {
-        "input": {
-          "logblock": 1
-        },
-        "output": {
-          "fullwood2": 10
-        }
-      },
-      {
-        "input": {
-          "logblock": 1,
-          "plantfibre": 5
-        },
-        "output": {
-          "wicker": 50
-        }
-      },
-      {
-        "input": {
-          "logblock": 1,
-          "plantfibre": 5
-        },
-        "output": {
-          "wickersupport": 30
-        }
-      },
-      {
-        "input": {
-          "ironbar": 8,
-          "darkwoodmaterial": 20,
-          "logblock": 1
-        },
-        "output": {
-          "craftinganvil": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 10,
-          "logblock": 4
-        },
-        "output": {
-          "craftingfarm": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 10,
-          "logblock": 4,
-          "cobblestonematerial": 4
-        },
-        "output": {
-          "craftingfurniture": 1
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 15,
-          "logblock": 1,
-          "copperbar": 4
-        },
-        "output": {
-          "woodencookingtable": 1
-        }
-      }
+      329,
+      354,
+      389,
+      397,
+      598,
+      599,
+      607,
+      610,
+      620,
+      624,
+      650,
+      674,
+      720,
+      721,
+      771,
+      772,
+      906,
+      907,
+      909,
+      912
     ],
     "makes": []
   },
@@ -44029,14 +28830,7 @@
     "description": "This alloy looks incredibly durable.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "lunarbaseblock": 50
-        }
-      }
+      815
     ]
   },
   "lunarbaseplatform": {
@@ -44047,14 +28841,7 @@
     "description": "A well-constructed metal platform.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "lunarbaseplatform": 50
-        }
-      }
+      816
     ]
   },
   "magmarock": {
@@ -44092,14 +28879,7 @@
     "description": "A solid tungsten block.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "mediummetal": 50
-        }
-      }
+      817
     ]
   },
   "metallicmaterial": {
@@ -44109,26 +28889,10 @@
     "title": "Hi-tech Block",
     "description": "This looks hi-tech!",
     "recipes": [
-      {
-        "input": {
-          "aztecmaterial": 5,
-          "metallicmaterial": 1
-        },
-        "output": {
-          "aztectech": 20
-        }
-      }
+      808
     ],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "metallicmaterial": 30
-        }
-      }
+      818
     ]
   },
   "meteoriterock": {
@@ -44148,14 +28912,7 @@
     "description": "A non-reflective mirror.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "glass": 1
-        },
-        "output": {
-          "mirror": 20
-        }
-      }
+      731
     ]
   },
   "modernplatform": {
@@ -44166,22 +28923,8 @@
     "description": "Made from a modern material, this platform is smooth to the touch.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "titaniumbar": 1
-        },
-        "output": {
-          "modernplatform": 40
-        }
-      },
-      {
-        "input": {
-          "money": 25
-        },
-        "output": {
-          "modernplatform": 1
-        }
-      }
+      819,
+      958
     ]
   },
   "moondust": {
@@ -44219,15 +28962,7 @@
     "description": "Packed dirt, covered in moss.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "dirtmaterial": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "mossypackeddirt": 50
-        }
-      }
+      732
     ]
   },
   "mud": {
@@ -44237,16 +28972,7 @@
     "title": "Mud",
     "description": "Thick and sticky mud.",
     "recipes": [
-      {
-        "input": {
-          "cobblestonematerial": 20,
-          "mud": 4,
-          "campfire": 1
-        },
-        "output": {
-          "craftingfurnace": 1
-        }
-      }
+      908
     ],
     "makes": []
   },
@@ -44258,15 +28984,7 @@
     "description": "A coloured block filled with neon gas.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "glass": 1,
-          "smallbattery": 1
-        },
-        "output": {
-          "neonblock": 20
-        }
-      }
+      820
     ]
   },
   "obsidian": {
@@ -44286,14 +29004,7 @@
     "description": "Delightful ornate flooring.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "fullwood1": 1
-        },
-        "output": {
-          "ornateflooring": 30
-        }
-      }
+      733
     ]
   },
   "ornateroofing": {
@@ -44304,15 +29015,7 @@
     "description": "Traditional looking ornate roofing.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "bluedye": 1,
-          "rooftiles": 1
-        },
-        "output": {
-          "ornateroofing": 40
-        }
-      }
+      734
     ]
   },
   "ornatetiles": {
@@ -44323,15 +29026,7 @@
     "description": "Exquisite ornate roof tiles.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ornatewood": 1,
-          "rooftiles": 1
-        },
-        "output": {
-          "ornatetiles": 30
-        }
-      }
+      735
     ]
   },
   "ornatewall": {
@@ -44342,15 +29037,7 @@
     "description": "A traditional looking wall.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ornatewood": 1,
-          "paper": 2
-        },
-        "output": {
-          "ornatewall": 50
-        }
-      }
+      736
     ]
   },
   "ornatewood": {
@@ -44360,42 +29047,12 @@
     "title": "Ornate Wood",
     "description": "Expertly treated ornate wood.",
     "recipes": [
-      {
-        "input": {
-          "ornatewood": 1
-        },
-        "output": {
-          "baseboard": 10
-        }
-      },
-      {
-        "input": {
-          "ornatewood": 1,
-          "rooftiles": 1
-        },
-        "output": {
-          "ornatetiles": 30
-        }
-      },
-      {
-        "input": {
-          "ornatewood": 1,
-          "paper": 2
-        },
-        "output": {
-          "ornatewall": 50
-        }
-      }
+      693,
+      735,
+      736
     ],
     "makes": [
-      {
-        "input": {
-          "fullwood1": 1
-        },
-        "output": {
-          "ornatewood": 30
-        }
-      }
+      737
     ]
   },
   "outpost": {
@@ -44415,14 +29072,7 @@
     "description": "A simple light platform commonly found in remote outposts.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "outpostplatform": 10
-        }
-      }
+      821
     ]
   },
   "outpostsupport": {
@@ -44433,15 +29083,7 @@
     "description": "A reinforced support beam.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1,
-          "concretematerial": 1
-        },
-        "output": {
-          "outpostsupport": 50
-        }
-      }
+      822
     ]
   },
   "outpostwall1": {
@@ -44452,14 +29094,7 @@
     "description": "Dark concrete specially designed for outposts.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "concretematerial": 20
-        },
-        "output": {
-          "outpostwall1": 10
-        }
-      }
+      823
     ]
   },
   "outpostwall2": {
@@ -44470,14 +29105,7 @@
     "description": "A thick wall type developed for exposure to extreme elements.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "concretematerial": 20
-        },
-        "output": {
-          "outpostwall2": 10
-        }
-      }
+      824
     ]
   },
   "packeddirt": {
@@ -44488,14 +29116,7 @@
     "description": "Some dirt packed into small bricks.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "dirtmaterial": 1
-        },
-        "output": {
-          "packeddirt": 20
-        }
-      }
+      738
     ]
   },
   "petalblock": {
@@ -44506,15 +29127,7 @@
     "description": "Sweet smelling dark leaves and flowers.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 1,
-          "petalred": 1
-        },
-        "output": {
-          "petalblock": 50
-        }
-      }
+      739
     ]
   },
   "pillarblock": {
@@ -44525,14 +29138,7 @@
     "description": "An old looking stone pillar.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "pillarblock": 5
-        }
-      }
+      740
     ]
   },
   "plantblock": {
@@ -44543,14 +29149,7 @@
     "description": "A block made of plant matter.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 1
-        },
-        "output": {
-          "plantblock": 10
-        }
-      }
+      741
     ]
   },
   "plantmatter": {
@@ -44561,14 +29160,7 @@
     "description": "A block made of packed plant matter.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 1
-        },
-        "output": {
-          "plantmatter": 15
-        }
-      }
+      742
     ]
   },
   "plantplatform": {
@@ -44579,15 +29171,7 @@
     "description": "The platform is slimy with moss and leaves. Better be careful not to slip!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 1,
-          "darkwoodmaterial": 1
-        },
-        "output": {
-          "plantplatform": 10
-        }
-      }
+      743
     ]
   },
   "platematerial": {
@@ -44598,15 +29182,7 @@
     "description": "Reminds me of the inside of a medical centre.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1,
-          "smoothmetal": 1
-        },
-        "output": {
-          "platematerial": 50
-        }
-      }
+      825
     ]
   },
   "platform": {
@@ -44617,15 +29193,7 @@
     "description": "A nondescript wood platform.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "plantfibre": 1
-        },
-        "output": {
-          "platform": 10
-        }
-      }
+      608
     ]
   },
   "platform2": {
@@ -44654,14 +29222,7 @@
     "description": "A support beam made for pressurised environments.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "pressurisedbeam": 20
-        }
-      }
+      826
     ]
   },
   "pressuriseddurasteel": {
@@ -44672,14 +29233,7 @@
     "description": "A durasteel panel, specially designed to contain pressurised environments.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "pressuriseddurasteel": 40
-        }
-      }
+      827
     ]
   },
   "pressurisedgirder": {
@@ -44690,14 +29244,7 @@
     "description": "A girder designed to accommodate pressurisation changes.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "pressurisedgirder": 20
-        }
-      }
+      828
     ]
   },
   "pressurisedplatform": {
@@ -44708,14 +29255,7 @@
     "description": "Platforms made for use in potentially pressurised environments.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 1
-        },
-        "output": {
-          "pressurisedplatform": 10
-        }
-      }
+      829
     ]
   },
   "protectorateplatform": {
@@ -44744,14 +29284,7 @@
     "description": "Simply fabulous.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "rainbowwood": 1
-        },
-        "output": {
-          "rainbowwoodblock": 20
-        }
-      }
+      744
     ]
   },
   "redtoyblock": {
@@ -44762,23 +29295,8 @@
     "description": "A large stackable toy block.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "liquidoil": 1,
-          "reddye": 1
-        },
-        "output": {
-          "redtoyblock": 20
-        }
-      },
-      {
-        "input": {
-          "money": 25
-        },
-        "output": {
-          "redtoyblock": 1
-        }
-      }
+      830,
+      961
     ]
   },
   "reedblock": {
@@ -44789,14 +29307,7 @@
     "description": "A block made from tightly woven reeds.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "reed": 1
-        },
-        "output": {
-          "reedblock": 30
-        }
-      }
+      745
     ]
   },
   "ridgebrick": {
@@ -44905,24 +29416,10 @@
     "title": "Rock Bricks",
     "description": "A crudely produced set of rock bricks.",
     "recipes": [
-      {
-        "input": {
-          "rockbrickmaterial": 4
-        },
-        "output": {
-          "darksmoothstonematerial": 20
-        }
-      }
+      714
     ],
     "makes": [
-      {
-        "input": {
-          "cobblestonematerial": 4
-        },
-        "output": {
-          "rockbrickmaterial": 20
-        }
-      }
+      746
     ]
   },
   "rooftiles": {
@@ -44932,34 +29429,11 @@
     "title": "Roof Tiles",
     "description": "Weathered roof tiles. Their shape makes me feel uneasy.",
     "recipes": [
-      {
-        "input": {
-          "bluedye": 1,
-          "rooftiles": 1
-        },
-        "output": {
-          "ornateroofing": 40
-        }
-      },
-      {
-        "input": {
-          "ornatewood": 1,
-          "rooftiles": 1
-        },
-        "output": {
-          "ornatetiles": 30
-        }
-      }
+      734,
+      735
     ],
     "makes": [
-      {
-        "input": {
-          "firedclay": 1
-        },
-        "output": {
-          "rooftiles": 30
-        }
-      }
+      747
     ]
   },
   "ruinsplatform": {
@@ -44970,15 +29444,7 @@
     "description": "An old dusty wooden platform. Looks like it's falling apart.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "plantfibre": 5
-        },
-        "output": {
-          "ruinsplatform": 10
-        }
-      }
+      748
     ]
   },
   "rustyblock": {
@@ -44989,15 +29455,7 @@
     "description": "A rusty old metal block.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1,
-          "liquidwater": 1
-        },
-        "output": {
-          "rustyblock": 40
-        }
-      }
+      749
     ]
   },
   "rustymetal": {
@@ -45008,15 +29466,7 @@
     "description": "Old metal encrusted with rust.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1,
-          "liquidwater": 1
-        },
-        "output": {
-          "rustymetal": 40
-        }
-      }
+      750
     ]
   },
   "rustyrail": {
@@ -45027,22 +29477,8 @@
     "description": "These rails are a bit rough, but functional.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "rustyrail": 10
-        }
-      },
-      {
-        "input": {
-          "copperbar": 1
-        },
-        "output": {
-          "rustyrail": 10
-        }
-      }
+      978,
+      983
     ]
   },
   "sand": {
@@ -45052,15 +29488,7 @@
     "title": "Loose Silt",
     "description": "It's Silt. It's very silty.",
     "recipes": [
-      {
-        "input": {
-          "firedclay": 1,
-          "sand": 1
-        },
-        "output": {
-          "fadedblocks": 50
-        }
-      }
+      716
     ],
     "makes": []
   },
@@ -45071,33 +29499,9 @@
     "title": "Sand",
     "description": "A fine glittering sand. Could probably be made into glass!",
     "recipes": [
-      {
-        "input": {
-          "sand2": 2
-        },
-        "output": {
-          "glass": 1
-        }
-      },
-      {
-        "input": {
-          "sand2": 5,
-          "coalore": 2
-        },
-        "output": {
-          "siliconboard": 1
-        }
-      },
-      {
-        "input": {
-          "clay": 1,
-          "sand2": 1,
-          "liquidwater": 1
-        },
-        "output": {
-          "concretematerial": 20
-        }
-      }
+      649,
+      660,
+      705
     ],
     "makes": []
   },
@@ -45108,14 +29512,7 @@
     "title": "Sandstone",
     "description": "Tough natural sandstone.",
     "recipes": [
-      {
-        "input": {
-          "sandstonematerial": 1
-        },
-        "output": {
-          "sandstoneblock": 20
-        }
-      }
+      751
     ],
     "makes": []
   },
@@ -45126,104 +29523,20 @@
     "title": "Sandstone Bricks",
     "description": "Bricks made from smoothed sandstone.",
     "recipes": [
-      {
-        "input": {
-          "sandstoneblock": 10
-        },
-        "output": {
-          "aztecmaterial": 10
-        }
-      },
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "temple1": 10
-        }
-      },
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "temple2": 10
-        }
-      },
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "temple3": 10
-        }
-      },
-      {
-        "input": {
-          "sandstoneblock": 30
-        },
-        "output": {
-          "temple4": 10
-        }
-      },
-      {
-        "input": {
-          "sandstoneblock": 30
-        },
-        "output": {
-          "tombbrick": 10
-        }
-      },
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "tombbrick2": 10
-        }
-      },
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "tombbrick3": 10
-        }
-      },
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "tombbrick4": 10
-        }
-      },
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "tombbrick5": 10
-        }
-      },
-      {
-        "input": {
-          "sandstoneblock": 1
-        },
-        "output": {
-          "tribalplatform": 10
-        }
-      }
+      689,
+      759,
+      760,
+      761,
+      762,
+      764,
+      765,
+      766,
+      767,
+      768,
+      769
     ],
     "makes": [
-      {
-        "input": {
-          "sandstonematerial": 1
-        },
-        "output": {
-          "sandstoneblock": 20
-        }
-      }
+      751
     ]
   },
   "sewage": {
@@ -45233,15 +29546,7 @@
     "title": "Raw Sewage",
     "description": "A disgusting pile of sewage. Lovely.",
     "recipes": [
-      {
-        "input": {
-          "ironbar": 1,
-          "sewage": 1
-        },
-        "output": {
-          "sewerpipe": 20
-        }
-      }
+      752
     ],
     "makes": []
   },
@@ -45253,15 +29558,7 @@
     "description": "A sewer pipe used for transporting waste.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1,
-          "sewage": 1
-        },
-        "output": {
-          "sewerpipe": 20
-        }
-      }
+      752
     ]
   },
   "shadowblock": {
@@ -45271,22 +29568,8 @@
     "title": "Shadow Rock",
     "description": "A rock as pitch black as shadow.",
     "recipes": [
-      {
-        "input": {
-          "shadowblock": 10
-        },
-        "output": {
-          "shadowspikeblock": 5
-        }
-      },
-      {
-        "input": {
-          "shadowblock": 10
-        },
-        "output": {
-          "shadowwallblock": 5
-        }
-      }
+      753,
+      754
     ],
     "makes": []
   },
@@ -45298,14 +29581,7 @@
     "description": "A spiked block formed from shadowy material.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "shadowblock": 10
-        },
-        "output": {
-          "shadowspikeblock": 5
-        }
-      }
+      753
     ]
   },
   "shadowwallblock": {
@@ -45316,14 +29592,7 @@
     "description": "Bricks carved from shadowy rock.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "shadowblock": 10
-        },
-        "output": {
-          "shadowwallblock": 5
-        }
-      }
+      754
     ]
   },
   "shojiscreenpanel": {
@@ -45334,15 +29603,7 @@
     "description": "A traditional screen panel.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "paper": 1
-        },
-        "output": {
-          "shojiscreenpanel": 20
-        }
-      }
+      755
     ]
   },
   "shroomblock": {
@@ -45353,14 +29614,7 @@
     "description": "A block made of soft fungus.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "shroom": 1
-        },
-        "output": {
-          "shroomblock": 10
-        }
-      }
+      756
     ]
   },
   "silverblock": {
@@ -45371,14 +29625,7 @@
     "description": "A whole block of silver.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "silverbar": 1
-        },
-        "output": {
-          "silverblock": 30
-        }
-      }
+      831
     ]
   },
   "silverplatform": {
@@ -45389,14 +29636,7 @@
     "description": "A polished platform crafted from pure silver.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "silverbar": 1
-        },
-        "output": {
-          "silverplatform": 10
-        }
-      }
+      832
     ]
   },
   "silverscrew": {
@@ -45407,14 +29647,7 @@
     "description": "A giant screw crafted from silver.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "silverbar": 1
-        },
-        "output": {
-          "silverscrew": 20
-        }
-      }
+      833
     ]
   },
   "slime": {
@@ -45442,25 +29675,10 @@
     "title": "Smooth Metal",
     "description": "Smooth metal, cold to the touch.",
     "recipes": [
-      {
-        "input": {
-          "tungstenbar": 1,
-          "smoothmetal": 1
-        },
-        "output": {
-          "platematerial": 50
-        }
-      }
+      825
     ],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "smoothmetal": 50
-        }
-      }
+      834
     ]
   },
   "snow": {
@@ -45470,24 +29688,8 @@
     "title": "Snow",
     "description": "Soft and fluffy snow.",
     "recipes": [
-      {
-        "input": {
-          "snow": 1
-        },
-        "output": {
-          "snowball": 5
-        }
-      },
-      {
-        "input": {
-          "titaniumbar": 10,
-          "snow": 10,
-          "glass": 10
-        },
-        "output": {
-          "snowgun": 1
-        }
-      }
+      394,
+      396
     ],
     "makes": []
   },
@@ -45517,14 +29719,7 @@
     "description": "A platform carved from stone.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cobblestonematerial": 1
-        },
-        "output": {
-          "stoneplatform": 10
-        }
-      }
+      757
     ]
   },
   "stonerubble": {
@@ -45544,14 +29739,7 @@
     "description": "Tiles made from smoothly polished stone.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "cobblestonematerial": 20
-        },
-        "output": {
-          "stonetiles": 10
-        }
-      }
+      758
     ]
   },
   "supermatter": {
@@ -45570,85 +29758,15 @@
     "title": "Tar",
     "description": "Thick, rancid tar. Just looking at it feels sticky.",
     "recipes": [
-      {
-        "input": {
-          "tar": 1
-        },
-        "output": {
-          "tarball": 3
-        }
-      },
-      {
-        "input": {
-          "tar": 25,
-          "cottonwool": 1
-        },
-        "output": {
-          "tarbed": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 15
-        },
-        "output": {
-          "tarchair": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 15,
-          "siliconboard": 2,
-          "smallbattery": 5,
-          "wire": 10
-        },
-        "output": {
-          "tarconsole": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 20
-        },
-        "output": {
-          "tardoor": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 5,
-          "torch": 1
-        },
-        "output": {
-          "tarlight": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 25
-        },
-        "output": {
-          "tarman": 1
-        }
-      },
-      {
-        "input": {
-          "tar": 20,
-          "tungstenbar": 1
-        },
-        "output": {
-          "tarpitchest": 1
-        }
-      },
-      {
-        "input": {
-          "cobblestonematerial": 1,
-          "tar": 1
-        },
-        "output": {
-          "asphalt": 20
-        }
-      }
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      807
     ],
     "makes": []
   },
@@ -45660,14 +29778,7 @@
     "description": "Wiring hides beneath this reinforced hi-tech plated material.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1
-        },
-        "output": {
-          "techhull1": 20
-        }
-      }
+      963
     ]
   },
   "temple1": {
@@ -45678,14 +29789,7 @@
     "description": "Ancient stones with intricate carvings carved into the surface.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "temple1": 10
-        }
-      }
+      759
     ]
   },
   "temple2": {
@@ -45696,14 +29800,7 @@
     "description": "Small, relatively old bricks with some Avian hieroglyphs carved in.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "temple2": 10
-        }
-      }
+      760
     ]
   },
   "temple3": {
@@ -45714,14 +29811,7 @@
     "description": "Dusty but finely crafted bricks.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "temple3": 10
-        }
-      }
+      761
     ]
   },
   "temple4": {
@@ -45732,14 +29822,7 @@
     "description": "Old and poorly crafted blocks, crude drawings are scratched into the stone.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 30
-        },
-        "output": {
-          "temple4": 10
-        }
-      }
+      762
     ]
   },
   "tentacleblock": {
@@ -45768,14 +29851,7 @@
     "description": "Traditional thatched roofing.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "plantfibre": 5
-        },
-        "output": {
-          "thatch": 50
-        }
-      }
+      763
     ]
   },
   "tombbrick": {
@@ -45786,14 +29862,7 @@
     "description": "Dusty and ancient bricks.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 30
-        },
-        "output": {
-          "tombbrick": 10
-        }
-      }
+      764
     ]
   },
   "tombbrick2": {
@@ -45804,14 +29873,7 @@
     "description": "These bricks have worn smooth with age.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "tombbrick2": 10
-        }
-      }
+      765
     ]
   },
   "tombbrick3": {
@@ -45822,14 +29884,7 @@
     "description": "These small bricks are masterfully crafted.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "tombbrick3": 10
-        }
-      }
+      766
     ]
   },
   "tombbrick4": {
@@ -45840,14 +29895,7 @@
     "description": "Dark and cold to the touch, these bricks seem to suck the heat from the room.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "tombbrick4": 10
-        }
-      }
+      767
     ]
   },
   "tombbrick5": {
@@ -45858,23 +29906,8 @@
     "description": "Old bricks, polished to perfection.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 20
-        },
-        "output": {
-          "tombbrick5": 10
-        }
-      },
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "paper": 1
-        },
-        "output": {
-          "tombbrick5": 20
-        }
-      }
+      768,
+      770
     ]
   },
   "treasurehoard": {
@@ -45885,14 +29918,7 @@
     "description": "A shimmering hoard of valuable treasure.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "goldbar": 1
-        },
-        "output": {
-          "treasurehoard": 20
-        }
-      }
+      835
     ]
   },
   "tribalplatform": {
@@ -45903,14 +29929,7 @@
     "description": "Platforms build from solid temple bricks.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "sandstoneblock": 1
-        },
-        "output": {
-          "tribalplatform": 10
-        }
-      }
+      769
     ]
   },
   "tungstenplatform": {
@@ -45921,14 +29940,7 @@
     "description": "Strong platforms made from tungsten.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tungstenbar": 1
-        },
-        "output": {
-          "tungstenplatform": 10
-        }
-      }
+      954
     ]
   },
   "vine": {
@@ -45974,45 +29986,12 @@
     "title": "Wicker",
     "description": "A roughly woven wicker material.",
     "recipes": [
-      {
-        "input": {
-          "wicker": 20,
-          "fabric": 10,
-          "greendye": 1
-        },
-        "output": {
-          "swampbed": 1
-        }
-      },
-      {
-        "input": {
-          "wicker": 5,
-          "plantfibre": 2
-        },
-        "output": {
-          "swampchair": 1
-        }
-      },
-      {
-        "input": {
-          "wicker": 10,
-          "plantfibre": 2
-        },
-        "output": {
-          "swampchest": 1
-        }
-      }
+      412,
+      413,
+      414
     ],
     "makes": [
-      {
-        "input": {
-          "logblock": 1,
-          "plantfibre": 5
-        },
-        "output": {
-          "wicker": 50
-        }
-      }
+      771
     ]
   },
   "wickersupport": {
@@ -46023,15 +30002,7 @@
     "description": "A tightly woven wicker material.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "logblock": 1,
-          "plantfibre": 5
-        },
-        "output": {
-          "wickersupport": 30
-        }
-      }
+      772
     ]
   },
   "woodbridge": {
@@ -46042,15 +30013,7 @@
     "description": "The wood is very old and creaks in the wind.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 2,
-          "string": 1
-        },
-        "output": {
-          "woodbridge": 10
-        }
-      }
+      773
     ]
   },
   "woodenplatform": {
@@ -46061,15 +30024,7 @@
     "description": "Nicely finished ornate, wooden platforms.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "plantfibre": 1
-        },
-        "output": {
-          "woodenplatform": 10
-        }
-      }
+      774
     ]
   },
   "woodenwindow1": {
@@ -46080,15 +30035,7 @@
     "description": "A window with wooden panes.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 1,
-          "glass": 1
-        },
-        "output": {
-          "woodenwindow1": 20
-        }
-      }
+      775
     ]
   },
   "woodenwindow2": {
@@ -46099,14 +30046,7 @@
     "description": "Old wooden slats that don't let much light through.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 1
-        },
-        "output": {
-          "woodenwindow2": 10
-        }
-      }
+      776
     ]
   },
   "woodpanelling": {
@@ -46117,14 +30057,7 @@
     "description": "This wood panelling was fashionable in a distant era.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 2
-        },
-        "output": {
-          "woodpanelling": 5
-        }
-      }
+      777
     ]
   },
   "wreckplatform": {
@@ -46135,15 +30068,7 @@
     "description": "Rusty scaffolding. It doesn't look safe.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1,
-          "liquidwater": 10
-        },
-        "output": {
-          "wreckplatform": 10
-        }
-      }
+      778
     ]
   },
   "FTLrepairkit": {
@@ -46253,16 +30178,7 @@
     "description": "A great way to blow stuff up. Be careful where you throw them!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "volatilepowder": 4,
-          "string": 1,
-          "ironbar": 1
-        },
-        "output": {
-          "bomb": 1
-        }
-      }
+      42
     ]
   },
   "bouncyball": {
@@ -46291,15 +30207,7 @@
     "description": "Throw it at a monster to forcefully capture it and bring it to a new home.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "durasteelbar": 3,
-          "diamond": 1
-        },
-        "output": {
-          "capturepod": 1
-        }
-      }
+      595
     ]
   },
   "coconut": {
@@ -46309,49 +30217,10 @@
     "title": "Coconut",
     "description": "This coconut is just waiting to be thrown.",
     "recipes": [
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "coconut": 1
-        },
-        "output": {
-          "coconuticecream": 1
-        }
-      },
-      {
-        "input": {
-          "coconut": 1
-        },
-        "output": {
-          "coconutmilk": 1
-        }
-      },
-      {
-        "input": {
-          "pineapple": 1,
-          "kiwi": 1,
-          "coconut": 1,
-          "banana": 1
-        },
-        "output": {
-          "tropicalpunch": 1
-        }
-      },
-      {
-        "input": {
-          "wheat": 1,
-          "sugar": 1,
-          "milk": 1,
-          "egg": 1,
-          "coconut": 1,
-          "chocolate": 1
-        },
-        "output": {
-          "choconut": 1
-        }
-      }
+      476,
+      493,
+      508,
+      587
     ],
     "makes": []
   },
@@ -46371,30 +30240,10 @@
     "title": "Red Firework",
     "description": "Time for a celebration!",
     "recipes": [
-      {
-        "input": {
-          "firework": 5,
-          "fireworkgreen": 5,
-          "fireworkblue": 5,
-          "silverbar": 10,
-          "battery": 1
-        },
-        "output": {
-          "fireworkgun": 1
-        }
-      }
+      1111
     ],
     "makes": [
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "reddye": 1
-        },
-        "output": {
-          "firework": 2
-        }
-      }
+      854
     ]
   },
   "fireworkblue": {
@@ -46404,30 +30253,10 @@
     "title": "Blue Firework",
     "description": "Time for a celebration!",
     "recipes": [
-      {
-        "input": {
-          "firework": 5,
-          "fireworkgreen": 5,
-          "fireworkblue": 5,
-          "silverbar": 10,
-          "battery": 1
-        },
-        "output": {
-          "fireworkgun": 1
-        }
-      }
+      1111
     ],
     "makes": [
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "bluedye": 1
-        },
-        "output": {
-          "fireworkblue": 2
-        }
-      }
+      855
     ]
   },
   "fireworkgreen": {
@@ -46437,30 +30266,10 @@
     "title": "Green Firework",
     "description": "Time for a celebration!",
     "recipes": [
-      {
-        "input": {
-          "firework": 5,
-          "fireworkgreen": 5,
-          "fireworkblue": 5,
-          "silverbar": 10,
-          "battery": 1
-        },
-        "output": {
-          "fireworkgun": 1
-        }
-      }
+      1111
     ],
     "makes": [
-      {
-        "input": {
-          "volatilepowder": 1,
-          "paper": 1,
-          "greendye": 1
-        },
-        "output": {
-          "fireworkgreen": 2
-        }
-      }
+      856
     ]
   },
   "flare": {
@@ -46471,26 +30280,8 @@
     "description": "Good for lighting up a dark cave before you dive into it.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "volatilepowder": 1,
-          "string": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "flare": 2
-        }
-      },
-      {
-        "input": {
-          "volatilepowder": 1,
-          "string": 1,
-          "plantfibre": 2
-        },
-        "output": {
-          "flare": 2
-        }
-      }
+      619,
+      622
     ]
   },
   "flowerygrassseeds": {
@@ -46519,15 +30310,7 @@
     "description": "Creates a blue bioluminescent glow when thrown!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickblue": 1
-        }
-      }
+      265
     ]
   },
   "glowstickgreen": {
@@ -46538,15 +30321,7 @@
     "description": "Creates a green bioluminescent glow when thrown!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickgreen": 1
-        }
-      }
+      266
     ]
   },
   "glowstickorange": {
@@ -46557,15 +30332,7 @@
     "description": "Creates an orange bioluminescent glow when thrown!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickorange": 1
-        }
-      }
+      267
     ]
   },
   "glowstickyellow": {
@@ -46576,15 +30343,7 @@
     "description": "Creates a yellow bioluminescent glow when thrown!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "glowfibre": 1,
-          "glass": 1
-        },
-        "output": {
-          "glowstickyellow": 1
-        }
-      }
+      268
     ]
   },
   "grassseeds": {
@@ -46613,15 +30372,7 @@
     "description": "A throwing spear. Causes monsters to drop meat.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "logblock": 3,
-          "cobblestonematerial": 3
-        },
-        "output": {
-          "huntingspear": 5
-        }
-      }
+      620
     ]
   },
   "javelin": {
@@ -46650,16 +30401,7 @@
     "description": "The liquid in this bottle is highly flammable.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "bottle": 3,
-          "liquidoil": 10,
-          "fabric": 3
-        },
-        "output": {
-          "molotov": 3
-        }
-      }
+      82
     ]
   },
   "noveltybanana": {
@@ -46696,88 +30438,16 @@
     "title": "Snowball",
     "description": "A snowball, the perfect size for throwing.",
     "recipes": [
-      {
-        "input": {
-          "snowball": 2
-        },
-        "output": {
-          "mediumsnowball": 1
-        }
-      },
-      {
-        "input": {
-          "avesmingo": 1,
-          "milk": 1,
-          "snowball": 1,
-          "sugar": 1
-        },
-        "output": {
-          "avesmingoicecream": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "banana": 1
-        },
-        "output": {
-          "bananaicecream": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "cacti": 1
-        },
-        "output": {
-          "cactiicecream": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1,
-          "milk": 1,
-          "coconut": 1
-        },
-        "output": {
-          "coconuticecream": 1
-        }
-      },
-      {
-        "input": {
-          "eggshoot": 1,
-          "milk": 1,
-          "snowball": 1,
-          "sugar": 1
-        },
-        "output": {
-          "eggshooticecream": 1
-        }
-      },
-      {
-        "input": {
-          "sugar": 1,
-          "snowball": 1
-        },
-        "output": {
-          "snowcone": 1
-        }
-      }
+      393,
+      461,
+      463,
+      470,
+      476,
+      478,
+      484
     ],
     "makes": [
-      {
-        "input": {
-          "snow": 1
-        },
-        "output": {
-          "snowball": 5
-        }
-      }
+      394
     ]
   },
   "giganticsnowball": {
@@ -46787,43 +30457,11 @@
     "title": "Gigantic Snowball",
     "description": "This snowball is huge! I can barely throw it.",
     "recipes": [
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2,
-          "fancyhead": 1
-        },
-        "output": {
-          "fancysnowman": 1
-        }
-      },
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2
-        },
-        "output": {
-          "snowman": 1
-        }
-      }
+      389,
+      397
     ],
     "makes": [
-      {
-        "input": {
-          "largesnowball": 2
-        },
-        "output": {
-          "giganticsnowball": 1
-        }
-      }
+      390
     ]
   },
   "largesnowball": {
@@ -46833,51 +30471,12 @@
     "title": "Large Snowball",
     "description": "A large snowball, still the right size for throwing.",
     "recipes": [
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2,
-          "fancyhead": 1
-        },
-        "output": {
-          "fancysnowman": 1
-        }
-      },
-      {
-        "input": {
-          "largesnowball": 2
-        },
-        "output": {
-          "giganticsnowball": 1
-        }
-      },
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2
-        },
-        "output": {
-          "snowman": 1
-        }
-      }
+      389,
+      390,
+      397
     ],
     "makes": [
-      {
-        "input": {
-          "mediumsnowball": 2
-        },
-        "output": {
-          "largesnowball": 1
-        }
-      }
+      392
     ]
   },
   "mediumsnowball": {
@@ -46887,51 +30486,12 @@
     "title": "Medium Snowball",
     "description": "It's bigger than the average snowball, but you can still throw it.",
     "recipes": [
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2,
-          "fancyhead": 1
-        },
-        "output": {
-          "fancysnowman": 1
-        }
-      },
-      {
-        "input": {
-          "mediumsnowball": 2
-        },
-        "output": {
-          "largesnowball": 1
-        }
-      },
-      {
-        "input": {
-          "giganticsnowball": 1,
-          "largesnowball": 1,
-          "mediumsnowball": 1,
-          "logblock": 1,
-          "carrot": 1,
-          "coalore": 2
-        },
-        "output": {
-          "snowman": 1
-        }
-      }
+      389,
+      392,
+      397
     ],
     "makes": [
-      {
-        "input": {
-          "snowball": 2
-        },
-        "output": {
-          "mediumsnowball": 1
-        }
-      }
+      393
     ]
   },
   "snowflakeshuriken": {
@@ -46942,14 +30502,7 @@
     "description": "A shuriken fashioned out of icy snowflakes.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "snowflake": 1
-        },
-        "output": {
-          "snowflakeshuriken": 10
-        }
-      }
+      395
     ]
   },
   "tarball": {
@@ -46960,14 +30513,7 @@
     "description": "Being hit by one of these is sticky.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "tar": 1
-        },
-        "output": {
-          "tarball": 3
-        }
-      }
+      416
     ]
   },
   "thorngrenade": {
@@ -47005,14 +30551,7 @@
     "description": "Throwing bones at your enemies is primitive, but effective.",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "bone": 3
-        },
-        "output": {
-          "throwingbones": 1
-        }
-      }
+      274
     ]
   },
   "throwingboulder": {
@@ -47113,16 +30652,7 @@
     "description": "A handy flashlight!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "ironbar": 1,
-          "torch": 1,
-          "glassmaterial": 1
-        },
-        "output": {
-          "flashlight": 1
-        }
-      }
+      623
     ]
   },
   "greenflashlight": {
@@ -47142,16 +30672,7 @@
     "description": "This hoe lets you till soil. The tilled soil can then be used to grow all sorts of crops!",
     "recipes": [],
     "makes": [
-      {
-        "input": {
-          "darkwoodmaterial": 25,
-          "copperbar": 4,
-          "string": 1
-        },
-        "output": {
-          "hoe": 1
-        }
-      }
+      611
     ]
   },
   "inspectionmode": {
@@ -47179,38 +30700,11 @@
     "title": "Explorer's Lantern",
     "description": "This lantern can be carried by explorers to light the surrounding area.",
     "recipes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "logblock": 10,
-          "mininglantern": 1
-        },
-        "output": {
-          "lanternstickback": 1
-        }
-      },
-      {
-        "input": {
-          "ironbar": 3,
-          "fabric": 5,
-          "mininglantern": 1
-        },
-        "output": {
-          "mininghathead": 1
-        }
-      }
+      624,
+      625
     ],
     "makes": [
-      {
-        "input": {
-          "ironbar": 5,
-          "liquidoil": 10,
-          "torch": 1
-        },
-        "output": {
-          "mininglantern": 1
-        }
-      }
+      626
     ]
   },
   "beamaxe": {
@@ -47410,4 +30904,4 @@
     "recipes": [],
     "makes": []
   }
-}
+};

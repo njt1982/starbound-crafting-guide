@@ -32,6 +32,9 @@ glob.sync('recipes/**/*.recipe', { cwd: inDir }).forEach(function(file) {
   });
 });
 
+Array.prototype.itemNameIn = function(group, itemName) {
+  return this.map(function(item, index) { return itemName in item[group] ? index : undefined }).filter(isFinite);
+}
 
 // Define item extensions.
 var items = {};
@@ -71,12 +74,17 @@ glob.sync('items/**/*.@(' + itemExtensions + ')', { cwd: inDir }).forEach(functi
     icon: item.inventoryIcon,
     title: item.shortdescription,
     description : item.description,
-    recipes: recipes.filter(function(recipe) { return item.itemName in recipe.input; }),
-    makes: recipes.filter(function(recipe) { return item.itemName in recipe.output; }),
+    recipes: recipes.itemNameIn('input', item.itemName),  //recipes.filter(function(recipe) { return item.itemName in recipe.input; }),
+    makes: recipes.itemNameIn('output', item.itemName), //recipes.filter(function(recipe) { return item.itemName in recipe.output; }),
   };
 
   items[item.itemName] = newItem;
 });
 
-fs.writeFileSync('guide.js', JSON.stringify(items, null, 2), { mode: 0o664});
+// Write Out
+var output = '';
+output = output.concat('var recipes = ', JSON.stringify(recipes, null, 2), ";\n");
+output = output.concat('var items = ', JSON.stringify(items, null, 2), ";\n");
+
+fs.writeFileSync('guide.js', output, { mode: 0o664});
 
