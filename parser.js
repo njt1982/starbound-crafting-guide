@@ -2,7 +2,7 @@
 
 var fs = require('fs'),
     json = require('comment-json'),
-//    _ = require('underscore'),
+    // _ = require('underscore'),
     // parsePath = require('parse-filepath'),
     glob = require('glob');
 
@@ -17,24 +17,21 @@ if (inDir[inDir.length - 1] === '/') {
 console.log('input dir: ' + inDir);
 
 // Load all recipes
-var recipes = {}, makes = {};
+var recipes = [];
 glob.sync('recipes/**/*.recipe', { cwd: inDir }).forEach(function(file) {
-  var recipe = json.parse(fs.readFileSync(inDir + '/' + file).toString(), null, false);
+  var recipeSource = json.parse(fs.readFileSync(inDir + '/' + file).toString(), null, false);
 
-  // Loop over input components and for each one, add the recipe to that item list.
-  recipe.input.forEach(function(inputItem) {
-    if (typeof recipes[inputItem.item] === 'undefined') {
-      recipes[inputItem.item] = [];
-    }
-    recipes[inputItem.item].push(recipe);
+  var output = {};
+  output[recipeSource.output.item] = recipeSource.output.count;
+  var input = {};
+  recipeSource.input.forEach(function(item) { input[item.item] = item.count });
+
+  recipes.push({
+    input: input,
+    output: output,
   });
-
-  // Now store this recipe against the output item
-  if (typeof makes[recipe.output.item] === 'undefined') {
-    makes[recipe.output.item] = [];
-  }
-  makes[recipe.output.item].push(recipe);
 });
+
 
 // Define item extensions.
 var items = {};
@@ -74,16 +71,9 @@ glob.sync('items/**/*.@(' + itemExtensions + ')', { cwd: inDir }).forEach(functi
     icon: item.inventoryIcon,
     title: item.shortdescription,
     description : item.description,
-    recipes: [],
-    makes: [],
+    recipes: recipes.filter(function(recipe) { return item.itemName in recipe.input; }),
+    makes: recipes.filter(function(recipe) { return item.itemName in recipe.output; }),
   };
-
-  if (recipes[item.itemName] !== undefined) {
-    newItem.recipes = recipes[item.itemName];
-  }
-  if (makes[item.itemName] !== undefined) {
-    newItem.makes = makes[item.itemName];
-  }
 
   items[item.itemName] = newItem;
 });
