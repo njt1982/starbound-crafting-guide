@@ -5,7 +5,6 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FailPlugin = require('webpack-fail-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const pkg = require('../package.json');
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
@@ -46,6 +45,11 @@ module.exports = {
     ]
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.Tether': 'tether'
+    }),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     FailPlugin,
@@ -72,7 +76,6 @@ module.exports = {
     filename: '[name]-[hash].js'
   },
   entry: {
-    app: `./${conf.path.src('index')}`,
-    vendor: Object.keys(pkg.dependencies)
+    app: `./${conf.path.src('index')}`
   }
 };

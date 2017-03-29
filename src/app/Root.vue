@@ -1,10 +1,6 @@
 <template>
   <div class="container">
-    <div class="loading" v-if="loading">
-      <h1 class="col-md-12">Loading...</h1>
-    </div>
-
-    <div class="row" v-if="items">
+    <div class="row">
       <div class="col-md-4">
         <form>
           <div class="form-group">
@@ -33,15 +29,14 @@
 
 <script>
 import _ from 'underscore';
-import $ from 'jquery';
 import ItemDetails from './ItemDetails.vue';
 
 export default {
   name: 'Root',
   data() {
     return {
-      loading: false,
-      items: null,
+      // loading: false,
+      items: require('../items.json'),
       selectedItem: null,
       filterText: ''
     };
@@ -50,20 +45,27 @@ export default {
     ItemDetails
   },
   created() {
-    this.fetchData();
+    if (typeof this.$route.params.itemName !== 'undefined') {
+      this.setDefaultSearch(this.$route.params.itemName);
+    }
+  },
+  watch: {
+    '$route'(to) {
+      if (typeof to.params.itemName !== 'undefined') {
+        this.setDefaultSearch(this.$route.params.itemName);
+      }
+    }
   },
   methods: {
-    fetchData() {
-      this.items = null;
-      this.loading = true;
-      $.get('/items.json', data => {
-        this.items = data;
-        this.loading = false;
-      });
+    setDefaultSearch(itemName) {
+      this.selectedItem = this.getItemByName(itemName);
+      this.filterText = this.selectedItem.title;
+    },
+    getItemByName(itemName) {
+      return _.findWhere(this.items, {itemName});
     },
     select(item) {
-      console.log(item);
-      this.selectedItem = item;
+      this.$router.push(item.itemName);
     }
   },
   computed: {
