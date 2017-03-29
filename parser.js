@@ -88,5 +88,5 @@ glob.sync('items/**/*.@(' + itemExtensions + ')', { cwd: inDir }).forEach(functi
   items[item.itemName] = newItem;
 });
 
-fs.writeFileSync('guide.js', items, { mode: 0o664});
+fs.writeFileSync('guide.js', JSON.stringify(items, null, 2), { mode: 0o664});
 
