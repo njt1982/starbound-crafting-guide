@@ -4,6 +4,7 @@ var fs = require('fs'),
     json = require('comment-json'),
     // _ = require('underscore'),
     // parsePath = require('parse-filepath'),
+    // util = require('util'),
     glob = require('glob');
 
 
@@ -81,10 +82,13 @@ glob.sync('items/**/*.@(' + itemExtensions + ')', { cwd: inDir }).forEach(functi
   items[item.itemName] = newItem;
 });
 
-// Write Out
-var output = '';
-output = output.concat('var recipes = ', JSON.stringify(recipes, null, 2), ";\n");
-output = output.concat('var items = ', JSON.stringify(items, null, 2), ";\n");
+fs.writeFileSync('src/recipes.json',  JSON.stringify(recipes, null, 2));
+fs.writeFileSync('src/items.json',  JSON.stringify(items, null, 2));
 
-fs.writeFileSync('guide.js', output, { mode: 0o664});
+// Write Out
+// var output = '';
+// output = output.concat('var recipes = ', JSON.stringify(recipes, null, 2), ";\n");
+// output = output.concat('var items = ', JSON.stringify(items, null, 2), ";\n");
+
+// fs.writeFileSync('guide.js', output, { mode: 0o664});
 

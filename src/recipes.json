@@ -1,0 +1,10461 @@
+[
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "apextier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "apextier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "apextier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "aviantier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "aviantier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "aviantier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "florantier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "florantier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "florantier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "glitchtier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "glitchtier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "glitchtier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "humantier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "humantier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "humantier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "hylotltier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "hylotltier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "hylotltier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "novatier1chest": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5
+    },
+    "output": {
+      "novatier1head": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 2,
+      "fabric": 2
+    },
+    "output": {
+      "novatier1pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "apextier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "apextier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "apextier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "aviantier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "aviantier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "aviantier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "florantier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "florantier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "florantier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "glitchtier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "glitchtier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "glitchtier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "humantier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "humantier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "humantier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "hylotltier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "hylotltier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "hylotltier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "cottonwool": 1,
+      "leather": 1
+    },
+    "output": {
+      "novatier2chest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "cottonwool": 1
+    },
+    "output": {
+      "novatier2head": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "cottonwool": 1
+    },
+    "output": {
+      "novatier2pants": 1
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 4,
+      "string": 1,
+      "ironbar": 1
+    },
+    "output": {
+      "bomb": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 6,
+      "darkwoodmaterial": 4
+    },
+    "output": {
+      "ironassaultrifle": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 6,
+      "climbingrope": 4
+    },
+    "output": {
+      "ironbroadsword": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "darkwoodmaterial": 2
+    },
+    "output": {
+      "ironrevolver": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "climbingrope": 2
+    },
+    "output": {
+      "ironshortsword": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 4,
+      "darkwoodmaterial": 20,
+      "string": 4
+    },
+    "output": {
+      "startershield": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 3,
+      "climbingrope": 2
+    },
+    "output": {
+      "tungstenaxe": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "climbingrope": 4
+    },
+    "output": {
+      "tungstenhammer": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 3,
+      "copperbar": 1
+    },
+    "output": {
+      "tungstenmagnum": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "copperbar": 2
+    },
+    "output": {
+      "tungstenshotgun": 1
+    }
+  },
+  {
+    "input": {
+      "gauntlet": 1,
+      "upgrademodule": 1,
+      "sharpenedclaw": 15
+    },
+    "output": {
+      "clawglove": 1
+    }
+  },
+  {
+    "input": {
+      "boomerang": 1,
+      "upgrademodule": 1,
+      "scorchedcore": 15
+    },
+    "output": {
+      "fireboomerang": 1
+    }
+  },
+  {
+    "input": {
+      "chakram": 1,
+      "upgrademodule": 1,
+      "hardenedcarapace": 15
+    },
+    "output": {
+      "hardchakram": 1
+    }
+  },
+  {
+    "input": {
+      "boomerang": 1,
+      "upgrademodule": 1,
+      "cryonicextract": 15
+    },
+    "output": {
+      "iceboomerang": 1
+    }
+  },
+  {
+    "input": {
+      "boomerang": 1,
+      "upgrademodule": 1,
+      "phasematter": 15
+    },
+    "output": {
+      "lunarang": 1
+    }
+  },
+  {
+    "input": {
+      "chakram": 1,
+      "upgrademodule": 1,
+      "stickofram": 15
+    },
+    "output": {
+      "neochakram": 1
+    }
+  },
+  {
+    "input": {
+      "chakram": 1,
+      "upgrademodule": 1,
+      "sharpenedclaw": 15
+    },
+    "output": {
+      "sawchakram": 1
+    }
+  },
+  {
+    "input": {
+      "gauntlet": 1,
+      "upgrademodule": 1,
+      "staticcell": 15
+    },
+    "output": {
+      "stunglove": 1
+    }
+  },
+  {
+    "input": {
+      "gauntlet": 1,
+      "upgrademodule": 1,
+      "livingroot": 15
+    },
+    "output": {
+      "vinefist": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "apextier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "apextier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "apextier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "aviantier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "aviantier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "aviantier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "florantier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "florantier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "florantier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "glitchtier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "glitchtier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "glitchtier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "humantier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "humantier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "humantier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "hylotltier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "hylotltier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "hylotltier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "leather": 1,
+      "silk": 1
+    },
+    "output": {
+      "novatier3chest": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "canvas": 1
+    },
+    "output": {
+      "novatier3head": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 4,
+      "canvas": 1
+    },
+    "output": {
+      "novatier3pants": 1
+    }
+  },
+  {
+    "input": {
+      "bottle": 3,
+      "liquidoil": 10,
+      "fabric": 3
+    },
+    "output": {
+      "molotov": 3
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 2,
+      "copperbar": 1
+    },
+    "output": {
+      "titaniumdagger": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 3,
+      "copperbar": 2
+    },
+    "output": {
+      "titaniummachinepistol": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "copperbar": 4
+    },
+    "output": {
+      "titaniumsniperrifle": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "copperbar": 4
+    },
+    "output": {
+      "titaniumspear": 1
+    }
+  },
+  {
+    "input": {
+      "perfectlygenericitem": 50
+    },
+    "output": {
+      "perfectchest": 1
+    }
+  },
+  {
+    "input": {
+      "perfectlygenericitem": 30
+    },
+    "output": {
+      "perfecthead": 1
+    }
+  },
+  {
+    "input": {
+      "perfectlygenericitem": 20
+    },
+    "output": {
+      "perfectpants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "apextier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "apextier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "apextier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "aviantier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "aviantier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "aviantier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "florantier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "florantier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "florantier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "glitchtier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "glitchtier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "glitchtier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "humantier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "humantier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "humantier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "hylotltier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "hylotltier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "hylotltier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "leather": 3,
+      "silk": 1
+    },
+    "output": {
+      "novatier4chest": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "leather": 1
+    },
+    "output": {
+      "novatier4head": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "novatier4pants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "apextier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "apextier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "apextier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "aviantier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "aviantier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "aviantier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "florantier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "florantier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "florantier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "glitchtier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "glitchtier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "glitchtier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "humantier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "humantier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "humantier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "hylotltier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "hylotltier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "hylotltier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "novatier5achest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "novatier5ahead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 4,
+      "leather": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "novatier5apants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "apextier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "apextier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "apextier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "aviantier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "aviantier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "aviantier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "florantier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "florantier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "florantier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "glitchtier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "glitchtier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "glitchtier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "humantier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "humantier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "humantier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "hylotltier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "hylotltier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "hylotltier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "silk": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "novatier5mchest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "silk": 1
+    },
+    "output": {
+      "novatier5mhead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 4,
+      "silk": 1
+    },
+    "output": {
+      "novatier5mpants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "apextier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "apextier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "apextier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "aviantier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "aviantier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "aviantier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "florantier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "florantier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "florantier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "glitchtier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "glitchtier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "glitchtier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "humantier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "humantier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "humantier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "hylotltier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "hylotltier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "hylotltier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "canvas": 1,
+      "syntheticmaterial": 1
+    },
+    "output": {
+      "novatier5schest": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "canvas": 1
+    },
+    "output": {
+      "novatier5shead": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 4,
+      "canvas": 1
+    },
+    "output": {
+      "novatier5spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "apextier5achest": 1
+    },
+    "output": {
+      "apextier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "apextier5ahead": 1
+    },
+    "output": {
+      "apextier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "apextier5apants": 1
+    },
+    "output": {
+      "apextier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "aviantier5achest": 1
+    },
+    "output": {
+      "aviantier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "aviantier5ahead": 1
+    },
+    "output": {
+      "aviantier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "aviantier5apants": 1
+    },
+    "output": {
+      "aviantier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "florantier5achest": 1
+    },
+    "output": {
+      "florantier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "florantier5ahead": 1
+    },
+    "output": {
+      "florantier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "florantier5apants": 1
+    },
+    "output": {
+      "florantier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "glitchtier5achest": 1
+    },
+    "output": {
+      "glitchtier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "glitchtier5ahead": 1
+    },
+    "output": {
+      "glitchtier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "glitchtier5apants": 1
+    },
+    "output": {
+      "glitchtier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "humantier5achest": 1
+    },
+    "output": {
+      "humantier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "humantier5ahead": 1
+    },
+    "output": {
+      "humantier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "humantier5apants": 1
+    },
+    "output": {
+      "humantier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "hylotltier5achest": 1
+    },
+    "output": {
+      "hylotltier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "hylotltier5ahead": 1
+    },
+    "output": {
+      "hylotltier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "hylotltier5apants": 1
+    },
+    "output": {
+      "hylotltier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "novatier5achest": 1
+    },
+    "output": {
+      "novatier6achest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "novatier5ahead": 1
+    },
+    "output": {
+      "novatier6ahead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "novatier5apants": 1
+    },
+    "output": {
+      "novatier6apants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "apextier5mchest": 1
+    },
+    "output": {
+      "apextier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "apextier5mhead": 1
+    },
+    "output": {
+      "apextier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "apextier5mpants": 1
+    },
+    "output": {
+      "apextier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "aviantier5mchest": 1
+    },
+    "output": {
+      "aviantier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "aviantier5mhead": 1
+    },
+    "output": {
+      "aviantier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "aviantier5mpants": 1
+    },
+    "output": {
+      "aviantier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "florantier5mchest": 1
+    },
+    "output": {
+      "florantier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "florantier5mhead": 1
+    },
+    "output": {
+      "florantier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "florantier5mpants": 1
+    },
+    "output": {
+      "florantier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "glitchtier5mchest": 1
+    },
+    "output": {
+      "glitchtier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "glitchtier5mhead": 1
+    },
+    "output": {
+      "glitchtier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "glitchtier5mpants": 1
+    },
+    "output": {
+      "glitchtier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "humantier5mchest": 1
+    },
+    "output": {
+      "humantier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "humantier5mhead": 1
+    },
+    "output": {
+      "humantier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "humantier5mpants": 1
+    },
+    "output": {
+      "humantier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "hylotltier5mchest": 1
+    },
+    "output": {
+      "hylotltier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "hylotltier5mhead": 1
+    },
+    "output": {
+      "hylotltier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "hylotltier5mpants": 1
+    },
+    "output": {
+      "hylotltier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "novatier5mchest": 1
+    },
+    "output": {
+      "novatier6mchest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "novatier5mhead": 1
+    },
+    "output": {
+      "novatier6mhead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "novatier5mpants": 1
+    },
+    "output": {
+      "novatier6mpants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "apextier5schest": 1
+    },
+    "output": {
+      "apextier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "apextier5shead": 1
+    },
+    "output": {
+      "apextier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "apextier5spants": 1
+    },
+    "output": {
+      "apextier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "aviantier5schest": 1
+    },
+    "output": {
+      "aviantier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "aviantier5shead": 1
+    },
+    "output": {
+      "aviantier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "aviantier5spants": 1
+    },
+    "output": {
+      "aviantier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "florantier5schest": 1
+    },
+    "output": {
+      "florantier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "florantier5shead": 1
+    },
+    "output": {
+      "florantier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "florantier5spants": 1
+    },
+    "output": {
+      "florantier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "glitchtier5schest": 1
+    },
+    "output": {
+      "glitchtier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "glitchtier5shead": 1
+    },
+    "output": {
+      "glitchtier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "glitchtier5spants": 1
+    },
+    "output": {
+      "glitchtier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "humantier5schest": 1
+    },
+    "output": {
+      "humantier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "humantier5shead": 1
+    },
+    "output": {
+      "humantier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "humantier5spants": 1
+    },
+    "output": {
+      "humantier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "hylotltier5schest": 1
+    },
+    "output": {
+      "hylotltier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "hylotltier5shead": 1
+    },
+    "output": {
+      "hylotltier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "hylotltier5spants": 1
+    },
+    "output": {
+      "hylotltier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 20,
+      "novatier5schest": 1
+    },
+    "output": {
+      "novatier6schest": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 12,
+      "novatier5shead": 1
+    },
+    "output": {
+      "novatier6shead": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 8,
+      "novatier5spants": 1
+    },
+    "output": {
+      "novatier6spants": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 6,
+      "solariumstar": 6,
+      "battery": 1
+    },
+    "output": {
+      "aegisaltbow": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 3,
+      "smallbattery": 1
+    },
+    "output": {
+      "aegisaltpistol": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 6,
+      "solariumstar": 6,
+      "battery": 1
+    },
+    "output": {
+      "feroziumstaff": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 3,
+      "smallbattery": 1
+    },
+    "output": {
+      "feroziumwand": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 6,
+      "solariumstar": 6,
+      "battery": 1
+    },
+    "output": {
+      "violiumbroadsword": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 3,
+      "smallbattery": 1
+    },
+    "output": {
+      "violiumshortsword": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "copperbar": 4
+    },
+    "output": {
+      "durasteelassaultrifle": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "copperbar": 4
+    },
+    "output": {
+      "durasteelbroadsword": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 3,
+      "copperbar": 2
+    },
+    "output": {
+      "durasteelrevolver": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 3,
+      "copperbar": 2
+    },
+    "output": {
+      "durasteelshortsword": 1
+    }
+  },
+  {
+    "input": {
+      "diamond": 3
+    },
+    "output": {
+      "dubloon": 1
+    }
+  },
+  {
+    "input": {
+      "alienstripedwood": 25,
+      "silk": 3,
+      "plantfibre": 25,
+      "pinkdye": 1
+    },
+    "output": {
+      "alienbed": 1
+    }
+  },
+  {
+    "input": {
+      "alienstripedwood": 15,
+      "plantfibre": 15
+    },
+    "output": {
+      "alienchair": 1
+    }
+  },
+  {
+    "input": {
+      "alienstripedwood": 20
+    },
+    "output": {
+      "alienchest": 1
+    }
+  },
+  {
+    "input": {
+      "alienstripedwood": 25,
+      "plantfibre": 25
+    },
+    "output": {
+      "aliendoor": 1
+    }
+  },
+  {
+    "input": {
+      "alienstripedwood": 25,
+      "plantfibre": 25
+    },
+    "output": {
+      "alientable": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 25,
+      "fabric": 10,
+      "yellowdye": 1
+    },
+    "output": {
+      "stonebed": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 15,
+      "fabric": 3,
+      "yellowdye": 1
+    },
+    "output": {
+      "stonechair": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 20
+    },
+    "output": {
+      "stonechest": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 25
+    },
+    "output": {
+      "stonedoor": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 25
+    },
+    "output": {
+      "stonetable": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 25,
+      "darkwoodmaterial": 10,
+      "fabric": 10,
+      "purpledye": 1
+    },
+    "output": {
+      "glowbed": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 10,
+      "clay": 2
+    },
+    "output": {
+      "glowbushlamp": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 20,
+      "fabric": 3,
+      "bluedye": 1
+    },
+    "output": {
+      "glowchair": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 15
+    },
+    "output": {
+      "glowchest": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 12
+    },
+    "output": {
+      "glowflowerlamp": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 8
+    },
+    "output": {
+      "glowvinelamp": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 15,
+      "shroom": 10
+    },
+    "output": {
+      "bioshroomtable": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 1,
+      "glass": 1
+    },
+    "output": {
+      "glowstickblue": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 1,
+      "glass": 1
+    },
+    "output": {
+      "glowstickgreen": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 1,
+      "glass": 1
+    },
+    "output": {
+      "glowstickorange": 1
+    }
+  },
+  {
+    "input": {
+      "glowfibre": 1,
+      "glass": 1
+    },
+    "output": {
+      "glowstickyellow": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 20,
+      "darkwoodmaterial": 20,
+      "silk": 3
+    },
+    "output": {
+      "bonebed": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 25,
+      "leather": 1
+    },
+    "output": {
+      "bonechair": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 30,
+      "copperbar": 1
+    },
+    "output": {
+      "bonechest": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 40,
+      "leather": 1
+    },
+    "output": {
+      "bonedoor": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 50
+    },
+    "output": {
+      "bonetable": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 3
+    },
+    "output": {
+      "throwingbones": 1
+    }
+  },
+  {
+    "input": {
+      "cellmatter": 15,
+      "silverbar": 1
+    },
+    "output": {
+      "cellchair": 1
+    }
+  },
+  {
+    "input": {
+      "cellmatter": 10,
+      "silverbar": 1
+    },
+    "output": {
+      "cellchest": 1
+    }
+  },
+  {
+    "input": {
+      "cellmatter": 25
+    },
+    "output": {
+      "celldoor": 1
+    }
+  },
+  {
+    "input": {
+      "cellmatter": 15,
+      "silverbar": 1,
+      "smallbattery": 1,
+      "wire": 3
+    },
+    "output": {
+      "celllamp": 1
+    }
+  },
+  {
+    "input": {
+      "cellmatter": 25,
+      "silverbar": 1
+    },
+    "output": {
+      "celltable": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "bluedye": 3
+    },
+    "output": {
+      "crayonblueback": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "greendye": 3
+    },
+    "output": {
+      "crayongreenback": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "orangedye": 3
+    },
+    "output": {
+      "crayonorangeback": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "purpledye": 3
+    },
+    "output": {
+      "crayonpurpleback": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "reddye": 3
+    },
+    "output": {
+      "crayonredback": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "liquidoil": 10,
+      "yellowdye": 3
+    },
+    "output": {
+      "crayonyellowback": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "bluedye": 2
+    },
+    "output": {
+      "paintgunblue": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "greendye": 2
+    },
+    "output": {
+      "paintgungreen": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "orangedye": 2
+    },
+    "output": {
+      "paintgunorange": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "purpledye": 2
+    },
+    "output": {
+      "paintgunpurple": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "reddye": 2
+    },
+    "output": {
+      "paintgunred": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 6,
+      "clay": 10,
+      "yellowdye": 2
+    },
+    "output": {
+      "paintgunyellow": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50,
+      "silk": 3
+    },
+    "output": {
+      "rainbowbed": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 25
+    },
+    "output": {
+      "rainbowchair": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 30,
+      "silverbar": 1
+    },
+    "output": {
+      "rainbowchest": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 40
+    },
+    "output": {
+      "rainbowdoor": 1
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 50
+    },
+    "output": {
+      "rainbowtable": 1
+    }
+  },
+  {
+    "input": {
+      "crystal": 30
+    },
+    "output": {
+      "crystalbed": 1
+    }
+  },
+  {
+    "input": {
+      "crystal": 15
+    },
+    "output": {
+      "crystalchair": 1
+    }
+  },
+  {
+    "input": {
+      "crystal": 20
+    },
+    "output": {
+      "crystalchest": 1
+    }
+  },
+  {
+    "input": {
+      "crystal": 5,
+      "smallbattery": 1,
+      "wire": 1
+    },
+    "output": {
+      "crystallamp": 1
+    }
+  },
+  {
+    "input": {
+      "crystal": 25
+    },
+    "output": {
+      "crystaltable": 1
+    }
+  },
+  {
+    "input": {
+      "eyepiles": 50,
+      "silverbar": 1,
+      "fabric": 10
+    },
+    "output": {
+      "eyebed": 1
+    }
+  },
+  {
+    "input": {
+      "eyepiles": 20,
+      "silverbar": 1
+    },
+    "output": {
+      "eyechair": 1
+    }
+  },
+  {
+    "input": {
+      "eyepiles": 20,
+      "silverbar": 1
+    },
+    "output": {
+      "eyechest": 1
+    }
+  },
+  {
+    "input": {
+      "eyepiles": 30,
+      "silverbar": 1
+    },
+    "output": {
+      "eyedoor": 1
+    }
+  },
+  {
+    "input": {
+      "eyepiles": 50,
+      "silverbar": 1
+    },
+    "output": {
+      "eyetable": 1
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 40
+    },
+    "output": {
+      "fleshbed": 1
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 15
+    },
+    "output": {
+      "fleshchair": 1
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 20
+    },
+    "output": {
+      "fleshchest": 1
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 30
+    },
+    "output": {
+      "fleshdoor": 1
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 25
+    },
+    "output": {
+      "fleshtable": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 50,
+      "copperbar": 1,
+      "smallbattery": 2,
+      "wire": 3
+    },
+    "output": {
+      "foundrybed": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 20
+    },
+    "output": {
+      "foundrychair": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 25,
+      "copperbar": 1,
+      "glass": 5
+    },
+    "output": {
+      "foundrydoor": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 10,
+      "copperbar": 1,
+      "liquidlava": 10
+    },
+    "output": {
+      "foundrylight": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 10,
+      "copperbar": 1,
+      "glass": 10,
+      "liquidlava": 5
+    },
+    "output": {
+      "magmalamp": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 100
+    },
+    "output": {
+      "geodebed": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodebnote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 10,
+      "metallic": 10
+    },
+    "output": {
+      "geodeceilinglight": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 50
+    },
+    "output": {
+      "geodechair": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodecnote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodednote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 10,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "geodedoor": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodeenote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodefnote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodegnote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodehighanote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 20
+    },
+    "output": {
+      "geodelowanote": 1
+    }
+  },
+  {
+    "input": {
+      "geode": 10,
+      "logblock": 10
+    },
+    "output": {
+      "geodeplantpot": 1
+    }
+  },
+  {
+    "input": {
+      "giantflowerpetal": 50,
+      "petalyellow": 15,
+      "plantfibre": 15,
+      "fabric": 10
+    },
+    "output": {
+      "giantflowerbed": 1
+    }
+  },
+  {
+    "input": {
+      "giantflowerpetal": 30,
+      "petalyellow": 5,
+      "plantfibre": 5
+    },
+    "output": {
+      "giantflowerchair": 1
+    }
+  },
+  {
+    "input": {
+      "giantflowerpetal": 40,
+      "petalyellow": 5,
+      "plantfibre": 5
+    },
+    "output": {
+      "giantflowerchest": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "giantflowerpetal": 5,
+      "plantfibre": 5,
+      "silverbar": 1
+    },
+    "output": {
+      "giantflowerdoor": 1
+    }
+  },
+  {
+    "input": {
+      "giantflowerpetal": 15,
+      "plantfibre": 5,
+      "smallbattery": 1,
+      "wire": 1
+    },
+    "output": {
+      "giantflowerlamp": 1
+    }
+  },
+  {
+    "input": {
+      "giantflowerpetal": 40,
+      "petalyellow": 10,
+      "plantfibre": 10
+    },
+    "output": {
+      "giantflowertable": 1
+    }
+  },
+  {
+    "input": {
+      "hive": 30,
+      "larva": 20,
+      "silk": 3
+    },
+    "output": {
+      "hivebed": 1
+    }
+  },
+  {
+    "input": {
+      "hive": 20,
+      "larva": 10
+    },
+    "output": {
+      "hivechair": 1
+    }
+  },
+  {
+    "input": {
+      "hive": 25,
+      "larva": 15
+    },
+    "output": {
+      "hivedoor": 1
+    }
+  },
+  {
+    "input": {
+      "hive": 15,
+      "larva": 10,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "hivelamp": 1
+    }
+  },
+  {
+    "input": {
+      "hive": 30,
+      "larva": 20
+    },
+    "output": {
+      "hivetable": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 10
+    },
+    "output": {
+      "icebed": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 6
+    },
+    "output": {
+      "icechair": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 8
+    },
+    "output": {
+      "icechest": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 10
+    },
+    "output": {
+      "icedoor": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 12
+    },
+    "output": {
+      "icemachine": 1
+    }
+  },
+  {
+    "input": {
+      "iceblock": 10
+    },
+    "output": {
+      "icetable": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 50,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "mushroomhead": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 25,
+      "darkwoodmaterial": 10,
+      "fabric": 10,
+      "reddye": 1
+    },
+    "output": {
+      "shroombed": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 15,
+      "darkwoodmaterial": 5
+    },
+    "output": {
+      "shroomchair": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 20,
+      "darkwoodmaterial": 5
+    },
+    "output": {
+      "shroomchest": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 25,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "shroomdoor": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 15,
+      "torch": 1,
+      "plantfibre": 10
+    },
+    "output": {
+      "shroomlamp": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 25,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "shroomtable": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 30,
+      "darkwoodmaterial": 10,
+      "logblock": 2
+    },
+    "output": {
+      "shroomwardrobe": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 50,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "reedbed": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 30,
+      "darkwoodmaterial": 5
+    },
+    "output": {
+      "reedchair": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 40,
+      "darkwoodmaterial": 5
+    },
+    "output": {
+      "reedchest": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 20,
+      "darkwoodmaterial": 5,
+      "copperbar": 1
+    },
+    "output": {
+      "reedclock": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 30,
+      "darkwoodmaterial": 20
+    },
+    "output": {
+      "reeddesk": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 40,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "reeddoor": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 20,
+      "darkwoodmaterial": 3,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "reedlamp": 1
+    }
+  },
+  {
+    "input": {
+      "reed": 60,
+      "darkwoodmaterial": 10,
+      "paper": 10
+    },
+    "output": {
+      "reedshelf": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 12,
+      "glass": 12,
+      "silk": 3
+    },
+    "output": {
+      "prismbed": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 4,
+      "glass": 4
+    },
+    "output": {
+      "prismchair": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 10,
+      "glass": 10
+    },
+    "output": {
+      "prismdoor": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 4,
+      "glass": 4,
+      "refinedviolium": 1,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "prismlamp1": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 4,
+      "glass": 4,
+      "refinedaegisalt": 1,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "prismlamp2": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 4,
+      "glass": 4,
+      "refinedferozium": 1,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "prismlamp3": 1
+    }
+  },
+  {
+    "input": {
+      "prisiliteore": 16,
+      "glass": 16
+    },
+    "output": {
+      "prismtable": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 25,
+      "copperbar": 1,
+      "fabric": 10
+    },
+    "output": {
+      "rustbed": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 15,
+      "copperbar": 1
+    },
+    "output": {
+      "rustchair": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 20,
+      "copperbar": 1
+    },
+    "output": {
+      "rustchest": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 25,
+      "copperbar": 1
+    },
+    "output": {
+      "rustdoor": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 25,
+      "copperbar": 1
+    },
+    "output": {
+      "rusttable": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25,
+      "silk": 3
+    },
+    "output": {
+      "scorchedcitybed": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "leather": 2
+    },
+    "output": {
+      "scorchedcitychair": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 6,
+      "darkwoodmaterial": 8
+    },
+    "output": {
+      "scorchedcitychestdrawerlarge": 1
+    }
+  },
+  {
+    "input": {
+      "metallic": 4,
+      "darkwoodmaterial": 6
+    },
+    "output": {
+      "scorchedcitychestdrawersmall": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 4,
+      "darkwoodmaterial": 8
+    },
+    "output": {
+      "scorchedcitycounter": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 10,
+      "metallic": 15
+    },
+    "output": {
+      "scorchedcityfridge": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 4,
+      "wire": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "scorchedcityregister": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "darkwoodmaterial": 15
+    },
+    "output": {
+      "scorchedcitystoreshelf": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25
+    },
+    "output": {
+      "scorchedcitytable": 1
+    }
+  },
+  {
+    "input": {
+      "glassmaterial": 4,
+      "darkwoodmaterial": 6,
+      "siliconboard": 1,
+      "wire": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "scorchedcitytv": 1
+    }
+  },
+  {
+    "input": {
+      "greenslime": 25
+    },
+    "output": {
+      "slimebed": 1
+    }
+  },
+  {
+    "input": {
+      "greenslime": 15
+    },
+    "output": {
+      "slimechair": 1
+    }
+  },
+  {
+    "input": {
+      "greenslime": 20
+    },
+    "output": {
+      "slimehide": 1
+    }
+  },
+  {
+    "input": {
+      "greenslime": 2,
+      "torch": 1
+    },
+    "output": {
+      "slimetorch": 1
+    }
+  },
+  {
+    "input": {
+      "giganticsnowball": 1,
+      "largesnowball": 1,
+      "mediumsnowball": 1,
+      "logblock": 1,
+      "carrot": 1,
+      "coalore": 2,
+      "fancyhead": 1
+    },
+    "output": {
+      "fancysnowman": 1
+    }
+  },
+  {
+    "input": {
+      "largesnowball": 2
+    },
+    "output": {
+      "giganticsnowball": 1
+    }
+  },
+  {
+    "input": {
+      "ice": 1
+    },
+    "output": {
+      "iceblock": 5
+    }
+  },
+  {
+    "input": {
+      "mediumsnowball": 2
+    },
+    "output": {
+      "largesnowball": 1
+    }
+  },
+  {
+    "input": {
+      "snowball": 2
+    },
+    "output": {
+      "mediumsnowball": 1
+    }
+  },
+  {
+    "input": {
+      "snow": 1
+    },
+    "output": {
+      "snowball": 5
+    }
+  },
+  {
+    "input": {
+      "snowflake": 1
+    },
+    "output": {
+      "snowflakeshuriken": 10
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10,
+      "snow": 10,
+      "glass": 10
+    },
+    "output": {
+      "snowgun": 1
+    }
+  },
+  {
+    "input": {
+      "giganticsnowball": 1,
+      "largesnowball": 1,
+      "mediumsnowball": 1,
+      "logblock": 1,
+      "carrot": 1,
+      "coalore": 2
+    },
+    "output": {
+      "snowman": 1
+    }
+  },
+  {
+    "input": {
+      "petalblue": 20,
+      "darkwoodmaterial": 20
+    },
+    "output": {
+      "flowerbox": 1
+    }
+  },
+  {
+    "input": {
+      "petalblue": 20,
+      "smallbattery": 1,
+      "wire": 2
+    },
+    "output": {
+      "flowerlamp": 1
+    }
+  },
+  {
+    "input": {
+      "petalyellow": 30,
+      "plantfibre": 10
+    },
+    "output": {
+      "movingsunflower": 1
+    }
+  },
+  {
+    "input": {
+      "petalred": 40,
+      "plantfibre": 20,
+      "cobblestonematerial": 20,
+      "liquidwater": 20
+    },
+    "output": {
+      "petalfountain": 1
+    }
+  },
+  {
+    "input": {
+      "petalred": 4,
+      "petalyellow": 4,
+      "darkwoodmaterial": 15
+    },
+    "output": {
+      "springchest": 1
+    }
+  },
+  {
+    "input": {
+      "heavypipe": 20,
+      "darkwoodmaterial": 25,
+      "silk": 3
+    },
+    "output": {
+      "steamspringbed": 1
+    }
+  },
+  {
+    "input": {
+      "heavypipe": 10,
+      "darkwoodmaterial": 15,
+      "leather": 2
+    },
+    "output": {
+      "steamspringchair": 1
+    }
+  },
+  {
+    "input": {
+      "heavypipe": 10,
+      "darkwoodmaterial": 15
+    },
+    "output": {
+      "steamspringdoor": 1
+    }
+  },
+  {
+    "input": {
+      "heavypipe": 4,
+      "darkwoodmaterial": 6,
+      "wire": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "steamspringlamp": 1
+    }
+  },
+  {
+    "input": {
+      "heavypipe": 20,
+      "darkwoodmaterial": 25
+    },
+    "output": {
+      "steamspringtable": 1
+    }
+  },
+  {
+    "input": {
+      "limestone": 50
+    },
+    "output": {
+      "cavebed": 1
+    }
+  },
+  {
+    "input": {
+      "limestone": 15
+    },
+    "output": {
+      "cavechair": 1
+    }
+  },
+  {
+    "input": {
+      "limestone": 20
+    },
+    "output": {
+      "cavechest": 1
+    }
+  },
+  {
+    "input": {
+      "limestone": 10,
+      "wire": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "cavelamp": 1
+    }
+  },
+  {
+    "input": {
+      "wicker": 20,
+      "fabric": 10,
+      "greendye": 1
+    },
+    "output": {
+      "swampbed": 1
+    }
+  },
+  {
+    "input": {
+      "wicker": 5,
+      "plantfibre": 2
+    },
+    "output": {
+      "swampchair": 1
+    }
+  },
+  {
+    "input": {
+      "wicker": 10,
+      "plantfibre": 2
+    },
+    "output": {
+      "swampchest": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 30,
+      "plantfibre": 40
+    },
+    "output": {
+      "swampybed": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 1
+    },
+    "output": {
+      "tarball": 3
+    }
+  },
+  {
+    "input": {
+      "tar": 25,
+      "cottonwool": 1
+    },
+    "output": {
+      "tarbed": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 15
+    },
+    "output": {
+      "tarchair": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 15,
+      "siliconboard": 2,
+      "smallbattery": 5,
+      "wire": 10
+    },
+    "output": {
+      "tarconsole": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 20
+    },
+    "output": {
+      "tardoor": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 5,
+      "torch": 1
+    },
+    "output": {
+      "tarlight": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 25
+    },
+    "output": {
+      "tarman": 1
+    }
+  },
+  {
+    "input": {
+      "tar": 20,
+      "tungstenbar": 1
+    },
+    "output": {
+      "tarpitchest": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 40,
+      "biosample": 1,
+      "darkwoodmaterial": 5
+    },
+    "output": {
+      "toxicchair": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 60,
+      "biosample": 1,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "toxicchest": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 40,
+      "petalblue": 20,
+      "torch": 1
+    },
+    "output": {
+      "toxiclamp1": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 20,
+      "petalblue": 20,
+      "torch": 1
+    },
+    "output": {
+      "toxiclamp2": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 80,
+      "biosample": 1,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "toxictable": 1
+    }
+  },
+  {
+    "input": {
+      "potato": 1
+    },
+    "output": {
+      "bakedpotato": 1
+    }
+  },
+  {
+    "input": {
+      "pearlpea": 1
+    },
+    "output": {
+      "boiledpearlpeas": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1
+    },
+    "output": {
+      "boiledrice": 1
+    }
+  },
+  {
+    "input": {
+      "alienmeat": 1
+    },
+    "output": {
+      "cookedalienmeat": 1
+    }
+  },
+  {
+    "input": {
+      "rawbacon": 1
+    },
+    "output": {
+      "cookedbacon": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1
+    },
+    "output": {
+      "cookedfish": 1
+    }
+  },
+  {
+    "input": {
+      "rawham": 1
+    },
+    "output": {
+      "cookedham": 1
+    }
+  },
+  {
+    "input": {
+      "rawpoultry": 1
+    },
+    "output": {
+      "cookedpoultry": 1
+    }
+  },
+  {
+    "input": {
+      "rawribmeat": 1
+    },
+    "output": {
+      "cookedribmeat": 1
+    }
+  },
+  {
+    "input": {
+      "rawtentacle": 1
+    },
+    "output": {
+      "cookedtentacle": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1
+    },
+    "output": {
+      "cookedtomato": 1
+    }
+  },
+  {
+    "input": {
+      "corn": 1
+    },
+    "output": {
+      "popcorn": 1
+    }
+  },
+  {
+    "input": {
+      "mashedpotato": 2
+    },
+    "output": {
+      "potatogrids": 1
+    }
+  },
+  {
+    "input": {
+      "carrot": 1
+    },
+    "output": {
+      "roastedcarrot": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 5
+    },
+    "output": {
+      "roastedmushrooms": 1
+    }
+  },
+  {
+    "input": {
+      "bread": 1,
+      "egg": 1
+    },
+    "output": {
+      "toast": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "alienfruit": 1
+    },
+    "output": {
+      "alienfruitjam": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "beakseed": 1
+    },
+    "output": {
+      "beakseedjam": 1
+    }
+  },
+  {
+    "input": {
+      "kiwi": 1,
+      "feathercrown": 1,
+      "currentcorn": 1,
+      "cacti": 1,
+      "beakseed": 1,
+      "automato": 1
+    },
+    "output": {
+      "desertsalsa": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "feathercrown": 1
+    },
+    "output": {
+      "feathercrownjam": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "kiwi": 1
+    },
+    "output": {
+      "kiwijam": 1
+    }
+  },
+  {
+    "input": {
+      "neonmelon": 1,
+      "sugar": 1
+    },
+    "output": {
+      "neonmelonjam": 1
+    }
+  },
+  {
+    "input": {
+      "reefpod": 1,
+      "pineapple": 1,
+      "coralcreep": 1,
+      "banana": 1
+    },
+    "output": {
+      "oceansalsa": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "pearlpea": 1
+    },
+    "output": {
+      "pearlpeajam": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "pineapple": 1
+    },
+    "output": {
+      "pineapplejam": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "pussplum": 1
+    },
+    "output": {
+      "pussplumjam": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "sugar": 1,
+      "corn": 1
+    },
+    "output": {
+      "relish": 1
+    }
+  },
+  {
+    "input": {
+      "toxictop": 1,
+      "sugar": 1
+    },
+    "output": {
+      "toxictopjam": 1
+    }
+  },
+  {
+    "input": {
+      "avesmingo": 1,
+      "chili": 1,
+      "tomato": 1
+    },
+    "output": {
+      "volcanicsalsa": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "wartweed": 1
+    },
+    "output": {
+      "wartweedjam": 1
+    }
+  },
+  {
+    "input": {
+      "grapes": 1,
+      "banana": 1
+    },
+    "output": {
+      "apegrapes": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "redapple": 1
+    },
+    "output": {
+      "applecrumble": 1
+    }
+  },
+  {
+    "input": {
+      "avesmingo": 1,
+      "milk": 1,
+      "snowball": 1,
+      "sugar": 1
+    },
+    "output": {
+      "avesmingoicecream": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "banana": 1
+    },
+    "output": {
+      "bananacreampie": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "snowball": 1,
+      "milk": 1,
+      "banana": 1
+    },
+    "output": {
+      "bananaicecream": 1
+    }
+  },
+  {
+    "input": {
+      "avesmingoicecream": 1,
+      "banana": 1,
+      "chocolate": 1,
+      "pineapple": 1
+    },
+    "output": {
+      "bananasplit": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "banana": 1
+    },
+    "output": {
+      "batteredbanana": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "beakseedjam": 1
+    },
+    "output": {
+      "beakseedtart": 1
+    }
+  },
+  {
+    "input": {
+      "bonbons": 2
+    },
+    "output": {
+      "bonbonbonbons": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1
+    },
+    "output": {
+      "bonbons": 1
+    }
+  },
+  {
+    "input": {
+      "pineapple": 1,
+      "coralcreep": 1
+    },
+    "output": {
+      "brineapple": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "snowball": 1,
+      "milk": 1,
+      "cacti": 1
+    },
+    "output": {
+      "cactiicecream": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1
+    },
+    "output": {
+      "cake": 1
+    }
+  },
+  {
+    "input": {
+      "chocolate": 1,
+      "banana": 1
+    },
+    "output": {
+      "campfirebanana": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "carrot": 1
+    },
+    "output": {
+      "carrotcake": 1
+    }
+  },
+  {
+    "input": {
+      "cocoa": 1
+    },
+    "output": {
+      "chocolate": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "chocolate": 1
+    },
+    "output": {
+      "chocolatecake": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "snowball": 1,
+      "milk": 1,
+      "coconut": 1
+    },
+    "output": {
+      "coconuticecream": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "coffeebeans": 1
+    },
+    "output": {
+      "coffeecake": 1
+    }
+  },
+  {
+    "input": {
+      "eggshoot": 1,
+      "milk": 1,
+      "snowball": 1,
+      "sugar": 1
+    },
+    "output": {
+      "eggshooticecream": 1
+    }
+  },
+  {
+    "input": {
+      "pineapple": 1,
+      "kiwi": 1,
+      "grapes": 1,
+      "banana": 1
+    },
+    "output": {
+      "fruitsalad": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "oculemon": 1,
+      "egg": 1
+    },
+    "output": {
+      "oculemonmeringue": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "rice": 1,
+      "pussplum": 1,
+      "milk": 1
+    },
+    "output": {
+      "pussplumpudding": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "pussplumjam": 1
+    },
+    "output": {
+      "pussplumtart": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "rice": 1,
+      "milk": 1
+    },
+    "output": {
+      "ricepudding": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "snowball": 1
+    },
+    "output": {
+      "snowcone": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "toxictopjam": 1,
+      "alienfruit": 1
+    },
+    "output": {
+      "toxictart": 1
+    }
+  },
+  {
+    "input": {
+      "alienfruit": 1
+    },
+    "output": {
+      "alienfruitjuice": 1
+    }
+  },
+  {
+    "input": {
+      "milk": 1,
+      "automato": 1
+    },
+    "output": {
+      "automatoshake": 1
+    }
+  },
+  {
+    "input": {
+      "avesmingo": 1
+    },
+    "output": {
+      "avesmingojuice": 1
+    }
+  },
+  {
+    "input": {
+      "pussplum": 1,
+      "fleshstrand": 1
+    },
+    "output": {
+      "bloodypuss": 1
+    }
+  },
+  {
+    "input": {
+      "liquidwater": 10,
+      "bottle": 1
+    },
+    "output": {
+      "bottledwater": 1
+    }
+  },
+  {
+    "input": {
+      "cacti": 1
+    },
+    "output": {
+      "cactusjuice": 1
+    }
+  },
+  {
+    "input": {
+      "carrot": 1
+    },
+    "output": {
+      "carrotjuice": 1
+    }
+  },
+  {
+    "input": {
+      "coconut": 1
+    },
+    "output": {
+      "coconutmilk": 1
+    }
+  },
+  {
+    "input": {
+      "coffeebeans": 1
+    },
+    "output": {
+      "coffee": 1
+    }
+  },
+  {
+    "input": {
+      "pussplum": 1,
+      "oculemon": 1
+    },
+    "output": {
+      "cyanider": 1
+    }
+  },
+  {
+    "input": {
+      "milk": 1,
+      "coffee": 1
+    },
+    "output": {
+      "flatwhite": 1
+    }
+  },
+  {
+    "input": {
+      "grapes": 1
+    },
+    "output": {
+      "grapejuice": 1
+    }
+  },
+  {
+    "input": {
+      "kiwi": 1
+    },
+    "output": {
+      "kiwijuice": 1
+    }
+  },
+  {
+    "input": {
+      "milk": 1,
+      "coffee": 1,
+      "chocolate": 1
+    },
+    "output": {
+      "mocha": 1
+    }
+  },
+  {
+    "input": {
+      "pineapple": 1
+    },
+    "output": {
+      "pineapplejuice": 1
+    }
+  },
+  {
+    "input": {
+      "boltbulb": 1,
+      "currentcorn": 1,
+      "diodia": 1,
+      "neonmelon": 1
+    },
+    "output": {
+      "pozest": 1
+    }
+  },
+  {
+    "input": {
+      "reefpod": 1
+    },
+    "output": {
+      "reefjuice": 1
+    }
+  },
+  {
+    "input": {
+      "reefpod": 1,
+      "milk": 1
+    },
+    "output": {
+      "reefshake": 1
+    }
+  },
+  {
+    "input": {
+      "pineapple": 1,
+      "kiwi": 1,
+      "grapes": 1
+    },
+    "output": {
+      "sweetpunch": 1
+    }
+  },
+  {
+    "input": {
+      "thornfruit": 1
+    },
+    "output": {
+      "thornjuice": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1
+    },
+    "output": {
+      "tomatojuice": 1
+    }
+  },
+  {
+    "input": {
+      "toxictop": 1,
+      "alienfruit": 1
+    },
+    "output": {
+      "toxicjuice": 1
+    }
+  },
+  {
+    "input": {
+      "pineapple": 1,
+      "kiwi": 1,
+      "coconut": 1,
+      "banana": 1
+    },
+    "output": {
+      "tropicalpunch": 1
+    }
+  },
+  {
+    "input": {
+      "boneboo": 1,
+      "feathercrown": 1,
+      "oculemon": 1,
+      "neonmelon": 1,
+      "toxictop": 1
+    },
+    "output": {
+      "ultimatejuice": 1
+    }
+  },
+  {
+    "input": {
+      "boltbulb": 1,
+      "diodia": 1,
+      "alienmeat": 1,
+      "wheat": 1
+    },
+    "output": {
+      "16gbpasty": 1
+    }
+  },
+  {
+    "input": {
+      "automato": 1,
+      "boltbulb": 1,
+      "cheese": 1,
+      "wheat": 1
+    },
+    "output": {
+      "8gbpizzap": 1
+    }
+  },
+  {
+    "input": {
+      "egg": 1,
+      "corn": 1,
+      "banana": 1
+    },
+    "output": {
+      "apexfritter": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "currentcorn": 1,
+      "automato": 1
+    },
+    "output": {
+      "automatostew": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "milk": 1,
+      "egg": 1,
+      "rawbacon": 1
+    },
+    "output": {
+      "baconpancakes": 1
+    }
+  },
+  {
+    "input": {
+      "boltbulb": 1,
+      "milk": 1
+    },
+    "output": {
+      "boltos": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "relish": 1,
+      "alienmeat": 1,
+      "cheese": 1,
+      "bread": 1
+    },
+    "output": {
+      "cheeseburger": 1
+    }
+  },
+  {
+    "input": {
+      "chili": 1,
+      "coralcreep": 1,
+      "rice": 1,
+      "tomato": 1
+    },
+    "output": {
+      "coralcreepcurry": 1
+    }
+  },
+  {
+    "input": {
+      "corn": 1,
+      "beakseed": 1
+    },
+    "output": {
+      "cornpeckers": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "feathercrown": 1,
+      "beakseed": 1
+    },
+    "output": {
+      "featherfood": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "rawfish": 1
+    },
+    "output": {
+      "fishdumplings": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1,
+      "bread": 1
+    },
+    "output": {
+      "fishfingers": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1,
+      "boneboo": 1
+    },
+    "output": {
+      "fishinabone": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1,
+      "potato": 1,
+      "bread": 1
+    },
+    "output": {
+      "fishnchips": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1,
+      "mashedpotato": 1
+    },
+    "output": {
+      "fishpie": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "rawfish": 1,
+      "pearlpea": 1,
+      "corn": 1
+    },
+    "output": {
+      "fishstew": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "relish": 1,
+      "alienmeat": 1,
+      "bread": 1
+    },
+    "output": {
+      "hamburger": 1
+    }
+  },
+  {
+    "input": {
+      "avesmingo": 1,
+      "chili": 1,
+      "liquidlava": 1,
+      "alienmeat": 1
+    },
+    "output": {
+      "hothothotpot": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "alienmeat": 1
+    },
+    "output": {
+      "meatdumplings": 1
+    }
+  },
+  {
+    "input": {
+      "mashedpotato": 1,
+      "meatstew": 1
+    },
+    "output": {
+      "meatpie": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "pearlpea": 1,
+      "corn": 1,
+      "alienmeat": 1
+    },
+    "output": {
+      "meatstew": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "shroom": 5,
+      "egg": 1,
+      "cheese": 1
+    },
+    "output": {
+      "mushroomquiche": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1,
+      "reefpod": 1,
+      "rawfish": 1
+    },
+    "output": {
+      "oceanrisotto": 1
+    }
+  },
+  {
+    "input": {
+      "coralcreep": 1,
+      "kelp": 5,
+      "reefpod": 1,
+      "rawfish": 1
+    },
+    "output": {
+      "oceansurprise": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "pussplum": 1,
+      "oculemon": 1,
+      "alienmeat": 1
+    },
+    "output": {
+      "oculemonstew": 1
+    }
+  },
+  {
+    "input": {
+      "shroom": 5,
+      "egg": 1,
+      "rawbacon": 1,
+      "cheese": 1
+    },
+    "output": {
+      "omelette": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "potato": 1,
+      "alienmeat": 1,
+      "carrot": 1
+    },
+    "output": {
+      "pasty": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "pearlpea": 1,
+      "milk": 1,
+      "egg": 1
+    },
+    "output": {
+      "pearlpeapancakes": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1,
+      "pearlpea": 1
+    },
+    "output": {
+      "pearlpearisotto": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "pineapple": 1,
+      "rawbacon": 1,
+      "cheese": 1
+    },
+    "output": {
+      "pineapplepizzaslice": 1
+    }
+  },
+  {
+    "input": {
+      "automato": 1,
+      "cheese": 1,
+      "diodia": 1,
+      "wheat": 1
+    },
+    "output": {
+      "piodia": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "tomato": 1,
+      "rawbacon": 1,
+      "cheese": 1
+    },
+    "output": {
+      "pizzaslice": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "milk": 1
+    },
+    "output": {
+      "porridge": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "egg": 1,
+      "rawbacon": 1,
+      "cheese": 1
+    },
+    "output": {
+      "quichelorraine": 1
+    }
+  },
+  {
+    "input": {
+      "reefpod": 1,
+      "oculemon": 1
+    },
+    "output": {
+      "reefpodsurprise": 1
+    }
+  },
+  {
+    "input": {
+      "pearlpea": 1,
+      "mashedpotato": 1,
+      "rawpoultry": 1,
+      "carrot": 1
+    },
+    "output": {
+      "roastdinner": 1
+    }
+  },
+  {
+    "input": {
+      "rawfish": 1,
+      "coralcreep": 1
+    },
+    "output": {
+      "seafoodgratin": 1
+    }
+  },
+  {
+    "input": {
+      "chili": 1,
+      "rawribmeat": 1,
+      "sugar": 1
+    },
+    "output": {
+      "spicyribs": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "boneboo": 1
+    },
+    "output": {
+      "spookypie": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "rawribmeat": 1
+    },
+    "output": {
+      "stickyribs": 1
+    }
+  },
+  {
+    "input": {
+      "kelp": 5,
+      "rice": 1,
+      "rawfish": 1
+    },
+    "output": {
+      "sushi": 1
+    }
+  },
+  {
+    "input": {
+      "pearlpea": 1,
+      "tomato": 1,
+      "wartweed": 1,
+      "wheat": 1
+    },
+    "output": {
+      "wartweedstew": 1
+    }
+  },
+  {
+    "input": {
+      "currentcorn": 1,
+      "automato": 1
+    },
+    "output": {
+      "2kbpotage": 1
+    }
+  },
+  {
+    "input": {
+      "rawbacon": 1,
+      "banana": 1
+    },
+    "output": {
+      "bananacon": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "beakseed": 1
+    },
+    "output": {
+      "beakseedbread": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1
+    },
+    "output": {
+      "bread": 1
+    }
+  },
+  {
+    "input": {
+      "chili": 1,
+      "oculemon": 1
+    },
+    "output": {
+      "burningeyeballs": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "carrot": 1
+    },
+    "output": {
+      "carrotbread": 1
+    }
+  },
+  {
+    "input": {
+      "potato": 1,
+      "milk": 1,
+      "carrot": 1
+    },
+    "output": {
+      "carrotsoup": 1
+    }
+  },
+  {
+    "input": {
+      "milk": 1
+    },
+    "output": {
+      "cheese": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1,
+      "coconutmilk": 1
+    },
+    "output": {
+      "coconutrice": 1
+    }
+  },
+  {
+    "input": {
+      "corn": 1
+    },
+    "output": {
+      "corncob": 1
+    }
+  },
+  {
+    "input": {
+      "eggshoot": 1,
+      "feathercrown": 1
+    },
+    "output": {
+      "eggshootsalad": 1
+    }
+  },
+  {
+    "input": {
+      "eggshoot": 1,
+      "oculemon": 1
+    },
+    "output": {
+      "eyebowls": 1
+    }
+  },
+  {
+    "input": {
+      "egg": 1,
+      "bread": 1
+    },
+    "output": {
+      "fluffyruffs": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "corn": 1,
+      "carrot": 1
+    },
+    "output": {
+      "gardensalad": 1
+    }
+  },
+  {
+    "input": {
+      "boneboo": 1,
+      "chili": 1
+    },
+    "output": {
+      "hotbone": 1
+    }
+  },
+  {
+    "input": {
+      "potato": 1
+    },
+    "output": {
+      "mashedpotato": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "shroom": 5
+    },
+    "output": {
+      "mushroombread": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1,
+      "shroom": 5,
+      "egg": 1
+    },
+    "output": {
+      "mushroomrice": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "boiledpearlpeas": 1
+    },
+    "output": {
+      "pearlpeabroth": 1
+    }
+  },
+  {
+    "input": {
+      "pearlpea": 1,
+      "wartweed": 1
+    },
+    "output": {
+      "pearlpeaparcels": 1
+    }
+  },
+  {
+    "input": {
+      "kelp": 5,
+      "rice": 1
+    },
+    "output": {
+      "ricecake": 1
+    }
+  },
+  {
+    "input": {
+      "reefpod": 1,
+      "pearlpea": 1,
+      "coralcreep": 1
+    },
+    "output": {
+      "saltsalad": 1
+    }
+  },
+  {
+    "input": {
+      "boltbulb": 1,
+      "currentcorn": 1,
+      "diodia": 1
+    },
+    "output": {
+      "smash": 1
+    }
+  },
+  {
+    "input": {
+      "dirturchin": 1,
+      "coralcreep": 1
+    },
+    "output": {
+      "soggysack": 1
+    }
+  },
+  {
+    "input": {
+      "rice": 1,
+      "pearlpea": 1,
+      "egg": 1,
+      "corn": 1
+    },
+    "output": {
+      "specialrice": 1
+    }
+  },
+  {
+    "input": {
+      "chili": 1,
+      "feathercrown": 1
+    },
+    "output": {
+      "spicyfeathercrown": 1
+    }
+  },
+  {
+    "input": {
+      "corn": 1,
+      "cheese": 1,
+      "bread": 1,
+      "automato": 1
+    },
+    "output": {
+      "stuffedautomato": 1
+    }
+  },
+  {
+    "input": {
+      "pearlpea": 1,
+      "dirturchin": 1,
+      "cheese": 1,
+      "bread": 1
+    },
+    "output": {
+      "stuffeddirturchin": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "corn": 1,
+      "cheese": 1,
+      "bread": 1
+    },
+    "output": {
+      "stuffedtomato": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "rawbacon": 1
+    },
+    "output": {
+      "sweetmeat": 1
+    }
+  },
+  {
+    "input": {
+      "tomato": 1,
+      "potato": 1,
+      "milk": 1
+    },
+    "output": {
+      "tomatosoup": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "banana": 1
+    },
+    "output": {
+      "bananacreamdonut": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "corn": 1
+    },
+    "output": {
+      "candiedcorn": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "redapple": 1
+    },
+    "output": {
+      "candyapple": 1
+    }
+  },
+  {
+    "input": {
+      "sugar": 1,
+      "automato": 1
+    },
+    "output": {
+      "candyautomato": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "coconut": 1,
+      "chocolate": 1
+    },
+    "output": {
+      "choconut": 1
+    }
+  },
+  {
+    "input": {
+      "carrot": 1,
+      "banana": 1
+    },
+    "output": {
+      "luckydip": 1
+    }
+  },
+  {
+    "input": {
+      "boltbulb": 1,
+      "diodia": 1
+    },
+    "output": {
+      "nutsandbolts": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "cacti": 1
+    },
+    "output": {
+      "spikycookies": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1,
+      "boneboo": 1
+    },
+    "output": {
+      "spookydonut": 1
+    }
+  },
+  {
+    "input": {
+      "popcorn": 1,
+      "sugar": 1
+    },
+    "output": {
+      "sweetpopcorn": 1
+    }
+  },
+  {
+    "input": {
+      "wheat": 1,
+      "toxictopjam": 1,
+      "sugar": 1,
+      "milk": 1,
+      "egg": 1
+    },
+    "output": {
+      "toxicjamdonut": 1
+    }
+  },
+  {
+    "input": {
+      "egg": 1,
+      "milk": 1,
+      "sugar": 1,
+      "wartweedjam": 1,
+      "wheat": 1
+    },
+    "output": {
+      "wartweedjamdonut": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 3,
+      "diamond": 1
+    },
+    "output": {
+      "capturepod": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "siliconboard": 4,
+      "wire": 5,
+      "battery": 1
+    },
+    "output": {
+      "pethealingstation": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "diamond": 1,
+      "phasematter": 1
+    },
+    "output": {
+      "pettether": 1
+    }
+  },
+  {
+    "input": {
+      "logblock": 4,
+      "torch": 1
+    },
+    "output": {
+      "campfire": 1
+    }
+  },
+  {
+    "input": {
+      "logblock": 1
+    },
+    "output": {
+      "darkwoodmaterial": 5
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flagapex": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flagavian": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flagfloran": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flagglitch": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flaghuman": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flaghylotl": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "fabric": 20
+    },
+    "output": {
+      "flagnovakid": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 12,
+      "logblock": 4
+    },
+    "output": {
+      "inventorstable": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "plantfibre": 1
+    },
+    "output": {
+      "platform": 10
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 2
+    },
+    "output": {
+      "climbingrope": 1
+    }
+  },
+  {
+    "input": {
+      "coalore": 1,
+      "logblock": 1
+    },
+    "output": {
+      "torch": 4
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25,
+      "copperbar": 4,
+      "string": 1
+    },
+    "output": {
+      "hoe": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 3,
+      "darkwoodmaterial": 30,
+      "torch": 1
+    },
+    "output": {
+      "mothtrap": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 30,
+      "fabric": 20,
+      "plantfibre": 40
+    },
+    "output": {
+      "scarecrow": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 2,
+      "greendye": 1,
+      "reddye": 1
+    },
+    "output": {
+      "wateringcan": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 30,
+      "copperbar": 1
+    },
+    "output": {
+      "woodenwateringcan": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 20,
+      "string": 1,
+      "copperbar": 1
+    },
+    "output": {
+      "bow": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 5,
+      "string": 10
+    },
+    "output": {
+      "bugnet": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 30,
+      "titaniumbar": 2,
+      "string": 10
+    },
+    "output": {
+      "fishingrod": 1
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 1,
+      "string": 1,
+      "plantfibre": 2
+    },
+    "output": {
+      "flare": 2
+    }
+  },
+  {
+    "input": {
+      "logblock": 3,
+      "cobblestonematerial": 3
+    },
+    "output": {
+      "huntingspear": 5
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "string": 1,
+      "liquidoil": 3
+    },
+    "output": {
+      "tungstenbow": 1
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 1,
+      "string": 1,
+      "plantfibre": 2
+    },
+    "output": {
+      "flare": 2
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "torch": 1,
+      "glassmaterial": 1
+    },
+    "output": {
+      "flashlight": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "logblock": 10,
+      "mininglantern": 1
+    },
+    "output": {
+      "lanternstickback": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 3,
+      "fabric": 5,
+      "mininglantern": 1
+    },
+    "output": {
+      "mininghathead": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 5,
+      "liquidoil": 10,
+      "torch": 1
+    },
+    "output": {
+      "mininglantern": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 5,
+      "goldbar": 5
+    },
+    "output": {
+      "sprinkler": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 4,
+      "string": 1,
+      "liquidoil": 3
+    },
+    "output": {
+      "compoundbow": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 6,
+      "silverbar": 2,
+      "syntheticmaterial": 5
+    },
+    "output": {
+      "durablefishingrod": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "smallbattery": 4,
+      "siliconboard": 2,
+      "wire": 6
+    },
+    "output": {
+      "relocator": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "goldbar": 5,
+      "wire": 6,
+      "smallbattery": 4
+    },
+    "output": {
+      "cavedetector": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "diamond": 1,
+      "climbingrope": 1,
+      "wire": 2,
+      "smallbattery": 4
+    },
+    "output": {
+      "grapplinghook": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 5,
+      "wire": 5,
+      "siliconboard": 2,
+      "smallbattery": 5
+    },
+    "output": {
+      "halogenpack": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 5,
+      "refinedviolium": 5,
+      "refinedaegisalt": 5,
+      "wire": 6,
+      "smallbattery": 4
+    },
+    "output": {
+      "oredetector": 1
+    }
+  },
+  {
+    "input": {
+      "halogenpack": 1,
+      "diamond": 3,
+      "wire": 5
+    },
+    "output": {
+      "xenonpack": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 5,
+      "string": 1
+    },
+    "output": {
+      "fossilbrushbeginner": 1
+    }
+  },
+  {
+    "input": {
+      "goldbar": 1,
+      "darkwoodmaterial": 2,
+      "string": 3
+    },
+    "output": {
+      "fossilbrushmaster": 1
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1,
+      "darkwoodmaterial": 2,
+      "string": 2
+    },
+    "output": {
+      "fossilbrushstudent": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 20,
+      "glass": 15,
+      "goldbar": 3
+    },
+    "output": {
+      "fossildisplay1": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25,
+      "glass": 40,
+      "goldbar": 5
+    },
+    "output": {
+      "fossildisplay3": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 150,
+      "goldbar": 30
+    },
+    "output": {
+      "fossildisplay5": 1
+    }
+  },
+  {
+    "input": {
+      "copperore": 2
+    },
+    "output": {
+      "copperbar": 1
+    }
+  },
+  {
+    "input": {
+      "goldore": 2
+    },
+    "output": {
+      "goldbar": 1
+    }
+  },
+  {
+    "input": {
+      "ironore": 2
+    },
+    "output": {
+      "ironbar": 1
+    }
+  },
+  {
+    "input": {
+      "silverore": 2
+    },
+    "output": {
+      "silverbar": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenore": 2
+    },
+    "output": {
+      "tungstenbar": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 2
+    },
+    "output": {
+      "bottle": 1
+    }
+  },
+  {
+    "input": {
+      "clay": 2
+    },
+    "output": {
+      "firedclay": 1
+    }
+  },
+  {
+    "input": {
+      "sand2": 2
+    },
+    "output": {
+      "glass": 1
+    }
+  },
+  {
+    "input": {
+      "logblock": 1
+    },
+    "output": {
+      "paper": 5
+    }
+  },
+  {
+    "input": {
+      "glass": 2,
+      "ironbar": 1
+    },
+    "output": {
+      "syringe": 1
+    }
+  },
+  {
+    "input": {
+      "corefragmentore": 2
+    },
+    "output": {
+      "volatilepowder": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelore": 2
+    },
+    "output": {
+      "durasteelbar": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumore": 2
+    },
+    "output": {
+      "titaniumbar": 1
+    }
+  },
+  {
+    "input": {
+      "aegisaltore": 2
+    },
+    "output": {
+      "refinedaegisalt": 1
+    }
+  },
+  {
+    "input": {
+      "feroziumore": 2
+    },
+    "output": {
+      "refinedferozium": 1
+    }
+  },
+  {
+    "input": {
+      "violiumore": 2
+    },
+    "output": {
+      "refinedviolium": 1
+    }
+  },
+  {
+    "input": {
+      "solariumore": 2
+    },
+    "output": {
+      "solariumstar": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 4,
+      "goldbar": 2,
+      "liquidpoison": 5
+    },
+    "output": {
+      "battery": 1
+    }
+  },
+  {
+    "input": {
+      "sand2": 5,
+      "coalore": 2
+    },
+    "output": {
+      "siliconboard": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "copperbar": 1,
+      "liquidpoison": 1
+    },
+    "output": {
+      "smallbattery": 2
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "wire": 5
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "fabric": 10
+    },
+    "output": {
+      "tier1bed": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "fabric": 10
+    },
+    "output": {
+      "tier2bed": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "fabric": 10
+    },
+    "output": {
+      "woodenbed": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "coppershelf": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "coppersupport": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "tier1chair": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "copperbar": 1
+    },
+    "output": {
+      "tier1table": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "leather": 2
+    },
+    "output": {
+      "tier2chair": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "darkwoodmaterial": 5,
+      "yellowdye": 1
+    },
+    "output": {
+      "tier2table": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "woodenchair": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 5,
+      "string": 2
+    },
+    "output": {
+      "woodsupport": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "logblock": 4
+    },
+    "output": {
+      "woodtable": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "glassmaterial": 2
+    },
+    "output": {
+      "tier1door": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "glass": 2,
+      "reddye": 1
+    },
+    "output": {
+      "tier2door": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "woodendoor": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 10,
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "woodengate": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "woodenverticaldoor": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "torch": 1
+    },
+    "output": {
+      "copperceilinglight": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "torch": 1
+    },
+    "output": {
+      "copperlantern": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "torch": 1,
+      "glassmaterial": 1
+    },
+    "output": {
+      "tier1light": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "torch": 1,
+      "glassmaterial": 1
+    },
+    "output": {
+      "tier1spotlight": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "torch": 1
+    },
+    "output": {
+      "tier2light": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "apexshipdetails": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "apexshipplatform": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "apexshipsupport": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "apexshipwall": 20
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 10
+    },
+    "output": {
+      "aztecmaterial": 10
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 5,
+      "darkwoodmaterial": 1
+    },
+    "output": {
+      "bamboo": 50
+    }
+  },
+  {
+    "input": {
+      "bamboo": 1
+    },
+    "output": {
+      "bambooplatform": 10
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "bars": 10
+    }
+  },
+  {
+    "input": {
+      "ornatewood": 1
+    },
+    "output": {
+      "baseboard": 10
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "blackdye": 1
+    },
+    "output": {
+      "blackglass": 10
+    }
+  },
+  {
+    "input": {
+      "bone": 1
+    },
+    "output": {
+      "bonematerial": 20
+    }
+  },
+  {
+    "input": {
+      "paper": 3,
+      "leather": 1
+    },
+    "output": {
+      "bookpiles": 20
+    }
+  },
+  {
+    "input": {
+      "firedclay": 1
+    },
+    "output": {
+      "brickmaterial": 50
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "string": 1
+    },
+    "output": {
+      "cabinroofing": 30
+    }
+  },
+  {
+    "input": {
+      "cacti": 1
+    },
+    "output": {
+      "cactiblock": 20
+    }
+  },
+  {
+    "input": {
+      "sugar": 1
+    },
+    "output": {
+      "candyblock": 10
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 5
+    },
+    "output": {
+      "castlewalls1": 20
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 5
+    },
+    "output": {
+      "castlewalls2": 20
+    }
+  },
+  {
+    "input": {
+      "paper": 1
+    },
+    "output": {
+      "cheapwallpaper": 10
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "cobblestonebrick": 5
+    }
+  },
+  {
+    "input": {
+      "clay": 1,
+      "sand2": 1,
+      "liquidwater": 1
+    },
+    "output": {
+      "concretematerial": 20
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "copperblock": 50
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "copperfence": 50
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "copperladder": 50
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "copperplatform": 50
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "copperroofing": 50
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "glassmaterial": 2
+    },
+    "output": {
+      "copperwindow": 20
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 2
+    },
+    "output": {
+      "crosshatch": 30
+    }
+  },
+  {
+    "input": {
+      "crystal": 1
+    },
+    "output": {
+      "crystalblock": 30
+    }
+  },
+  {
+    "input": {
+      "rockbrickmaterial": 4
+    },
+    "output": {
+      "darksmoothstonematerial": 20
+    }
+  },
+  {
+    "input": {
+      "oculemon": 1
+    },
+    "output": {
+      "eyepiles": 10
+    }
+  },
+  {
+    "input": {
+      "firedclay": 1,
+      "sand": 1
+    },
+    "output": {
+      "fadedblocks": 50
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "string": 1
+    },
+    "output": {
+      "fence": 10
+    }
+  },
+  {
+    "input": {
+      "fleshstrand": 3
+    },
+    "output": {
+      "fleshblock": 20
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 1,
+      "petalyellow": 1,
+      "petalblue": 1
+    },
+    "output": {
+      "floweryblock": 50
+    }
+  },
+  {
+    "input": {
+      "logblock": 1
+    },
+    "output": {
+      "fullwood1": 10
+    }
+  },
+  {
+    "input": {
+      "logblock": 1
+    },
+    "output": {
+      "fullwood2": 10
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "girdermaterial": 40
+    }
+  },
+  {
+    "input": {
+      "glass": 1
+    },
+    "output": {
+      "glassmaterial": 10
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "yellowdye": 1,
+      "blackdye": 1
+    },
+    "output": {
+      "hazard": 50
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "heavyironbars": 40
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "heavypipe": 20
+    }
+  },
+  {
+    "input": {
+      "brickmaterial": 1,
+      "browndye": 1
+    },
+    "output": {
+      "homewalls1": 50
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "ironblock": 50
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "stickofram": 1
+    },
+    "output": {
+      "junktech": 50
+    }
+  },
+  {
+    "input": {
+      "brickmaterial": 1,
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "ledgebrick": 50
+    }
+  },
+  {
+    "input": {
+      "glass": 1
+    },
+    "output": {
+      "mirror": 20
+    }
+  },
+  {
+    "input": {
+      "dirtmaterial": 1,
+      "plantfibre": 2
+    },
+    "output": {
+      "mossypackeddirt": 50
+    }
+  },
+  {
+    "input": {
+      "fullwood1": 1
+    },
+    "output": {
+      "ornateflooring": 30
+    }
+  },
+  {
+    "input": {
+      "bluedye": 1,
+      "rooftiles": 1
+    },
+    "output": {
+      "ornateroofing": 40
+    }
+  },
+  {
+    "input": {
+      "ornatewood": 1,
+      "rooftiles": 1
+    },
+    "output": {
+      "ornatetiles": 30
+    }
+  },
+  {
+    "input": {
+      "ornatewood": 1,
+      "paper": 2
+    },
+    "output": {
+      "ornatewall": 50
+    }
+  },
+  {
+    "input": {
+      "fullwood1": 1
+    },
+    "output": {
+      "ornatewood": 30
+    }
+  },
+  {
+    "input": {
+      "dirtmaterial": 1
+    },
+    "output": {
+      "packeddirt": 20
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 1,
+      "petalred": 1
+    },
+    "output": {
+      "petalblock": 50
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "pillarblock": 5
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 1
+    },
+    "output": {
+      "plantblock": 10
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 1
+    },
+    "output": {
+      "plantmatter": 15
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 1,
+      "darkwoodmaterial": 1
+    },
+    "output": {
+      "plantplatform": 10
+    }
+  },
+  {
+    "input": {
+      "rainbowwood": 1
+    },
+    "output": {
+      "rainbowwoodblock": 20
+    }
+  },
+  {
+    "input": {
+      "reed": 1
+    },
+    "output": {
+      "reedblock": 30
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 4
+    },
+    "output": {
+      "rockbrickmaterial": 20
+    }
+  },
+  {
+    "input": {
+      "firedclay": 1
+    },
+    "output": {
+      "rooftiles": 30
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "plantfibre": 5
+    },
+    "output": {
+      "ruinsplatform": 10
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "liquidwater": 1
+    },
+    "output": {
+      "rustyblock": 40
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "liquidwater": 1
+    },
+    "output": {
+      "rustymetal": 40
+    }
+  },
+  {
+    "input": {
+      "sandstonematerial": 1
+    },
+    "output": {
+      "sandstoneblock": 20
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "sewage": 1
+    },
+    "output": {
+      "sewerpipe": 20
+    }
+  },
+  {
+    "input": {
+      "shadowblock": 10
+    },
+    "output": {
+      "shadowspikeblock": 5
+    }
+  },
+  {
+    "input": {
+      "shadowblock": 10
+    },
+    "output": {
+      "shadowwallblock": 5
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "paper": 1
+    },
+    "output": {
+      "shojiscreenpanel": 20
+    }
+  },
+  {
+    "input": {
+      "shroom": 1
+    },
+    "output": {
+      "shroomblock": 10
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 1
+    },
+    "output": {
+      "stoneplatform": 10
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 20
+    },
+    "output": {
+      "stonetiles": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "temple1": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "temple2": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "temple3": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 30
+    },
+    "output": {
+      "temple4": 10
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 5
+    },
+    "output": {
+      "thatch": 50
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 30
+    },
+    "output": {
+      "tombbrick": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "tombbrick2": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "tombbrick3": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "tombbrick4": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 20
+    },
+    "output": {
+      "tombbrick5": 10
+    }
+  },
+  {
+    "input": {
+      "sandstoneblock": 1
+    },
+    "output": {
+      "tribalplatform": 10
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "paper": 1
+    },
+    "output": {
+      "tombbrick5": 20
+    }
+  },
+  {
+    "input": {
+      "logblock": 1,
+      "plantfibre": 5
+    },
+    "output": {
+      "wicker": 50
+    }
+  },
+  {
+    "input": {
+      "logblock": 1,
+      "plantfibre": 5
+    },
+    "output": {
+      "wickersupport": 30
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 2,
+      "string": 1
+    },
+    "output": {
+      "woodbridge": 10
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "plantfibre": 1
+    },
+    "output": {
+      "woodenplatform": 10
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1,
+      "glass": 1
+    },
+    "output": {
+      "woodenwindow1": 20
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 1
+    },
+    "output": {
+      "woodenwindow2": 10
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 2
+    },
+    "output": {
+      "woodpanelling": 5
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "liquidwater": 10
+    },
+    "output": {
+      "wreckplatform": 10
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "darkwoodmaterial": 4
+    },
+    "output": {
+      "copperbox1": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 2,
+      "staticcell": 1
+    },
+    "output": {
+      "minifridge": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15
+    },
+    "output": {
+      "woodencrate1": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25,
+      "copperbar": 1
+    },
+    "output": {
+      "woodencrate2": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "fabric": 10
+    },
+    "output": {
+      "tier3bed": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "fabric": 10,
+      "silk": 3
+    },
+    "output": {
+      "tier4bed": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "leather": 5,
+      "bluedye": 1
+    },
+    "output": {
+      "tier3chair": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "glass": 5
+    },
+    "output": {
+      "tier3table": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "leather": 5,
+      "blackdye": 1
+    },
+    "output": {
+      "tier4chair": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "canvas": 2
+    },
+    "output": {
+      "tier4table": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "apexshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "apexshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "avianshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "avianshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "floranshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "floranshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "glitchshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "glitchshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "humanshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "humanshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "hylotlshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "hylotlshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "novakidshipdoor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "novakidshiphatch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "glass": 5
+    },
+    "output": {
+      "tier3door": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "tier4door": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "glass": 2,
+      "torch": 1
+    },
+    "output": {
+      "tier3light": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "glass": 2,
+      "smallbattery": 1
+    },
+    "output": {
+      "tier4light": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 1,
+      "tar": 1
+    },
+    "output": {
+      "asphalt": 20
+    }
+  },
+  {
+    "input": {
+      "aztecmaterial": 5,
+      "metallicmaterial": 1
+    },
+    "output": {
+      "aztectech": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "chain": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "chain": 20
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1
+    },
+    "output": {
+      "composite01material": 50
+    }
+  },
+  {
+    "input": {
+      "goldbar": 1
+    },
+    "output": {
+      "goldblock": 20
+    }
+  },
+  {
+    "input": {
+      "goldbar": 1
+    },
+    "output": {
+      "goldenplatform": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "lightmetal": 50
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "lunarbaseblock": 50
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "lunarbaseplatform": 50
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "mediummetal": 50
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "metallicmaterial": 30
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1
+    },
+    "output": {
+      "modernplatform": 40
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "neonblock": 20
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "outpostplatform": 10
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "concretematerial": 1
+    },
+    "output": {
+      "outpostsupport": 50
+    }
+  },
+  {
+    "input": {
+      "concretematerial": 20
+    },
+    "output": {
+      "outpostwall1": 10
+    }
+  },
+  {
+    "input": {
+      "concretematerial": 20
+    },
+    "output": {
+      "outpostwall2": 10
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "smoothmetal": 1
+    },
+    "output": {
+      "platematerial": 50
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "pressurisedbeam": 20
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "pressuriseddurasteel": 40
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "pressurisedgirder": 20
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "pressurisedplatform": 10
+    }
+  },
+  {
+    "input": {
+      "liquidoil": 1,
+      "reddye": 1
+    },
+    "output": {
+      "redtoyblock": 20
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1
+    },
+    "output": {
+      "silverblock": 30
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1
+    },
+    "output": {
+      "silverplatform": 10
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1
+    },
+    "output": {
+      "silverscrew": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "smoothmetal": 50
+    }
+  },
+  {
+    "input": {
+      "goldbar": 1
+    },
+    "output": {
+      "treasurehoard": 20
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "apexstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "avianstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "floranstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 2,
+      "cryonicextract": 1,
+      "battery": 1
+    },
+    "output": {
+      "fridge": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "glitchstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "humanstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "hylotlstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "novakidstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "money": 150
+    },
+    "output": {
+      "cupidsback": 1
+    }
+  },
+  {
+    "input": {
+      "bow": 1,
+      "money": 150
+    },
+    "output": {
+      "cupidsbow": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "money": 100
+    },
+    "output": {
+      "cupidschest": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 20,
+      "money": 100
+    },
+    "output": {
+      "cupidshead": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "money": 100
+    },
+    "output": {
+      "cupidslegs": 1
+    }
+  },
+  {
+    "input": {
+      "campfire": 1,
+      "goldbar": 10,
+      "money": 150
+    },
+    "output": {
+      "heartforge": 1
+    }
+  },
+  {
+    "input": {
+      "money": 150
+    },
+    "output": {
+      "valentinechocolates": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "bigpresent": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "decoratedtree": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "dreidel": 1
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 1,
+      "paper": 1,
+      "reddye": 1
+    },
+    "output": {
+      "firework": 2
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 1,
+      "paper": 1,
+      "bluedye": 1
+    },
+    "output": {
+      "fireworkblue": 2
+    }
+  },
+  {
+    "input": {
+      "volatilepowder": 1,
+      "paper": 1,
+      "greendye": 1
+    },
+    "output": {
+      "fireworkgreen": 2
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "giantbells": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "giantbow1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "giantbow2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "giantsanta": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "giantsnowflake": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "giftmonsterbox": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "giftmonstersmallbox": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "goldball": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "greencandycane1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "greencandycane2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "greencandycane3": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "greengumdrop1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "greengumdrop2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "holidaycandles": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 20
+    },
+    "output": {
+      "holidaycraftingtable": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "holidaylights": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "holidaypole": 1
+    }
+  },
+  {
+    "input": {
+      "money": 100
+    },
+    "output": {
+      "holidayspirit": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "holly": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "hotholidaychest": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "hotholidayhead": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "hotholidaypants": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "lollipop1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "lollipop2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "menorah": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "mrclausback": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "mrclauschest": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "mrclaushead": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "mrclauspants": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "present1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "present2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "present3": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "present4": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "purplegumdrop1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "purplegumdrop2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "redball": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "redcandycane1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "redcandycane2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "redcandycane3": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "redgumdrop1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "redgumdrop2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 3
+    },
+    "output": {
+      "scifisleigh": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "smallbow": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "smallholidaytree": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "smallsnowflake": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "stocking1": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 1
+    },
+    "output": {
+      "stocking2": 1
+    }
+  },
+  {
+    "input": {
+      "holidayspirit": 2
+    },
+    "output": {
+      "undecoratedtree": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 6,
+      "glass": 10,
+      "livingroot": 1
+    },
+    "output": {
+      "breathprotectionback": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 8,
+      "darkwoodmaterial": 20,
+      "logblock": 1
+    },
+    "output": {
+      "craftinganvil": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 10,
+      "logblock": 4
+    },
+    "output": {
+      "craftingfarm": 1
+    }
+  },
+  {
+    "input": {
+      "cobblestonematerial": 20,
+      "mud": 4,
+      "campfire": 1
+    },
+    "output": {
+      "craftingfurnace": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 10,
+      "logblock": 4,
+      "cobblestonematerial": 4
+    },
+    "output": {
+      "craftingfurniture": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 30,
+      "bottle": 5,
+      "torch": 1
+    },
+    "output": {
+      "craftingmedical": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 40,
+      "cobblestonematerial": 5,
+      "climbingrope": 1
+    },
+    "output": {
+      "craftingwheel": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 15,
+      "logblock": 1,
+      "copperbar": 4
+    },
+    "output": {
+      "woodencookingtable": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 10,
+      "darkwoodmaterial": 20,
+      "cobblestonematerial": 20,
+      "dirtmaterial": 5
+    },
+    "output": {
+      "fossilstation": 1
+    }
+  },
+  {
+    "input": {
+      "breathprotectionback": 1,
+      "titaniumbar": 6,
+      "copperbar": 4,
+      "venomsample": 1
+    },
+    "output": {
+      "radiationprotectionback": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 15,
+      "coalore": 10,
+      "campfire": 1
+    },
+    "output": {
+      "refinery": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "battery": 1,
+      "wire": 6,
+      "siliconboard": 3
+    },
+    "output": {
+      "3dprinter": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 10,
+      "siliconboard": 2,
+      "wire": 4
+    },
+    "output": {
+      "acceleratoraddon": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "battery": 1,
+      "wire": 6,
+      "siliconboard": 3
+    },
+    "output": {
+      "capturestation": 1
+    }
+  },
+  {
+    "input": {
+      "radiationprotectionback": 1,
+      "durasteelbar": 6,
+      "battery": 1,
+      "scorchedcore": 1
+    },
+    "output": {
+      "coldprotectionback": 1
+    }
+  },
+  {
+    "input": {
+      "coldprotectionback": 1,
+      "refinedaegisalt": 2,
+      "refinedferozium": 2,
+      "refinedviolium": 2,
+      "battery": 1,
+      "cryonicextract": 1
+    },
+    "output": {
+      "heatprotectionback": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 10,
+      "siliconboard": 2,
+      "wire": 4
+    },
+    "output": {
+      "manipulatoraddon": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 15,
+      "goldbar": 15
+    },
+    "output": {
+      "pixelcompressor": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "silverbar": 5,
+      "siliconboard": 2,
+      "wire": 10,
+      "battery": 1
+    },
+    "output": {
+      "railcraftingtable": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 10,
+      "siliconboard": 2,
+      "wire": 4
+    },
+    "output": {
+      "separatoraddon": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "siliconboard": 5,
+      "stickofram": 2,
+      "wire": 10,
+      "battery": 1
+    },
+    "output": {
+      "wiringstation": 1
+    }
+  },
+  {
+    "input": {
+      "petalred": 5,
+      "livingroot": 1,
+      "syringe": 1
+    },
+    "output": {
+      "redstim": 1
+    }
+  },
+  {
+    "input": {
+      "petalyellow": 4,
+      "plantfibre": 4,
+      "syringe": 1
+    },
+    "output": {
+      "yellowstim": 1
+    }
+  },
+  {
+    "input": {
+      "venomsample": 1,
+      "bottle": 1
+    },
+    "output": {
+      "antidote": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 2
+    },
+    "output": {
+      "bandage": 1
+    }
+  },
+  {
+    "input": {
+      "phasematter": 1,
+      "bandage": 5
+    },
+    "output": {
+      "medkit": 5
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 4
+    },
+    "output": {
+      "salve": 1
+    }
+  },
+  {
+    "input": {
+      "petalblue": 4,
+      "staticcell": 1,
+      "syringe": 1
+    },
+    "output": {
+      "bluestim": 1
+    }
+  },
+  {
+    "input": {
+      "petalblue": 2,
+      "petalyellow": 2,
+      "phasematter": 1,
+      "syringe": 1
+    },
+    "output": {
+      "greenstim": 1
+    }
+  },
+  {
+    "input": {
+      "petalred": 2,
+      "petalyellow": 2,
+      "scorchedcore": 1,
+      "syringe": 1
+    },
+    "output": {
+      "orangestim": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1,
+      "cryonicextract": 1
+    },
+    "output": {
+      "burnspray": 1
+    }
+  },
+  {
+    "input": {
+      "syntheticmaterial": 1,
+      "livingroot": 1
+    },
+    "output": {
+      "nanowrap": 5
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "glass": 5,
+      "smallbattery": 1,
+      "wire": 3
+    },
+    "output": {
+      "laboratorylight": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "smallbattery": 2,
+      "wire": 5
+    },
+    "output": {
+      "laboratoryverticaldoor": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 10,
+      "darkwoodmaterial": 10,
+      "torch": 1
+    },
+    "output": {
+      "skulltorch": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "airlockdoor": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "smallbattery": 1,
+      "wire": 5
+    },
+    "output": {
+      "airlockhatch": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "ironbar": 1
+    },
+    "output": {
+      "hylotlsupportbeam": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "leather": 3
+    },
+    "output": {
+      "lunarbasebunk": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 4,
+      "leather": 1
+    },
+    "output": {
+      "lunarbasechair": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 5
+    },
+    "output": {
+      "lunarbaseconsole": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "lunarbasecrate": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 2
+    },
+    "output": {
+      "lunarbasedoor": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "torch": 1
+    },
+    "output": {
+      "lunarbaselantern": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "lunarbaselocker": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "miningchest": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "copperbar": 1
+    },
+    "output": {
+      "miningdoor": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "copperbar": 1
+    },
+    "output": {
+      "miningverticaldoor": 1
+    }
+  },
+  {
+    "input": {
+      "paper": 6,
+      "darkwoodmaterial": 10
+    },
+    "output": {
+      "paperwingsback": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "tungstenplatform": 10
+    }
+  },
+  {
+    "input": {
+      "money": 100
+    },
+    "output": {
+      "futurelight": 1
+    }
+  },
+  {
+    "input": {
+      "money": 25
+    },
+    "output": {
+      "lightmetal": 1
+    }
+  },
+  {
+    "input": {
+      "money": 120
+    },
+    "output": {
+      "modernchair": 1
+    }
+  },
+  {
+    "input": {
+      "money": 25
+    },
+    "output": {
+      "modernplatform": 1
+    }
+  },
+  {
+    "input": {
+      "money": 150
+    },
+    "output": {
+      "moderntable": 1
+    }
+  },
+  {
+    "input": {
+      "money": 1000,
+      "durasteelbar": 5,
+      "goldbar": 5,
+      "diamond": 1
+    },
+    "output": {
+      "portable3dprinter": 1
+    }
+  },
+  {
+    "input": {
+      "money": 25
+    },
+    "output": {
+      "redtoyblock": 1
+    }
+  },
+  {
+    "input": {
+      "money": 150
+    },
+    "output": {
+      "slidingdoor": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "techhull1": 20
+    }
+  },
+  {
+    "input": {
+      "autochip": 10
+    },
+    "output": {
+      "autodrive": 1
+    }
+  },
+  {
+    "input": {
+      "liquidhealing": 10,
+      "bottle": 1
+    },
+    "output": {
+      "bottledhealingwater": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 25
+    },
+    "output": {
+      "kennel": 1
+    }
+  },
+  {
+    "input": {
+      "money": 10000
+    },
+    "output": {
+      "voxel10k": 1
+    }
+  },
+  {
+    "input": {
+      "money": 1000
+    },
+    "output": {
+      "voxel1k": 1
+    }
+  },
+  {
+    "input": {
+      "money": 2000
+    },
+    "output": {
+      "voxel2k": 1
+    }
+  },
+  {
+    "input": {
+      "money": 5000
+    },
+    "output": {
+      "voxel5k": 1
+    }
+  },
+  {
+    "input": {
+      "voxel10k": 1
+    },
+    "output": {
+      "money": 10000
+    }
+  },
+  {
+    "input": {
+      "voxel1k": 1
+    },
+    "output": {
+      "money": 1000
+    }
+  },
+  {
+    "input": {
+      "voxel2k": 1
+    },
+    "output": {
+      "money": 2000
+    }
+  },
+  {
+    "input": {
+      "voxel5k": 1
+    },
+    "output": {
+      "money": 5000
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "compositerail": 20
+    }
+  },
+  {
+    "input": {
+      "wire": 8,
+      "smallbattery": 2,
+      "durasteelbar": 3,
+      "silverbar": 3
+    },
+    "output": {
+      "compositerailplatform": 1
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1
+    },
+    "output": {
+      "railbumper": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "rustyrail": 10
+    }
+  },
+  {
+    "input": {
+      "sharpenedclaw": 1,
+      "durasteelbar": 5,
+      "silverbar": 5
+    },
+    "output": {
+      "railhook": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 3,
+      "siliconboard": 1,
+      "stickofram": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "railsensor": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 6,
+      "siliconboard": 1,
+      "smallbattery": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "railstop": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 3,
+      "siliconboard": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "railswitch": 1
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "rustyrail": 10
+    }
+  },
+  {
+    "input": {
+      "wire": 8,
+      "smallbattery": 1,
+      "copperbar": 5
+    },
+    "output": {
+      "rustyrailplatform": 1
+    }
+  },
+  {
+    "input": {
+      "aegisaltore": 1
+    },
+    "output": {
+      "money": 30
+    }
+  },
+  {
+    "input": {
+      "copperbar": 1
+    },
+    "output": {
+      "money": 10
+    }
+  },
+  {
+    "input": {
+      "copperore": 1
+    },
+    "output": {
+      "money": 5
+    }
+  },
+  {
+    "input": {
+      "diamond": 1
+    },
+    "output": {
+      "money": 600
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1
+    },
+    "output": {
+      "money": 50
+    }
+  },
+  {
+    "input": {
+      "durasteelore": 1
+    },
+    "output": {
+      "money": 25
+    }
+  },
+  {
+    "input": {
+      "feroziumore": 1
+    },
+    "output": {
+      "money": 30
+    }
+  },
+  {
+    "input": {
+      "goldbar": 1
+    },
+    "output": {
+      "money": 20
+    }
+  },
+  {
+    "input": {
+      "goldore": 1
+    },
+    "output": {
+      "money": 10
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1
+    },
+    "output": {
+      "money": 20
+    }
+  },
+  {
+    "input": {
+      "ironore": 1
+    },
+    "output": {
+      "money": 10
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 1
+    },
+    "output": {
+      "money": 60
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 1
+    },
+    "output": {
+      "money": 60
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 1
+    },
+    "output": {
+      "money": 60
+    }
+  },
+  {
+    "input": {
+      "silverbar": 1
+    },
+    "output": {
+      "money": 15
+    }
+  },
+  {
+    "input": {
+      "silverore": 1
+    },
+    "output": {
+      "money": 8
+    }
+  },
+  {
+    "input": {
+      "solariumore": 1
+    },
+    "output": {
+      "money": 30
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1
+    },
+    "output": {
+      "money": 40
+    }
+  },
+  {
+    "input": {
+      "titaniumore": 1
+    },
+    "output": {
+      "money": 20
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1
+    },
+    "output": {
+      "money": 30
+    }
+  },
+  {
+    "input": {
+      "tungstenore": 1
+    },
+    "output": {
+      "money": 15
+    }
+  },
+  {
+    "input": {
+      "violiumore": 1
+    },
+    "output": {
+      "money": 30
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "apexcommanderjacket": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "apexcommanderpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "apexnavyjacket": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "apexnavypants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "apexofficerjacket": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "apexofficerpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "apexspecialistjacket": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "apexspecialistpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "kimonochest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "kimonolegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "monkchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "monklegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "traditionalchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "traditionallegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "traineechest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "traineelegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "leather": 4
+    },
+    "output": {
+      "avianadventurershirt": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "leather": 2
+    },
+    "output": {
+      "avianadventurerpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "aviancommonershirt": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "aviancommonerlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "avianfancyshirt": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "avianfancyskirt": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "avianworkershirt": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "avianworkerpants": 1
+    }
+  },
+  {
+    "input": {
+      "leather": 5,
+      "fabric": 5,
+      "string": 5
+    },
+    "output": {
+      "boxingglove": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "string": 5
+    },
+    "output": {
+      "eyepatchhead": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "floranfurnivourchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "floranfurnivourlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "floranhunterchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "floranhunterlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "floranleafchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "floranleaflegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "floranpeltchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "floranpeltlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "floransurvivalistchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "floransurvivalistlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "conceptchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "conceptlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "coolchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "coollegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "sweatervestchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "sweatervestlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "workoutchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "workoutlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "novakidfancychest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "novakidfancypants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "novakidjacket": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "novakidjacketpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "novakidsuspenders": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "novakidsuspenderspants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "novakidwaistcoat": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "novakidblackpants": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "craftsmenchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "craftsmenlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "merchantchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "merchantlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "noblechest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "noblelegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "peasantchest": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 10,
+      "cottonwool": 1
+    },
+    "output": {
+      "peasantlegs": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 2
+    },
+    "output": {
+      "tshirtchest": 1
+    }
+  },
+  {
+    "input": {
+      "coalore": 5,
+      "bottle": 1
+    },
+    "output": {
+      "blackdye": 1
+    }
+  },
+  {
+    "input": {
+      "petalblue": 5,
+      "bottle": 1
+    },
+    "output": {
+      "bluedye": 1
+    }
+  },
+  {
+    "input": {
+      "liquidhealing": 5,
+      "bottle": 1
+    },
+    "output": {
+      "dyeremover": 1
+    }
+  },
+  {
+    "input": {
+      "petalred": 5,
+      "bottle": 1
+    },
+    "output": {
+      "reddye": 1
+    }
+  },
+  {
+    "input": {
+      "bone": 5,
+      "bottle": 1
+    },
+    "output": {
+      "whitedye": 1
+    }
+  },
+  {
+    "input": {
+      "petalyellow": 5,
+      "bottle": 1
+    },
+    "output": {
+      "yellowdye": 1
+    }
+  },
+  {
+    "input": {
+      "cotton": 3
+    },
+    "output": {
+      "cottonwool": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 4
+    },
+    "output": {
+      "fabric": 1
+    }
+  },
+  {
+    "input": {
+      "plantfibre": 2
+    },
+    "output": {
+      "string": 1
+    }
+  },
+  {
+    "input": {
+      "fabric": 20,
+      "cottonwool": 4
+    },
+    "output": {
+      "teddybearplush": 1
+    }
+  },
+  {
+    "input": {
+      "cottonwool": 2
+    },
+    "output": {
+      "shortcapeback": 1
+    }
+  },
+  {
+    "input": {
+      "cottonwool": 4
+    },
+    "output": {
+      "simplecapeback": 1
+    }
+  },
+  {
+    "input": {
+      "reddye": 1,
+      "greendye": 1
+    },
+    "output": {
+      "browndye": 2
+    }
+  },
+  {
+    "input": {
+      "yellowdye": 1,
+      "bluedye": 1
+    },
+    "output": {
+      "greendye": 2
+    }
+  },
+  {
+    "input": {
+      "whitedye": 1,
+      "blackdye": 1
+    },
+    "output": {
+      "greydye": 2
+    }
+  },
+  {
+    "input": {
+      "yellowdye": 1,
+      "reddye": 1
+    },
+    "output": {
+      "orangedye": 2
+    }
+  },
+  {
+    "input": {
+      "reddye": 1,
+      "whitedye": 1
+    },
+    "output": {
+      "pinkdye": 2
+    }
+  },
+  {
+    "input": {
+      "reddye": 1,
+      "bluedye": 1
+    },
+    "output": {
+      "purpledye": 2
+    }
+  },
+  {
+    "input": {
+      "cottonwool": 3
+    },
+    "output": {
+      "canvas": 1
+    }
+  },
+  {
+    "input": {
+      "silkfibre": 4
+    },
+    "output": {
+      "silk": 1
+    }
+  },
+  {
+    "input": {
+      "coalore": 5,
+      "liquidpoison": 5
+    },
+    "output": {
+      "syntheticmaterial": 1
+    }
+  },
+  {
+    "input": {
+      "darkwoodmaterial": 50,
+      "copperbar": 10
+    },
+    "output": {
+      "mannequin": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "blackteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "brassteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "futureteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "scienceteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "stoneteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "diamond": 15
+    },
+    "output": {
+      "teleportercore": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "tombteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "teleportercore": 1
+    },
+    "output": {
+      "woodenteleporter": 1
+    }
+  },
+  {
+    "input": {
+      "venomsample": 50
+    },
+    "output": {
+      "terraformeralien": 1
+    }
+  },
+  {
+    "input": {
+      "staticcell": 50
+    },
+    "output": {
+      "terraformerdesert": 1
+    }
+  },
+  {
+    "input": {
+      "venomsample": 50
+    },
+    "output": {
+      "terraformerforest": 1
+    }
+  },
+  {
+    "input": {
+      "venomsample": 50
+    },
+    "output": {
+      "terraformergarden": 1
+    }
+  },
+  {
+    "input": {
+      "venomsample": 50
+    },
+    "output": {
+      "terraformerjungle": 1
+    }
+  },
+  {
+    "input": {
+      "cryonicextract": 50
+    },
+    "output": {
+      "terraformermidnight": 1
+    }
+  },
+  {
+    "input": {
+      "staticcell": 50
+    },
+    "output": {
+      "terraformersavannah": 1
+    }
+  },
+  {
+    "input": {
+      "scorchedcore": 50
+    },
+    "output": {
+      "terraformerscorched": 1
+    }
+  },
+  {
+    "input": {
+      "cryonicextract": 50
+    },
+    "output": {
+      "terraformersnow": 1
+    }
+  },
+  {
+    "input": {
+      "cryonicextract": 50
+    },
+    "output": {
+      "terraformertundra": 1
+    }
+  },
+  {
+    "input": {
+      "scorchedcore": 50
+    },
+    "output": {
+      "terraformervolcanic": 1
+    }
+  },
+  {
+    "input": {
+      "scorchedcore": 10,
+      "cryonicextract": 10,
+      "venomsample": 10,
+      "staticcell": 10
+    },
+    "output": {
+      "adaptablecrossbow": 1
+    }
+  },
+  {
+    "input": {
+      "translator1": 1,
+      "translator2": 1
+    },
+    "output": {
+      "ancientalphabet-codex": 1
+    }
+  },
+  {
+    "input": {
+      "firework": 5,
+      "fireworkgreen": 5,
+      "fireworkblue": 5,
+      "silverbar": 10,
+      "battery": 1
+    },
+    "output": {
+      "fireworkgun": 1
+    }
+  },
+  {
+    "input": {
+      "phasematter": 10,
+      "leather": 5,
+      "goldore": 1
+    },
+    "output": {
+      "ghostlycollar": 1
+    }
+  },
+  {
+    "input": {
+      "livingroot": 5,
+      "fabric": 5,
+      "string": 1
+    },
+    "output": {
+      "giantbowhead": 1
+    }
+  },
+  {
+    "input": {
+      "dubloon": 10
+    },
+    "output": {
+      "penguincostume": 1
+    }
+  },
+  {
+    "input": {
+      "scorchedcore": 1,
+      "cryonicextract": 1,
+      "staticcell": 1,
+      "venomsample": 1
+    },
+    "output": {
+      "perfectlygenericitem": 1
+    }
+  },
+  {
+    "input": {
+      "sandstonestatuehuman": 1,
+      "sandstonestatuefloran": 1,
+      "sandstonestatuehylotl": 1,
+      "sandstonestatueavian": 1,
+      "sandstonestatueapex": 1,
+      "sandstonestatueglitch": 1
+    },
+    "output": {
+      "venusdepixel": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "and": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 2
+    },
+    "output": {
+      "countdowntimer": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "delay": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "dlatch": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "not": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "or": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 2
+    },
+    "output": {
+      "timer": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 3
+    },
+    "output": {
+      "xor": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 1
+    },
+    "output": {
+      "alarm": 1
+    }
+  },
+  {
+    "input": {
+      "smallbattery": 1,
+      "siliconboard": 1,
+      "wire": 1
+    },
+    "output": {
+      "bulb": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "tungstenbar": 2
+    },
+    "output": {
+      "drain": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 2,
+      "siliconboard": 1,
+      "wire": 5,
+      "smallbattery": 1
+    },
+    "output": {
+      "secretdoor": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 2,
+      "siliconboard": 1,
+      "wire": 5,
+      "smallbattery": 1
+    },
+    "output": {
+      "secrettrapdoor": 1
+    }
+  },
+  {
+    "input": {
+      "scanner": 1,
+      "siliconboard": 1,
+      "smallbattery": 1,
+      "wire": 2,
+      "durasteelbar": 5
+    },
+    "output": {
+      "standingturret": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "wire": 2,
+      "siliconboard": 1,
+      "stickofram": 1
+    },
+    "output": {
+      "lightsensor": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "wire": 1,
+      "siliconboard": 1,
+      "stickofram": 1
+    },
+    "output": {
+      "liquidsensor": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "wire": 1,
+      "siliconboard": 1,
+      "stickofram": 1
+    },
+    "output": {
+      "proximitysensor": 1
+    }
+  },
+  {
+    "input": {
+      "glass": 1,
+      "wire": 1,
+      "siliconboard": 1,
+      "stickofram": 1
+    },
+    "output": {
+      "scanner": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 5
+    },
+    "output": {
+      "bigredbutton": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 2
+    },
+    "output": {
+      "persistentswitch": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 2
+    },
+    "output": {
+      "smallfloorbutton": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 2
+    },
+    "output": {
+      "smallwallbutton": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 2
+    },
+    "output": {
+      "smallwallswitch": 1
+    }
+  },
+  {
+    "input": {
+      "ironbar": 1,
+      "wire": 5
+    },
+    "output": {
+      "tier1switch": 1
+    }
+  },
+  {
+    "input": {
+      "tungstenbar": 1,
+      "wire": 5
+    },
+    "output": {
+      "tier2switch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "wire": 5,
+      "smallbattery": 1
+    },
+    "output": {
+      "tier3switch": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "wire": 5,
+      "siliconboard": 1,
+      "smallbattery": 2
+    },
+    "output": {
+      "tier4switch": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 1
+    },
+    "output": {
+      "tinywallbutton": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 1,
+      "siliconboard": 1,
+      "tungstenbar": 1
+    },
+    "output": {
+      "tinywallswitch": 1
+    }
+  }
+]
