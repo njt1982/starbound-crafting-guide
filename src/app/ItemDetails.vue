@@ -2,15 +2,15 @@
   <div>
     <h1>{{ item.title }}</h1>
 
-    <div>
-      <h2>Made with...</h2>
+    <div class="mt-4" v-show="resolvedMakes.length">
+      <h3>Made with...</h3>
       <div id="made_with" role="tablist" aria-multiselectable="true">
         <Recipe v-for="(recipe, key) in resolvedMakes" :recipe="recipe" :key="key" section="made_with"></Recipe>
       </div>
     </div>
 
-    <div>
-      <h2>Used to make...</h2>
+    <div class="mt-4" v-show="resolvedRecipes.length">
+      <h3>Used to make {{ resolvedRecipes.length }} items</h3>
       <div id="used_to_make" role="tablist" aria-multiselectable="true">
         <Recipe v-for="(recipe, key) in resolvedRecipes" :recipe="recipe" :key="key" section="used_to_make"></Recipe>
       </div>

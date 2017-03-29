@@ -11,7 +11,9 @@
     <div :id="collapseId" class="collapse" role="tabpanel" :aria-labelledby="headerId">
       <ul class="list-group list-group-flush">
         <li v-for="(count, itemName) in recipe.input" class="list-group-item justify-content-between">
-          {{ itemName }}
+          <router-link :to="{name: 'itemPage', params: {itemName: itemName}}">
+            {{ getItemTitleByItemName(itemName) }}
+          </router-link>
           <span class="badge badge-default badge-pill">{{ count }}</span>
         </li>
       </ul>
@@ -20,19 +22,35 @@
 </template>
 
 <script>
-
 export default {
   name: 'Recipe',
   props: ['recipe', 'section'],
+  data() {
+    return {
+      rootComponent: this.$parent.$parent
+    };
+  },
+  methods: {
+    getItemByName(itemName) {
+      return this.rootComponent.getItemByName(itemName);
+    },
+    getItemTitleByItemName(itemName) {
+      const item = this.getItemByName(itemName);
+      return item === undefined ? itemName : item.title;
+    }
+  },
   computed: {
-    title() {
+    outputItemName() {
       return Object.keys(this.recipe.output)[0];
     },
+    title() {
+      return this.getItemTitleByItemName(this.outputItemName);
+    },
     headerId() {
-      return 'heading_' + Object.keys(this.recipe.output)[0];
+      return 'heading_' + this.outputItemName;
     },
     collapseId() {
-      return 'collapse_' + Object.keys(this.recipe.output)[0];
+      return 'collapse_' + this.outputItemName;
     },
     collapseHref() {
       return '#' + this.collapseId;

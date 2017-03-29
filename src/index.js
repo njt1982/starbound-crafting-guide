@@ -19,9 +19,14 @@ const router = new VueRouter({
   routes: [
     {
       path: '/',
+      name: 'home',
       component: Root
     },
-    {path: '/:itemName', component: Root}
+    {
+      path: '/:itemName',
+      name: 'itemPage',
+      component: Root
+    }
   ]
 });
 
