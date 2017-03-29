@@ -1,50 +1,79 @@
 <template>
   <div class="container">
-    <div class="row">
+    <div class="loading" v-if="loading">
+      <h1 class="col-md-12">Loading...</h1>
+    </div>
+
+    <div class="row" v-if="items">
       <div class="col-md-4">
-        <h1>Sidebar</h1>
         <form>
           <div class="form-group">
-            <label for="filterItem">Search</label>
+            <h1><label for="filterItem">Search</label></h1>
             <input v-model="filterText" type="text" class="form-control" id="filterItem" aria-describedby="filterItemHelp" placeholder="Start typing">
             <small id="filterItemHelp" class="form-text text-muted">As you type, items will appear below..</small>
           </div>
         </form>
-        <ul>
-          <Item v-for="item in filteredItems" v-bind:item="item" :key="item.key"></Item>
-        </ul>
+        <div class="list-group">
+          <button v-for="item in filteredItems" v-on:click="select(item)" class="list-group-item list-group-item-action">
+            {{ item.title }}
+          </button>
+        </div>
       </div>
       <div class="col-md-8">
-        <h1>Detail</h1>
+        <div v-if="selectedItem">
+          <ItemDetails v-if="selectedItem" :item="selectedItem"></ItemDetails>
+        </div>
+        <div v-else>
+          <p>Search and select an item on the left</p>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Item from './Item.vue';
 import _ from 'underscore';
-// import items from '../items.json';
+import $ from 'jquery';
+import ItemDetails from './ItemDetails.vue';
 
 export default {
   name: 'Root',
   data() {
     return {
-      items: require('../items.json'),
+      loading: false,
+      items: null,
+      selectedItem: null,
       filterText: ''
     };
   },
   components: {
-    Item
+    ItemDetails
+  },
+  created() {
+    this.fetchData();
+  },
+  methods: {
+    fetchData() {
+      this.items = null;
+      this.loading = true;
+      $.get('/items.json', data => {
+        this.items = data;
+        this.loading = false;
+      });
+    },
+    select(item) {
+      console.log(item);
+      this.selectedItem = item;
+    }
   },
   computed: {
-    filteredItems: function() {
+    filteredItems() {
       if (this.filterText === '') {
-        return []
-      };
-      var lowerText = this.filterText.toLowerCase();
+        return [];
+      }
+      const lowerText = this.filterText.toLowerCase();
 
-      return _.filter(this.items, function(item) {
+      return _.filter(this.items, item => {
         return ('title' in item) && item.title.toLowerCase().indexOf(lowerText) !== -1;
       }, this);
     }
