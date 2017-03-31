@@ -2,3 +2,12 @@
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 
 
+.item-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+  &.big {
+    height: 1em;
+  }
+}

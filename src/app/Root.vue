@@ -11,6 +11,7 @@
         </form>
         <div class="list-group">
           <button v-for="item in filteredItems" v-on:click="select(item)" class="list-group-item list-group-item-action">
+            <ItemIcon :icon="item.icon" />
             {{ item.title }}
           </button>
         </div>
@@ -30,6 +31,7 @@
 <script>
 import _ from 'underscore';
 import ItemDetails from './ItemDetails.vue';
+import ItemIcon from './ItemIcon.vue';
 
 export default {
   name: 'Root',
@@ -42,7 +44,8 @@ export default {
     };
   },
   components: {
-    ItemDetails
+    ItemDetails,
+    ItemIcon
   },
   created() {
     if (typeof this.$route.params.itemName !== 'undefined') {
@@ -74,10 +77,19 @@ export default {
         return [];
       }
       const lowerText = this.filterText.toLowerCase();
+      // const response = [];
+      // const count = 0;
+      // this.items.forEach(item => {
+      //   if (('title' in item) && item.title.toLowerCase().indexOf(lowerText) !== -1) {
+      //     response.push(item);
+      //     count += 1;
+      //   }
+      // });
+      // return response;
 
       return _.filter(this.items, item => {
         return ('title' in item) && item.title.toLowerCase().indexOf(lowerText) !== -1;
-      }, this);
+      }, this).splice(0, 20);
     }
   }
 };

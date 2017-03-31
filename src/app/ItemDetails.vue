@@ -1,6 +1,19 @@
 <template>
   <div>
-    <h1>{{ item.title }}</h1>
+    <h1><ItemIcon :icon="item.icon" class="big" /> {{ item.title }}</h1>
+    <dl  class="row">
+      <dt class="col-sm-2">Type</dt>
+      <dd class="col-sm-10">{{ item.type }}</dd>
+
+      <dt class="col-sm-2">Price</dt>
+      <dd class="col-sm-10">{{ item.price }}</dd>
+
+      <dt class="col-sm-2">Description</dt>
+      <dd class="col-sm-10">{{ item.description }}</dd>
+
+      <dt class="col-sm-2">Rarity</dt>
+      <dd class="col-sm-10">{{ item.rarity }}</dd>
+    </dl>
 
     <div class="mt-4" v-show="resolvedMakes.length">
       <h3>Made with...</h3>
@@ -20,6 +33,7 @@
 
 <script>
 import Recipe from './Recipe.vue';
+import ItemIcon from './ItemIcon.vue';
 
 export default {
   name: 'ItemDetails',
@@ -29,7 +43,8 @@ export default {
     };
   },
   components: {
-    Recipe
+    Recipe,
+    ItemIcon
   },
   computed: {
     resolvedRecipes() {
@@ -45,6 +60,11 @@ export default {
           return this.allRecipes[key];
         });
       }
+    },
+    iconStyle() {
+      return {
+        backgroundImage: 'url(' + this.item.icon + ')'
+      };
     }
   },
   props: ['item']
