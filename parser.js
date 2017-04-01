@@ -124,7 +124,7 @@ files.forEach(file => {
 
     try {
       cpFile.sync(iconInputFile, iconOutputFile);
-      iconURL = iconOutputFile.replace(/^src/, '');
+      iconURL = iconOutputFile.replace(/^src\//, '');
     } catch (err) {
       fileErrors.push(err.message);
     }
@@ -197,7 +197,7 @@ files.forEach(file => {
 
     try {
       cpFile.sync(iconInputFile, iconOutputFile);
-      iconURL = iconOutputFile.replace(/^src/, '');
+      iconURL = iconOutputFile.replace(/^src\//, '');
     } catch (err) {
       fileErrors.push(err.message);
     }
