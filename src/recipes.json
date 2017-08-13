@@ -7216,6 +7216,16 @@
   },
   {
     "input": {
+      "durasteelbar": 1,
+      "fabric": 10,
+      "silk": 3
+    },
+    "output": {
+      "industrialbed": 1
+    }
+  },
+  {
+    "input": {
       "titaniumbar": 1,
       "fabric": 10
     },
@@ -7231,6 +7241,44 @@
     },
     "output": {
       "tier4bed": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "hazard": 1
+    },
+    "output": {
+      "industrialchair": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 2,
+      "glass": 1,
+      "wire": 3
+    },
+    "output": {
+      "industrialcomputer": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "glass": 1,
+      "wire": 1
+    },
+    "output": {
+      "industrialdisplay": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "hazard": 1
+    },
+    "output": {
+      "industrialtable": 1
     }
   },
   {
@@ -7393,6 +7441,15 @@
   },
   {
     "input": {
+      "durasteelbar": 1,
+      "hazard": 1
+    },
+    "output": {
+      "industrialdoor": 1
+    }
+  },
+  {
+    "input": {
       "titaniumbar": 1,
       "smallbattery": 1,
       "wire": 5
@@ -7427,6 +7484,16 @@
     },
     "output": {
       "tier4door": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "glass": 1,
+      "smallbattery": 1
+    },
+    "output": {
+      "industriallight": 1
     }
   },
   {
@@ -7674,6 +7741,42 @@
   },
   {
     "input": {
+      "titaniumbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "slopedhullpanel": 20
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "goldbar": 1
+    },
+    "output": {
+      "slopedinsetpanel": 20
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "ironbar": 1
+    },
+    "output": {
+      "slopedrustypanel": 20
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 1,
+      "copperbar": 1
+    },
+    "output": {
+      "slopedscrappanel": 20
+    }
+  },
+  {
+    "input": {
       "tungstenbar": 1
     },
     "output": {
@@ -7750,6 +7853,33 @@
     },
     "output": {
       "hylotlstoragelocker": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "yellowdye": 2
+    },
+    "output": {
+      "industrialcrate": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 2,
+      "yellowdye": 1
+    },
+    "output": {
+      "industrialcrate": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 1,
+      "silverbar": 1
+    },
+    "output": {
+      "industrialstoragelocker": 1
     }
   },
   {
@@ -8484,6 +8614,664 @@
   },
   {
     "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmbeamdrill": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmbeamsniper": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 20,
+      "salvagearm": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mecharmcannon": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 20,
+      "salvagearm": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mecharmchainsaw": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 20,
+      "salvagearm": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mecharmclustermine": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 20
+    },
+    "output": {
+      "mecharmdrill": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmdualrifle": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmenergyblade": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmenergyrifle": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 20
+    },
+    "output": {
+      "mecharmflakcannon": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 20,
+      "salvagearm": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mecharmgatling": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmgravitymine": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmguidedmissiles": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "salvagearm": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mecharmheatrifle": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 20,
+      "salvagearm": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mecharmhomingmissile": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "salvagearm": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mecharmmissilerack": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmmultidrone": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 20,
+      "salvagearm": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mecharmplasmadrone": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmshielddrone": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmspikefist": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "salvagearm": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mecharmsplitshot": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagearm": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mecharmteslastream": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "salvagearm": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mecharmtommygun": 1
+    }
+  },
+  {
+    "input": {
+      "refinedaegisalt": 20,
+      "salvagearm": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mecharmwobbleshot": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 30,
+      "salvagebody": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mechbodyapex": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 40
+    },
+    "output": {
+      "mechbodyapexproto": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 30,
+      "salvagebody": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mechbodyavian": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 40
+    },
+    "output": {
+      "mechbodyavianproto": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "salvagebody": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechbodybad": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "salvagebody": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechbodycultist": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 40,
+      "salvagebody": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechbodycultist2": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 40,
+      "salvagebody": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechbodyexodus": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 30,
+      "salvagebody": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mechbodyfloran": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 40
+    },
+    "output": {
+      "mechbodyfloranproto": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 30,
+      "salvagebody": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mechbodyglitch": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 40
+    },
+    "output": {
+      "mechbodyglitchproto": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 40,
+      "salvagebody": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechbodyhero": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 30,
+      "salvagebody": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mechbodyhuman": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 40
+    },
+    "output": {
+      "mechbodyhumanproto": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 30,
+      "salvagebody": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mechbodyhylotl": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 40
+    },
+    "output": {
+      "mechbodyhylotlproto": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 40,
+      "salvagebody": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechbodyiris": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "salvagebody": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechbodymilitary": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 40,
+      "salvagebody": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechbodyminiknog": 1
+    }
+  },
+  {
+    "input": {
+      "refinedviolium": 30,
+      "salvagebody": 25,
+      "salvagetier5": 10
+    },
+    "output": {
+      "mechbodynovakid": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 40
+    },
+    "output": {
+      "mechbodynovakidproto": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "salvagebody": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechbodypenguin": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "salvagebody": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechbodypirate": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 40,
+      "salvagebody": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechbodyprotector": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 20,
+      "salvagebody": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechbodyreactor": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 40,
+      "salvagebody": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechbodyshark": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 40,
+      "salvagebody": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechbodyskull": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "salvagebooster": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechboosterastro": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagebooster": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechboostergallant": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagebooster": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechboosterhammer": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 15
+    },
+    "output": {
+      "mechboostersimple": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 20,
+      "salvagebooster": 30,
+      "salvagetier5": 20
+    },
+    "output": {
+      "mechboostersleek": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "salvagebooster": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechboosterstalwart": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "salvagebooster": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechboosterzed": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagebooster": 50,
+      "salvagetier6": 25
+    },
+    "output": {
+      "mechboosterzero": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "salvagelegs": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechlegsarc": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagelegs": 50,
+      "salvagetier6": 10
+    },
+    "output": {
+      "mechlegshermes": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "salvagelegs": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechlegshopper": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagelegs": 50,
+      "salvagetier6": 10
+    },
+    "output": {
+      "mechlegsintrepid": 1
+    }
+  },
+  {
+    "input": {
+      "solariumstar": 30,
+      "salvagelegs": 50,
+      "salvagetier6": 10
+    },
+    "output": {
+      "mechlegsronin": 1
+    }
+  },
+  {
+    "input": {
+      "titaniumbar": 10
+    },
+    "output": {
+      "mechlegssimple": 1
+    }
+  },
+  {
+    "input": {
+      "refinedferozium": 20,
+      "salvagelegs": 30,
+      "salvagetier5": 20
+    },
+    "output": {
+      "mechlegssleek": 1
+    }
+  },
+  {
+    "input": {
+      "durasteelbar": 10,
+      "salvagelegs": 10,
+      "salvagetier4": 5
+    },
+    "output": {
+      "mechlegstwinjet": 1
+    }
+  },
+  {
+    "input": {
       "petalred": 5,
       "livingroot": 1,
       "syringe": 1
@@ -8992,6 +9780,17 @@
   },
   {
     "input": {
+      "wire": 10,
+      "siliconboard": 1,
+      "smallbattery": 1,
+      "silverbar": 2
+    },
+    "output": {
+      "railtramstop": 1
+    }
+  },
+  {
+    "input": {
       "copperbar": 1
     },
     "output": {
@@ -9006,6 +9805,18 @@
     },
     "output": {
       "rustyrailplatform": 1
+    }
+  },
+  {
+    "input": {
+      "wire": 20,
+      "smallbattery": 5,
+      "siliconboard": 5,
+      "durasteelbar": 10,
+      "silverbar": 10
+    },
+    "output": {
+      "stationtram": 1
     }
   },
   {
